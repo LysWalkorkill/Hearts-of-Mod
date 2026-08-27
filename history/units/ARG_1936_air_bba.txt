@@ -1,0 +1,18 @@
+﻿
+air_wings = {
+
+}
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_0
+			creator = "ARG"
+			version_name = "FMA D.21"
+		}
+		requested_factories = 1
+		progress = 0.44
+		efficiency = 100
+	}
+}

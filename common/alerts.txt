@@ -1,0 +1,168 @@
+# category can be HIGH, MEDIUM, LOW
+alerts = {	
+	alert_hostile_troops = {
+		category = HIGH
+	}
+	alert_enemy_air_superiority = {
+		category = MEDIUM
+	}
+	alert_low_supply = {
+		category = MEDIUM
+	}
+	alert_very_low_supply = {
+		category = HIGH
+	}
+	alert_losing_trains = {
+		category = MEDIUM
+	}
+	alert_naval_invasion = {
+		category = HIGH
+	}
+	alert_dangerous_naval_invasion = {
+		category = MEDIUM
+	}
+	alert_base_low_supply = {
+		category = MEDIUM
+	}
+	alert_base_very_low_supply = {
+		category = HIGH
+	}
+	alert_naval_combat = {
+		category = MEDIUM
+	}
+	alert_is_spotting = {
+		category = MEDIUM
+	}
+	alert_enemy_generate_wargoal  = {
+		category = MEDIUM
+	}
+	alert_faction_generate_wargoal = {
+		category = MEDIUM
+	} 
+	alert_few_manpower  = {
+		category = MEDIUM
+	}
+	alert_expensive_ships_low_str  = {
+		category = MEDIUM
+	}
+	alert_timed_activity_low_equipment  = {
+		category = MEDIUM
+	}
+	alert_external_influences  = {
+		category = MEDIUM
+	}
+	alert_lack_of_resources  = {
+		category = HIGH
+	}
+	alert_resistance  = {
+		category = MEDIUM
+	}
+	alert_exiled_units  = {
+		category = MEDIUM
+	}
+	alert_deployment_ready = {
+		category = LOW
+	}
+	alert_free_civilian_factories = {
+		category = LOW
+	}
+	alert_free_military_factories = {
+		category = LOW
+	}
+	alert_free_naval_dockyards = {
+		category = LOW
+	}
+	alert_pick_new_idea = {
+		category = LOW
+	}
+	alert_select_focus = {
+		category = LOW
+	}
+	alert_no_equipment_production  = {
+		category = MEDIUM
+	}
+	alert_trade_import_unfullfilled = {
+		category = MEDIUM
+	}
+	alert_expeditionary_force  = {
+		category = MEDIUM
+	}
+	alert_available_wargoal  = {
+		category = MEDIUM
+	}
+	alert_battleplans_with_no_divs = {
+		category = MEDIUM
+	}	
+	alert_volunteer_transfer  = {
+		category = MEDIUM
+	}
+	alert_faction_possible_invite  = {
+		category = MEDIUM
+	}
+	alert_faction_assume_leadership_possible  = {
+		category = MEDIUM
+	}
+	alert_faction_member_near_assuming_leadership  = {
+		category = MEDIUM
+	}
+	alert_air_reserve_unused  = {
+		category = MEDIUM
+	}
+	alert_air_wings_unassigned  = {
+		category = MEDIUM
+	}
+	alert_blocked_national_focus  = {
+		category = MEDIUM
+	}
+	alert_naval_battle_results  = {
+		category = MEDIUM
+	}
+	alert_not_training_divisions  = {
+		category = MEDIUM
+	}
+	alert_production_no_template  = {
+		category = MEDIUM
+	}
+	alert_naval_convoy_raiding_results  = {
+		category = MEDIUM
+	}
+	alert_paused_diplomatic_actions  = {
+		category = MEDIUM
+	}
+	alert_self_gain_autonomy = {
+		category = MEDIUM
+	}
+	alert_self_lose_autonomy = {
+		category = MEDIUM
+	}
+	alert_subject_lose_autonomy = {
+		category = MEDIUM
+	}
+	alert_subject_gain_autonomy = {
+		category = MEDIUM
+	}
+	alert_border_conflict = {
+		category = MEDIUM
+	}
+	alert_ally_pulling_its_expeditionaries = {
+		category = MEDIUM
+	}
+	alert_enemy_crypto_is_broken = {
+		category = MEDIUM
+	}
+	alert_no_crypto_is_being_decrypted = {
+		category = MEDIUM
+	}
+	alert_not_enough_garrison = {
+		category = MEDIUM
+	}
+	alert_operative_ready_to_recruit = {
+		category = MEDIUM
+	}
+	alert_doctrine_unlock = {
+		category = MEDIUM
+	}
+	alert_officer_corps = {
+		category = MEDIUM
+	}
+}

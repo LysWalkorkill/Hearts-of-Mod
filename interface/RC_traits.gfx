@@ -1,0 +1,18 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_trait_trait_skew_brilliant_strategist"
+		texturefile = "gfx/interface/traits/personal/trait_bold.dds"
+    }
+	spriteType = {
+		name = "GFX_trait_trait_skew_inflexible_strategist"
+		texturefile = "gfx/interface/traits/personal/trait_inflexible_strategist.dds"
+    }
+	spriteType = {
+		name = "GFX_trait_trait_skew_default"
+		texturefile = "gfx/interface/traits/trait_adaptable.dds"
+    }
+	spriteType = {
+		name = "GFX_trait_no_grind"
+		texturefile = "gfx/interface/traits/personal/trait_demoted.dds"
+    }	
+}

@@ -1,0 +1,22 @@
+leader_traits = {
+    ##################################
+    # Common Traits
+    ##################################
+	no_grind = { 
+		type = land
+		trait_type = basic_terrain_trait
+		
+		gain_xp = {
+			always = no # not gainable
+		}
+
+		non_shared_modifier = {
+			#experience_gain_factor = -0.99
+			experience_gain_factor = -1
+		}
+		
+		new_commander_weight = {
+            factor = 0
+        }
+	}
+}

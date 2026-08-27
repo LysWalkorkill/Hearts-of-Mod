@@ -1,0 +1,122 @@
+focus_tree = {
+	id = ai_disabled_focus
+    country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FFL
+		}
+		modifier = {
+			add = 10
+			tag = SWI
+		}
+        modifier = {
+			add = 10
+			tag = TIB
+		}
+        modifier = {
+			add = 15
+			tag = AFG
+		}
+        modifier = {
+			add = 10
+			tag = SAU
+		}
+         modifier = {
+			add = 10
+			tag = POR
+		}
+         modifier = {
+			add = 10
+			tag = CUB
+		}
+         modifier = {
+			add = 10
+			tag = HAI
+		}
+         modifier = {
+			add = 10
+			tag = DOM
+		}
+       
+         #modifier = {
+		#	add = 10
+	#		tag = TUR
+	#	}
+         modifier = {
+			add = 10
+			tag = LIB
+		}
+         modifier = {
+			add = 10
+			tag = COL
+		}
+         modifier = {
+			add = 10
+			tag = VEN
+		}
+         modifier = {
+			add = 10
+			tag = ECU
+		}
+         modifier = {
+			add = 10
+			tag = PRU
+		}
+         modifier = {
+			add = 10
+			tag = CHL
+		}
+         modifier = {
+			add = 10
+			tag = BOL
+		}
+         modifier = {
+			add = 10
+			tag = PAR
+		}
+         modifier = {
+			add = 10
+			tag = URG
+		}
+        modifier = {
+			add = 10
+			tag = ARG
+		}
+		modifier = {
+			add = 10
+			tag = LBA
+		}
+		modifier = {
+			add = 10
+			tag = PER
+		}
+		modifier = {
+			add = 10
+			tag = NEP
+		}
+		modifier = {
+			add = 10
+			tag = BHU
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 200 }
+    focus = {
+		id = AI_disabled_focus
+		icon = GFX_GER_panzerfausts_for_all
+		x = 0
+		y = 0
+		cost = 999
+		ai_will_do = {
+			factor = 100
+		}
+		available = {}
+		bypass = { }
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		complete_tooltip = { }
+		completion_reward = { }
+    }
+}

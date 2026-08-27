@@ -1,0 +1,15 @@
+version="1.19.*"
+picture="thumbnail.png"
+tags={
+	"Balance"
+	"Fixes"
+	"Technologies"
+	"National Focuses"
+	"Map"
+	"Historical"
+	"Gameplay"
+	"Events"
+}
+name="Hearts of Mod - PreAlpha v0.4"
+supported_version="1.19.*"
+remote_file_id="3679790936"

@@ -1,0 +1,49 @@
+add_namespace = hosttool
+news_event = {
+	id = hosttool.1
+	title = "Dziggytool"
+	desc = " [From.Getname] gave [Root.cheat_selected] to [From.From.Owner.Getname]"
+	picture = GFX_news_event_001
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "ja..."
+		clear_variable=this.selected_cheat
+		clear_variable=this.target_country
+	}
+}
+news_event = {
+	id = hosttool.2
+	title = "Dziggytool"
+	desc = " [From.Getname] has given the Host Tool to [From.From.Owner.Getname]"
+	picture = GFX_news_event_001
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "ja..."
+		clear_variable=this.target_country
+	}
+}
+news_event = {
+	id = hosttool.3
+	title = "Dziggytool"
+	
+	desc = " [From.Getname] gave one military factory to [From.From.Owner.Getname]"
+	picture = GFX_news_event_001
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "ja..."
+	}
+}
+news_event = {
+	id = hosttool.4
+	title = "Dziggytool"
+	desc = " [From.Getname] gave one civilian factory to [From.From.Owner.Getname]"
+	picture = GFX_news_event_001
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "ja..."
+	}	
+}

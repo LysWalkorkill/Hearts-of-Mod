@@ -1,0 +1,23 @@
+﻿
+
+##### Wojska Lotnicze i Obrony Powietrzne #####
+air_wings = {
+	
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_0
+			creator = POL
+			version_name = "PZL P.11"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+		industrial_manufacturer = mio:POL_pws_organization
+	}
+}

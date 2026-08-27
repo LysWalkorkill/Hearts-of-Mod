@@ -1,0 +1,548 @@
+characters={
+    VIC_philippe_petain={ #Fascist Leader
+		name=FRA_philippe_petain
+		portraits={
+			civilian={
+				large=GFX_portrait_VIC_philippe_petain
+			}
+		}
+	}
+
+	## chief of air force
+	VIC_jean_romatet = {
+		name=FRA_jean_romatet
+		portraits={
+			army={
+				small="GFX_Portrait_France_Generic_land_9_small" 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = FRA_jean_romatet 
+			traits = {
+				air_chief_old_guard
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
+
+	# CHIEF of army 
+	# theorist
+	# field_marshal
+	VIC_maxime_weygand={
+		name=FRA_maxime_weygand
+		portraits={
+			army={
+				small="GFX_idea_maxime_weygand"
+			}
+			army={
+				large=GFX_portrait_FRA_maxime_weygand
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = maxime_weygand
+			cost = 100.000
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 7
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = maxime_weygand
+			ledger = army
+
+			traits = {
+				military_theorist
+			}
+			ai_will_do = {
+				base = 0.5
+			}
+		}
+		
+		field_marshal={
+			traits={ old_guard inflexible_strategist organizer }
+			skill=6
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	# chief of navy
+	# admiral
+	VIC_jean_francois_darlan={
+		name=FRA_francois_darlan
+		portraits={
+			army={
+				large=GFX_portrait_FRA_francois_darlan
+				small="GFX_idea_francois_darlan"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = francois_darlan
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		navy_leader={
+			traits={ bold naval_lineage superior_tactician }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=3
+		}
+	}
+
+	#military high command
+	VIC_charles_huntziger={
+		name=FRA_charles_huntziger
+		portraits={
+			army={
+				small="GFX_idea_charles_huntziger"
+			}
+			army={
+				large=GFX_portrait_FRA_charles_huntziger
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = charles_huntziger
+			ledger = army
+			traits = {
+				army_logistics_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		field_marshal={
+			traits={ old_guard infantry_leader brilliant_strategist }
+			skill=4
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+
+	VIC_maurice_gamelin={
+		name=FRA_maurice_gamelin
+		portraits={
+			army={
+				small="GFX_idea_maurice_gamelin"
+			}
+			army={
+				large=GFX_portrait_FRA_maurice_gamelin
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = maurice_gamelin
+			allowed = {
+				original_tag = VIC
+			}
+			available = {
+				
+			}
+			visible = {
+				
+			}
+			cost = 100.000
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 7
+			}
+		}
+
+		field_marshal={
+			traits={ old_guard brilliant_strategist organizer }
+			skill=6
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+
+			visible = {
+				
+			}
+		}
+	}
+
+	VIC_alphonse_georges={
+		name=FRA_alphonse_georges
+		portraits={
+			army={
+				small="GFX_idea_alphonse_georges"
+			}
+			army={
+				large=GFX_portrait_FRA_alphonse_georges
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = alphonse_georges
+			allowed = {
+				original_tag = VIC
+			}
+			traits = {
+				army_chief_maneuver_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+			visible = {
+
+			}
+		}
+		
+		field_marshal={
+			traits={ old_guard fortress_buster naval_invader }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+			visible = {
+
+			}
+		}
+	}
+
+	VIC_antoinemariebenoit_besson={
+		name=FRA_antoinemariebenoit_besson
+		portraits={
+			army={
+				large=GFX_portrait_FRA_antoinemariebenoit_besson
+				small=GFX_portrait_FRA_antoinemariebenoit_besson_small
+			}
+		}
+		field_marshal={
+			traits={ old_guard commando panzer_leader}
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+			visible = {
+
+			}
+		}
+	}
+
+	VIC_gastonhenri_billotte={
+		name=FRA_gastonhenri_billotte
+		portraits={
+			army={
+				large=GFX_portrait_FRA_gastonhenri_billotte
+				small=GFX_portrait_FRA_gastonhenri_billotte_small
+			}
+		}
+		field_marshal={
+			traits={ old_guard cavalry_leader commando }
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+			visible = {
+
+			}
+		}
+	}
+
+	VIC_henry_freydenberg={
+		name=FRA_henry_freydenberg
+		portraits={
+			army={
+				large=GFX_portrait_FRA_henry_freydenberg
+				small=GFX_portrait_FRA_henry_freydenberg_small
+			}
+		}
+		field_marshal={
+			traits={ old_guard infantry_leader commando}
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+			visible = {
+
+			}
+		}
+	}
+
+	VIC_rene_olry={
+		name=FRA_rene_olry
+		portraits={
+			army={
+				large=GFX_portrait_FRA_rene_olry
+				small=GFX_portrait_FRA_rene_olry_small
+			}
+		}
+		field_marshal={
+			traits={ old_guard infantry_leader trait_mountaineer commando }
+			skill=6
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	VIC_joseph_doumenc = {
+		name=FRA_joseph_doumenc
+		portraits={
+			army={
+				small="GFX_Portrait_France_Generic_land_7_small" 
+				large=GFX_Portrait_France_Generic_land_7
+			}
+		}
+		field_marshal={
+			traits={ old_guard infantry_leader trait_engineer }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+			visible = {
+
+			}
+		}
+	}
+
+	VIC_emile_laure = {
+		name=FRA_emile_laure
+		portraits={
+			army={
+				small="GFX_Portrait_France_Generic_land_6_small" 
+				large=GFX_Portrait_France_Generic_land_6
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = FRA_emile_laure
+			ledger = air
+			traits = {
+				army_cavalry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		field_marshal={
+			traits={ old_guard cavalry_leader }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=0
+			visible = {
+
+			}
+		}
+	}
+
+	# political ADVISORS
+	VIC_marcel_bucard = {
+		name = FRA_marcel_bucard
+		portraits = {
+			civilian = {	
+				large = GFX_portrait_FRA_marcel_bucard
+				small = GFX_portrait_FRA_marcel_bucard_small
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { fascist_corporatist }
+			expire = "1949.1.1.12"
+			id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = marcel_bucard
+			traits  = {
+				fascist_demagogue 
+			}
+			do_effect  = {
+				NOT  = {
+					has_government  = fascism 
+				}
+			}
+			on_add  = {
+				IF  = {
+					limit  = {
+						NOT  = {
+							owner = { tag = VIC }
+						}
+					}
+					owner = {
+						country_event = lar_france_political_violence.2
+					}
+				}
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+
+	VIC_marcel_deat = {
+		name = FRA_marcel_deat
+		portraits = {
+			civilian = {	
+				large = GFX_portrait_FRA_marcel_deat
+				small = GFX_portrait_FRA_marcel_deat_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = FRA_marcel_deat
+			cost = 150
+			traits  = {
+				FRA_neo_jacobin
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				base = 1.000
+			}
+		}
+	}
+
+	VIC_charles_maurras = {
+		name = FRA_charles_maurras
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FRA_charles_maurras
+				small = GFX_portrait_FRA_charles_maurras_small
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { editor monarchist_media_mogul }
+			expire = "1949.1.1.12"
+			id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = charles_maurras
+			visible  = {
+				has_dlc = "La Resistance"
+			}
+			cost  = 75.000
+			traits  = {
+				national_integralist 
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}		
+	}
+
+	VIC_philippe_henriot={
+		name=FRA_philippe_henriot
+		portraits={
+			army={
+				small="GFX_idea_FRA_philippe_henriot"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_philippe_henriot
+			visible  = {
+				has_dlc = "La Resistance"
+			}
+			cost  = 75.000
+			traits  = {
+				propaganda_expert 
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+	VIC_pierre_pucheu={
+		name=FRA_pierre_pucheu
+		portraits={
+			army={
+				small="GFX_idea_FRA_pierre_pucheu"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_pierre_pucheu
+			cost  = 150.000
+			traits  = {
+				technocrat 
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+	VIC_gaston_henry_haye={
+		name=FRA_gaston_henry_haye
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_5"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_gaston_henry_haye
+			traits  = {
+				silent_workhorse 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+}

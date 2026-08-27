@@ -1,0 +1,342 @@
+focus_tree = {
+	id = kazakhstan_focus
+
+	reset_on_civilwar = no
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KAZ
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 0 y = 0 }
+
+#	focus = {
+#		id = KAZ_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 5
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+
+	focus = {
+		id = KAZ_AI_disabled_focus
+		icon = GFX_GER_panzerfausts_for_all
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		x = -4
+		y = 0
+		#relative_position_id = 
+
+		cost = 999
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			is_ai = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = KAZ_politic_1
+		icon = GFX_focus_SOV_the_supreme_soviet
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 0
+		#relative_position_id = 
+
+		cost = 5
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = KAZ_politic_2
+		icon = GFX_focus_AUS_danubian_socialist_communes
+		prerequisite = { focus = KAZ_politic_1 }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = KAZ_politic_1
+
+		cost = 5
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = KAZ_spy_1
+		icon = GFX_focus_RAJ_circuvment_demobilization_restrictions
+		prerequisite = { focus = KAZ_politic_2 }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = KAZ_politic_2
+
+		cost = 5
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = KAZ_spy_2
+		icon = GFX_focus_AFG_work_with_german_inteligence
+		prerequisite = { focus = KAZ_spy_1 }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = KAZ_spy_1
+
+		cost = 5
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = KAZ_industrial_1
+		icon = GFX_SOV_architect_of_communism_ccp_2d_sov_compatibility #GFX_focus_CHL_expand_the_forestry GFX_focus_CHL_expand_the_forestry
+		prerequisite = { focus = KAZ_politic_2 }
+		#mutually_exclusive = { focus =  }
+		x = -4
+		y = 1
+		relative_position_id = KAZ_politic_2
+
+		cost = 5
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = KAZ_politics_left_1
+		icon = GFX_focus_GER_liberate_exploited_colonial_workers
+		prerequisite = { focus = KAZ_politic_2 }
+		mutually_exclusive = { focus = KAZ_politics_right_1 }
+		x = 4
+		y = 1
+		relative_position_id = KAZ_politic_2
+
+		cost = 5
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = KAZ_politics_right_1
+		icon = GFX_focus_CZE_german_puppet
+		prerequisite = { focus = KAZ_politic_2 }
+		mutually_exclusive = { focus = KAZ_politics_left_1 }
+		x = 12
+		y = 1
+		relative_position_id = KAZ_politic_2
+
+		cost = 5
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+}

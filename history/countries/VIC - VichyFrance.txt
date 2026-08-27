@@ -1,0 +1,130 @@
+﻿capital = 1084 # Vichy
+
+starting_train_buffer = 2
+
+set_war_support = 0.0
+set_stability = 0.3
+
+set_research_slots = 3 # LYS EST RACISTE
+
+add_command_power = 20
+
+add_ideas = {
+	VIC_unrecognized_legitimacy_2
+	VIC_lack_of_scientist_3
+	VIC_production_inefficiency_2
+	Banque_de_france
+	Sainrapt_et_Brice
+	Renault_vichy
+	STO
+}
+
+## pre transfert ADVISORS
+recruit_character = VIC_jean_romatet
+recruit_character = VIC_maxime_weygand
+recruit_character = VIC_jean_francois_darlan
+recruit_character = VIC_charles_huntziger
+recruit_character = VIC_joseph_doumenc
+recruit_character = VIC_emile_laure
+recruit_character = VIC_marcel_bucard
+recruit_character = VIC_marcel_deat
+recruit_character = VIC_charles_maurras
+recruit_character = VIC_philippe_henriot
+recruit_character = VIC_pierre_pucheu
+recruit_character = VIC_gaston_henry_haye
+recruit_character = VIC_maurice_gamelin
+recruit_character = VIC_alphonse_georges
+recruit_character = VIC_antoinemariebenoit_besson
+recruit_character = VIC_gastonhenri_billotte
+recruit_character = VIC_henry_freydenberg
+recruit_character = VIC_rene_olry
+
+## AUCUNE IDEE POUR CEULA MAIS ILS ETAIENT DES LES VIEUX FICHIERS DE VICHY , MAIS PAS UTILISER VISIBLEMENT
+# recruit_character = VIC_pierre_laval
+# recruit_character = VIC_marius_viple
+# recruit_character = VIC_rene_bousquet
+# recruit_character = VIC_charles_huntziger
+# recruit_character = VIC_lucien_lacaze
+# recruit_character = VIC_eugene_bridoux
+# recruit_character = VIC_jean_marie_bergeret
+# recruit_character = VIC_jean_francois_darlan
+# recruit_character = VIC_jean_marie_abrial
+# recruit_character = VIC_jean_francois_jannekeyn
+# recruit_character = VIC_jean_de_laborde
+# recruit_character = VIC_marcel_bruno_gensoul
+# recruit_character = VIC_pierre_le_gloan
+
+# Starting tech DEFAULT
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+	basic_fortification_tech = 1
+	camelry = 1
+}
+# Starting tech TANK
+set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		armor_tech_1 = 1
+		engine_tech_1 = 1
+	}
+# Starting tech NAVY
+set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_heavy_battery = 1
+		basic_light_battery = 1
+		#basic_medium_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_heavy_armor_scheme = 1
+		basic_cruiser_armor_scheme = 1
+		mtg_transport = 1
+		basic_dp_light_battery = 1
+		#cruiser_submarines = 1
+	}
+set_grand_doctrine = grand_battleplan
+set_grand_doctrine = new_fleet_in_being
+
+set_grand_doctrine = grand_battleplan
+set_grand_doctrine = new_fleet_in_being
+set_grand_doctrine = new_operational_integrity
+set_sub_doctrine = great_war_infantry
+
+set_convoys = 300
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	neutrality = 100
+	communism = 0
+}

@@ -1,0 +1,2692 @@
+﻿focus_tree = {
+	id = vichy_french_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VIC
+		}
+	}
+
+	continuous_focus_position = { x = 1050 y = 900 }
+	
+	default = no
+
+	focus = {
+		id = VIC_AI_disabled_focus
+		icon = GFX_GER_panzerfausts_for_all
+		x = 0
+		y = 0
+		cost = 999
+		ai_will_do = {
+			factor = 100
+		}
+		available = {}
+		bypass = { }
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		complete_tooltip = { }
+		completion_reward = { }
+    }
+
+	focus = {
+		id = VIC_emergency_powers_to_petain
+		icon = GFX_goal_generic_demand_territory
+		x = 10
+		y = 0
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_country_leader = { ruling_only = yes character = FRA_philippe_petain }
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_country_leader_trait = emergency_powers
+			if = {
+				limit = {
+					has_idea = FRA_disjointed_government
+				}
+				remove_ideas = { FRA_disjointed_government }
+			}
+		}
+	}
+	focus = {
+		id = VIC_the_national_revolution
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = -5
+		y = 1
+		prerequisite = { 
+			focus = VIC_emergency_powers_to_petain
+		}
+		relative_position_id = VIC_emergency_powers_to_petain
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = VIC_long_term_economic_planning
+		icon = GFX_goal_generic_construct_civilian
+		x = -2
+		y = 1
+		prerequisite = { 
+			focus = VIC_the_national_revolution
+		}
+		relative_position_id = VIC_the_national_revolution
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_tech_bonus = {
+				name = VIC_long_term_economic_planning
+				category = industry
+				uses = 2
+				bonus = 1
+			}
+		}
+	}
+	focus = {
+		id = VIC_aid_small_businesses
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 2
+		prerequisite = { 
+			focus = VIC_long_term_economic_planning
+		}
+		relative_position_id = VIC_long_term_economic_planning
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					is_core_of = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = VIC_venerate_the_craftsman
+		icon = GFX_goal_generic_production
+		x = 0
+		y = 2
+		prerequisite = { 
+			focus = VIC_aid_small_businesses
+		}
+		relative_position_id = VIC_aid_small_businesses
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_ideas = { FRA_venerate_the_craftsman }
+		}
+	}
+	focus = {
+		id = VIC_down_with_marianne
+		icon = GFX_focus_focus_fra_down_marianne
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_the_national_revolution
+		}
+		relative_position_id = VIC_the_national_revolution
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_timed_idea = { 
+				idea = FRA_down_with_marianne 
+				days = 730
+			}
+		}
+	}
+	focus = {
+		id = VIC_up_with_jean_darc
+		icon = GFX_focus_up_joan_of_arc
+		x = 0
+		y = 2
+		prerequisite = { 
+			focus = VIC_down_with_marianne
+		}
+		relative_position_id = VIC_down_with_marianne
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_timed_idea = { 
+				idea = FRA_up_with_jean_darc 
+				days = 730
+			}
+		}
+	}
+	focus = {
+		id = VIC_celebrate_motherhood
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 2
+		prerequisite = { 
+			focus = VIC_up_with_jean_darc
+		}
+		relative_position_id = VIC_up_with_jean_darc
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = VIC_prosecute_the_losers
+		icon = GFX_goal_generic_neutrality_focus
+		x = 2
+		y = 1
+		prerequisite = { 
+			focus = VIC_the_national_revolution
+		}
+		relative_position_id = VIC_the_national_revolution
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = VIC_concessions_to_the_germans
+		icon = GFX_focus_chi_mission_to_germany
+		x = 0
+		y = 2
+		prerequisite = { 
+			focus = VIC_prosecute_the_losers
+		}
+		relative_position_id = VIC_prosecute_the_losers
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			16 = {
+				is_controlled_by = GER
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_FRA_OCCUPATION_COST }
+		completion_reward = {
+			unlock_decision_category_tooltip = VIC_concessions_to_the_germans
+		}
+	}
+	focus = {
+		id = VIC_mandatory_work_service
+		icon = GFX_goal_generic_construction2
+		x = 0
+		y = 2
+		prerequisite = { 
+			focus = VIC_concessions_to_the_germans
+		}
+		relative_position_id = VIC_concessions_to_the_germans
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_FRA_OCCUPATION_COST }
+		completion_reward = {
+			reduce_occupation_cost_effect = yes
+			add_ideas = { FRA_mandatory_work_service }
+		}
+	}
+	focus = {
+		id = VIC_a_nation_reborn
+		icon = GFX_goal_support_fascism
+		x = 0
+		y = 2
+		prerequisite = { 
+			focus = VIC_celebrate_motherhood
+		}
+		prerequisite = { 
+			focus = VIC_venerate_the_craftsman
+		}
+		prerequisite = { 
+			focus = VIC_mandatory_work_service
+		}
+		relative_position_id = VIC_celebrate_motherhood
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = VIC_end_the_occupation
+		icon = GFX_goal_generic_territory_or_war
+		x = 0
+		y = 2
+		prerequisite = { 
+			focus = VIC_a_nation_reborn
+		}
+		relative_position_id = VIC_a_nation_reborn
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				is_historical_focus_on = yes
+				NOT = {
+					GER = { owns_state = 219 } 
+				}
+				factor = 0
+			}
+		}
+		available = {
+			16 = {
+				NOT = {
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			set_rule = {
+				can_join_factions = yes
+				can_not_declare_war = no
+				can_create_factions = yes
+			}
+			remove_occupation_cost_effect = yes
+			if = {
+				limit = {
+					has_idea = VIC_produce_aircraft_parts
+				}
+				remove_ideas = VIC_produce_aircraft_parts
+			}
+			GER = { 
+				country_event = lar_end_the_occupation.1 
+				if = { limit = { has_idea = VIC_aircraft_parts }
+					remove_ideas = VIC_aircraft_parts
+				}
+			}
+		}
+	}
+	focus = {
+		id = VIC_the_national_bureau_of_statistics
+		icon = GFX_focus_generic_treaty
+		x = -2
+		y = 1
+
+		prerequisite = { 
+			focus = VIC_emergency_powers_to_petain
+		}
+		relative_position_id = VIC_emergency_powers_to_petain
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = { FRA_national_bureau_of_statistics }
+		}
+	}
+
+	focus = {
+		id = VIC_the_legionary_service_order
+		icon = GFX_goal_generic_small_arms
+		x = 0
+		y = 1
+
+		prerequisite = { 
+			focus = VIC_emergency_powers_to_petain
+		}
+		relative_position_id = VIC_emergency_powers_to_petain
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = { FRA_legionary_service_order }
+			hidden_effect = { add_named_threat = { threat = 10 name = VIC_the_legionary_service_order } }
+		}
+	}
+	focus = {
+		id = VIC_form_the_milice
+		icon = GFX_focus_fra_milice
+		x = -1
+		y = 2
+		prerequisite = { 
+			focus = VIC_the_legionary_service_order
+		}
+		relative_position_id = VIC_the_legionary_service_order
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_legionary_service_order
+				add_idea = FRA_milice
+			}
+		}
+	}
+	focus = {
+		id = VIC_anti_bolshevist_volunteers
+		icon = GFX_focus_generic_military_mission
+		x = 1
+		y = 2
+		prerequisite = { 
+			focus = VIC_the_legionary_service_order
+		}
+		relative_position_id = VIC_the_legionary_service_order
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			16 = { # Controller of paris is in a war against any communist major
+				CONTROLLER = {
+					NOT = {
+						tag = ROOT
+					}
+					NOT = { has_war_with = ROOT }
+					any_enemy_country = {
+						is_major = yes
+						has_government = communism
+					}
+				}
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = { FRA_anti_bolshevist_volunteers }
+		}
+	}
+	focus = {
+		id = VIC_rebuild_the_military
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 4
+		y = 1
+		prerequisite = { 
+			focus = VIC_emergency_powers_to_petain
+		}
+		relative_position_id = VIC_emergency_powers_to_petain
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+		
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = { FRA_rebuild_the_military }
+		}
+	}
+	focus = {
+		id = VIC_finish_the_naval_buildup
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = -2
+		y = 1
+		prerequisite = { 
+			focus = VIC_rebuild_the_military
+		}
+		relative_position_id = VIC_rebuild_the_military
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			navy_experience = 50
+			random_owned_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					is_core_of = ROOT
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = VIC_hidden_materials
+		icon = GFX_focus_secret_rearmament
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_rebuild_the_military
+		}
+		relative_position_id = VIC_rebuild_the_military
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = { FRA_hidden_materials }
+		}
+	}
+	focus = {
+		id = VIC_analyze_our_defeat
+		icon = GFX_goal_generic_army_doctrines
+		x = 0
+		y = 2
+		prerequisite = { 
+			focus = VIC_hidden_materials
+		}
+		relative_position_id = VIC_hidden_materials
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = VIC_analyze_our_defeat
+				category = land_doctrine
+				uses = 2
+				cost_reduction = 0.5
+			}
+		}
+	}
+	focus = {
+		id = VIC_modernize_the_airforce
+		icon = GFX_goal_generic_air_doctrine
+		x = 2
+		y = 1
+		prerequisite = { 
+			focus = VIC_rebuild_the_military
+		}
+		relative_position_id = VIC_rebuild_the_military
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_tech_bonus = {
+				name = VIC_modernize_the_airforce
+				category = light_fighter
+				category = cas_bomber
+				category = tactical_bomber
+				bonus = 2
+				uses = 2
+			}
+		}
+	}
+	focus = {
+		id = VIC_learn_from_the_enemy
+		icon = GFX_focus_research2
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_modernize_the_airforce
+		}
+		relative_position_id = VIC_modernize_the_airforce
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_to_tech_sharing_group = VIC_learn_from_the_enemy
+			GER = { add_to_tech_sharing_group = VIC_learn_from_the_enemy }
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = VIC_buy_from_the_enemy
+		icon = GFX_goal_generic_air_fighter
+		x = 0
+		y = 2
+		allow_branch = { has_dlc = "Death or Dishonor" }
+		prerequisite = { 
+			focus = VIC_learn_from_the_enemy
+		}
+		relative_position_id = VIC_learn_from_the_enemy
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = { FRA_buy_from_the_enemy }
+		}
+	}
+
+	## PRE WAR FOCUS
+	focus = {
+		id = VIC_contact_support
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 22
+		y = 0
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		available = {
+			 
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_timed_idea = { 
+				idea = VIC_anti_republic_support 
+				days = 365
+				}
+		}
+	}
+
+	focus = {
+		id = VIC_form_new_parliament
+		icon = GFX_focus_generic_treaty
+		x = 10
+		y = 1
+		prerequisite = { 
+			focus = VIC_contact_support
+		}
+		relative_position_id = VIC_contact_support
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_timed_idea = { 
+				idea = VIC_political_power_gain 
+				days = 365
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_ministeries
+		icon = GFX_goal_generic_intelligence_exchange
+		x = -5
+		y = 1
+		prerequisite = { 
+			focus = VIC_form_new_parliament
+		}
+		relative_position_id = VIC_form_new_parliament
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			NOT = { has_idea = VIC_political_power_gain }
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_timed_idea = { 
+				idea = VIC_political_power_gain 
+				days = 365
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_ministeries_first_decision_1
+		icon = GFX_goal_generic_construct_civ_factory
+		x = -2
+		y = 1
+		prerequisite = { 
+			focus = VIC_ministeries
+		}
+		relative_position_id = VIC_ministeries
+	 	mutually_exclusive = { focus = VIC_ministeries_first_decision_2 focus = VIC_ministeries_first_decision_3 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = { VIC_civilian_construction_speed }
+		}
+	}
+
+	focus = {
+		id = VIC_ministeries_first_decision_2
+		icon = GFX_goal_generic_demand_territory
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_ministeries
+		}
+		relative_position_id = VIC_ministeries
+		mutually_exclusive = { focus = VIC_ministeries_first_decision_1 focus = VIC_ministeries_first_decision_3 }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VIC_unrecognized_legitimacy_2
+				add_idea = VIC_unrecognized_legitimacy_1
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_ministeries_first_decision_3
+		icon = GFX_focus_generic_industry_3
+		x = 2
+		y = 1
+		prerequisite = { 
+			focus = VIC_ministeries
+		}
+		relative_position_id = VIC_ministeries
+		mutually_exclusive = { focus = VIC_ministeries_first_decision_2 focus = VIC_ministeries_first_decision_1 }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = { VIC_construction_speed_1 }
+		}
+	}
+
+	focus = {
+		id = VIC_ministeries_second
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 0
+		y = 2
+		prerequisite = { 
+				focus = VIC_ministeries_first_decision_1
+				focus = VIC_ministeries_first_decision_2
+				focus = VIC_ministeries_first_decision_3
+		}
+		relative_position_id = VIC_ministeries
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			NOT = { has_idea = VIC_political_power_gain }
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_timed_idea = { 
+				idea = VIC_political_power_gain 
+				days = 365
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_ministeries_second_decision_1
+		icon = GFX_goal_generic_construct_mil_factory
+		x = -2
+		y = 1
+		prerequisite = { 
+			focus = VIC_ministeries_second
+		}
+		relative_position_id = VIC_ministeries_second
+	 	mutually_exclusive = { focus = VIC_ministeries_second_decision_2 focus = VIC_ministeries_second_decision_3 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = { VIC_military_construction_speed }
+		}
+	}
+
+	focus = {
+		id = VIC_ministeries_second_decision_2
+		icon = GFX_goal_generic_construct_civilian
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_ministeries_second
+		}
+		relative_position_id = VIC_ministeries_second
+		mutually_exclusive = { focus = VIC_ministeries_second_decision_1 focus = VIC_ministeries_second_decision_3 }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = { VIC_factory_output }
+		}
+	}
+
+	focus = {
+		id = VIC_ministeries_second_decision_3
+		icon = GFX_focus_generic_military_mission
+		x = 2
+		y = 1
+		prerequisite = { 
+			focus = VIC_ministeries_second
+		}
+		relative_position_id = VIC_ministeries_second
+		mutually_exclusive = { focus = VIC_ministeries_second_decision_2 focus = VIC_ministeries_second_decision_1 }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_war_support = 0.15
+		}
+	}
+
+	focus = {
+		id = VIC_ministeries_third
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 0
+		y = 2
+		prerequisite = { 
+				focus = VIC_ministeries_second_decision_1
+				focus = VIC_ministeries_second_decision_2
+				focus = VIC_ministeries_second_decision_3
+		}
+		relative_position_id = VIC_ministeries_second
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			NOT = { has_idea = VIC_political_power_gain }
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_timed_idea = { 
+				idea = VIC_political_power_gain 
+				days = 365
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_ministeries_third_decision_1
+		icon = GFX_focus_mex_privatisation
+		x = -2
+		y = 1
+		prerequisite = { 
+			focus = VIC_ministeries_third
+		}
+		relative_position_id = VIC_ministeries_third
+	 	mutually_exclusive = { focus = VIC_ministeries_third_decision_2 focus = VIC_ministeries_third_decision_3 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = { VIC_consumer_good }
+		}
+	}
+
+	focus = {
+		id = VIC_ministeries_third_decision_2
+		icon = GFX_focus_DEN_no_regulations
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_ministeries_third
+		}
+		relative_position_id = VIC_ministeries_third
+		mutually_exclusive = { focus = VIC_ministeries_third_decision_1 focus = VIC_ministeries_third_decision_3 }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = { VIC_eff_cap }
+		}
+	}
+
+	focus = {
+		id = VIC_ministeries_third_decision_3
+		icon = GFX_focus_generic_industry_3
+		x = 2
+		y = 1
+		prerequisite = { 
+			focus = VIC_ministeries_third
+		}
+		relative_position_id = VIC_ministeries_third
+		mutually_exclusive = { focus = VIC_ministeries_third_decision_2 focus = VIC_ministeries_third_decision_1 }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			if = {
+				limit = { has_idea = VIC_construction_speed_1 }
+				swap_ideas = {
+					remove_idea = VIC_construction_speed_1
+					add_idea = VIC_construction_speed_2
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_idea = VIC_construction_speed_1
+						has_idea = VIC_construction_speed_2
+					}
+				}
+				remove_ideas = VIC_construction_speed_1
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_complet_cabinet
+		icon = GFX_focus_generic_treaty
+		x = 0
+		y = 2
+		prerequisite = { 
+				focus = VIC_ministeries_third_decision_1
+				focus = VIC_ministeries_third_decision_2
+				focus = VIC_ministeries_third_decision_3
+		}
+		relative_position_id = VIC_ministeries_third
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			NOT = { has_idea = VIC_political_power_gain }
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			if = {
+				limit = { has_idea = VIC_unrecognized_legitimacy_2 }
+				swap_ideas = {
+					remove_idea = VIC_unrecognized_legitimacy_2
+					add_idea = VIC_unrecognized_legitimacy_1
+				}
+			}
+			else_if = {
+				remove_ideas = VIC_unrecognized_legitimacy_1
+			}
+			add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = VIC_war_department
+		icon = GFX_goal_generic_army_doctrines
+		x = 5
+		y = 1
+		prerequisite = { 
+			focus = VIC_form_new_parliament
+		}
+		relative_position_id = VIC_form_new_parliament
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			NOT = { has_idea = VIC_anti_republic_support }
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			1084 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = VIC_call_for_vonlunters
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_war_department
+		}
+		relative_position_id = VIC_war_department
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_manpower = 50000
+		}
+	}
+
+	focus = {
+		id = VIC_la_grande_armee
+		icon = GFX_focus_generic_military_mission
+		x = 0
+		y = 2
+		prerequisite = { 
+			focus = VIC_call_for_vonlunters
+		}
+		relative_position_id = VIC_call_for_vonlunters
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_army_manpower = { size > 100000 }
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = { VIC_grande_armee }
+			add_timed_idea = { 
+				idea = VIC_anti_republic_support 
+				days = 1365
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_war_research_infantry
+		icon = GFX_goal_generic_small_arms
+		x = -6
+		y = 1
+		prerequisite = { 
+			focus = VIC_la_grande_armee
+			focus = VIC_ministeries_second_decision_3
+		}
+		relative_position_id = VIC_la_grande_armee
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_war_research_support
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 2
+		y = 0
+		prerequisite = { 
+			focus = VIC_la_grande_armee
+			focus = VIC_ministeries_second_decision_3
+		}
+		relative_position_id = VIC_war_research_infantry
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = support_tech
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_war_research_armor
+		icon = GFX_goal_generic_army_tanks
+		x = 4
+		y = 0
+		prerequisite = { 
+			focus = VIC_la_grande_armee
+			focus = VIC_ministeries_second_decision_3
+		}
+		relative_position_id = VIC_war_research_infantry
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_war_research_arty
+		icon = GFX_goal_generic_army_artillery2
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_la_grande_armee
+			focus = VIC_ministeries_second_decision_3
+		}
+		relative_position_id = VIC_war_research_infantry
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_war_research_elec
+		icon = GFX_goal_generic_production
+		x = 2
+		y = 1
+		prerequisite = { 
+			focus = VIC_la_grande_armee
+			focus = VIC_ministeries_second_decision_3
+		}
+		relative_position_id = VIC_war_research_infantry
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = electronics
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_war_research_indus
+		icon = GFX_goal_generic_construct_civilian
+		x = 4
+		y = 1
+		prerequisite = { 
+			focus = VIC_la_grande_armee
+			focus = VIC_ministeries_second_decision_3
+		}
+		relative_position_id = VIC_war_research_infantry
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_economical_department
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 12
+		y = 1
+		prerequisite = { 
+			focus = VIC_form_new_parliament
+		}
+		relative_position_id = VIC_form_new_parliament
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			1084 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_axis_economic_domination
+		icon = GFX_focus_CZE_german_puppet
+		x = 2
+		y = 1
+		prerequisite = { 
+			focus = VIC_economical_department
+		}
+		mutually_exclusive = { focus = VIC_sovereign_economy }
+		relative_position_id = VIC_economical_department
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			 
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			custom_effect_tooltip = VIC_axis_economic_domination_tt
+			add_offsite_building = { type = industrial_complex level = 3 }
+		}
+	}
+
+	focus = {
+		id = VIC_scrap_factories
+		icon = GFX_focus_CZE_german_puppet
+		x = 3
+		y = 1
+		prerequisite = { 
+			focus = VIC_axis_economic_domination
+		}
+		relative_position_id = VIC_axis_economic_domination
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_war = yes
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = { VIC_buildings_with_scrap }
+		}
+	}
+
+	focus = {
+		id = VIC_axis_minor_investment
+		icon = GFX_focus_HUN_negotiate_the_restrictions
+		x = 1
+		y = 1
+		prerequisite = { 
+			focus = VIC_axis_economic_domination
+		}
+		relative_position_id = VIC_axis_economic_domination
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			 
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			custom_effect_tooltip = VIC_open_foreign_subsidized_factories_tt
+			if = { 
+				limit = { 
+					country_exists = HUN
+					HUN = { has_opinion = { target = VIC value > 60 } } 
+				}
+				add_offsite_building = { type = industrial_complex level = 1 }
+			}
+			if = { 
+				limit = { 
+					country_exists = ROM
+					ROM = { has_opinion = { target = VIC value > 60 } } 
+				}
+				add_offsite_building = { type = industrial_complex level = 1 }
+			}
+			if = { 
+				limit = { 
+					country_exists = YUG
+					YUG = { has_opinion = { target = VIC value > 60 } } 
+				}
+				add_offsite_building = { type = industrial_complex level = 1 }
+			}
+			if = { 
+				limit = { 
+					country_exists = BUL
+					BUL = { has_opinion = { target = VIC value > 60 } } 
+				}
+				add_offsite_building = { type = industrial_complex level = 1 }
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_spanish_investment
+		icon = GFX_focus_intervention_spain_nationalists
+		x = -1
+		y = 1
+		prerequisite = { 
+			focus = VIC_axis_minor_investment
+		}
+		mutually_exclusive = {  }
+		relative_position_id = VIC_axis_minor_investment
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			SPR = { exists = no }
+			SPA = {
+				has_opinion	= {
+					target = ROOT
+					value > 50
+				}
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 1 }
+			SPA = { add_offsite_building = { type = arms_factory level = 1 } }
+		}
+	}
+
+	focus = {
+		id = VIC_finish_investment
+		icon = GFX_focus_invite_finland
+		x = 1
+		y = 1
+		prerequisite = { 
+			focus = VIC_axis_minor_investment
+		}
+		mutually_exclusive = {  }
+		relative_position_id = VIC_axis_minor_investment
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			POL = { exists = no }
+			FIN = {
+				has_opinion	= {
+					target = ROOT
+					value > 50
+				}
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 1 }
+			POL = { add_offsite_building = { type = arms_factory level = 1 } }
+		}
+	}
+
+	focus = {
+		id = VIC_trad_bonus
+		icon = GFX_goal_generic_positive_trade_relations
+		x = -1
+		y = 1
+		prerequisite = { 
+			focus = VIC_axis_economic_domination
+		}
+		relative_position_id = VIC_axis_economic_domination
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			 
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = { VIC_axe_trade }
+		}
+	}
+
+	focus = {
+		id = VIC_italian_investment
+		icon = GFX_focus_befriend_italy
+		x = 1
+		y = 1
+		prerequisite = { 
+			focus = VIC_finish_investment
+			focus = VIC_spanish_investment
+		}
+		relative_position_id = VIC_spanish_investment
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			ITA = {
+				has_opinion	= {
+					target = ROOT
+					value > 50
+				}
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = { VIC_italian_investment }
+		}
+	}
+
+	focus = {
+		id = VIC_german_investment
+		icon = GFX_focus_chi_mission_to_germany
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_italian_investment
+		}
+		relative_position_id = VIC_italian_investment
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			GER = {
+				has_opinion	= {
+					target = ROOT
+					value > 50
+				}
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 2 }
+		}
+	}
+
+	focus = {
+		id = VIC_sovereign_economy
+		icon = GFX_focus_generic_steel
+		x = -2
+		y = 1
+		prerequisite = { 
+			focus = VIC_economical_department
+		}
+		mutually_exclusive = { focus = VIC_axis_economic_domination }
+		relative_position_id = VIC_economical_department
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 20
+				state = 1084
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_tungsten_mining
+		icon = GFX_focus_generic_tungsten
+		x = -1
+		y = 1
+		prerequisite = { 
+			focus = VIC_sovereign_economy
+		}
+		relative_position_id = VIC_sovereign_economy
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_resource = {
+				type = tungsten
+				amount = 20
+				state = 1084
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_coal_mining
+		icon = GFX_focus_generic_electrification
+		x = 1
+		y = 1
+		prerequisite = { 
+			focus = VIC_tungsten_mining
+		}
+		relative_position_id = VIC_tungsten_mining
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_resource = {
+				type = coal
+				amount = 20
+				state = 1084
+			}
+			1084 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = energy_infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_industrial_infrastructure
+		icon = GFX_focus_AFG_a_modern_economy
+		x = -1
+		y = 1
+		prerequisite = { 
+			focus = VIC_tungsten_mining
+		}
+		relative_position_id = VIC_tungsten_mining
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			20 = {
+					is_controlled_by = ROOT
+			}
+			22 = {
+					is_controlled_by = ROOT
+			}
+			21 = {
+					is_controlled_by = ROOT
+			}
+			32 = {
+					is_controlled_by = ROOT
+			}
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			20 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			22 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			21 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			32 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			1084 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_begin_reconstruction
+		icon = GFX_focus_generic_currency_reforms
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_industrial_infrastructure
+		}
+		relative_position_id = VIC_industrial_infrastructure
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_timed_idea = {
+				idea = VIC_begin_reconstruction 
+				days = 365
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_the_great_investment
+		icon = GFX_focus_generic_monetary_union
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_begin_reconstruction
+		}
+		relative_position_id = VIC_begin_reconstruction
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			custom_effect_tooltip = VIC_the_great_investment_tt
+			every_owned_state = {
+				limit = {
+					infrastructure > 3
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_europe_first_producer
+		icon = GFX_focus_generic_central_planning
+		x = 1
+		y = 1
+		prerequisite = { 
+			focus = VIC_sovereign_economy
+		}
+		relative_position_id = VIC_sovereign_economy
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = { VIC_idea_expanded_mining_industry }
+		}
+	}
+
+	focus = {
+		id = VIC_stable_economy
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 1
+		y = 1
+		prerequisite = { 
+			focus = VIC_europe_first_producer
+			focus = VIC_trad_bonus
+		}
+		relative_position_id = VIC_europe_first_producer
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			if = {
+				limit = { has_idea = VIC_production_inefficiency_2 }
+				swap_ideas = {
+					remove_idea = VIC_production_inefficiency_2
+					add_idea = VIC_production_inefficiency_1
+				}
+			}
+			else_if = {
+				remove_ideas = VIC_production_inefficiency_1
+			}
+			1084 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_mountain_expertise
+		icon = GFX_focus_GRE_a_land_of_mountains
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_la_grande_armee
+			focus = VIC_ministeries_second_decision_3
+		}
+		relative_position_id = VIC_la_grande_armee
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = { VIC_mountain_expertise_idea }
+		}
+	}
+
+	focus = {
+		id = VIC_mountain_gun
+		icon = GFX_goal_generic_army_artillery2
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_mountain_expertise
+		}
+		relative_position_id = VIC_mountain_expertise
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			custom_effect_tooltip = mountain_guns_tt
+			hidden_effect = { set_technology = { mountain_gun = 1 } }
+		}
+	}
+
+	focus = {
+		id = VIC_industrial_rebirth
+		icon = GFX_goal_generic_production
+		x = -2
+		y = 1
+		prerequisite = { 
+			focus = VIC_contact_support
+		}
+		relative_position_id = VIC_contact_support
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			 
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_tech_bonus = {
+				name = VIC_planned_economy
+				category = industry
+				uses = 2
+				bonus = 1
+			}
+		}
+	}
+
+	focus = {
+		id = VIC_political_support
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_industrial_rebirth
+		}
+		relative_position_id = VIC_industrial_rebirth
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_political_power = 75
+		}
+	}
+
+	focus = {
+		id = VIC_research_expansion_2
+		icon = GFX_focus_generic_university_2
+		x = 1
+		y = 1
+		prerequisite = { 
+			focus = VIC_political_support
+		}
+		relative_position_id = VIC_political_support
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			 
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			swap_ideas = {
+					remove_idea = VIC_lack_of_scientist_3
+					add_idea = VIC_lack_of_scientist_2
+				}
+		}
+	}
+	focus = {
+		id = VIC_research_expansion_3
+		icon = GFX_focus_generic_university_2
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_research_expansion_2
+		}
+		relative_position_id = VIC_research_expansion_2
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			 
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			swap_ideas = {
+					remove_idea = VIC_lack_of_scientist_2
+					add_idea = VIC_lack_of_scientist_1
+				}
+		}
+	}
+	focus = {
+		id = VIC_research_expansion_4
+		icon = GFX_focus_generic_university_2
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_research_expansion_3
+		}
+		relative_position_id = VIC_research_expansion_3
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			 
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			swap_ideas = {
+					remove_idea = VIC_lack_of_scientist_1
+					add_idea = VIC_powerfull_scientist
+				}
+		}
+	}
+
+	focus = {
+		id = VIC_Overseas_factory
+		icon = GFX_goal_generic_construction
+		x = -1
+		y = 1
+		prerequisite = { 
+			focus = VIC_political_support
+		}
+		relative_position_id = VIC_political_support
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			 
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 1 }
+			add_offsite_building = { type = industrial_complex level = 1 }
+			1084 = {
+				add_extra_state_shared_building_slots = 5
+			}
+		}
+	}
+	focus = {
+		id = VIC_ten_hours_shift
+		icon = GFX_focus_generic_industry_1
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_Overseas_factory
+		}
+		relative_position_id = VIC_Overseas_factory
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			 
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 1 }
+			add_offsite_building = { type = industrial_complex level = 1 }
+			add_stability = -0.05
+		}
+	}
+	focus = {
+		id = VIC_twelve_hours_shift
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_ten_hours_shift
+		}
+		relative_position_id = VIC_ten_hours_shift
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			 
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			if = {
+				limit = { has_idea = VIC_production_inefficiency_2 }
+				swap_ideas = {
+					remove_idea = VIC_production_inefficiency_2
+					add_idea = VIC_production_inefficiency_1
+				}
+			}
+			else_if = {
+				remove_ideas = VIC_production_inefficiency_1
+			}
+			add_stability = -0.10
+		}
+	}
+
+	focus = {
+		id = VIC_national_resurgency
+		icon = GFX_goal_generic_neutrality_focus
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VIC_twelve_hours_shift
+		}
+		relative_position_id = VIC_twelve_hours_shift
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			 
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_timed_idea = { 
+				idea = VIC_national_resurgency_stability
+				days = 1460
+				}
+		}
+	}
+
+}

@@ -1,0 +1,1301 @@
+on_actions = {
+	on_startup = {
+        effect = {
+            every_country = {
+                add_daily_mastery = {
+                    amount = 2.01 #0.67
+                    days = 3650
+                    name = RC_auto_mastery
+                }
+                every_army_leader = {
+                    if = {
+                        limit = {
+                            is_field_marshal = no
+                        }
+                    promote_leader = yes
+                    }
+                }
+            }
+            ### EUROPE
+            ## England
+            ENG = {
+                annex_country = { target = PAL transfer_troops = no }
+                454 = { add_compliance = 70 }
+                annex_country = { target = JOR transfer_troops = no }
+                455 = { add_compliance = 70 }
+                annex_country = { target = KUW transfer_troops = no }
+                656 = { add_compliance = 70 }
+                annex_country = { target = OMA transfer_troops = no }
+                1013 = { add_compliance = 70 }
+                1015 = { add_compliance = 70 }
+                294 = { add_compliance = 70 }
+                1016 = { add_compliance = 70 }
+                annex_country = { target = MAL transfer_troops = no }
+                1061 = { add_compliance = 70 }
+                1065 = { add_compliance = 70 }
+                1064 = { add_compliance = 70 }
+                1062 = { add_compliance = 70 }
+                336 = { add_compliance = 70 }
+                1063 = { add_compliance = 70 }
+                1060 = { add_compliance = 70 }
+                transfer_state = 698
+                698 = { add_compliance = 70 }
+                annex_country = { target = IRQ transfer_troops = no }
+                1010 = { add_compliance = 70 }
+                676 = { add_compliance = 70 }
+                291 = { add_compliance = 70 }
+                675 = { add_compliance = 70 }
+                1011 = { add_compliance = 70 }
+
+                # Ideas
+                add_ideas = MIN_peacetime_training
+
+                # Faction rule
+                set_faction_rule = goals_only_faction_leader
+            }
+             ## Canada
+            CAN = {
+                transfer_state = 331
+                transfer_state = 332
+
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+            }
+            ## India
+            RAJ = {
+                annex_country = { target = BRM transfer_troops = no }
+                add_state_core = 998
+                add_state_core = 288
+                add_state_core = 997
+                add_state_core = 996
+                add_state_core = 640
+                add_state_core = 995
+                add_state_core = 999
+                add_state_core = 993
+                add_state_core = 994
+
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+            }
+            ## Australia
+            AST = { 
+                annex_country = { target = NZL transfer_troops = no }
+                add_state_core = 1081
+                add_state_core = 723
+                add_state_core = 1080
+                add_state_core = 284
+                add_state_core = 1079
+
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+            }
+            ## South Africa
+            SAF = { 
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+            }
+            ## France
+            FRA = {
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = FRA_hold_maginot
+                
+                annex_country = { target = SYR transfer_troops = no }
+                799 = { add_compliance = 70 }
+                677 = { add_compliance = 70 }
+                554 = { add_compliance = 70 }
+                680 = { add_compliance = 70 }
+                annex_country = { target = LEB transfer_troops = no }
+                553 = { add_compliance = 70 }
+                annex_country = { target = COG transfer_troops = no }
+                538 = { add_compliance = 70 }
+                718 = { add_compliance = 70 }
+                295 = { add_compliance = 70 }
+                888 = { add_compliance = 70 }
+                889 = { add_compliance = 70 }
+                890 = { add_compliance = 70 }
+                769 = { add_compliance = 70 }
+                768 = { add_compliance = 70 }
+
+                country_event = { 
+					id = france.36
+				}
+
+                774 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                773 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                660 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                539 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                772 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                776 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                777 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                781 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                778 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                898 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                556 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                779 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                780 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                310 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                694 = {
+                    add_extra_state_shared_building_slots = 12
+                }
+            }
+            ## USA 
+            USA = {
+                annex_country = { target = PAN transfer_troops = no }
+                304 = { add_compliance = 70 }
+                # Ideas
+                add_ideas = MIN_peacetime_training
+            }
+            ## Mexico
+            MEX = {
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+
+                # Sarge
+                add_state_core = 311
+                add_state_core = 313
+                add_state_core = 312
+                add_state_core = 314
+                add_state_core = 317
+            }
+            ## Brazil
+            BRA = { 
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+            }
+            ## Soviet
+            SOV = {
+                add_offsite_building = {
+                    type = industrial_complex level = 45
+                }
+                add_offsite_building = {
+                    type = arms_factory level = 7
+                }
+                country_event = {
+					id = mexico.21 # Mexico returns trotsky
+					days = 396 # Feb 37
+				}
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                # Faction rule
+                set_faction_rule = goals_only_faction_leader
+                # Pre grind
+                every_army_leader = {
+					limit = {
+						NOT = { 
+							has_trait = no_grind
+						}
+					}
+				    add_unit_leader_trait = no_grind
+				}
+                add_resource = {
+                    type = coal
+                    amount = 32
+                    state = 219
+                }
+                add_resource = {
+                    type = coal
+                    amount = 28
+                    state = 351
+                }
+                add_resource = {
+                    type = coal
+                    amount = 28
+                    state = 407
+                }
+                add_resource = {
+                    type = rubber
+                    amount = 48
+                    state = 219
+                }
+                add_resource = {
+                    type = rubber
+                    amount = 48
+                    state = 202
+                }
+                add_resource = {
+                    type = rubber
+                    amount = 48
+                    state = 195
+                }
+            }
+            ## Germania
+            GER = {
+                #add_offsite_building = {
+                #    type = industrial_complex level = 8
+                #}
+                add_manpower = 670000
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                # Faction rule
+                set_faction_rule = goals_only_faction_leader
+                # Pre grind
+                every_army_leader = {
+					limit = {
+						NOT = { 
+							has_trait = no_grind
+						}
+					}
+				    add_unit_leader_trait = no_grind
+				}
+                add_resource = {
+                    type = rubber
+                    amount = 24
+                    state = 64
+                }
+                add_resource = {
+                    type = rubber
+                    amount = 12
+                    state = 42
+                }
+                add_resource = {
+                    type = rubber
+                    amount = 12
+                    state = 978
+                }
+                add_resource = {
+                    type = tungsten
+                    amount = 40
+                    state = 60
+                }
+                add_resource = {
+                    type = tungsten
+                    amount = 25
+                    state = 61
+                }
+            }
+            ## Italia
+            ITA = {
+                annex_country = { target = ETH transfer_troops = no }
+                842 = { add_compliance = 20 }
+                841 = { add_compliance = 20 }
+                843 = { add_compliance = 20 }
+                840 = { add_compliance = 20 }
+                839 = { add_compliance = 20 }
+                271 = { add_compliance = 20 }
+                835 = { add_compliance = 20 }
+                838 = { add_compliance = 20 }
+                839 = { add_compliance = 20 }
+                837 = { add_compliance = 20 }
+                836 = { add_compliance = 20 }
+                annex_country = { target = AFA transfer_troops = no }
+                908 = { add_compliance = 20 }
+                add_named_threat = { 
+                    threat = 1.5
+                    name = "Capitulation de l'Éthiopie"
+			    }
+                # Focus
+                unlock_national_focus = ITA_solid_progress
+                unlock_national_focus = ITA_ethiopian_war_logistics_bba
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_offsite_building = {
+                    type = industrial_complex level = 10
+                }
+                add_offsite_building = {
+                    type = dockyard level = 4
+                }
+                158 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                159 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                160 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                850 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                39 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                736 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                852 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                161 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                162 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                157 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                2 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                117 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                849 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                156 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                115 = {
+                    add_extra_state_shared_building_slots = 8
+                }
+                transfer_state = 846
+                add_state_core = 846
+                add_resource = {
+                    type = steel
+                    amount = 48
+                    state = 157
+                }
+                add_resource = {
+                    type = chromium
+                    amount = 48
+                    state = 162
+                }
+                add_resource = {
+                    type = coal
+                    amount = 18
+                    state = 114
+                }
+                add_resource = {
+                    type = coal
+                    amount = 36
+                    state = 115
+                }
+                add_resource = {
+                    type = oil
+                    amount = 12
+                    state = 448
+                }
+                add_resource = {
+                    type = oil
+                    amount = 15
+                    state = 159
+                }
+                add_resource = {
+                    type = rubber
+                    amount = 4
+                    state = 448
+                }
+                add_resource = {
+                    type = oil
+                    amount = 12
+                    state = 449
+                }
+                add_resource = {
+                    type = rubber
+                    amount = 4
+                    state = 449
+                }
+                add_resource = {
+                    type = oil
+                    amount = 12
+                    state = 451
+                }
+                add_resource = {
+                    type = rubber
+                    amount = 4
+                    state = 451
+                }
+                # Pre grind
+                every_army_leader = {
+					limit = {
+						NOT = { 
+							has_trait = no_grind
+						}
+					}
+				    add_unit_leader_trait = no_grind
+				}
+            }
+            ## Hungaria
+            HUN = {
+                add_manpower = 250000
+
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+            }
+            ## Romania
+            ROM = {
+                add_manpower = 250000
+
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                # Boost
+                add_offsite_building = {
+                    type = industrial_complex level = 4
+                }
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+                add_state_core = 834
+                add_state_core = 192
+
+                add_state_core = 154
+                add_state_core = 973
+                add_state_core = 43
+                add_state_core = 974
+                add_state_core = 155
+            }
+            ## Bulgaria
+            BUL = {
+                # Events
+                country_event = { 
+					id = bftb_bulgaria_rearmament.6
+				}
+
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                # Boost
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+                # Pre grind
+                every_army_leader = {
+					limit = {
+						NOT = { 
+							has_trait = no_grind
+						}
+					}
+				    add_unit_leader_trait = no_grind
+				}
+
+                add_resource = {
+                    type = oil
+                    amount = 30
+                    state = 48
+                }
+            }
+            ## Yugoslavia
+            YUG = {
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+
+                add_resource = {
+                    type = steel
+                    amount = 15
+                    state = 107
+                }
+                add_resource = {
+                    type = steel
+                    amount = 15
+                    state = 104
+                }
+            }
+            ## Finland
+            FIN = {
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+
+                add_resource = {
+                    type = steel
+                    amount = 15
+                    state = 111
+                }
+                add_resource = {
+                    type = steel
+                    amount = 15
+                    state = 926
+                }
+            }
+            ## Spain
+            SPR = {
+                add_resource = {
+                    type = tungsten
+                    amount = 95
+                    state = 176
+                }
+                add_resource = {
+                    type = tungsten
+                    amount = 32
+                    state = 171
+                }
+                add_resource = {
+                    type = chromium
+                    amount = 20
+                    state = 172
+                }
+
+                country_lock_all_division_template = no
+
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+            }
+            ## Vichy
+            VIC = { 
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+            }
+            ### ASIA
+            ## Kazakhstan
+            KAZ = {
+                 # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                add_offsite_building = {
+                    type = arms_factory level = 5
+                }
+
+                transfer_state = 584
+                add_state_core = 584
+                transfer_state = 742
+                add_state_core = 742
+                transfer_state = 830
+                add_state_core = 830
+                transfer_state = 585
+                add_state_core = 585
+                transfer_state = 831
+                add_state_core = 831
+                transfer_state = 823
+                add_state_core = 823
+                transfer_state = 832
+                add_state_core = 832
+                transfer_state = 405
+                add_state_core = 405
+                transfer_state = 587
+                add_state_core = 587
+                transfer_state = 402
+                add_state_core = 402
+                transfer_state = 404
+                add_state_core = 404
+                transfer_state = 881
+                add_state_core = 881
+                transfer_state = 586
+                add_state_core = 586
+                transfer_state = 589
+                add_state_core = 589
+                transfer_state = 588
+                add_state_core = 588
+                transfer_state = 618
+                add_state_core = 618
+            }
+            ## East Hebei Autonomous Government
+            EHA = {
+                transfer_state = 716
+                add_state_core = 716
+                transfer_state = 610
+                add_state_core = 610
+                transfer_state = 715
+                add_state_core = 715
+                transfer_state = 328
+                add_state_core = 328
+                transfer_state = 717
+                add_state_core = 717
+                transfer_state = 714
+                add_state_core = 714
+                transfer_state = 761
+                add_state_core = 761
+                transfer_state = 612
+                add_state_core = 612
+                transfer_state = 611
+                add_state_core = 611
+            }
+            ## Manchukou
+            MAN = {
+                # Ideas
+                add_ideas = MIN_peacetime_training
+                add_ideas = MIN_minors_buildings_slots
+                add_ideas = MIN_minors_infra_boost
+                add_ideas = MIN_minors_experimental_facilities_boost
+
+                transfer_state = 609
+                add_state_core = 609
+                add_state_core = 612
+                add_state_core = 611
+
+                add_offsite_building = {
+                    type = industrial_complex level = 5
+                }
+                add_offsite_building = {
+                    type = arms_factory level = 8 #5
+                }  
+            }
+            ## Japan
+            JAP = {
+                # Ideas
+                add_ideas = MIN_peacetime_training
+
+                add_state_core = 1028
+                add_state_core = 527
+                add_state_core = 525
+                add_state_core = 1029
+                add_state_core = 1031
+                add_state_core = 1030
+                add_state_core = 524
+                add_state_core = 745
+
+                528 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                1018 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                1020 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                529 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                530 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                531 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                535 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                532 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                534 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                282 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                1019 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                533 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                536 = {
+                    add_extra_state_shared_building_slots = 10
+                }
+                add_offsite_building = {
+                    type = industrial_complex level = 35 #13
+                }
+                add_offsite_building = {
+                    type = arms_factory level = 16 #7
+                }
+                add_offsite_building = {
+                    type = dockyard level = 16
+                }
+                add_resource = {
+                    type = coal
+                    amount = 24
+                    state = 528
+                }
+                add_resource = {
+                    type = coal
+                    amount = 24
+                    state = 1018
+                }
+                add_resource = {
+                    type = oil
+                    amount = 20
+                    state = 524
+                }
+                add_resource = {
+                    type = oil
+                    amount = 20
+                    state = 526
+                }
+                add_resource = {
+                    type = oil
+                    amount = 20
+                    state = 1031
+                }
+                add_resource = {
+                    type = oil
+                    amount = 20
+                    state = 1030
+                }
+                create_faction_from_template = faction_template_new_order_in_east_asia_faction
+                # Pre grind
+                every_army_leader = {
+					limit = {
+						NOT = { 
+							has_trait = no_grind
+						}
+					}
+				    add_unit_leader_trait = no_grind
+				}
+                # Faction rule
+                set_faction_rule = goals_only_faction_leader
+            }
+            ## China
+            CHI = {
+				annex_country = { target = SND transfer_troops = no }
+				annex_country = { target = HBC transfer_troops = no }
+				annex_country = { target = SHX transfer_troops = no }
+				annex_country = { target = PRC transfer_troops = no }
+				annex_country = { target = XIC transfer_troops = no }
+				annex_country = { target = NXM transfer_troops = no }
+				annex_country = { target = GSM transfer_troops = no }
+				annex_country = { target = XSM transfer_troops = no }
+				annex_country = { target = SIC transfer_troops = no }
+				annex_country = { target = YUN transfer_troops = no }
+				annex_country = { target = GXC transfer_troops = no }
+				annex_country = { target = GDC transfer_troops = no }
+                annex_country = { target = KHM transfer_troops = no }
+                annex_country = { target = SIK transfer_troops = no }
+
+                transfer_state = 1043
+                add_state_core = 1043
+                #transfer_state = 331
+                #add_state_core = 726
+
+                create_faction_from_template = faction_template_wang_front
+
+                add_resource = {
+                    type = coal
+                    amount = 49
+                    state = 1038
+                }
+                add_resource = {
+                    type = steel
+                    amount = 19
+                    state = 743
+                }
+                add_resource = {
+                    type = tungsten
+                    amount = 5
+                    state = 608
+                }
+                add_resource = {
+                    type = aluminium
+                    amount = 2
+                    state = 608
+                }
+                add_resource = {
+                    type = chromium
+                    amount = 2
+                    state = 608
+                }
+
+                add_ideas = MIN_AI_disabled
+			}
+            ## Black desert
+            LIB = {
+                transfer_state = 514
+                add_state_core = 514
+                transfer_state = 786
+                add_state_core = 786
+                transfer_state = 782
+                add_state_core = 782
+                transfer_state = 515
+                add_state_core = 515
+                transfer_state = 273
+                add_state_core = 273
+                transfer_state = 775
+                add_state_core = 775
+                transfer_state = 767
+                add_state_core = 767
+                transfer_state = 552
+                add_state_core = 552
+                transfer_state = 290
+                add_state_core = 290
+            }
+            ## Disabled nations
+            CUB = {
+                add_ideas = MIN_AI_disabled
+            }
+            HAI = {
+                add_ideas = MIN_AI_disabled
+            }
+            DOM = {
+                add_ideas = MIN_AI_disabled
+            }
+            GUA = {
+                add_ideas = MIN_AI_disabled
+            }
+            ELS = {
+                add_ideas = MIN_AI_disabled
+            }
+            HON = {
+                add_ideas = MIN_AI_disabled
+            }
+            NIC = {
+                add_ideas = MIN_AI_disabled
+            }
+            COS = {
+                add_ideas = MIN_AI_disabled
+            }
+            PAN = {
+                add_ideas = MIN_AI_disabled
+            }
+            COL = {
+                add_ideas = MIN_AI_disabled
+            }
+            VEN = {
+                add_ideas = MIN_AI_disabled
+            }
+            ECU = {
+                add_ideas = MIN_AI_disabled
+            }
+            PRU = {
+                add_ideas = MIN_AI_disabled
+            }
+            BOL = {
+                add_ideas = MIN_AI_disabled
+            }
+            PAR = {
+                add_ideas = MIN_AI_disabled
+            }
+            CHL = {
+                add_ideas = MIN_AI_disabled
+            }
+            ARG = {
+                add_ideas = MIN_AI_disabled
+            }
+            URG = {
+                add_ideas = MIN_AI_disabled
+            }
+            LIB = {
+                add_ideas = MIN_AI_disabled
+            }
+            LBA = {
+                add_ideas = MIN_AI_disabled
+            }
+            POR = {
+                add_state_core = 171
+                add_state_core = 790
+                add_state_core = 174
+                add_state_core = 166
+                add_state_core = 172
+                add_state_core = 791
+                add_state_core = 792
+                add_state_core = 176
+                add_state_core = 794
+                add_state_core = 165
+                add_state_core = 788
+                add_state_core = 41
+                add_state_core = 793
+                add_state_core = 170
+                add_state_core = 175
+                add_state_core = 168
+                add_state_core = 167
+                add_state_core = 169
+                add_state_core = 789
+                add_state_core = 173
+                add_state_core = 290
+                add_state_core = 177
+                add_state_core = 178
+                add_state_core = 783
+                add_state_core = 699
+                add_state_core = 297
+                # Ideas
+                add_ideas = MIN_AI_disabled
+            }
+            TUR = {
+                add_ideas = MIN_AI_disabled
+            }
+            SWI = {
+                add_ideas = MIN_AI_disabled
+            }
+            SAU = {
+                add_ideas = MIN_AI_disabled
+            }
+            YEM = {
+                add_ideas = MIN_AI_disabled
+            }
+            AFG = {
+                add_ideas = MIN_AI_disabled
+            }
+            TIB = {
+                add_ideas = MIN_AI_disabled
+            }
+            NEP = {
+                add_ideas = MIN_AI_disabled
+            }
+            BHU = {
+                add_ideas = MIN_AI_disabled
+            }
+            INS = {
+                add_ideas = MIN_AI_disabled
+            }
+        }
+    }
+    on_monthly = {
+		effect = {
+            IF = {
+				limit = {
+					original_tag = GER
+					date > 1936.06.08
+				}
+				country_event = {
+					id = germany.129
+					hours = 2
+					random_hours = 4
+				}
+			}
+            IF = {
+				limit = {
+					original_tag = GER
+					date > 1936.11.13
+				}
+				country_event = {
+					id = germany.130
+					hours = 2
+					random_hours = 4
+				}
+			}
+            IF = {
+				limit = {
+					original_tag = GER
+					date > 1936.12.11
+				}
+				country_event = {
+					id = germany.131
+					hours = 2
+					random_hours = 4
+				}
+			}
+            IF = {
+				limit = {
+					original_tag = GER
+					date > 1937.01.24
+				}
+				country_event = {
+					id = germany.132
+					hours = 2
+					random_hours = 4
+				}
+			}
+            IF = {
+				limit = {
+					original_tag = GER
+					date > 1938.12.31
+				}
+				country_event = {
+					id = germany.133
+					hours = 2
+					random_hours = 4
+				}
+			}
+            IF = {
+				limit = {
+					original_tag = FRA
+					date > 1936.06.30
+				}
+				country_event = {
+					id = france.105
+					hours = 2
+					random_hours = 4
+				}
+			}
+			IF = {
+				limit = {
+					original_tag = FRA
+					date > 1937.06.30
+				}
+				country_event = {
+					id = france.102
+					hours = 2
+					random_hours = 4
+				}
+			}
+			IF = {
+				limit = {
+					original_tag = FRA
+					date > 1937.12.31
+				}
+				country_event = {
+					id = france.103
+					hours = 2
+					random_hours = 4
+				}
+			}
+			IF = {
+				limit = {
+					original_tag = FRA
+					date > 1938.06.30
+				}
+				country_event = {
+					id = france.104
+					hours = 2
+					random_hours = 4
+				}
+			}
+			every_country = {
+				limit = {
+					is_ai = no
+					NOT = {
+						OR = {
+							has_war = yes
+							has_idea = MIN_peacetime_training
+                            has_idea = MIN_chinatime_training
+							AND = {
+								tag = SPR
+								any_country = {
+									has_volunteers_amount_from = {
+										tag = SPR
+										count > 0
+									} 
+								}	
+							}
+						}
+					}
+				}
+				add_ideas = MIN_peacetime_training
+			}
+            GER = {
+				every_army_leader = {
+					limit = {
+						NOT = { 
+							has_trait = no_grind
+						}
+					}
+				add_unit_leader_trait = no_grind
+				}
+			}
+            ITA = {
+				every_army_leader = {
+					limit = {
+						NOT = { 
+							has_trait = no_grind
+						}
+					}
+				add_unit_leader_trait = no_grind
+				}
+			}
+            BUL = {
+				every_army_leader = {
+					limit = {
+						NOT = { 
+							has_trait = no_grind
+						}
+					}
+				add_unit_leader_trait = no_grind
+				}
+			}
+            JAP = {
+				every_army_leader = {
+					limit = {
+						NOT = { 
+							has_trait = no_grind
+						}
+					}
+				add_unit_leader_trait = no_grind
+				}
+			}
+            SOV = {
+				every_army_leader = {
+					limit = {
+						NOT = { 
+							has_trait = no_grind
+						}
+					}
+				add_unit_leader_trait = no_grind
+				}
+			}
+		}
+    }
+    on_declare_war = {
+        effect = {
+            MAN = {
+                # Ideas
+                add_ideas = MIN_chinatime_training
+            }
+            JAP = {
+                # Ideas
+                add_ideas = MIN_chinatime_training
+            }
+            if = {
+                limit = {
+                    tag = JAP
+                    FROM = {
+                        OR = {
+                            tag = ENG
+                            tag = RAJ
+                            tag = CAN
+                            tag = AST
+                            tag = SAF
+                            tag = FRA
+                            tag = USA
+                            tag = MEX
+                        }
+                    }
+                }
+                ENG = { 
+                    add_timed_idea = { idea = ALLIES_pls_wake_up days = 365 }
+                }
+                RAJ = { 
+                    add_timed_idea = { idea = ALLIES_pls_wake_up days = 365 }
+                }
+                CAN = { 
+                    add_timed_idea = { idea = ALLIES_pls_wake_up days = 365 }
+                }
+                AST = { 
+                    add_timed_idea = { idea = ALLIES_pls_wake_up days = 365 }
+                }
+                SAF = { 
+                    add_timed_idea = { idea = ALLIES_pls_wake_up days = 365 }
+                }
+                FRA = { 
+                    add_timed_idea = { idea = ALLIES_pls_wake_up days = 365 }
+                }
+                USA = { 
+                    add_timed_idea = { idea = ALLIES_pls_wake_up days = 365 }
+                }
+                MEX = { 
+                    add_timed_idea = { idea = ALLIES_pls_wake_up days = 365 }
+                }
+                BRA = { 
+                    add_timed_idea = { idea = ALLIES_pls_wake_up days = 365 }
+                }
+            }
+            if = {
+                limit = {
+                    tag = GER
+                    FROM = {
+                        OR = {
+                            tag = FRA
+                            tag = POL
+                            tag = HOL
+                            tag = BEL
+                            tag = LUX
+                        }
+                    }
+                }
+                GER = { 
+                    add_ideas = GER_start_WW2
+                }
+                FRA = { 
+                    add_ideas = FRA_start_WW2
+                }
+            }
+        }
+    }
+    on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { tag = FRA }
+					FROM.FROM = { is_core_of = FRA }
+					OR ={  AND ={  FRA = { surrender_progress > 0.32 NOT = { controls_state = 30 } } }	FRA = { surrender_progress	> 0.5	}	 }
+					NOT = { FRA = { has_country_flag = france_tp} }
+				}
+				FRA = { 
+					set_country_flag = france_tp
+					transfer_units_fraction = {
+						target = FFL
+						size = 1
+						stockpile_ratio = 1
+						army_ratio = 1
+						navy_ratio = 1
+						air_ratio = 1
+						keep_unit_leaders_trigger = {
+							always = yes
+						}
+					}
+				}
+			}
+		}
+	}
+}

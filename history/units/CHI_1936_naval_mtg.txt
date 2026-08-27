@@ -1,0 +1,6 @@
+﻿units = {
+}
+
+##### SHIP CONSTRUCTION #####
+instant_effect = {
+}

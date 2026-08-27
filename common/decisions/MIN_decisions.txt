@@ -1,0 +1,127 @@
+hof_sov_category = {
+    SOV_spanish_civil_war = {
+		icon = GFX_decision_spr_garrison_control_none
+		cost = 0
+		available = {
+            date > 1937.1.1
+		}
+		visible = {
+			SOV = {
+				country_exists = SOV
+			}
+		}
+		allowed = {
+			original_tag = SOV
+		}
+		fire_only_once = yes
+		complete_effect = {
+			army_experience = 300
+            air_experience = 50
+            add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 }
+		}
+	}
+    SOV_est_question = {
+		icon = GFX_decision_EST_claim_state_4
+        days_mission_timeout = 1268
+		visible = {
+			SOV = {
+				country_exists = SOV
+			}
+		}
+        available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		allowed = {
+			original_tag = SOV
+		}
+        activation = {
+			country_exists = SOV
+		}
+        fire_only_once = yes
+		timeout_effect = {
+			annex_country = { target = EST transfer_troops = yes }
+		}
+	}
+    SOV_lit_question = {
+		icon = GFX_decision_LIT_claim_state_4
+        days_mission_timeout = 1268
+		visible = {
+			SOV = {
+				country_exists = SOV
+			}
+		}
+        available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		allowed = {
+			original_tag = SOV
+		}
+        activation = {
+			country_exists = SOV
+		}
+        fire_only_once = yes
+		timeout_effect = {
+			annex_country = { target = LIT transfer_troops = yes }
+		}
+	}
+    SOV_lat_question = {
+		icon = GFX_decision_LAT_claim_state_4
+        days_mission_timeout = 1268
+		visible = {
+			SOV = {
+				country_exists = SOV
+			}
+		}
+        available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		allowed = {
+			original_tag = SOV
+		}
+        activation = {
+			country_exists = SOV
+		}
+        fire_only_once = yes
+		timeout_effect = {
+			annex_country = { target = LAT transfer_troops = yes }
+		}
+	}
+	SOV_fin_question = {
+		icon = GFX_decision_eng_trade_unions_support
+        days_mission_timeout = 1429
+		visible = {
+			SOV = {
+				country_exists = SOV
+			}
+		}
+        available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		allowed = {
+			original_tag = SOV
+		}
+        activation = {
+			country_exists = SOV
+		}
+        fire_only_once = yes
+		timeout_effect = {
+			146 = { 
+                transfer_state_to = SOV
+            }
+            147 = { 
+                transfer_state_to = SOV
+            }
+            722 = { 
+                transfer_state_to = SOV
+            }
+		}
+	}
+}

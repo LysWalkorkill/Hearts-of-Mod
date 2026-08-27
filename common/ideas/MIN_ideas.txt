@@ -1,0 +1,352 @@
+ideas = {
+	country = {
+		MIN_peacetime_training = {
+			allowed = {
+				always = no
+			}
+			cancel = {
+				OR = {
+					has_war = yes
+					AND = {
+						tag = SPR
+						any_country = {
+							has_volunteers_amount_from = {
+								tag = SPR
+								count > 0
+							} 
+						}
+						
+					}
+					AND = {
+						has_idea = MIN_chinatime_training
+					}
+				}
+			}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				experience_gain_army = 0.30
+				training_time_army_factor = -0.75
+				air_training_xp_gain_factor = 10
+				experience_gain_navy_unit_factor = 10
+				air_accidents_factor = -2
+				naval_accidents_chance = -2
+				mobilization_speed = 2
+				army_fuel_consumption_factor = -0.9
+				air_fuel_consumption_factor = -0.9
+				navy_fuel_consumption_factor = -0.99
+			}
+		}
+		MIN_chinatime_training = {
+			allowed = {
+				always = no
+			}
+			cancel = {
+				OR = {
+					has_war_with = USA
+					AND = {
+						tag = SPR
+						any_country = {
+							has_volunteers_amount_from = {
+								tag = SPR
+								count > 0
+							} 
+						}
+						
+					}
+				}
+			}
+			removal_cost = -1
+			picture = SWE_wargames
+			modifier = {
+				experience_gain_army = 0.30
+				training_time_army_factor = -0.75
+				air_training_xp_gain_factor = 10
+				experience_gain_navy_unit_factor = 10
+				air_accidents_factor = -2
+				naval_accidents_chance = -2
+				mobilization_speed = 2
+				army_fuel_consumption_factor = -0.9
+				air_fuel_consumption_factor = -0.9
+				navy_fuel_consumption_factor = -0.99
+			}
+		}
+        MIN_AI_disabled = {
+            picture = chi_forced_conscription
+            removal_cost = -1
+            modifier = {
+                conscription = -1
+                training_time_factor = 1
+               	industrial_capacity_factory = -1
+                industrial_capacity_dockyard = -1
+                production_factory_efficiency_gain_factor = -1
+                production_factory_max_efficiency_factor = -1
+            }
+        }
+		MIN_minors_buildings_slots = {
+            picture = SOV_rebuild_the_savior_cathedral_ccp_sov_compatibility
+            removal_cost = -1
+            modifier = {
+                global_building_slots_factor = 0.5
+            }
+        }
+		MIN_add_spy = {
+			removal_cost = -1
+
+			picture = generic_spy_coup
+				
+			allowed = {
+				original_tag = ROOT
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				operative_slot = 1
+			}
+		}
+		MIN_add_spy_2 = {
+			removal_cost = -1
+
+			picture = generic_spy_political
+				
+			allowed = {
+				original_tag = ROOT
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				operative_slot = 1
+			}
+		}
+		MIN_minors_infra_boost = {
+			removal_cost = -1
+
+			picture = ARG_invest_in_roads
+				
+			allowed = {
+				original_tag = ROOT
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				production_speed_infrastructure_factor = 0.5
+			}
+		}
+		MIN_minors_experimental_facilities_boost = {
+			removal_cost = -1
+
+			picture = FRA_market_dynamism
+				
+			allowed = {
+				original_tag = ROOT
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				production_speed_facility_factor = 0.5
+			}
+		}
+        ITA_the_great_italian_navy = {
+            removal_cost = -1
+
+			picture = generic_navy_cruiser_warfare
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				production_speed_dockyard_factor = 0.1
+			}
+        }
+		ROM_ideas_no_hungary_player = {
+            removal_cost = -1
+
+			picture = HUN_the_cult_of_arpad_idea
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				weekly_manpower = 900
+				mobilization_speed = 0.35
+				max_command_power = 600
+				command_power_gain_mult = 2.0
+			}
+        }
+		BUL_ideas_no_spanish_player = {
+            removal_cost = -1
+
+			picture = PER_stand_with_giants_modifier
+
+			cancel = {
+				OR = {
+					SPR = {
+						is_ai = no
+					}
+				}
+			}
+				
+			allowed = {
+				original_tag = BUL
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				max_command_power = 600
+				command_power_gain_mult = 2.0
+			}
+        }
+		SOV_go_easy_on_aerial_production = {
+            removal_cost = -1
+			picture = RAJ_debt_relief
+			cancel = {
+				OR = {
+					has_war_with = GER
+				}
+			}
+			allowed = {
+				original_tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			equipment_bonus = {
+				medium_plane_fighter_airframe = {
+					build_cost_ic = 0.35 instant = yes
+				}
+				small_plane_airframe = {
+					build_cost_ic = 0.35 instant = yes
+				}
+				medium_plane_airframe = {
+					build_cost_ic = 0.35 instant = yes
+				}
+				small_plane_cas_airframe = {
+					build_cost_ic = 0.35 instant = yes
+				}
+				large_plane_airframe = {
+					build_cost_ic = 0.35 instant = yes
+				}
+			}
+        }
+		ALLIES_pls_wake_up = {
+			removal_cost = -1
+			picture = BEL_scars_of_ww1
+			cancel = {
+				OR = {
+					JAP = {
+						country_exists = no
+					}
+				}
+			}
+			allowed = {
+				original_tag = ENG
+				original_tag = RAJ
+				original_tag = CAN
+				original_tag = AST
+				original_tag = SAF
+				original_tag = FRA
+				original_tag = USA
+				original_tag = MEX
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			targeted_modifier = {
+				tag = GER
+				army_core_attack_factor = -0.75
+				army_core_defence_factor = -0.75
+			}
+			targeted_modifier = {
+				tag = HUN
+				army_core_attack_factor = -0.75
+				army_core_defence_factor = -0.75
+			}
+			targeted_modifier = {
+				tag = ROM
+				army_core_attack_factor = -0.75
+				army_core_defence_factor = -0.75
+			}
+			targeted_modifier = {
+				tag = BUL
+				army_core_attack_factor = -0.75
+				army_core_defence_factor = -0.75
+			}
+		}
+		GER_start_WW2 = {
+            picture = ENG_the_war_to_end_all_wars
+            removal_cost = -1
+			cancel = {
+				OR = {
+					has_war_with = SOV
+				}
+			}
+            modifier = {
+				attrition = -0.05
+				supply_consumption_factor = -0.1
+				army_fuel_consumption_factor = -0.25
+				weekly_manpower = 1000
+				mobilization_speed = 0.15
+				training_time_army_factor = -0.1
+				army_strength_factor = 0.35
+            }
+        }
+		FRA_start_WW2 = {
+            picture = ENG_the_war_to_end_all_wars
+            removal_cost = -1
+			cancel = {
+				OR = {
+					has_capitulated = yes
+				}
+			}
+            modifier = {
+                attrition = -0.05
+				supply_consumption_factor = -0.1
+				army_fuel_consumption_factor = -0.25
+				weekly_manpower = 1000
+				mobilization_speed = 0.15
+				training_time_army_factor = -0.1
+				army_strength_factor = 0.35
+            }
+        }
+		FRA_hold_maginot = {
+            picture = generic_fortify_the_borders
+            removal_cost = -1
+			cancel = {
+				OR = {
+					BEL = {
+						has_capitulated = yes
+					}
+				}
+			}
+            modifier = {
+               army_core_attack_factor = 0.75
+			   army_core_defence_factor = 0.75
+            }
+        }
+    }
+}
