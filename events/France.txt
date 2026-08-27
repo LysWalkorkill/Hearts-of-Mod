@@ -408,12 +408,12 @@ country_event = {
 					capital_scope = {
 						NOT = {
 							state = 16
-							state = 635
+							state = 1083
 						}
 					}
-					controls_state = 635
+					controls_state = 1083
 				}
-				set_capital = { state = 635 }
+				set_capital = { state = 1083 }
 			}
 			country_event = france.20
 			every_owned_state = {
@@ -564,7 +564,8 @@ country_event = {
 							expire = "1965.1.1"
 							ideology = fascism_ideology
 							traits = {
-								fascist_council_trait
+								#fascist_council_trait
+								Great_War_Hero
 							}
 						}
 						promote_leader = yes
