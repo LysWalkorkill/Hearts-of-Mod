@@ -1066,12 +1066,12 @@ technologies = {
 
 		category_anti_tank = {
 			hard_attack = 0.1
-			ap_attack = 0.15
+			ap_attack = 0.10
 		}
 
 		category_tank_destroyers = {
 			hard_attack = 0.10
-			ap_attack = 0.15
+			ap_attack = 0.10
 		}
 
 		enable_equipment_modules = {
