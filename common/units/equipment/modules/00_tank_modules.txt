@@ -1497,6 +1497,10 @@ equipment_modules = {
 			breakthrough = 4
 			defense = 4
 		}
+
+		multiply_stats = {
+			soft_attack = 0.075
+		}
 		xp_cost = 0
 		
 	}
