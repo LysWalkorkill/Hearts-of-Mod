@@ -1,0 +1,16 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_mex1"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/mex1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_mex2"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/mex2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_mex3"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/mex3.dds"
+	}
+}

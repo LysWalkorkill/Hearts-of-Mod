@@ -1,0 +1,43 @@
+# Mita events
+add_namespace = Hearts-of-Mod_SOV_Mita
+# Mita devient cheffe
+unit_leader_event = {
+    id = Hearts-of-Mod_SOV_Mita.1
+    title = Hearts-of-Mod_SOV_Mita.1.title
+    desc = Hearts-of-Mod_SOV_Mita.1.desc
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            event_target:this_character = {
+                add_country_leader_role = {
+                    country_leader = { 
+                        ideology = stalinism
+                        traits = { 
+                            ambitious_union_boss
+                        }
+                    }
+                }
+                promote_character = stalinism
+            }
+            event_target:this_country = {
+                set_country_flag = Hearts-of-Mod_SOV_Mita_leader_on_action
+            }
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_SOV_Mita.1.a
+        character_list_tooltip = {
+            limit = {
+                is_character = event_target:this_character
+            }
+        }
+        hidden_effect = {
+            event_target:this_character = {
+                custom_effect_tooltip = unlock_general_tt
+                set_character_flag = character_commander_unlock
+            }
+        }
+    }
+}

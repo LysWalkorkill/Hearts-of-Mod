@@ -1,0 +1,36 @@
+characters = {
+	SOV_Mita = {
+		name = SOV_Mita
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_Mita_large
+				small = GFX_idea_SOV_Mita_small
+			}
+			army = {
+				large = GFX_portrait_SOV_Mita_large
+				small = GFX_idea_SOV_Mita_small
+			}
+		}
+		field_marshal={
+			visible = {
+				NOT = {
+					has_character_flag = is_fired
+					has_character_flag = is_arrested
+					has_character_flag = is_killed
+				}
+				OR = {
+					has_character_flag = character_commander_unlock
+					is_hired_as_advisor = yes
+				}
+			}
+			traits={ old_guard politically_connected media_personality harsh_leader }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+}
