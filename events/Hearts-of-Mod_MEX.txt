@@ -35,3 +35,22 @@ country_event = {
         name = Hearts-of-Mod_MEX_narco-trafiquant.1.a
     }
 }
+
+# Annexion
+add_namespace = Hearts-of-Mod_MEX_annexion
+country_event = {
+    id = Hearts-of-Mod_MEX_annexion.1
+    title = Hearts-of-Mod_MEX_annexion.1.title
+    desc = Hearts-of-Mod_MEX_annexion.1.desc
+    picture = GFX_Hearts-of-Mod_report_event_mex3
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_MEX_annexion.1.a
+    }
+}
