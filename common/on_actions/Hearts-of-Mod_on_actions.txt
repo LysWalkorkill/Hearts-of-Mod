@@ -1,0 +1,49 @@
+on_actions = {
+	#ROOT: New controller; FROM: Old controller; FROM.FROM: State
+	on_state_control_changed = {
+		# Pour Mita
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						if = {
+							limit = {
+								has_character = SOV_Mita
+							}
+							SOV_Mita = {
+								NOT = {
+									has_character_flag = is_fired
+									has_character_flag = is_arrested
+									has_character_flag = is_killed
+								}
+							}
+						}
+						else = {
+							has_character = SOV_Mita
+						}
+						original_tag = SOV
+						is_subject = no
+						has_country_leader_ideology = stalinism
+						NOT = {
+							has_country_flag = Hearts-of-Mod_SOV_Mita_leader_on_action
+						}
+					}
+					ROOT = {
+						has_war_with = FROM
+					}
+					FROM.FROM = {
+						is_owned_by = FROM
+						state = 219 # Moscow
+					}
+				}
+				FROM = {
+					save_event_target_as = this_country
+					SOV_Mita = {
+						save_event_target_as = this_character
+						unit_leader_event = Hearts-of-Mod_SOV_Mita.1
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_portrait_SOV_Mita_large"
+		texturefile = "gfx/characters/SOV/portrait_Mita_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_Mita_small"
+		texturefile = "gfx/characters/SOV/portrait_Mita_small.dds"
+	}
+}
