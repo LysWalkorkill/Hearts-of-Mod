@@ -11,6 +11,7 @@ political_actions = {
 			}
 		}
 
+		fire_only_once = yes
 		fixed_random_seed = no
 
 		cost = 0
@@ -57,6 +58,7 @@ political_actions = {
 			}
 		}
 
+		fire_only_once = yes
 		fixed_random_seed = no
 
 		cost = 0
@@ -103,6 +105,7 @@ political_actions = {
 			}
 		}
 
+		fire_only_once = yes
 		fixed_random_seed = no
 
 		cost = 0
@@ -131,6 +134,36 @@ political_actions = {
 			}
 			country_event = {
 				id = Hearts-of-Mod_MEX_exploration.1
+				days = 15
+			}
+		}
+	}
+}
+
+
+war_measures = {
+	MEX_sevir_contre_narco_trafiquants = {
+		icon = GFX_decision_generic_arrest
+		allowed = {
+			original_tag = MEX
+		}
+
+		fire_only_once = yes
+		fixed_random_seed = no
+
+		cost = 0
+
+		available = {
+			has_war_support > 0.10
+		}
+
+		complete_effect = {
+			# EFFECT
+			add_war_support = -0.10
+			add_stability = 0.10
+			
+			country_event = {
+				id = Hearts-of-Mod_MEX_narco-trafiquant.1
 				days = 15
 			}
 		}
