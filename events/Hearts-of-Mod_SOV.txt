@@ -33,9 +33,11 @@ unit_leader_event = {
                 is_character = event_target:this_character
             }
         }
-        event_target:this_character = {
-            custom_effect_tooltip = unlock_general_tt
-            set_character_flag = character_commander_unlock
+        hidden_effect = {
+            event_target:this_character = {
+                custom_effect_tooltip = unlock_general_tt
+                set_character_flag = character_commander_unlock
+            }
         }
     }
 }
