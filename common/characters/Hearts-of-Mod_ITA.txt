@@ -12,13 +12,13 @@ characters = {
 				#small = GFX_idea_ITA_Abou_Clement_small
 			}
 		}
-		field_marshal={
-			#traits={ old_guard politically_connected media_personality harsh_leader }
-			skill=3
+		corps_commander={
+			traits={ desert fox }
+			skill=1
 			attack_skill=1
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=0
 		}
 	}

@@ -33,4 +33,28 @@ characters = {
 			legacy_id=0
 		}
 	}
+}characters = {
+	SOV_Viktor_Reznov = {
+		name = SOV_Viktor_Reznov
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_Viktor_Reznov_large
+				#small = GFX_idea_SOV_Viktor_Reznov_small
+			}
+			army = {
+				large = GFX_portrait_SOV_Viktor_Reznov_large
+				#small = GFX_idea_SOV_Viktor_Reznov_small
+			}
+		}
+		corps_commander={
+			traits="reckless"
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
 }

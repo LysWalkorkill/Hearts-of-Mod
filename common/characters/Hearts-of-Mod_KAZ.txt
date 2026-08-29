@@ -1,0 +1,25 @@
+characters = {
+	KAZ_Marina_Devyatova = {
+		name = KAZ_Marina_Devyatova
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KAZ_Marina_Devyatova_large
+				#small = GFX_idea_KAZ_Marina_Devyatova_small
+			}
+			army = {
+				large = GFX_portrait_KAZ_Marina_Devyatova_large
+				#small = GFX_idea_KAZ_Marina_Devyatova_small
+			}
+		}
+		corps_commander={
+			traits={ cautious hard leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+}

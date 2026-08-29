@@ -4,3 +4,8 @@ SOV = {
 ITA = {
 	recruit_character = ITA_Abou_Clement
 }
+KAZ= {
+	recruit_character = KAZ_Marina_Devyatova
+}SOV = {
+	recruit_character = SOV_Viktor_Reznov
+}

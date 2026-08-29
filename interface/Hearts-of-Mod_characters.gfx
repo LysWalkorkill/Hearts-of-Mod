@@ -12,4 +12,14 @@ spriteTypes = {
 		name = "GFX_portrait_ITA_Abou_Clement_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/ITA/Portrait_Italy_Abou_Clément.dds"
 	}
-}
+
+SpriteType = {
+		name = "GFX_portrait_KAZ_Marina_Devyatova_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/Marina.dds"
+	}
+}SpriteType = {
+		name = "GFX_portrait_SOV_Reznov_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/Reznov.dds"
+	}
+	
+    
