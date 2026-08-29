@@ -1,0 +1,138 @@
+political_actions = {
+	MEX_explorer_temple_maya = {
+		icon = GFX_decision_generic_army_support
+		allowed = {
+			original_tag = MEX
+		}
+
+		visible = {
+			NOT = {
+				has_country_flag = MEX_explorer_temple_maya
+			}
+		}
+
+		fixed_random_seed = no
+
+		cost = 0
+
+		custom_cost_text = decision_cost_ArmXP_50
+
+		custom_cost_trigger = {
+			check_variable = {
+				var = army_experience
+				value = 50
+				compare = greater_than_or_equals
+			}
+		}
+
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				army_experience = -50
+			}
+
+			# EFFECT
+			add_political_power = 75
+			
+			hidden_effect = {
+				set_country_flag = MEX_explorer_temple_maya
+			}
+			country_event = {
+				id = Hearts-of-Mod_MEX_exploration.1
+				days = 15
+			}
+		}
+	}
+
+	MEX_explorer_temple_azteque = {
+		icon = GFX_decision_generic_army_support
+		allowed = {
+			original_tag = MEX
+		}
+
+		visible = {
+			has_country_flag = MEX_explorer_temple_maya
+			NOT = {
+				has_country_flag = MEX_explorer_temple_azteque
+			}
+		}
+
+		fixed_random_seed = no
+
+		cost = 0
+
+		custom_cost_text = decision_cost_AirXP_50
+
+		custom_cost_trigger = {
+			check_variable = {
+				var = air_experience
+				value = 50
+				compare = greater_than_or_equals
+			}
+		}
+
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				air_experience = -50
+			}
+
+			# EFFECT
+			add_political_power = 75
+			
+			hidden_effect = {
+				set_country_flag = MEX_explorer_temple_azteque
+			}
+			country_event = {
+				id = Hearts-of-Mod_MEX_exploration.1
+				days = 15
+			}
+		}
+	}
+
+	MEX_explorer_temple_inca = {
+		icon = GFX_decision_generic_army_support
+		allowed = {
+			original_tag = MEX
+		}
+
+		visible = {
+			has_country_flag = MEX_explorer_temple_azteque
+			NOT = {
+				has_country_flag = MEX_explorer_temple_inca
+			}
+		}
+
+		fixed_random_seed = no
+
+		cost = 0
+
+		custom_cost_text = decision_cost_NavXP_50
+
+		custom_cost_trigger = {
+			check_variable = {
+				var = navy_experience
+				value = 50
+				compare = greater_than_or_equals
+			}
+		}
+
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				navy_experience = -50
+			}
+
+			# EFFECT
+			add_political_power = 75
+			
+			hidden_effect = {
+				set_country_flag = MEX_explorer_temple_inca
+			}
+			country_event = {
+				id = Hearts-of-Mod_MEX_exploration.1
+				days = 15
+			}
+		}
+	}
+}

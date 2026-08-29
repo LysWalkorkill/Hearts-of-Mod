@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_mex1"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/mex1.dds"
+	}
+}

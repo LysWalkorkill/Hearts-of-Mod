@@ -1,0 +1,12 @@
+﻿l_english:
+    decision_cost_ArmXP_50: "£army_experience  §Y50§!"
+    decision_cost_ArmXP_50_blocked: "£army_experience  §R50§!"
+    decision_cost_ArmXP_50_tooltip: "It costs £army_experience  §Y50§! to take the decision"
+
+    decision_cost_AirXP_50: "£air_experience  §Y50§!"
+    decision_cost_AirXP_50_blocked: "£air_experience  §R50§!"
+    decision_cost_AirXP_50_tooltip: "It costs £air_experience  §Y50§! to take the decision"
+
+    decision_cost_NavXP_50: "£navy_experience  §Y50§!"
+    decision_cost_NavXP_50_blocked: "£navy_experience  §R50§!"
+    decision_cost_NavXP_50_tooltip: "It costs £navy_experience  §Y50§! to take the decision"
