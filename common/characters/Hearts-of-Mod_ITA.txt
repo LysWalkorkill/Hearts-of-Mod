@@ -1,0 +1,25 @@
+characters = {
+	ITA_Abou_Clement = {
+		name = ITA_Abou_Clement
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_Abou_Clement_large
+				#small = GFX_idea_ITA_Abou_Clement_small
+			}
+			army = {
+				large = GFX_portrait_ITA_Abou_Clement_large
+				#small = GFX_idea_ITA_Abou_Clement_small
+			}
+		}
+		field_marshal={
+			#traits={ old_guard politically_connected media_personality harsh_leader }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+}

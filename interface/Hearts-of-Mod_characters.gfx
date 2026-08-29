@@ -7,4 +7,9 @@ spriteTypes = {
 		name = "GFX_idea_SOV_Mita_small"
 		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_Mita_small.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_portrait_ITA_Abou_Clement_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/Portrait_Italy_Abou_Clément.dds"
+	}
 }

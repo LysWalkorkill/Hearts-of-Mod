@@ -1,3 +1,6 @@
 SOV = {
 	recruit_character = SOV_Mita
 }
+ITA = {
+	recruit_character = ITA_Abou_Clement
+}
