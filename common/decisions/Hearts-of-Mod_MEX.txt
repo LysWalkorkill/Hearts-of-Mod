@@ -277,7 +277,6 @@ MEX_category_military_issues = {
 		remove_effect = {
 			311 = {
 				transfer_state_to = ROOT
-				add_claim_by = ROOT
 			}
 			
 			country_event = {

@@ -23,7 +23,7 @@ political_actions = {
 		}
 		
 		cost = 0
-
+		
 		custom_cost_text = decision_cost_ArmXP_100
 		
 		custom_cost_trigger = {
@@ -85,7 +85,7 @@ political_actions = {
 		}
 		
 		cost = 0
-
+		
 		custom_cost_text = decision_cost_NavXP_150
 		
 		custom_cost_trigger = {
@@ -147,7 +147,7 @@ political_actions = {
 		}
 		
 		cost = 0
-
+		
 		custom_cost_text = decision_cost_AirXP_200
 		
 		custom_cost_trigger = {
@@ -218,19 +218,19 @@ prospect_for_resources = {
 			hidden_effect = {
 				set_country_flag = AST_legaliser_chercheurs_cuivres
 			}
-
+			
 			add_offsite_building = {
 				type = industrial_complex
 				level = 1
 			}
-
+			
 			country_event = {
 				id = Hearts-of-Mod_AST_industrie.1
 				days = 0
 			}
 		}
 	}
-
+	
 	AST_legaliser_chercheurs_or = {
 		icon = GFX_decision_generic_political_discourse
 		allowed = {
@@ -264,16 +264,16 @@ prospect_for_resources = {
 			hidden_effect = {
 				set_country_flag = AST_legaliser_chercheurs_or
 			}
-
+			
 			add_stability = 0.10
-
+			
 			country_event = {
 				id = Hearts-of-Mod_AST_industrie.1
 				days = 0
 			}
 		}
 	}
-
+	
 	AST_legaliser_chercheurs_opales = {
 		icon = GFX_decision_generic_political_discourse
 		allowed = {
@@ -307,29 +307,29 @@ prospect_for_resources = {
 			hidden_effect = {
 				set_country_flag = AST_legaliser_chercheurs_opales
 			}
-
+			
 			add_offsite_building = {
 				type = industrial_complex
 				level = 2
 			}
-
+			
 			country_event = {
 				id = Hearts-of-Mod_AST_industrie.1
 				days = 0
 			}
 		}
 	}
-
+	
 	AST_legaliser_forrage_mecanique = {
 		icon = GFX_decision_generic_political_discourse
 		allowed = {
 			original_tag = AST
 		}
-
+		
 		available = {
 			controls_state = 285
 		}
-
+		
 		highlight_states = {
 			highlight_states_trigger = {
 				state = 285
@@ -355,7 +355,7 @@ prospect_for_resources = {
 		}
 		
 		cost = 300
-
+		
 		cancel_trigger = {
 			NOT = {
 				controls_state = 285
@@ -369,7 +369,7 @@ prospect_for_resources = {
 			hidden_effect = {
 				set_country_flag = AST_legaliser_forrage_mecanique
 			}
-
+			
 			285 = {
 				add_resource = {
 					type = steel
@@ -379,7 +379,7 @@ prospect_for_resources = {
 					type = chromium
 					amount = 15
 				}
-
+				
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
@@ -387,7 +387,7 @@ prospect_for_resources = {
 					instant_build = yes
 				}
 			}
-
+			
 			country_event = {
 				id = Hearts-of-Mod_AST_industrie.1
 				days = 0
@@ -399,9 +399,9 @@ prospect_for_resources = {
 economy_decisions = {
 	AST_securiser_iles_aru = {
 		icon = GFX_decision_eng_trade_unions_demand
-
-		cost = 100
-
+		
+		#cost = 100
+		
 		custom_cost_text = decision_cost_ArmXP_50
 		
 		custom_cost_trigger = {
@@ -411,9 +411,10 @@ economy_decisions = {
 				compare = greater_than_or_equals
 			}
 		}
-
+		
 		available = {
-			311 = {
+			has_political_power > 100
+			738 = {
 				OWNER = {
 					NOT = {
 						has_war_with = ROOT
@@ -423,9 +424,9 @@ economy_decisions = {
 		}
 		visible = {
 			NOT = {
-				owns_state = 311
+				owns_state = 738
 			}
-
+			
 			NOT = {
 				has_country_flag = AST_securiser_iles_aru
 			}
@@ -437,7 +438,7 @@ economy_decisions = {
 		
 		highlight_states = {
 			highlight_states_trigger = {
-				state = 311
+				state = 738
 			}
 		}
 		
@@ -451,17 +452,18 @@ economy_decisions = {
 		
 		complete_effect = {
 			# COST
+			add_political_power = -100
 			hidden_effect = {
 				army_experience = -50
 			}
 			# EFFECT
-			311 = {
+			738 = {
 				add_claim_by = ROOT
 			}
 		}
 		
 		cancel_trigger = {
-			311 = {
+			738 = {
 				OWNER = {
 					has_war_with = ROOT
 				}
@@ -474,7 +476,7 @@ economy_decisions = {
 			hidden_effect = {
 				set_country_flag = AST_securiser_iles_aru
 			}
-			311 = {
+			738 = {
 				transfer_state_to = ROOT
 				add_claim_by = ROOT
 			}
@@ -485,12 +487,12 @@ economy_decisions = {
 			}
 		}
 	}
-
+	
 	AST_securiser_timor_portugais = {
 		icon = GFX_decision_eng_trade_unions_demand
-
-		cost = 150
-
+		
+		#cost = 150
+		
 		custom_cost_text = decision_cost_ArmXP_100
 		
 		custom_cost_trigger = {
@@ -500,8 +502,9 @@ economy_decisions = {
 				compare = greater_than_or_equals
 			}
 		}
-
+		
 		available = {
+			has_political_power > 150
 			721 = {
 				OWNER = {
 					NOT = {
@@ -514,7 +517,7 @@ economy_decisions = {
 			NOT = {
 				owns_state = 721
 			}
-
+			
 			has_country_flag = AST_securiser_iles_aru
 			NOT = {
 				has_country_flag = AST_securiser_timor_portugais
@@ -541,6 +544,7 @@ economy_decisions = {
 		
 		complete_effect = {
 			# COST
+			add_political_power = -150
 			hidden_effect = {
 				army_experience = -100
 			}
@@ -566,7 +570,6 @@ economy_decisions = {
 			}
 			721 = {
 				transfer_state_to = ROOT
-				add_claim_by = ROOT
 			}
 			
 			country_event = {
@@ -575,12 +578,12 @@ economy_decisions = {
 			}
 		}
 	}
-
+	
 	AST_securiser_papouasie = {
 		icon = GFX_decision_eng_trade_unions_demand
-
-		cost = 200
-
+		
+		#cost = 200
+		
 		custom_cost_text = decision_cost_ArmXP_125
 		
 		custom_cost_trigger = {
@@ -590,9 +593,11 @@ economy_decisions = {
 				compare = greater_than_or_equals
 			}
 		}
-
+		
 		available = {
-			311 = {
+			has_political_power > 200
+			any_state = {
+				region = 167
 				OWNER = {
 					NOT = {
 						has_war_with = ROOT
@@ -601,10 +606,13 @@ economy_decisions = {
 			}
 		}
 		visible = {
-			NOT = {
-				owns_state = 311
+			any_state = {
+				region = 167
+				NOT = {
+					is_owned_by = ROOT
+				}
 			}
-
+			
 			has_country_flag = AST_securiser_timor_portugais
 			NOT = {
 				has_country_flag = AST_securiser_papouasie
@@ -617,7 +625,7 @@ economy_decisions = {
 		
 		highlight_states = {
 			highlight_states_trigger = {
-				state = 311
+				region = 167
 			}
 		}
 		
@@ -631,19 +639,31 @@ economy_decisions = {
 		
 		complete_effect = {
 			# COST
+			add_political_power = -200
 			hidden_effect = {
 				army_experience = -100
 			}
 			# EFFECT
-			311 = {
+			every_state = {
+				limit = {
+					region = 167
+				}
 				add_claim_by = ROOT
 			}
 		}
 		
 		cancel_trigger = {
-			311 = {
-				OWNER = {
-					has_war_with = ROOT
+			all_state = {
+				OR = {
+					NOT = {
+						region = 167
+					}
+					AND = {
+						region = 167
+						OWNER = {
+							has_war_with = ROOT
+						}
+					}
 				}
 			}
 		}
@@ -654,9 +674,16 @@ economy_decisions = {
 			hidden_effect = {
 				set_country_flag = AST_securiser_papouasie
 			}
-			311 = {
+			every_state = {
+				limit = {
+					region = 167
+					OWNER = {
+						NOT = {
+							has_war_with = ROOT
+						}
+					}
+				}
 				transfer_state_to = ROOT
-				add_claim_by = ROOT
 			}
 			
 			country_event = {
@@ -665,12 +692,12 @@ economy_decisions = {
 			}
 		}
 	}
-
+	
 	AST_securiser_iles_sonde = {
 		icon = GFX_decision_eng_trade_unions_demand
-
-		cost = 300
-
+		
+		#cost = 300
+		
 		custom_cost_text = decision_cost_ArmXP_200
 		
 		custom_cost_trigger = {
@@ -680,9 +707,11 @@ economy_decisions = {
 				compare = greater_than_or_equals
 			}
 		}
-
+		
 		available = {
-			311 = {
+			has_political_power > 300
+			any_state = {
+				region = 158
 				OWNER = {
 					NOT = {
 						has_war_with = ROOT
@@ -691,10 +720,13 @@ economy_decisions = {
 			}
 		}
 		visible = {
-			NOT = {
-				owns_state = 311
+			any_state = {
+				region = 158
+				NOT = {
+					is_owned_by = ROOT
+				}
 			}
-
+			
 			has_country_flag = AST_securiser_papouasie
 			NOT = {
 				has_country_flag = AST_securiser_iles_sonde
@@ -707,7 +739,7 @@ economy_decisions = {
 		
 		highlight_states = {
 			highlight_states_trigger = {
-				state = 311
+				region = 158
 			}
 		}
 		
@@ -721,19 +753,31 @@ economy_decisions = {
 		
 		complete_effect = {
 			# COST
+			add_political_power = -300
 			hidden_effect = {
 				army_experience = -200
 			}
 			# EFFECT
-			311 = {
+			every_state = {
+				limit = {
+					region = 158
+				}
 				add_claim_by = ROOT
 			}
 		}
 		
 		cancel_trigger = {
-			311 = {
-				OWNER = {
-					has_war_with = ROOT
+			all_state = {
+				OR = {
+					NOT = {
+						region = 158
+					}
+					AND = {
+						region = 158
+						OWNER = {
+							has_war_with = ROOT
+						}
+					}
 				}
 			}
 		}
@@ -744,9 +788,16 @@ economy_decisions = {
 			hidden_effect = {
 				set_country_flag = AST_securiser_iles_sonde
 			}
-			311 = {
+			every_state = {
+				limit = {
+					region = 158
+					OWNER = {
+						NOT = {
+							has_war_with = ROOT
+						}
+					}
+				}
 				transfer_state_to = ROOT
-				add_claim_by = ROOT
 			}
 			
 			country_event = {

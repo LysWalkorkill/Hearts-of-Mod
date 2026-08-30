@@ -74,6 +74,7 @@ country_event = {
 }
 
 # Industrie
+add_namespace = Hearts-of-Mod_AST_industrie
 country_event = {
     id = Hearts-of-Mod_AST_industrie.1
     title = Hearts-of-Mod_AST_industrie.1.title
@@ -92,6 +93,7 @@ country_event = {
 }
 
 # Annexion
+add_namespace = Hearts-of-Mod_AST_annexion
 country_event = {
     id = Hearts-of-Mod_AST_annexion.1
     title = Hearts-of-Mod_AST_annexion.1.title
