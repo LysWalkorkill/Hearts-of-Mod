@@ -23,12 +23,13 @@ spriteTypes = {
 		texturefile = "gfx/Hearts-of-Mod/characters/SOV/Reznov.dds"
 	}
 	
-	}SpriteType = {
+	SpriteType = {
 		name = "GFX_portrait_RAJ_Shruti_Haasan_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/RAJ1.dds"
-	
+		
 	}
 	SpriteType = {
 		name = "GFX_portrait_RAJ_Grand_Vizir_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/RAJ2.dds"
 	}
+}

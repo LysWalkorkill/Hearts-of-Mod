@@ -13,7 +13,7 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={ desert fox }
+			traits={ desert_fox }
 			skill=1
 			attack_skill=1
 			defense_skill=1
