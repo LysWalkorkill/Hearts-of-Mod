@@ -9,5 +9,8 @@ KAZ = {
 	recruit_character = KAZ_Marina_Devyatova
 }
 RAJ = {
-	
+	recruit_character = RAJ_Shruti_Haasan
+}
+RAJ = {
+	recruit_character = RAJ_Grand_Vizir
 }
