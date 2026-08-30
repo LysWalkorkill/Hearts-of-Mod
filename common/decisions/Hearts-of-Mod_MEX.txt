@@ -244,6 +244,12 @@ MEX_category_military_issues = {
 		}
 		fire_only_once = yes
 		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 311
+			}
+		}
+		
 		ai_will_do = {
 			base = 10
 			modifier = {
@@ -251,13 +257,13 @@ MEX_category_military_issues = {
 				is_historical_focus_on = yes
 			}
 		}
-
+		
 		complete_effect = {
 			311 = {
 				add_claim_by = ROOT
 			}
 		}
-
+		
 		cancel_trigger = {
 			311 = {
 				OWNER = {
@@ -297,6 +303,12 @@ MEX_category_military_issues = {
 			original_tag = MEX
 		}
 		fire_only_once = yes
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_core_of = GUA
+			}
+		}
 		
 		ai_will_do = {
 			base = 10
@@ -305,7 +317,7 @@ MEX_category_military_issues = {
 				is_historical_focus_on = yes
 			}
 		}
-
+		
 		complete_effect = {
 			GUA = {
 				every_core_state = {
@@ -313,7 +325,7 @@ MEX_category_military_issues = {
 				}
 			}
 		}
-
+		
 		cancel_trigger = {
 			has_war_with = GUA
 		}
@@ -346,6 +358,12 @@ MEX_category_military_issues = {
 			original_tag = MEX
 		}
 		fire_only_once = yes
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_core_of = HON
+			}
+		}
 		
 		ai_will_do = {
 			base = 10
@@ -354,7 +372,7 @@ MEX_category_military_issues = {
 				is_historical_focus_on = yes
 			}
 		}
-
+		
 		complete_effect = {
 			HON = {
 				every_core_state = {
@@ -362,7 +380,7 @@ MEX_category_military_issues = {
 				}
 			}
 		}
-
+		
 		cancel_trigger = {
 			has_war_with = HON
 		}
@@ -395,6 +413,12 @@ MEX_category_military_issues = {
 			original_tag = MEX
 		}
 		fire_only_once = yes
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_core_of = ELS
+			}
+		}
 		
 		ai_will_do = {
 			base = 10
@@ -403,7 +427,7 @@ MEX_category_military_issues = {
 				is_historical_focus_on = yes
 			}
 		}
-
+		
 		complete_effect = {
 			ELS = {
 				every_core_state = {
@@ -411,7 +435,7 @@ MEX_category_military_issues = {
 				}
 			}
 		}
-
+		
 		cancel_trigger = {
 			has_war_with = ELS
 		}
@@ -444,6 +468,12 @@ MEX_category_military_issues = {
 			original_tag = MEX
 		}
 		fire_only_once = yes
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_core_of = NIC
+			}
+		}
 		
 		ai_will_do = {
 			base = 10
@@ -452,7 +482,7 @@ MEX_category_military_issues = {
 				is_historical_focus_on = yes
 			}
 		}
-
+		
 		complete_effect = {
 			NIC = {
 				every_core_state = {
@@ -460,7 +490,7 @@ MEX_category_military_issues = {
 				}
 			}
 		}
-
+		
 		cancel_trigger = {
 			has_war_with = NIC
 		}

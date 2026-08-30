@@ -47,6 +47,11 @@ hof_sov_category = {
 			country_exists = EST
 		}
 		fire_only_once = yes
+		highlight_states = {
+			highlight_states_trigger = {
+				is_core_of = EST
+			}
+		}
 		complete_effect = {
 			EST = {
 				every_core_state = {
@@ -79,6 +84,11 @@ hof_sov_category = {
 			country_exists = LIT
 		}
 		fire_only_once = yes
+		highlight_states = {
+			highlight_states_trigger = {
+				is_core_of = LIT
+			}
+		}
 		complete_effect = {
 			LIT = {
 				every_core_state = {
@@ -111,6 +121,11 @@ hof_sov_category = {
 			country_exists = LAT
 		}
 		fire_only_once = yes
+		highlight_states = {
+			highlight_states_trigger = {
+				is_core_of = LAT
+			}
+		}
 		complete_effect = {
 			LAT = {
 				every_core_state = {
@@ -161,6 +176,15 @@ hof_sov_category = {
 			}
 		}
 		fire_only_once = yes
+		highlight_states = {
+			highlight_states_trigger = {
+				OR = {
+					state = 146
+					state = 147
+					state = 722
+				}
+			}
+		}
 		complete_effect = {
 			every_state = {
 				limit = {
