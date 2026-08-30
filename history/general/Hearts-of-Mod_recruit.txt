@@ -7,6 +7,7 @@ ITA = {
 }
 KAZ = {
 	recruit_character = KAZ_Marina_Devyatova
+	recruit_character = KAZ_Noursoultan_Nazarbaïev
 }
 RAJ = {
 	recruit_character = RAJ_Shruti_Haasan
@@ -14,4 +15,5 @@ RAJ = {
 	recruit_character = RAJ_Harman_Baweja	
 	recruit_character = RAJ_Shah_Rukh_Khan
 	recruit_character = RAJ_Naema_Sindoula
+	recruit_character = RAJ_Prince_de_Bombay
 }

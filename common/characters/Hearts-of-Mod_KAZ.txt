@@ -13,7 +13,7 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={ trait_cautious harsh_leader }
+			traits={ harsh_leader }
 			skill=1
 			attack_skill=1
 			defense_skill=1
@@ -22,4 +22,26 @@ characters = {
 			legacy_id=0
 		}
 	}
-}
+}   KAZ_Noursoultan_Nazarbaïev = {
+		name = KAZ_Noursoultan_Nazarbaïev
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KAZ_Noursoultan_Nazarbaïev_large
+				#small = GFX_idea_KAZ_Noursoultan_Nazarbaïev_small
+			}
+			army = {
+				large = GFX_portrait_KAZ_Noursoultan_Nazarbaïev_large
+				#small = GFX_idea_KAZ_Noursoultan_Nazarbaïev_small
+			}
+		}
+		corps_commander={
+			traits={ jaeger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	} 

@@ -44,4 +44,14 @@ spriteTypes = {
 		name = "GFX_portrait_RAJ_Naema_Sindoula_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/RAJ5.dds"
 	}
+}   spriteTypes = {
+
+    SpriteType = {
+        name = "GFX_portrait_RAJ_Prince_de_Bombay_large"
+        texturefile = "gfx/Hearts-of-Mod/characters/RAJ/Prince.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_KAZ_Noursoultan_Nazarbaïev_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/KAZ1.dds"
+	}
 }
