@@ -19,7 +19,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_portrait_SOV_Reznov_large"
+		name = "GFX_portrait_SOV_Viktor_Reznov_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/SOV/Reznov.dds"
 	}
 	
