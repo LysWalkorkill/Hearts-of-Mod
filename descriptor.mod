@@ -10,6 +10,6 @@ tags={
 	"Gameplay"
 	"Events"
 }
-name="Hearts of Mod - PreAlpha v0.4"
+name="Hearts of Mod - PreAlpha v0.5"
 supported_version="1.19.*"
 remote_file_id="3679790936"
