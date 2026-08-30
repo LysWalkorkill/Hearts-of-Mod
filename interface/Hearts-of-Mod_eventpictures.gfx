@@ -3,14 +3,39 @@ spriteTypes = {
 		name = "GFX_Hearts-of-Mod_report_event_mex1"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/mex1.dds"
 	}
-
+	
 	SpriteType = {
 		name = "GFX_Hearts-of-Mod_report_event_mex2"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/mex2.dds"
 	}
-
+	
 	SpriteType = {
 		name = "GFX_Hearts-of-Mod_report_event_mex3"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/mex3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_can1"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/can1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_can2"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/can2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_can3"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/can3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_can4"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/can4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_can5"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/can5.dds"
 	}
 }

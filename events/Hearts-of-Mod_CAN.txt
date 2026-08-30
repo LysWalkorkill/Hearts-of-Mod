@@ -1,0 +1,42 @@
+# Grizzly Géant Québec
+add_namespace = Hearts-of-Mod_CAN_grizzly_geant_quebec
+## Succès
+country_event = {
+    id = Hearts-of-Mod_CAN_grizzly_geant_quebec.1
+    title = Hearts-of-Mod_CAN_grizzly_geant_quebec.1.title
+    desc = Hearts-of-Mod_CAN_grizzly_geant_quebec.1.desc
+    picture = GFX_Hearts-of-Mod_report_event_can_1
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = CAN_chasser_grizzly_geant_quebec_success
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_CAN_grizzly_geant_quebec.1.a
+        add_stability = 0.10
+        army_experience = 50
+        add_political_power = 150
+    }
+}
+
+## Échec
+country_event = {
+    id = Hearts-of-Mod_CAN_grizzly_geant_quebec.2
+    title = Hearts-of-Mod_CAN_grizzly_geant_quebec.2.title
+    desc = Hearts-of-Mod_CAN_grizzly_geant_quebec.2.desc
+    picture = GFX_Hearts-of-Mod_report_event_can_2
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_CAN_grizzly_geant_quebec.2.a
+        add_stability = -0.02
+    }
+}
