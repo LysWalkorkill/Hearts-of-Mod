@@ -74,6 +74,9 @@ ideas = {
         MIN_AI_disabled = {
             picture = chi_forced_conscription
             removal_cost = -1
+			cancel = {
+				has_war = yes
+			}
             modifier = {
                 conscription = -1
                 training_time_factor = 1
