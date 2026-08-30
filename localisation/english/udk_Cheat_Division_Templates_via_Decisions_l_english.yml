@@ -35,18 +35,10 @@ udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_toggle_off: "§RHide§!
 udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_toggle_off_desc: "§RHide§! All §YCoast Defense Template§! Decisions"
 #Coast Defense Explanation:
 udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_title: "§YCoast Defense Templates:§! Hover on this decision for explanation of Coast Defense Templates."
-udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_title_desc: "§Y1-§! §W10W Coast Defense Cheap (No Support):§!\nCheapest (IC) Template for Coast Defense. Doesn't have any Support. Usually not worth using this, as it will melt against any decent enemy naval invasion (Including AI).\n\n§Y2-§! §W10W Coast Defense Cost Effective v1:§!\nMost Cost Effective Coast Defense Division. Has ART and Engineer Support Companies. Will resist long enough for reinforcements to arrive. Still weak against Enemy CAS and Armor.\n\n§Y3-§! §W10W Coast Defense Cost_Effective v2 (Rocket):§!\nAn Upgrade of Cost Effective v1, added Rocket Support Artillery. Division becomes even more powerful against non-CAS/Armor.\n\n§Y4-§! §W10W Coast Defense Expensive v1 (AA + AT):§!\nBest Coast Defense Division, has AA, AT, ART, ENG Support Companies. Will resist long enough for reinforcements to arrive even in Multiplayer. Unless you've enough MIL's, use these on only Ports.\n\n§Y5-§! §W10W Coast Defense Expensive v2 (AA + AT + Rocket):§!\nAn Upgrade of Expensive v1, added Rocket Support Artillery. Division becomes even more powerful. Unless you've enough MIL's, use these on only Ports."
+udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_title_desc: "§Y1-§! §W Coast Defense Cheap §!\nJust Use Some Normal 18W Infantry Division\n\n§Y2-§! §W Coast Defense Cost Effective:§!\nJust Use Some heavy 36W Infantry Division Why Addapted Support Company\n\n§Y3-§! §W 36W Meca Wall Coast Defense §!\n Meca Wall are the best way to defend your coastline, but it's extremly expensive.\n"
 #Coast Defense:
-udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_Cheap: "10W Coast Defense Cheap (No Support)"
-udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_Cheap_desc: "Cheapest (IC) Template for Coast Defense. Doesn't have any Support. Usually not worth using this, as it will melt against any decent enemy naval invasion (Including AI)."
-udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_Cost_Effective_v1: "10W Coast Defense Cost Effective v1"
-udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_Cost_Effective_v1_desc: "Most Cost Effective Coast Defense Division. Has ART and Engineer Support Companies. Will resist long enough for reinforcements to arrive. Still weak against Enemy CAS and Armor."
-udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_Cost_Effective_v2: "10W Coast Defense Cost Effective v2 (Rocket)"
-udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_Cost_Effective_v2_desc: "An Upgrade of Cost Effective v1, added Rocket Support Artillery. Division becomes even more powerful against non-CAS/Armor."
-udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_Expensive_v1: "10W Coast Defense Expensive v1 (AA + AT)"
-udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_Expensive_v1_desc: "Best Coast Defense Division, has AA, AT, ART, ENG Support Companies. Will resist long enough for reinforcements to arrive even in Multiplayer. Unless you've enough MIL's, use these on only Ports."
-udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_Expensive_v2: "10W Coast Defense Expensive v2 (AA + AT + Rocket)"
-udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_Expensive_v2_desc: "An Upgrade of Expensive v1, added Rocket Support Artillery. Division becomes even more powerful. Unless you've enough MIL's, use these on only Ports."
+udk_Cheat_Division_Templates_via_Decisions_Meca_Coast_Defense: "§836W Meca Wall Coast Defense§!"
+udk_Cheat_Division_Templates_via_Decisions_Meca_Coast_Defense_desc: "36W Meca Coast Defense. Mainly Axis purpose."
 
 #Infantry Toggle On/Off:
 udk_Cheat_Division_Templates_via_Decisions_Infantry_toggle_on: "§GShow§! All §YInfantry Template§! Decisions"
@@ -55,24 +47,14 @@ udk_Cheat_Division_Templates_via_Decisions_Infantry_toggle_off: "§RHide§! All 
 udk_Cheat_Division_Templates_via_Decisions_Infantry_toggle_off_desc: "§RHide§! All §YInfantry Template§! Decisions"
 #Infantry Explanation:
 udk_Cheat_Division_Templates_via_Decisions_Infantry_title: "§YInfantry Templates:§! Hover on this decision for explanation of Infantry Templates."
-udk_Cheat_Division_Templates_via_Decisions_Infantry_title_desc: "All Infantry Templates here consist of 25% Line Artillery for efficiency.\n\n§Y1-§! §W27W Infantry Cheap (Only ENG + S.ART):§!\nCheapest (IC) Infantry Template. Only has ART and ENG Support Companies. Weak against Enemy CAS and Armor. Usually not worth using this, as it will melt against any decent enemy attack (Including AI's), Only useful if you have insufficient MIL's and need to cover/hold Frontline.\n\n§Y2-§! §W27W Infantry Cost Effective v1.a (No Logistics):§!\nMost Cost Effective Infantry Division. Has ENG, ART, AA Support Companies. Has enough PEN for L.Tanks and some of AI Med.Tanks. Weak against Enemy Armor (Med or Heav tanks).\n\n§Y3-§! §W27W Infantry Cost Effective v1.b (Logistics):§!\nAn Logistic addon of Cost Effective v1.a, same in every other way.\n\n§Y4-§! §W27W Infantry Cost Effective v2.a (Rocket, No Logistics):§!\nAn Upgrade of Cost Effective v1.a, added Rocket Support Artillery. Division becomes even more powerful against non-CAS/Armor.\n\n§Y5-§! §W27W Infantry Cost Effective v2.b (Rocket + Logistics):§!\nAn Logistic addon of Cost Effective v2.a, same in every other way.\n\n§Y6-§! §W27W Infantry Expensive v1.a (AT, No Logistics):§!\nBest Infantry Division, has AA, AT, ART, ENG Support Companies. Doesn't have Logistics. Use these if enemy armor is really high against AA PEN.\n\n§Y7-§! §W27W Infantry Expensive v1.b (AT + Logistics):§!\nAn Logistic addon of Expensive v1.a, same in every other way.\n\n§Y8-§! §W27W Infantry Expensive v2 (AT+Rocket, No Logistics):§!\nAn Upgrade of Expensive v1.a, added Rocket Support Artillery. Division becomes even more powerful. This Template doesn't have an Logistic version, all Support slots are full, use Cost Effective 2.b, only replaces S.AT with Logistics."
+udk_Cheat_Division_Templates_via_Decisions_Infantry_title_desc: "WORK IN PROGRESS"
 #Infantry:
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Cheap: "27W Infantry Cheap (Only ENG + S.ART)"
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Cheap_desc: "Cheapest (IC) Infantry Template. Only has ART and ENG Support Companies. Weak against Enemy CAS and Armor. Usually not worth using this, as it will melt against any decent enemy attack (Including AI's), Only useful if you have insufficient MIL's and need to cover/hold Frontline."
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_v1_a: "27W Infantry Cost Effective v1.a (No Logistics)"
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_v1_a_desc: "Most Cost Effective Infantry Division. Has ENG, ART, AA Support Companies. Has enough PEN for L.Tanks and some of AI Med.Tanks. Weak against Enemy Armor (Med or Heav tanks)."
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_v1_b: "27W Infantry Cost Effective v1.b (Logistics)"
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_v1_b_desc: "An Logistic addon of Cost Effective v1.a, same in every other way."
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_v2_a: "27W Infantry Cost Effective v2.a (Rocket, No Logistics)"
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_v2_a_desc: "An Upgrade of Cost Effective v1.a, added Rocket Support Artillery. Division becomes even more powerful against non-CAS/Armor."
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_v2_b: "27W Infantry Cost Effective v2.b (Rocket + Logistics)"
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_v2_b_desc: "An Logistic addon of Cost Effective v2.a, same in every other way."
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Expensive_v1_a: "27W Infantry Expensive v1.a (AT, No Logistics)"
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Expensive_v1_a_desc: "Best Infantry Division, has AA, AT, ART, ENG Support Companies. Doesn't have Logistics. Use these if enemy armor is really high against AA PEN."
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Expensive_v1_b: "27W Infantry Expensive v1.b (AT + Logistics)"
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Expensive_v1_b_desc: "An Logistic addon of Expensive v1.a, same in every other way."
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Expensive_v2: "27W Infantry Expensive v2 (AT+Rocket, No Logistics)"
-udk_Cheat_Division_Templates_via_Decisions_Infantry_Expensive_v2_desc: "An Upgrade of Expensive v1.a, added Rocket Support Artillery. Division becomes even more powerful. This Template doesn't have an Logistic version, all Support slots are full, use Cost Effective 2.b, only replaces S.AT with Logistics."
+udk_Cheat_Division_Templates_via_Decisions_Infantry_Cheap: "§118W Infantry§!"
+udk_Cheat_Division_Templates_via_Decisions_Infantry_Cheap_desc: "18W Infantry Template. Default infantry division, Must adapt support companies to your needs."
+udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective: "§436W Infantry (Cost Effective)§!"
+udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_desc: "36W InfantryCost Effective. Great for shitty terrain and low supply areas. Must adapt support companies to your needs."
+udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_Anty_TanK: "§836W Infantry - Anti Tank§!"
+udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_Anty_TanK_desc: "36W Infantry - Anti Tank. Great against Tank in every terrain exept plain."
 
 #Amphibious Assault Toggle On/Off:
 udk_Cheat_Division_Templates_via_Decisions_Marines_toggle_on: "§GShow§! All §YAmphibious Assault Template§! Decisions"
