@@ -184,3 +184,575 @@ political_actions = {
 		}
 	}
 }
+
+prospect_for_resources = {
+	AST_legaliser_chercheurs_cuivres = {
+		icon = GFX_decision_generic_political_discourse
+		allowed = {
+			original_tag = AST
+		}
+		
+		visible = {
+			NOT = {
+				has_country_flag = AST_legaliser_chercheurs_cuivres
+			}
+		}
+		
+		fire_only_once = no
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = yes
+			}
+		}
+		
+		cost = 50
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			hidden_effect = {
+				set_country_flag = AST_legaliser_chercheurs_cuivres
+			}
+
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+
+			country_event = {
+				id = Hearts-of-Mod_AST_industrie.1
+				days = 0
+			}
+		}
+	}
+
+	AST_legaliser_chercheurs_or = {
+		icon = GFX_decision_generic_political_discourse
+		allowed = {
+			original_tag = AST
+		}
+		
+		visible = {
+			has_country_flag = AST_legaliser_chercheurs_cuivres
+			NOT = {
+				has_country_flag = AST_legaliser_chercheurs_or
+			}
+		}
+		
+		fire_only_once = no
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = yes
+			}
+		}
+		
+		cost = 100
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			hidden_effect = {
+				set_country_flag = AST_legaliser_chercheurs_or
+			}
+
+			add_stability = 0.10
+
+			country_event = {
+				id = Hearts-of-Mod_AST_industrie.1
+				days = 0
+			}
+		}
+	}
+
+	AST_legaliser_chercheurs_opales = {
+		icon = GFX_decision_generic_political_discourse
+		allowed = {
+			original_tag = AST
+		}
+		
+		visible = {
+			has_country_flag = AST_legaliser_chercheurs_or
+			NOT = {
+				has_country_flag = AST_legaliser_chercheurs_opales
+			}
+		}
+		
+		fire_only_once = no
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = yes
+			}
+		}
+		
+		cost = 100
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			hidden_effect = {
+				set_country_flag = AST_legaliser_chercheurs_opales
+			}
+
+			add_offsite_building = {
+				type = industrial_complex
+				level = 2
+			}
+
+			country_event = {
+				id = Hearts-of-Mod_AST_industrie.1
+				days = 0
+			}
+		}
+	}
+
+	AST_legaliser_forrage_mecanique = {
+		icon = GFX_decision_generic_political_discourse
+		allowed = {
+			original_tag = AST
+		}
+
+		available = {
+			controls_state = 285
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 285
+			}
+		}
+		
+		visible = {
+			has_country_flag = AST_legaliser_chercheurs_opales
+			NOT = {
+				has_country_flag = AST_legaliser_forrage_mecanique
+			}
+		}
+		
+		fire_only_once = no
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = yes
+			}
+		}
+		
+		cost = 300
+
+		cancel_trigger = {
+			NOT = {
+				controls_state = 285
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			hidden_effect = {
+				set_country_flag = AST_legaliser_forrage_mecanique
+			}
+
+			285 = {
+				add_resource = {
+					type = steel
+					amount = 15
+				}
+				add_resource = {
+					type = chromium
+					amount = 15
+				}
+
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+
+			country_event = {
+				id = Hearts-of-Mod_AST_industrie.1
+				days = 0
+			}
+		}
+	}
+}
+
+economy_decisions = {
+	AST_securiser_iles_aru = {
+		icon = GFX_decision_eng_trade_unions_demand
+
+		cost = 100
+
+		custom_cost_text = decision_cost_ArmXP_50
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = army_experience
+				value = 50
+				compare = greater_than_or_equals
+			}
+		}
+
+		available = {
+			311 = {
+				OWNER = {
+					NOT = {
+						has_war_with = ROOT
+					}
+				}
+			}
+		}
+		visible = {
+			NOT = {
+				owns_state = 311
+			}
+
+			NOT = {
+				has_country_flag = AST_securiser_iles_aru
+			}
+		}
+		allowed = {
+			original_tag = AST
+		}
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 311
+			}
+		}
+		
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = yes
+			}
+		}
+		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				army_experience = -50
+			}
+			# EFFECT
+			311 = {
+				add_claim_by = ROOT
+			}
+		}
+		
+		cancel_trigger = {
+			311 = {
+				OWNER = {
+					has_war_with = ROOT
+				}
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			hidden_effect = {
+				set_country_flag = AST_securiser_iles_aru
+			}
+			311 = {
+				transfer_state_to = ROOT
+				add_claim_by = ROOT
+			}
+			
+			country_event = {
+				id = Hearts-of-Mod_AST_annexion.1
+				days = 0
+			}
+		}
+	}
+
+	AST_securiser_timor_portugais = {
+		icon = GFX_decision_eng_trade_unions_demand
+
+		cost = 150
+
+		custom_cost_text = decision_cost_ArmXP_100
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = army_experience
+				value = 100
+				compare = greater_than_or_equals
+			}
+		}
+
+		available = {
+			721 = {
+				OWNER = {
+					NOT = {
+						has_war_with = ROOT
+					}
+				}
+			}
+		}
+		visible = {
+			NOT = {
+				owns_state = 721
+			}
+
+			has_country_flag = AST_securiser_iles_aru
+			NOT = {
+				has_country_flag = AST_securiser_timor_portugais
+			}
+		}
+		allowed = {
+			original_tag = AST
+		}
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 721
+			}
+		}
+		
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = yes
+			}
+		}
+		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				army_experience = -100
+			}
+			# EFFECT
+			721 = {
+				add_claim_by = ROOT
+			}
+		}
+		
+		cancel_trigger = {
+			721 = {
+				OWNER = {
+					has_war_with = ROOT
+				}
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			hidden_effect = {
+				set_country_flag = AST_securiser_timor_portugais
+			}
+			721 = {
+				transfer_state_to = ROOT
+				add_claim_by = ROOT
+			}
+			
+			country_event = {
+				id = Hearts-of-Mod_AST_annexion.1
+				days = 0
+			}
+		}
+	}
+
+	AST_securiser_papouasie = {
+		icon = GFX_decision_eng_trade_unions_demand
+
+		cost = 200
+
+		custom_cost_text = decision_cost_ArmXP_125
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = army_experience
+				value = 125
+				compare = greater_than_or_equals
+			}
+		}
+
+		available = {
+			311 = {
+				OWNER = {
+					NOT = {
+						has_war_with = ROOT
+					}
+				}
+			}
+		}
+		visible = {
+			NOT = {
+				owns_state = 311
+			}
+
+			has_country_flag = AST_securiser_timor_portugais
+			NOT = {
+				has_country_flag = AST_securiser_papouasie
+			}
+		}
+		allowed = {
+			original_tag = AST
+		}
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 311
+			}
+		}
+		
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = yes
+			}
+		}
+		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				army_experience = -100
+			}
+			# EFFECT
+			311 = {
+				add_claim_by = ROOT
+			}
+		}
+		
+		cancel_trigger = {
+			311 = {
+				OWNER = {
+					has_war_with = ROOT
+				}
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			hidden_effect = {
+				set_country_flag = AST_securiser_papouasie
+			}
+			311 = {
+				transfer_state_to = ROOT
+				add_claim_by = ROOT
+			}
+			
+			country_event = {
+				id = Hearts-of-Mod_AST_annexion.1
+				days = 0
+			}
+		}
+	}
+
+	AST_securiser_iles_sonde = {
+		icon = GFX_decision_eng_trade_unions_demand
+
+		cost = 300
+
+		custom_cost_text = decision_cost_ArmXP_200
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = army_experience
+				value = 200
+				compare = greater_than_or_equals
+			}
+		}
+
+		available = {
+			311 = {
+				OWNER = {
+					NOT = {
+						has_war_with = ROOT
+					}
+				}
+			}
+		}
+		visible = {
+			NOT = {
+				owns_state = 311
+			}
+
+			has_country_flag = AST_securiser_papouasie
+			NOT = {
+				has_country_flag = AST_securiser_iles_sonde
+			}
+		}
+		allowed = {
+			original_tag = AST
+		}
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 311
+			}
+		}
+		
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = yes
+			}
+		}
+		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				army_experience = -200
+			}
+			# EFFECT
+			311 = {
+				add_claim_by = ROOT
+			}
+		}
+		
+		cancel_trigger = {
+			311 = {
+				OWNER = {
+					has_war_with = ROOT
+				}
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			hidden_effect = {
+				set_country_flag = AST_securiser_iles_sonde
+			}
+			311 = {
+				transfer_state_to = ROOT
+				add_claim_by = ROOT
+			}
+			
+			country_event = {
+				id = Hearts-of-Mod_AST_annexion.1
+				days = 0
+			}
+		}
+	}
+}

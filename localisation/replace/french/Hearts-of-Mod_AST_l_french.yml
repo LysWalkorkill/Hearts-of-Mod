@@ -19,3 +19,23 @@
     Hearts-of-Mod_AST_etude_animaux.3.title:0 "Étude des rapaces agressifs"
     Hearts-of-Mod_AST_etude_animaux.3.desc:0 "Un événement pour le moins extraordinaire agite actuellement la communauté scientifique australienne. Lors d’une expédition en région isolée, un chercheur aurait réussi — ou plutôt osé — s’agripper aux serres d’un immense rapace, se retrouvant brièvement soulevé du sol pendant quelques secondes.\n\n« C’était aussi impressionnant qu’inquiétant », aurait confié un membre de l’équipe. « On a vu clairement la puissance de l’animal. »"
     Hearts-of-Mod_AST_etude_animaux.3.a:0 "Envole toi Stanley ! Sois libre !"
+    
+    # Industrie
+    AST_legaliser_chercheurs_cuivres:0 "Légaliser les chercheurs de cuivres"
+    AST_legaliser_chercheurs_or:0 "Légaliser les chercheurs d'or"
+    AST_legaliser_chercheurs_opales:0 "Légaliser les chercheurs d'opales"
+    AST_legaliser_forrage_mecanique:0 "Légaliser le forrage mécanique"
+
+    Hearts-of-Mod_AST_industrie.1.title:0 "Nouvelle législation"
+    Hearts-of-Mod_AST_industrie.1.desc:0 "Le gouvernement australien à encore récemment annoncé une série de nouvelles mesures visant à accorder davantage de droits et de libertés aux chercheurs de pierres précieuses, un secteur en pleine expansion dans plusieurs régions du pays.\n\nSur le terrain, plusieurs prospecteurs accueillent la nouvelle avec enthousiasme. « Ça fait longtemps qu’on attend ça », confie l’un d’eux. « Y’a du potentiel partout, faut juste nous laisser travailler. »\n\nLes responsables politiques, de leur côté, insistent sur le fait que ces changements seront encadrés et progressifs. Ils affirment vouloir trouver un équilibre entre développement économique et gestion des ressources naturelles, tout en soutenant les travailleurs du secteur."
+    Hearts-of-Mod_AST_industrie.1.a:0 "La Ruée vers l'or est Australienne !"
+    
+    # Annexion
+    AST_securiser_iles_aru:0 "Sécuriser les îles Aru"
+    AST_securiser_timor_portugais:0 "Sécuriser le Timor Portugais"
+    AST_securiser_papouasie:0 "Prendre le contrôle da la Papouasie"
+    AST_securiser_iles_sonde:0 "Prendre le contrôle des îles de la Sonde"
+
+    Hearts-of-Mod_AST_annexion.1.title:0 "Sécurisation des nouvelles terres"
+    Hearts-of-Mod_AST_annexion.1.desc:0 "Dans un contexte de tensions croissantes dans la région du Pacifique, le gouvernement australien a ordonné la mobilisation de ses forces armées afin de prendre le contrôle d’une île jugée stratégique pour la sécurité maritime.\n\nLes premières informations indiquent que l’opération s’est déroulée sans affrontement majeur. La présence militaire a été établie rapidement, et des mesures sont déjà en place pour organiser la gestion du territoire sous contrôle australien.\n\nDes observateurs internationaux suivent de près cette manœuvre, qui pourrait avoir des répercussions sur l’équilibre géopolitique dans la région."
+    Hearts-of-Mod_AST_annexion.1.a:0 "Ils nous remercierons quand le danger sera présent !"

@@ -72,3 +72,39 @@ country_event = {
         }
     }
 }
+
+# Industrie
+country_event = {
+    id = Hearts-of-Mod_AST_industrie.1
+    title = Hearts-of-Mod_AST_industrie.1.title
+    desc = Hearts-of-Mod_AST_industrie.1.desc
+    picture = GFX_Hearts-of-Mod_report_event_ast_4
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_AST_industrie.1.a
+    }
+}
+
+# Annexion
+country_event = {
+    id = Hearts-of-Mod_AST_annexion.1
+    title = Hearts-of-Mod_AST_annexion.1.title
+    desc = Hearts-of-Mod_AST_annexion.1.desc
+    picture = GFX_Hearts-of-Mod_report_event_ast_5
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_AST_annexion.1.a
+    }
+}
