@@ -37,7 +37,7 @@ hof_sov_category = {
 			original_tag = SOV
 		}
         activation = {
-			country_exists = SOV
+			country_exists = EST
 		}
         fire_only_once = yes
 		timeout_effect = {
@@ -61,7 +61,7 @@ hof_sov_category = {
 			original_tag = SOV
 		}
         activation = {
-			country_exists = SOV
+			country_exists = LIT
 		}
         fire_only_once = yes
 		timeout_effect = {
@@ -85,7 +85,7 @@ hof_sov_category = {
 			original_tag = SOV
 		}
         activation = {
-			country_exists = SOV
+			country_exists = LAT
 		}
         fire_only_once = yes
 		timeout_effect = {
@@ -109,7 +109,11 @@ hof_sov_category = {
 			original_tag = SOV
 		}
         activation = {
-			country_exists = SOV
+			NOT = {
+				owns_state = 146
+				owns_state = 147
+				owns_state = 722
+			}
 		}
         fire_only_once = yes
 		timeout_effect = {
