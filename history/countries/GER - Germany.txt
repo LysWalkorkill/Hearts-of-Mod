@@ -101,6 +101,7 @@ set_technology = {
 	synth_oil_experiments = 1
 	fuel_silos = 1
 	fuel_refining = 1
+	cannon_support_gun = 1
 }
 if = {
 	limit = {
@@ -1113,7 +1114,7 @@ if = {
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_close_support_gun
-			turret_type_slot = tank_heavy_three_man_tank_turret
+			turret_type_slot = tank_heavy_two_man_tank_turret
 			suspension_type_slot = tank_bogie_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine

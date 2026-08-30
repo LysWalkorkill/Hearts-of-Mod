@@ -508,7 +508,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 30
-		max_organisation = 60
+		max_organisation = 50
 		default_morale = 0.3
 		manpower = 1200
 
@@ -553,7 +553,9 @@ sub_units = {
 			attack = -0.2
 			movement = -0.2
 		}
-		
+		amphibious = {
+			attack = -0.4
+		}
 
 		#hardness = 0.2 moving these buffs to unit stats
 	}
