@@ -16,6 +16,13 @@
     Hearts-of-Mod_MEX_narco-trafiquant.1.a:0 "Encore un bon de géant pour le Mexique !"
     
     # Annexion
+    MEX_annex_britain_honduras:0 "Annexer $STATE_311$"
+    MEX_annex_guatemala:0 "Annexer [GUA.GetNameDef]"
+    MEX_annex_honduras:0 "Annexer [HON.GetNameDef]"
+    MEX_annex_salvador:0 "Annexer [ELS.GetNameDef]"
+    MEX_annex_nicaragua:0 "Annexer [NIC.GetNameDef]"
+
+
     Hearts-of-Mod_MEX_annexion.1.title:0 "Un état rejoint le Mexique"
     Hearts-of-Mod_MEX_annexion.1.desc:0 "Le gouvernement mexicain a annoncé l’arrivée d’un nouvel allié en provenance d’Amérique centrale. Sans révéler officiellement son identité, les autorités ont confirmé qu’il s’agit d’une puissance régionale prête à s’engager aux côtés du Mexique dans la lutte contre les forces de l’Axe.\n\nCe rapprochement diplomatique, fruit de négociations menées dans la plus grande discrétion, témoigne d’une volonté commune de défendre la stabilité du continent et de contrer l’influence grandissante des puissances hostiles. Des représentants des deux nations ont souligné l’importance de cette coopération, qui s’inscrit dans une vision partagée de sécurité et de souveraineté."
     Hearts-of-Mod_MEX_annexion.1.a:0 "Ensemble nous sommes invincible !"

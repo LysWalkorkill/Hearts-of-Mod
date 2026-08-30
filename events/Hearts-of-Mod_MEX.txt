@@ -14,6 +14,7 @@ country_event = {
     
     option = {
         name = Hearts-of-Mod_MEX_exploration.1.a
+        add_political_power = 75
     }
 }
 
@@ -33,6 +34,7 @@ country_event = {
     
     option = {
         name = Hearts-of-Mod_MEX_narco-trafiquant.1.a
+        add_stability = 0.10
     }
 }
 

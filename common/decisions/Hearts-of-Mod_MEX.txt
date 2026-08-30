@@ -4,20 +4,20 @@ political_actions = {
 		allowed = {
 			original_tag = MEX
 		}
-
+		
 		visible = {
 			NOT = {
 				has_country_flag = MEX_explorer_temple_maya
 			}
 		}
-
+		
 		fire_only_once = yes
 		fixed_random_seed = no
-
+		
 		cost = 0
-
+		
 		custom_cost_text = decision_cost_ArmXP_50
-
+		
 		custom_cost_trigger = {
 			check_variable = {
 				var = army_experience
@@ -25,46 +25,52 @@ political_actions = {
 				compare = greater_than_or_equals
 			}
 		}
-
+		
 		complete_effect = {
 			# COST
 			hidden_effect = {
 				army_experience = -50
 			}
-
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
 			# EFFECT
-			add_political_power = 75
+			effect_tooltip = {
+				add_political_power = 75
+			}
 			
 			hidden_effect = {
 				set_country_flag = MEX_explorer_temple_maya
 			}
 			country_event = {
 				id = Hearts-of-Mod_MEX_exploration.1
-				days = 15
+				days = 0
 			}
 		}
 	}
-
+	
 	MEX_explorer_temple_azteque = {
 		icon = GFX_decision_generic_army_support
 		allowed = {
 			original_tag = MEX
 		}
-
+		
 		visible = {
 			has_country_flag = MEX_explorer_temple_maya
 			NOT = {
 				has_country_flag = MEX_explorer_temple_azteque
 			}
 		}
-
+		
 		fire_only_once = yes
 		fixed_random_seed = no
-
+		
 		cost = 0
-
+		
 		custom_cost_text = decision_cost_AirXP_50
-
+		
 		custom_cost_trigger = {
 			check_variable = {
 				var = air_experience
@@ -72,46 +78,52 @@ political_actions = {
 				compare = greater_than_or_equals
 			}
 		}
-
+		
 		complete_effect = {
 			# COST
 			hidden_effect = {
 				air_experience = -50
 			}
-
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
 			# EFFECT
-			add_political_power = 75
+			effect_tooltip = {
+				add_political_power = 75
+			}
 			
 			hidden_effect = {
 				set_country_flag = MEX_explorer_temple_azteque
 			}
 			country_event = {
 				id = Hearts-of-Mod_MEX_exploration.1
-				days = 15
+				days = 0
 			}
 		}
 	}
-
+	
 	MEX_explorer_temple_inca = {
 		icon = GFX_decision_generic_army_support
 		allowed = {
 			original_tag = MEX
 		}
-
+		
 		visible = {
 			has_country_flag = MEX_explorer_temple_azteque
 			NOT = {
 				has_country_flag = MEX_explorer_temple_inca
 			}
 		}
-
+		
 		fire_only_once = yes
 		fixed_random_seed = no
-
+		
 		cost = 0
-
+		
 		custom_cost_text = decision_cost_NavXP_50
-
+		
 		custom_cost_trigger = {
 			check_variable = {
 				var = navy_experience
@@ -119,22 +131,28 @@ political_actions = {
 				compare = greater_than_or_equals
 			}
 		}
-
+		
 		complete_effect = {
 			# COST
 			hidden_effect = {
 				navy_experience = -50
 			}
-
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
 			# EFFECT
-			add_political_power = 75
+			effect_tooltip = {
+				add_political_power = 75
+			}
 			
 			hidden_effect = {
 				set_country_flag = MEX_explorer_temple_inca
 			}
 			country_event = {
 				id = Hearts-of-Mod_MEX_exploration.1
-				days = 15
+				days = 0
 			}
 		}
 	}
@@ -147,24 +165,166 @@ war_measures = {
 		allowed = {
 			original_tag = MEX
 		}
-
+		
 		fire_only_once = yes
 		fixed_random_seed = no
-
+		
 		cost = 0
-
+		
 		available = {
 			has_war_support > 0.10
 		}
-
+		
 		complete_effect = {
-			# EFFECT
 			add_war_support = -0.10
-			add_stability = 0.10
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				add_stability = 0.10
+			}
 			
 			country_event = {
 				id = Hearts-of-Mod_MEX_narco-trafiquant.1
-				days = 15
+				days = 0
+			}
+		}
+	}
+}
+
+MEX_category_military_issues = {
+	MEX_annex_britain_honduras = {
+		icon = GFX_decision_CHL_mapuche_reorganize_the_mexican_government
+		cost = 0
+		priority = 11
+		available = {
+			num_of_civilian_factories > 15
+		}
+		visible = {
+			NOT = {
+				owns_state = 311
+			}
+		}
+		allowed = {
+			original_tag = MEX
+		}
+		fire_only_once = yes
+		
+		days_remove = 15
+		
+		remove_effect = {
+			transfer_state = 311
+			
+			country_event = {
+				id = Hearts-of-Mod_MEX_annexion.1
+				days = 0
+			}
+		}
+	}
+	MEX_annex_guatemala = {
+		icon = GFX_decision_CHL_mapuche_reorganize_the_mexican_government
+		cost = 0
+		priority = 11
+		available = {
+			num_of_civilian_factories > 25
+		}
+		visible = {
+			country_exists = GUA
+		}
+		allowed = {
+			original_tag = MEX
+		}
+		fire_only_once = yes
+		
+		days_remove = 15
+		
+		remove_effect = {
+			annex_country = { target = GUA transfer_troops = yes }
+			
+			country_event = {
+				id = Hearts-of-Mod_MEX_annexion.1
+				days = 0
+			}
+		}
+	}
+	MEX_annex_honduras = {
+		icon = GFX_decision_CHL_mapuche_reorganize_the_mexican_government
+		cost = 0
+		priority = 11
+		available = {
+			num_of_civilian_factories > 35
+		}
+		visible = {
+			country_exists = HON
+		}
+		allowed = {
+			original_tag = MEX
+		}
+		fire_only_once = yes
+		
+		days_remove = 15
+		
+		remove_effect = {
+			annex_country = { target = HON transfer_troops = yes }
+			
+			country_event = {
+				id = Hearts-of-Mod_MEX_annexion.1
+				days = 0
+			}
+		}
+	}
+	MEX_annex_salvador = {
+		icon = GFX_decision_CHL_mapuche_reorganize_the_mexican_government
+		cost = 0
+		priority = 11
+		available = {
+			num_of_civilian_factories > 45
+		}
+		visible = {
+			country_exists = ELS
+		}
+		allowed = {
+			original_tag = MEX
+		}
+		fire_only_once = yes
+		
+		days_remove = 15
+		
+		remove_effect = {
+			annex_country = { target = ELS transfer_troops = yes }
+			
+			country_event = {
+				id = Hearts-of-Mod_MEX_annexion.1
+				days = 0
+			}
+		}
+	}
+	MEX_annex_nicaragua = {
+		icon = GFX_decision_CHL_mapuche_reorganize_the_mexican_government
+		cost = 0
+		priority = 11
+		available = {
+			num_of_civilian_factories > 50
+		}
+		visible = {
+			country_exists = NIC
+		}
+		allowed = {
+			original_tag = MEX
+		}
+		fire_only_once = yes
+		
+		days_remove = 15
+		
+		remove_effect = {
+			annex_country = { target = NIC transfer_troops = yes }
+			
+			country_event = {
+				id = Hearts-of-Mod_MEX_annexion.1
+				days = 0
 			}
 		}
 	}
