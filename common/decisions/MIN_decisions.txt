@@ -1,14 +1,25 @@
 hof_sov_category = {
-    SOV_spanish_civil_war = {
+	SOV_spanish_civil_war = {
 		icon = GFX_decision_spr_garrison_control_none
 		cost = 0
 		available = {
-            date > 1937.1.1
+			date > 1937.1.1
+			SPR = {
+				exists = yes
+				NOT = {
+					has_war_with = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = yes
+			}
 		}
 		visible = {
-			SOV = {
-				country_exists = SOV
-			}
+			tag = SOV
 		}
 		allowed = {
 			original_tag = SOV
@@ -16,116 +27,178 @@ hof_sov_category = {
 		fire_only_once = yes
 		complete_effect = {
 			army_experience = 300
-            air_experience = 50
-            add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 }
+			air_experience = 50
+			add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 }
 		}
 	}
-    SOV_est_question = {
+	SOV_est_question = {
 		icon = GFX_decision_EST_claim_state_4
-        days_mission_timeout = 1268
+		days_mission_timeout = 1268
 		visible = {
-			SOV = {
-				country_exists = SOV
-			}
+			tag = SOV
 		}
-        available = {
-			hidden_trigger = {
-				always = no
-			}
+		available = {
+			has_war_with = EST
 		}
 		allowed = {
 			original_tag = SOV
 		}
-        activation = {
+		activation = {
 			country_exists = EST
 		}
-        fire_only_once = yes
+		fire_only_once = yes
+		complete_effect = {
+			EST = {
+				every_core_state = {
+					add_claim_by = ROOT
+				}
+			}
+		}
 		timeout_effect = {
+			EST = {
+				every_core_state = {
+					add_claim_by = ROOT
+				}
+			}
 			annex_country = { target = EST transfer_troops = yes }
 		}
 	}
-    SOV_lit_question = {
+	SOV_lit_question = {
 		icon = GFX_decision_LIT_claim_state_4
-        days_mission_timeout = 1268
+		days_mission_timeout = 1268
 		visible = {
-			SOV = {
-				country_exists = SOV
-			}
+			tag = SOV
 		}
-        available = {
-			hidden_trigger = {
-				always = no
-			}
+		available = {
+			has_war_with = LIT
 		}
 		allowed = {
 			original_tag = SOV
 		}
-        activation = {
+		activation = {
 			country_exists = LIT
 		}
-        fire_only_once = yes
+		fire_only_once = yes
+		complete_effect = {
+			LIT = {
+				every_core_state = {
+					add_claim_by = ROOT
+				}
+			}
+		}
 		timeout_effect = {
+			LIT = {
+				every_core_state = {
+					add_claim_by = ROOT
+				}
+			}
 			annex_country = { target = LIT transfer_troops = yes }
 		}
 	}
-    SOV_lat_question = {
+	SOV_lat_question = {
 		icon = GFX_decision_LAT_claim_state_4
-        days_mission_timeout = 1268
+		days_mission_timeout = 1268
 		visible = {
-			SOV = {
-				country_exists = SOV
-			}
+			tag = SOV
 		}
-        available = {
-			hidden_trigger = {
-				always = no
-			}
+		available = {
+			has_war_with = LAT
 		}
 		allowed = {
 			original_tag = SOV
 		}
-        activation = {
+		activation = {
 			country_exists = LAT
 		}
-        fire_only_once = yes
+		fire_only_once = yes
+		complete_effect = {
+			LAT = {
+				every_core_state = {
+					add_claim_by = ROOT
+				}
+			}
+		}
 		timeout_effect = {
+			LAT = {
+				every_core_state = {
+					add_claim_by = ROOT
+				}
+			}
 			annex_country = { target = LAT transfer_troops = yes }
 		}
 	}
 	SOV_fin_question = {
 		icon = GFX_decision_eng_trade_unions_support
-        days_mission_timeout = 1429
+		days_mission_timeout = 1429
 		visible = {
-			SOV = {
-				country_exists = SOV
-			}
+			tag = SOV
 		}
-        available = {
-			hidden_trigger = {
-				always = no
+		available = {
+			146 = {
+				OWNER = {
+					has_war_with = ROOT
+				}
+			}
+			147 = {
+				OWNER = {
+					has_war_with = ROOT
+				}
+			}
+			722 = {
+				OWNER = {
+					has_war_with = ROOT
+				}
 			}
 		}
 		allowed = {
 			original_tag = SOV
 		}
-        activation = {
+		activation = {
 			NOT = {
 				owns_state = 146
 				owns_state = 147
 				owns_state = 722
 			}
 		}
-        fire_only_once = yes
+		fire_only_once = yes
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						state = 146
+						state = 147
+						state = 722
+					}
+				}
+				add_claim_by = ROOT
+			}
+		}
 		timeout_effect = {
-			146 = { 
-                transfer_state_to = SOV
-            }
-            147 = { 
-                transfer_state_to = SOV
-            }
-            722 = { 
-                transfer_state_to = SOV
-            }
+			every_state = {
+				limit = {
+					OR = {
+						state = 146
+						state = 147
+						state = 722
+					}
+				}
+				add_claim_by = ROOT
+			}
+			every_state = {
+				limit = {
+					OWNER = {
+						NOT = {
+							has_war_with = ROOT
+						}
+					}
+					OR = {
+						state = 146
+						state = 147
+						state = 722
+					}
+				}
+				transfer_state_to = ROOT
+			}
 		}
 	}
 }

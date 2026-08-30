@@ -74,7 +74,7 @@ political_actions = {
 				is_historical_focus_on = yes
 			}
 		}
-
+		
 		cost = 0
 		
 		custom_cost_text = decision_cost_AirXP_50
@@ -127,7 +127,7 @@ political_actions = {
 		
 		fire_only_once = yes
 		fixed_random_seed = no
-
+		
 		ai_will_do = {
 			base = 10
 			modifier = {
@@ -226,6 +226,13 @@ MEX_category_military_issues = {
 		priority = 11
 		available = {
 			num_of_civilian_factories > 15
+			311 = {
+				OWNER = {
+					NOT = {
+						has_war_with = ROOT
+					}
+				}
+			}
 		}
 		visible = {
 			NOT = {
@@ -244,11 +251,28 @@ MEX_category_military_issues = {
 				is_historical_focus_on = yes
 			}
 		}
+
+		complete_effect = {
+			311 = {
+				add_claim_by = ROOT
+			}
+		}
+
+		cancel_trigger = {
+			311 = {
+				OWNER = {
+					has_war_with = ROOT
+				}
+			}
+		}
 		
 		days_remove = 15
 		
 		remove_effect = {
-			transfer_state = 311
+			311 = {
+				transfer_state_to = ROOT
+				add_claim_by = ROOT
+			}
 			
 			country_event = {
 				id = Hearts-of-Mod_MEX_annexion.1
@@ -262,6 +286,9 @@ MEX_category_military_issues = {
 		priority = 11
 		available = {
 			num_of_civilian_factories > 25
+			NOT = {
+				has_war_with = GUA
+			}
 		}
 		visible = {
 			country_exists = GUA
@@ -277,6 +304,18 @@ MEX_category_military_issues = {
 				factor = 0.5
 				is_historical_focus_on = yes
 			}
+		}
+
+		complete_effect = {
+			GUA = {
+				every_core_state = {
+					add_claim_by = ROOT
+				}
+			}
+		}
+
+		cancel_trigger = {
+			has_war_with = GUA
 		}
 		
 		days_remove = 15
@@ -296,6 +335,9 @@ MEX_category_military_issues = {
 		priority = 11
 		available = {
 			num_of_civilian_factories > 35
+			NOT = {
+				has_war_with = HON
+			}
 		}
 		visible = {
 			country_exists = HON
@@ -311,6 +353,18 @@ MEX_category_military_issues = {
 				factor = 0.5
 				is_historical_focus_on = yes
 			}
+		}
+
+		complete_effect = {
+			HON = {
+				every_core_state = {
+					add_claim_by = ROOT
+				}
+			}
+		}
+
+		cancel_trigger = {
+			has_war_with = HON
 		}
 		
 		days_remove = 15
@@ -330,6 +384,9 @@ MEX_category_military_issues = {
 		priority = 11
 		available = {
 			num_of_civilian_factories > 45
+			NOT = {
+				has_war_with = ELS
+			}
 		}
 		visible = {
 			country_exists = ELS
@@ -345,6 +402,18 @@ MEX_category_military_issues = {
 				factor = 0.5
 				is_historical_focus_on = yes
 			}
+		}
+
+		complete_effect = {
+			ELS = {
+				every_core_state = {
+					add_claim_by = ROOT
+				}
+			}
+		}
+
+		cancel_trigger = {
+			has_war_with = ELS
 		}
 		
 		days_remove = 15
@@ -364,6 +433,9 @@ MEX_category_military_issues = {
 		priority = 11
 		available = {
 			num_of_civilian_factories > 50
+			NOT = {
+				has_war_with = NIC
+			}
 		}
 		visible = {
 			country_exists = NIC
@@ -379,6 +451,18 @@ MEX_category_military_issues = {
 				factor = 0.5
 				is_historical_focus_on = yes
 			}
+		}
+
+		complete_effect = {
+			NIC = {
+				every_core_state = {
+					add_claim_by = ROOT
+				}
+			}
+		}
+
+		cancel_trigger = {
+			has_war_with = NIC
 		}
 		
 		days_remove = 15

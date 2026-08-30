@@ -31,6 +31,10 @@
     decision_cost_CP_150_blocked: "§R150§!£command_power"
     decision_cost_CP_150_tooltip: "Prendre cette décision coûterait §Y150§!£command_power"
 
-    decision_cost_CP_150: "§Y200§!£command_power"
-    decision_cost_CP_150_blocked: "§R200§!£command_power"
-    decision_cost_CP_150_tooltip: "Prendre cette décision coûterait §Y200§!£command_power"
+    decision_cost_CP_175: "§Y175§!£command_power"
+    decision_cost_CP_175_blocked: "§R175§!£command_power"
+    decision_cost_CP_175_tooltip: "Prendre cette décision coûterait §Y175§!£command_power"
+
+    decision_cost_CP_200: "§Y200§!£command_power"
+    decision_cost_CP_200_blocked: "§R200§!£command_power"
+    decision_cost_CP_200_tooltip: "Prendre cette décision coûterait §Y200§!£command_power"

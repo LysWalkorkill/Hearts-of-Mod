@@ -31,6 +31,10 @@
     decision_cost_CP_150_blocked: "£command_power  §R150§!"
     decision_cost_CP_150_tooltip: "It costs £command_power  §Y150§! to take the decision"
 
+    decision_cost_CP_175: "£command_power  §Y175§!"
+    decision_cost_CP_175_blocked: "£command_power  §R175§!"
+    decision_cost_CP_175_tooltip: "It costs £command_power  §Y175§! to take the decision"
+
     decision_cost_CP_200: "£command_power  §Y200§!"
     decision_cost_CP_200_blocked: "£command_power  §R200§!"
     decision_cost_CP_200_tooltip: "It costs £command_power  §Y200§! to take the decision"
