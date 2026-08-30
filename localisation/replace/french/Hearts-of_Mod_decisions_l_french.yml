@@ -7,6 +7,14 @@
     decision_cost_ArmXP_100_blocked: "§R100§!£army_experience"
     decision_cost_ArmXP_100_tooltip: "Prendre cette décision coûterait §Y100§!£army_experience"
 
+    decision_cost_ArmXP_125: "§Y125§!£army_experience"
+    decision_cost_ArmXP_125_blocked: "§R125§!£army_experience"
+    decision_cost_ArmXP_125_tooltip: "Prendre cette décision coûterait §Y125§!£army_experience"
+
+    decision_cost_ArmXP_200: "§Y200§!£army_experience"
+    decision_cost_ArmXP_200_blocked: "§R200§!£army_experience"
+    decision_cost_ArmXP_200_tooltip: "Prendre cette décision coûterait §Y200§!£army_experience"
+
     decision_cost_AirXP_50: "§Y50§!£air_experience"
     decision_cost_AirXP_50_blocked: "§R50§!£air_experience"
     decision_cost_AirXP_50_tooltip: "Prendre cette décision coûterait §Y50§!£air_experience"
