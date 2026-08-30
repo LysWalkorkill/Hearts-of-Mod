@@ -3,13 +3,25 @@
     decision_cost_ArmXP_50_blocked: "£army_experience  §R50§!"
     decision_cost_ArmXP_50_tooltip: "It costs £army_experience  §Y50§! to take the decision"
 
+    decision_cost_ArmXP_100: "£army_experience  §Y100§!"
+    decision_cost_ArmXP_100_blocked: "£army_experience  §R100§!"
+    decision_cost_ArmXP_100_tooltip: "It costs £army_experience  §Y100§! to take the decision"
+
     decision_cost_AirXP_50: "£air_experience  §Y50§!"
     decision_cost_AirXP_50_blocked: "£air_experience  §R50§!"
     decision_cost_AirXP_50_tooltip: "It costs £air_experience  §Y50§! to take the decision"
 
+    decision_cost_AirXP_200: "£air_experience  §Y200§!"
+    decision_cost_AirXP_200_blocked: "£air_experience  §R200§!"
+    decision_cost_AirXP_200_tooltip: "It costs £air_experience  §Y200§! to take the decision"
+
     decision_cost_NavXP_50: "£navy_experience  §Y50§!"
     decision_cost_NavXP_50_blocked: "£navy_experience  §R50§!"
     decision_cost_NavXP_50_tooltip: "It costs £navy_experience  §Y50§! to take the decision"
+
+    decision_cost_NavXP_150: "£navy_experience  §Y150§!"
+    decision_cost_NavXP_150_blocked: "£navy_experience  §R150§!"
+    decision_cost_NavXP_150_tooltip: "It costs £navy_experience  §Y150§! to take the decision"
 
     decision_cost_CP_50: "£command_power  §Y50§!"
     decision_cost_CP_50_blocked: "£command_power  §R50§!"

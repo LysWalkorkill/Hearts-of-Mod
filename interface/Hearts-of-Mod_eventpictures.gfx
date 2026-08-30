@@ -38,4 +38,19 @@ spriteTypes = {
 		name = "GFX_Hearts-of-Mod_report_event_can5"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/can5.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_ast1"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_ast2"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_ast3"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast3.dds"
+	}
 }

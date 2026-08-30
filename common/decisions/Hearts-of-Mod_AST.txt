@@ -1,0 +1,186 @@
+political_actions = {
+	AST_etudier_kangouroux = {
+		icon = GFX_decision_SWI_expand_covert_operations
+		allowed = {
+			original_tag = AST
+		}
+		
+		visible = {
+			NOT = {
+				has_country_flag = AST_etudier_kangouroux
+			}
+		}
+		
+		fire_only_once = no
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = yes
+			}
+		}
+		
+		cost = 0
+
+		custom_cost_text = decision_cost_ArmXP_100
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = army_experience
+				value = 100
+				compare = greater_than_or_equals
+			}
+		}
+		
+		days_remove = 15
+		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				army_experience = -100
+			}
+		}
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				add_political_power = 25
+				add_tech_bonus = {
+					name = Hearts-of-Mod_AST_etude_animaux.1.title
+					bonus = 3
+					category = infantry_tech
+				}
+			}
+			country_event = {
+				id = Hearts-of-Mod_AST_etude_animaux.1
+				days = 0
+			}
+		}
+	}
+	
+	AST_etudier_requins_blancs = {
+		icon = GFX_decision_SWI_expand_covert_operations
+		allowed = {
+			original_tag = AST
+		}
+		
+		visible = {
+			has_country_flag = AST_etudier_kangouroux
+			NOT = {
+				has_country_flag = AST_etudier_requins_blancs
+			}
+		}
+		
+		fire_only_once = no
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = yes
+			}
+		}
+		
+		cost = 0
+
+		custom_cost_text = decision_cost_NavXP_150
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = navy_experience
+				value = 150
+				compare = greater_than_or_equals
+			}
+		}
+		
+		days_remove = 15
+		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				navy_experience = -150
+			}
+		}
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				add_political_power = 50
+				add_tech_bonus = {
+					name = Hearts-of-Mod_AST_etude_animaux.2.title
+					bonus = 3
+					category = naval_equipment
+				}
+			}
+			country_event = {
+				id = Hearts-of-Mod_AST_etude_animaux.2
+				days = 0
+			}
+		}
+	}
+	
+	AST_etudier_rapaces_agressifs = {
+		icon = GFX_decision_SWI_expand_covert_operations
+		allowed = {
+			original_tag = AST
+		}
+		
+		visible = {
+			has_country_flag = AST_etudier_requins_blancs
+			NOT = {
+				has_country_flag = AST_etudier_rapaces_agressifs
+			}
+		}
+		
+		fire_only_once = no
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = yes
+			}
+		}
+		
+		cost = 0
+
+		custom_cost_text = decision_cost_AirXP_200
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = air_experience
+				value = 200
+				compare = greater_than_or_equals
+			}
+		}
+		
+		days_remove = 15
+		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				air_experience = -200
+			}
+		}
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				add_political_power = 75
+				add_tech_bonus = {
+					name = Hearts-of-Mod_AST_etude_animaux.3.title
+					bonus = 3
+					category = air_equipment
+				}
+			}
+			country_event = {
+				id = Hearts-of-Mod_AST_etude_animaux.3
+				days = 0
+			}
+		}
+	}
+}

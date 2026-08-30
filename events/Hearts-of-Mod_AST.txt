@@ -1,0 +1,74 @@
+# Étude d'animaux 
+add_namespace = Hearts-of-Mod_AST_etude_animaux
+## Kangouroux
+country_event = {
+    id = Hearts-of-Mod_AST_etude_animaux.1
+    title = Hearts-of-Mod_AST_etude_animaux.1.title
+    desc = Hearts-of-Mod_AST_etude_animaux.1.desc
+    picture = GFX_Hearts-of-Mod_report_event_ast_1
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            set_country_flag = AST_etudier_kangouroux
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_AST_etude_animaux.1.a
+        add_political_power = 25
+        add_tech_bonus = {
+            name = Hearts-of-Mod_AST_etude_animaux.1.title
+            bonus = 3
+            category = infantry_tech
+        }
+    }
+}
+## Requins
+country_event = {
+    id = Hearts-of-Mod_AST_etude_animaux.2
+    title = Hearts-of-Mod_AST_etude_animaux.2.title
+    desc = Hearts-of-Mod_AST_etude_animaux.2.desc
+    picture = GFX_Hearts-of-Mod_report_event_ast_2
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            set_country_flag = AST_etudier_requins_blancs
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_AST_etude_animaux.2.a
+        add_political_power = 50
+        add_tech_bonus = {
+            name = Hearts-of-Mod_AST_etude_animaux.2.title
+            bonus = 3
+            category = naval_equipment
+        }
+    }
+}
+## Rapaces
+country_event = {
+    id = Hearts-of-Mod_AST_etude_animaux.3
+    title = Hearts-of-Mod_AST_etude_animaux.3.title
+    desc = Hearts-of-Mod_AST_etude_animaux.3.desc
+    picture = GFX_Hearts-of-Mod_report_event_ast_3
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            set_country_flag = AST_etudier_rapaces_agressifs
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_AST_etude_animaux.3.a
+        add_political_power = 75
+        add_tech_bonus = {
+            name = Hearts-of-Mod_AST_etude_animaux.3.title
+            bonus = 3
+            category = air_equipment
+        }
+    }
+}

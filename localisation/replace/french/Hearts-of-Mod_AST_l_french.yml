@@ -1,0 +1,17 @@
+﻿l_french:
+    # Étude d'animaux 
+    AST_etudier_kangouroux:0 "Étudier les kangouroux dans leur milieu naturel"
+    AST_etudier_requins_blancs:0 "Étudier les requins blancs suite aux incidents de baignade"
+    AST_etudier_rapaces_agressifs:0 "Étudier les rapaces agressifs du désert suite à une migration inhabituelle"
+
+    Hearts-of-Mod_AST_etude_animaux.1.title:0 "Étude des kangouroux"
+    Hearts-of-Mod_AST_etude_animaux.1.desc:0 "Un fait pour le moins étonnant a récemment été rapporté par une équipe de recherche australienne : une scientifique aurait réussi à établir un contact direct avec un kangourou sauvage, allant jusqu’à lui serrer la main en plein cœur de son habitat naturel. Une avancée pour la Science Australienne !\n\nSi cette rencontre demeure fascinante et rare, les spécialistes tiennent à souligner un point essentiel : malgré cet instant presque amical, le kangourou reste avant tout une bête sauvage."
+    Hearts-of-Mod_AST_etude_animaux.1.a:0 "C'était surement Skippy !"
+    
+    Hearts-of-Mod_AST_etude_animaux.2.title:0 "Étude des requins blancs"
+    Hearts-of-Mod_AST_etude_animaux.2.desc:0 "Une équipe de plongeurs et de chercheurs australiens a récemment réalisé une observation aussi audacieuse qu’inédite : nager aux côtés d’un grand requin blanc en pleine mer, sans protection apparente, pendant une durée de 3 minutes et 52 secondes.\n\n« Nous savions que le risque était réel, mais ces quelques minutes nous ont offert des observations précieuses », a expliqué l’un des membres de l’équipe.\nLes spécialistes soulignent que ce type d’interaction reste extrêmement dangereux et ne doit en aucun cas être reproduit sans encadrement scientifique strict."
+    Hearts-of-Mod_AST_etude_animaux.2.a:0 "Mmmh à ne pas reproduire..."
+    
+    Hearts-of-Mod_AST_etude_animaux.3.title:0 "Étude des rapaces agressifs"
+    Hearts-of-Mod_AST_etude_animaux.3.desc:0 "Un événement pour le moins extraordinaire agite actuellement la communauté scientifique australienne. Lors d’une expédition en région isolée, un chercheur aurait réussi — ou plutôt osé — s’agripper aux serres d’un immense rapace, se retrouvant brièvement soulevé du sol pendant quelques secondes.\n\n« C’était aussi impressionnant qu’inquiétant », aurait confié un membre de l’équipe. « On a vu clairement la puissance de l’animal. »"
+    Hearts-of-Mod_AST_etude_animaux.3.a:0 "Envole toi Stanley ! Sois libre !"
