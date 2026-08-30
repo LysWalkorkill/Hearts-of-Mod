@@ -1,4 +1,8 @@
 ﻿l_french:
+    AST_alexandra_casoy:0 "Alexandra Casoy"
+    AST_clover_ewing:0 "Clover Ewing"
+    AST_samantha_simpson:0 "Samantha Simpson"
+
     # Étude d'animaux 
     AST_etudier_kangouroux:0 "Étudier les kangouroux dans leur milieu naturel"
     AST_etudier_requins_blancs:0 "Étudier les requins blancs suite aux incidents de baignade"
