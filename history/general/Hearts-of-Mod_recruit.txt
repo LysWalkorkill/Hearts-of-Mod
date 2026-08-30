@@ -13,4 +13,5 @@ RAJ = {
 	recruit_character = RAJ_Grand_Vizir
 	recruit_character = RAJ_Harman_Baweja	
 	recruit_character = RAJ_Shah_Rukh_Khan
+	recruit_character = RAJ_Naema_Sindoula
 }

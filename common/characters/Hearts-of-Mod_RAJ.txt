@@ -94,4 +94,32 @@ characters = {
 			legacy_id=0
 		}
 	}
+	RAJ_Naema_Sindoula = {
+
+        name = RAJ_Naema_Sindoula
+        gender = female
+
+        portraits = {
+
+            civilian = {
+                large = GFX_portrait_RAJ_Naema_Sindoula_large
+            }
+
+            army = {
+                large = GFX_portrait_RAJ_Naema_Sindoula_large
+            }
+        }
+
+        corps_commander = {
+            traits = { expeditionary_leader_trait trait_cautious harsh_leader }
+            
+
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
 }
+  
