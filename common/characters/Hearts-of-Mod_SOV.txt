@@ -33,7 +33,7 @@ characters = {
 			legacy_id=0
 		}
 	}
-}characters = {
+	
 	SOV_Viktor_Reznov = {
 		name = SOV_Viktor_Reznov
 		gender = male
@@ -48,7 +48,7 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits="reckless"
+			traits= { trait_reckless }
 			skill=1
 			attack_skill=1
 			defense_skill=1
