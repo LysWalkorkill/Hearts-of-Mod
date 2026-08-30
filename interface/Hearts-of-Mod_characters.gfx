@@ -32,4 +32,12 @@ spriteTypes = {
 		name = "GFX_portrait_RAJ_Grand_Vizir_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/RAJ2.dds"
 	}
+	SpriteType = {
+		name = "GFX_portrait_RAJ_Harman_Baweja_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/RAJ3.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RAJ_Shah_Rukh_Khan_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/RAJ4.dds"
+	}
 }

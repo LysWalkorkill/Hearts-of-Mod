@@ -22,7 +22,7 @@ characters = {
 			legacy_id=0
 		}
 	}
-	
+}	
 	RAJ_Grand_Vizir = {
 		name = RAJ_Grand_Vizir
 		gender = male
@@ -46,4 +46,51 @@ characters = {
 			legacy_id=0
 		}
 	}
-}
+
+	RAJ_Harman_Baweja = {
+		name = RAJ_Harman_Baweja
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RAJ_Harman_Baweja_large
+				#small = GFX_idea_RAJ_Harman_Baweja_small
+			}
+			army = {
+				large = GFX_portrait_RAJ_Harman_Baweja_large
+				#small = GFX_idea_RAJ_Harman_Baweja_small
+			}
+		}
+	}
+		corps_commander={
+			traits= { expeditionary_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+		
+		RAJ_Shah_Rukh_Khan = {
+		name = RAJ_Shah_Rukh_Khan
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RAJ_Shah_Rukh_Khan_large
+				#small = GFX_idea_RAJ_Shah_Rukh_Khan_small
+			}
+			army = {
+				large = GFX_portrait_RAJ_Shah_Rukh_Khan_large
+				#small = GFX_idea_RAJ_Shah_Rukh_Khan_small
+			}
+		}
+		corps_commander={
+			traits= { veteran_jaeger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}

@@ -14,3 +14,9 @@ RAJ = {
 RAJ = {
 	recruit_character = RAJ_Grand_Vizir
 }
+RAJ = {
+	recruit_character = RAJ_Harman_Baweja	
+}
+RAJ = {
+	recruit_character = RAJ_Shah_Rukh_Khan
+}
