@@ -1,4 +1,5 @@
 spriteTypes = {
+	# MEX
 	SpriteType = {
 		name = "GFX_Hearts-of-Mod_report_event_mex1"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/mex1.dds"
@@ -14,6 +15,7 @@ spriteTypes = {
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/mex3.dds"
 	}
 	
+	# CAN
 	SpriteType = {
 		name = "GFX_Hearts-of-Mod_report_event_can1"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/can1.dds"
@@ -39,6 +41,7 @@ spriteTypes = {
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/can5.dds"
 	}
 
+	# AST
 	SpriteType = {
 		name = "GFX_Hearts-of-Mod_report_event_ast1"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast1.dds"
@@ -52,5 +55,20 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Hearts-of-Mod_report_event_ast3"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_ast4"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_ast5"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_ast6"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast6.dds"
 	}
 }
