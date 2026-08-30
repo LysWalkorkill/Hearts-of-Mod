@@ -1,4 +1,5 @@
 ﻿l_french:
+    # Mita
     SOV_Mita:0 "Mita"
 
     Hearts-of-Mod_SOV_Mita.1.title:0 "[this_character.GetName] promue cheffe du pays"
