@@ -515,7 +515,7 @@ political_actions = {
 					}
 				}
 				OR = {
-					state = 120
+					state = 102
 					state = 853
 				}
 			}
@@ -544,7 +544,7 @@ political_actions = {
 						}
 					}
 					OR = {
-						state = 120
+						state = 102
 						state = 853
 					}
 				}
