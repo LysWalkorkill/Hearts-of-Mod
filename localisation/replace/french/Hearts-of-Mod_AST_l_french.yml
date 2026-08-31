@@ -31,6 +31,9 @@
     Hearts-of-Mod_AST_industrie.1.a:0 "La Ruée vers l'or est Australienne !"
     
     # Annexion
+    AST_nouvelles_terres_flag:0 "Est nouvelles terres australiennes"
+    AST_nouvelles_terres_flag_NOT:0 "N'est pas de nouvelles terres australiennes"
+
     AST_securiser_iles_aru:0 "Sécuriser les îles Aru"
     AST_securiser_timor_portugais:0 "Sécuriser le Timor Portugais"
     AST_securiser_papouasie:0 "Prendre le contrôle da la Papouasie"
@@ -39,3 +42,9 @@
     Hearts-of-Mod_AST_annexion.1.title:0 "Sécurisation de nouvelles terres"
     Hearts-of-Mod_AST_annexion.1.desc:0 "Dans un contexte de tensions croissantes dans la région du Pacifique, le gouvernement australien a ordonné la mobilisation de ses forces armées afin de prendre le contrôle d’une île jugée stratégique pour la sécurité maritime.\n\nLes premières informations indiquent que l’opération s’est déroulée sans affrontement majeur. La présence militaire a été établie rapidement, et des mesures sont déjà en place pour organiser la gestion du territoire sous contrôle australien.\n\nDes observateurs internationaux suivent de près cette manœuvre, qui pourrait avoir des répercussions sur l’équilibre géopolitique dans la région."
     Hearts-of-Mod_AST_annexion.1.a:0 "Ils nous remercierons quand le danger sera présent !"
+    
+    AST_exploiter_nouvelles_regions:0 "Exploiter nos nouvelles régions industrielles"
+
+    Hearts-of-Mod_AST_annexion.2.title:0 "Exploitation des nouvelles terres"
+    Hearts-of-Mod_AST_annexion.2.desc:0 "Plusieurs mois après l’opération militaire présentée comme une mission de sécurisation dans le Pacifique, de nouvelles informations viennent ébranler la version officielle du gouvernement australien. Selon des sources désormais rendues publiques, cette intervention aurait en réalité été motivée par l’exploitation des ressources naturelles de l’île concernée.\n\n« On nous a parlé de protection et de stabilité, mais tout indique que des intérêts économiques majeurs étaient en jeu », affirme un analyste ayant eu accès aux informations divulguées. Ces révélations provoquent un certain malaise, bien que peu de réactions publiques se fassent entendre.\n\nAlors que ces révélations jettent une ombre sur les actions du gouvernement, certains craignent une escalade des tensions dans la région. La guerre semble se rapprocher, et malgré les inquiétudes, le peuple, lui, n’ose pas protester."
+    Hearts-of-Mod_AST_annexion.2.a:0 "Et alors ? La sécurité a un prix..."

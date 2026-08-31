@@ -478,7 +478,7 @@ economy_decisions = {
 			}
 			738 = {
 				transfer_state_to = ROOT
-				add_claim_by = ROOT
+				set_state_flag = AST_nouvelles_terres_flag
 			}
 			
 			country_event = {
@@ -570,6 +570,7 @@ economy_decisions = {
 			}
 			721 = {
 				transfer_state_to = ROOT
+				set_state_flag = AST_nouvelles_terres_flag
 			}
 			
 			country_event = {
@@ -676,6 +677,9 @@ economy_decisions = {
 			}
 			every_state = {
 				limit = {
+					NOT = {
+						is_owned_by = ROOT
+					}
 					region = 167
 					OWNER = {
 						NOT = {
@@ -684,6 +688,7 @@ economy_decisions = {
 					}
 				}
 				transfer_state_to = ROOT
+				set_state_flag = AST_nouvelles_terres_flag
 			}
 			
 			country_event = {
@@ -790,6 +795,9 @@ economy_decisions = {
 			}
 			every_state = {
 				limit = {
+					NOT = {
+						is_owned_by = ROOT
+					}
 					region = 158
 					OWNER = {
 						NOT = {
@@ -798,10 +806,101 @@ economy_decisions = {
 					}
 				}
 				transfer_state_to = ROOT
+				set_state_flag = AST_nouvelles_terres_flag
 			}
 			
 			country_event = {
 				id = Hearts-of-Mod_AST_annexion.1
+				days = 0
+			}
+		}
+	}
+	
+	AST_exploiter_nouvelles_regions = {
+		icon = rubber
+		
+		cost = 500
+		
+		available = {
+			has_stability > 0.15
+			has_war_support > 0.10
+			any_owned_state = {
+				is_controlled_by = ROOT
+				has_state_flag = AST_nouvelles_terres_flag
+			}
+		}
+		visible = {
+			any_owned_state = {
+				has_state_flag = AST_nouvelles_terres_flag
+			}
+			
+			has_country_flag = AST_securiser_iles_sonde
+			NOT = {
+				has_country_flag = AST_exploiter_nouvelles_regions
+			}
+		}
+		allowed = {
+			original_tag = AST
+		}
+		fire_only_once = yes
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				has_state_flag = AST_nouvelles_terres_flag
+			}
+		}
+		
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = yes
+			}
+		}
+		
+		cancel_trigger = {
+			all_owned_state = {
+				OR = {
+					custom_trigger_tooltip = {
+						tooltip = AST_nouvelles_terres_flag_NOT
+						NOT = {
+							has_state_flag = AST_nouvelles_terres_flag
+						}
+					}
+					AND = {
+						has_state_flag = AST_nouvelles_terres_flag
+						NOT = {
+							is_controlled_by = ROOT
+						}
+					}
+				}
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			hidden_effect = {
+				set_country_flag = AST_exploiter_nouvelles_regions
+			}
+			effect_tooltip = {
+				add_stability = -0.15
+				add_war_support = -0.10
+				
+				every_owned_state = {
+					limit = {
+						is_controlled_by = ROOT
+						has_state_flag = AST_nouvelles_terres_flag
+					}
+					add_resource = {
+						type = rubber
+						amount = 8
+					}
+				}
+			}
+			
+			country_event = {
+				id = Hearts-of-Mod_AST_annexion.2
 				days = 0
 			}
 		}

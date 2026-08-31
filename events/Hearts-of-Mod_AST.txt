@@ -110,3 +110,33 @@ country_event = {
         name = Hearts-of-Mod_AST_annexion.1.a
     }
 }
+
+country_event = {
+    id = Hearts-of-Mod_AST_annexion.2
+    title = Hearts-of-Mod_AST_annexion.2.title
+    desc = Hearts-of-Mod_AST_annexion.2.desc
+    picture = GFX_Hearts-of-Mod_report_event_ast_6
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_AST_annexion.2.a
+        add_stability = -0.15
+        add_war_support = -0.10
+        
+        every_owned_state = {
+            limit = {
+                is_controlled_by = ROOT
+                has_state_flag = AST_nouvelles_terres_flag
+            }
+            add_resource = {
+                type = rubber
+                amount = 8
+            }
+        }
+    }
+}
