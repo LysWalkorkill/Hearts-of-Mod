@@ -1,0 +1,28 @@
+﻿l_english:
+     # Exploration 
+ MEX_explorer_temple_maya: "None" #NT!
+ MEX_explorer_temple_azteque: "None" #NT!
+ MEX_explorer_temple_inca: "None" #NT!
+  
+ Hearts-of-Mod_MEX_exploration.1.title: "None" #NT!
+ Hearts-of-Mod_MEX_exploration.1.desc: "None" #NT!
+ Hearts-of-Mod_MEX_exploration.1.a: "None" #NT!
+  
+     # Narco Trafiquants 
+ MEX_sevir_contre_narco_trafiquants: "None" #NT!
+  
+ Hearts-of-Mod_MEX_narco-trafiquant.1.title: "None" #NT!
+ Hearts-of-Mod_MEX_narco-trafiquant.1.desc: "None" #NT!
+ Hearts-of-Mod_MEX_narco-trafiquant.1.a: "None" #NT!
+  
+     # Annexion 
+ MEX_annex_britain_honduras: "None" #NT!
+ MEX_annex_guatemala: "None" #NT!
+ MEX_annex_honduras: "None" #NT!
+ MEX_annex_salvador: "None" #NT!
+ MEX_annex_nicaragua: "None" #NT!
+  
+  
+ Hearts-of-Mod_MEX_annexion.1.title: "None" #NT!
+ Hearts-of-Mod_MEX_annexion.1.desc: "None" #NT!
+ Hearts-of-Mod_MEX_annexion.1.a: "None" #NT!

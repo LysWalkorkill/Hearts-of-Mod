@@ -1,0 +1,41 @@
+﻿l_english:
+ AST_alexandra_casoy: "Alexandra Casoy" #NT!
+ AST_clover_ewing: "Clover Ewing" #NT!
+ AST_samantha_simpson: "Samantha Simpson" #NT!
+  
+     # Étude d'animaux 
+ AST_etudier_kangouroux: "Study kangaroos in their natural environment" #NT!
+ AST_etudier_requins_blancs: "Studying white sharks following swimming incidents" #NT!
+ AST_etudier_rapaces_agressifs: "Studying aggressive desert raptors following an unusual migration" #NT!
+  
+ Hearts-of-Mod_AST_etude_animaux.1.title: "Study of kangaroos" #NT!
+ Hearts-of-Mod_AST_etude_animaux.1.desc: "An astonishing fact, to say the least, was recently reported by an Australian research team: a scientist managed to establish direct contact with a wild kangaroo, going so far as to shake its hand in the heart of its natural habitat. A breakthrough for Australian Science!\n\nWhile this encounter remains fascinating and rare, specialists would like to emphasize an essential point: despite this almost friendly moment, the kangaroo remains above all a wild beast." #NT!
+ Hearts-of-Mod_AST_etude_animaux.1.a: "It was probably Skippy!" #NT!
+  
+ Hearts-of-Mod_AST_etude_animaux.2.title: "Study of white sharks" #NT!
+ Hearts-of-Mod_AST_etude_animaux.2.desc: "A team of Australian divers and researchers recently carried out an observation as daring as it was unprecedented: swimming alongside a great white shark in the open sea, without apparent protection, for a duration of 3 minutes and 52 seconds.\n\n“We knew that the risk was real, but these few minutes gave us valuable observations,” explained one of the team members.\nSpecialists emphasize that this type of interaction remains extremely dangerous and must in no case be reproduced without strict scientific supervision." #NT!
+ Hearts-of-Mod_AST_etude_animaux.2.a: "Mmmh not to be reproduced..." #NT!
+  
+ Hearts-of-Mod_AST_etude_animaux.3.title: "Study of aggressive raptors" #NT!
+ Hearts-of-Mod_AST_etude_animaux.3.desc: "An extraordinary event, to say the least, is currently shaking up the Australian scientific community. During an expedition to an isolated region, a researcher managed – or rather dared – to grab onto the claws of a huge raptor, finding himself briefly lifted off the ground for a few seconds.\n\n“It was as impressive as it was worrying,” a member of the team reportedly confided. “We clearly saw the power of the animal. »" #NT!
+ Hearts-of-Mod_AST_etude_animaux.3.a: "Fly away Stanley! Be free!" #NT!
+  
+     # Industrie 
+ AST_legaliser_chercheurs_cuivres: "Legalize copper seekers" #NT!
+ AST_legaliser_chercheurs_or: "Legalize gold prospectors" #NT!
+ AST_legaliser_chercheurs_opales: "Legalize opal seekers" #NT!
+ AST_legaliser_forrage_mecanique: "Legalize mechanical drilling" #NT!
+  
+ Hearts-of-Mod_AST_industrie.1.title: "New legislation" #NT!
+ Hearts-of-Mod_AST_industrie.1.desc: "The Australian government recently announced a series of new measures aimed at granting more rights and freedoms to precious stone prospectors, a booming sector in several regions of the country.\n\nOn the ground, several prospectors are welcoming the news with enthusiasm. “We’ve been waiting for this for a long time,” confides one of them. “There’s potential everywhere, you just have to let us work. »\n\nPoliticians, for their part, insist that these changes will be supervised and progressive. They say they want to find a balance between economic development and natural resource management, while supporting workers in the sector." #NT!
+ Hearts-of-Mod_AST_industrie.1.a: "The Gold Rush is Australian!" #NT!
+  
+     # Annexion 
+ AST_securiser_iles_aru: "Securing the Aru Islands" #NT!
+ AST_securiser_timor_portugais: "Securing Portuguese Timor" #NT!
+ AST_securiser_papouasie: "Take control of Papua" #NT!
+ AST_securiser_iles_sonde: "None" #NT!
+  
+ Hearts-of-Mod_AST_annexion.1.title: "None" #NT!
+ Hearts-of-Mod_AST_annexion.1.desc: "In a context of growing tensions in the Pacific region, the Australian government ordered the mobilization of its armed forces in order to take control of an island considered strategic for maritime security.\n\nInitial information indicates that the operation took place without major confrontation. The military presence was established quickly, and measures are already in place to organize the management of the territory under Australian control.\n\nInternational observers are closely monitoring this maneuver, which could have repercussions on the geopolitical balance in the region." #NT!
+ Hearts-of-Mod_AST_annexion.1.a: "They will thank us when danger is present!" #NT!
