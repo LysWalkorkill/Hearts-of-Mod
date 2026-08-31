@@ -1,0 +1,8 @@
+﻿l_french:
+    # Écosystème
+    FIN_lancer_referendum_ecosysteme:0 "Lancer un référendum sur l'écosystème Finlandais"
+
+    Hearts-of-Mod_FIN_ecosysteme.1.title:0 "La question du saumons Finlandais"
+    Hearts-of-Mod_FIN_ecosysteme.1.desc:0 "La question de la pêche au saumon occupe actuellement une place centrale dans les débats politiques finlandais. Ressource emblématique du pays, le saumon représente à la fois une richesse économique importante et un élément clé de l’équilibre naturel des rivières nordiques.\n\nToutefois, cette perspective suscite de vives inquiétudes parmi les scientifiques et les défenseurs de l’environnement. Plusieurs études alertent sur les risques de surexploitation, qui pourraient entraîner un déclin rapide des populations de saumons et perturber durablement les écosystèmes aquatiques.\n\nLe gouvernement se retrouve ainsi face à un choix délicat : soutenir une industrie lucrative et en pleine expansion, ou imposer des restrictions afin de préserver cette ressource pour les générations futures. Des consultations sont en cours, réunissant pêcheurs, experts et représentants politiques."
+    Hearts-of-Mod_FIN_ecosysteme.1.a:0 "Nous devons autoriser la surpêche !"
+    Hearts-of-Mod_FIN_ecosysteme.1.b:0 "Jamais la Finlande acceptera une telle chose !"
