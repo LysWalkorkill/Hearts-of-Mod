@@ -5657,8 +5657,12 @@ JAP_kwantung_army_decisions = {
 
 		icon = GFX_decision_jap_conquer_china #GFX_decision_generic_ignite_civil_war
 
+		activation = {
+			country_exists = SIA
+		}
+
 		available = {
-			hidden_trigger = { always = no }
+			has_war_with = SIA
 		}
 
 		days_mission_timeout = 912
@@ -5669,23 +5673,28 @@ JAP_kwantung_army_decisions = {
 
 		cancel_if_not_visible = yes
 
-		is_good = no
+		is_good = yes
 		
 		timeout_effect = {
 			annex_country = {
 				target = SIA
 				transfer_troops = no
 			}
-			869 = {
-				add_compliance = 70
-			}
-			289 = {
-				add_compliance = 70
-			}
-			868 = {
-				add_compliance = 70
-			}
-			724 = {
+			every_state = {
+				limit = {
+					OWNER = {
+						OR = {
+							tag = SIA
+							tag = ROOT
+						}
+					}
+					OR = {
+						state = 869
+						state = 289
+						state = 868
+						state = 724
+					}
+				}
 				add_compliance = 70
 			}
 			
@@ -5699,8 +5708,12 @@ JAP_kwantung_army_decisions = {
 
 		icon = GFX_decision_jap_conquer_china #GFX_decision_generic_ignite_civil_war
 
+		activation = {
+			country_exists = MAN
+		}
+
 		available = {
-			hidden_trigger = { always = no }
+			has_war_with = MAN
 		}
 
 		days_mission_timeout = 731
@@ -5711,64 +5724,40 @@ JAP_kwantung_army_decisions = {
 
 		cancel_if_not_visible = yes
 
-		is_good = no
+		is_good = yes
 		
 		timeout_effect = {
-			620 = {
+			every_state = {
+				limit = {
+					OWNER = {
+						NOT = {
+							has_war_with = ROOT
+						}
+					}
+					OR = {
+						state = 620
+						state = 1036
+						state = 750
+						state = 602
+						state = 600
+						state = 749
+						state = 596
+						state = 595
+						state = 593
+						state = 748
+						state = 603
+						state = 599
+						state = 592
+						state = 591
+						state = 1033
+						state = 594
+						state = 325
+						state = 747
+					}
+				}
 				transfer_state_to = MAN
 			}
-			1036 = {
-				transfer_state_to = MAN
-			}
-			750 = {
-				transfer_state_to = MAN
-			}
-			602 = {
-				transfer_state_to = MAN
-			}
-			600 = {
-				transfer_state_to = MAN
-			}
-			749 = {
-				transfer_state_to = MAN
-			}
-			596 = {
-				transfer_state_to = MAN
-			}
-			595 = {
-				transfer_state_to = MAN
-			}
-			593 = {
-				transfer_state_to = MAN
-			}
-			748 = {
-				transfer_state_to = MAN
-			}
-			603 = {
-				transfer_state_to = MAN
-			}
-			599 = {
-				transfer_state_to = MAN
-			}
-			592 = {
-				transfer_state_to = MAN
-			}
-			591 = {
-				transfer_state_to = MAN
-			}
-			1033 = {
-				transfer_state_to = MAN
-			}
-			594 = {
-				transfer_state_to = MAN
-			}
-			325 = {
-				transfer_state_to = MAN
-			}
-			747 = {
-				transfer_state_to = MAN
-			}
-			JAP = {
+			ROOT = {
 				declare_war_on = { target = CHI type = annex_everything }
 				add_ideas = {
 					tot_economic_mobilisation
@@ -5800,8 +5789,12 @@ JAP_kwantung_army_decisions = {
 
 		icon = GFX_decision_jap_conquer_china #GFX_decision_generic_ignite_civil_war
 
+		activation = {
+			country_exists = MAN
+		}
+
 		available = {
-			hidden_trigger = { always = no }
+			has_war_with = MAN
 		}
 
 		days_mission_timeout = 639
@@ -5812,25 +5805,25 @@ JAP_kwantung_army_decisions = {
 
 		cancel_if_not_visible = yes
 
-		is_good = no
+		is_good = yes
 		
 		timeout_effect = {
-			607 = {
-				transfer_state_to = MAN
-			}
-			598 = {
-				transfer_state_to = MAN
-			}
-			606 = {
-				transfer_state_to = MAN
-			}
-			1035 = {
-				transfer_state_to = MAN
-			}
-			1034 = {
-				transfer_state_to = MAN
-			}
-			613 = {
+			every_state = {
+				limit = {
+					OWNER = {
+						NOT = {
+							has_war_with = ROOT
+						}
+					}
+					OR = {
+						state = 607
+						state = 598
+						state = 606
+						state = 1035
+						state = 1034
+						state = 613
+					}
+				}
 				transfer_state_to = MAN
 			}
 			news_event = { id = news.121 }
@@ -5843,8 +5836,12 @@ JAP_kwantung_army_decisions = {
 
 		icon = GFX_decision_jap_conquer_china #GFX_decision_generic_ignite_civil_war
 
+		activation = {
+			country_exists = MAN
+		}
+
 		available = {
-			hidden_trigger = { always = no }
+			has_war_with = MAN
 		}
 
 		days_mission_timeout = 547
@@ -5855,25 +5852,25 @@ JAP_kwantung_army_decisions = {
 
 		cancel_if_not_visible = yes
 
-		is_good = no
+		is_good = yes
 		
 		timeout_effect = {
-			1039 = {
-				transfer_state_to = MAN
-			}
-			608 = {
-				transfer_state_to = MAN
-			}
-			614 = {
-				transfer_state_to = MAN
-			}
-			1038 = {
-				transfer_state_to = MAN
-			}
-			597 = {
-				transfer_state_to = MAN
-			}
-			743 = {
+			every_state = {
+				limit = {
+					OWNER = {
+						NOT = {
+							has_war_with = ROOT
+						}
+					}
+					OR = {
+						state = 1039
+						state = 608
+						state = 614
+						state = 1038
+						state = 597
+						state = 743
+					}
+				}
 				transfer_state_to = MAN
 			}
 		}

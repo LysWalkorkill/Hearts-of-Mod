@@ -47,6 +47,7 @@ hof_sov_category = {
 			country_exists = EST
 		}
 		fire_only_once = yes
+		is_good = yes
 		highlight_states = {
 			highlight_states_trigger = {
 				is_core_of = EST
@@ -84,6 +85,7 @@ hof_sov_category = {
 			country_exists = LIT
 		}
 		fire_only_once = yes
+		is_good = yes
 		highlight_states = {
 			highlight_states_trigger = {
 				is_core_of = LIT
@@ -121,6 +123,7 @@ hof_sov_category = {
 			country_exists = LAT
 		}
 		fire_only_once = yes
+		is_good = yes
 		highlight_states = {
 			highlight_states_trigger = {
 				is_core_of = LAT
@@ -176,6 +179,7 @@ hof_sov_category = {
 			}
 		}
 		fire_only_once = yes
+		is_good = yes
 		highlight_states = {
 			highlight_states_trigger = {
 				OR = {
