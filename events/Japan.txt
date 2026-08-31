@@ -18,11 +18,25 @@ country_event = {
 
 		add_war_support = 0.05
 
-		MAN = {
-			annex_country = { 
-            	target = EHA
-            }
+		if = {
+			limit = {
+				MAN = {
+					NOT = {
+						has_war_with = ROOT
+					}
+					NOT = {
+						has_war_with = EHA
+					}
+				}
+			}
+			MAN = {
+				annex_country = { 
+					target = EHA
+					transfer_troops = yes
+				}
+			}
 		}
+
 
 		hidden_effect = {
 			country_event = { days = 5 id = news.1 }
