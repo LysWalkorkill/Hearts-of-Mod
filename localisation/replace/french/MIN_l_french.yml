@@ -39,6 +39,8 @@
  FRA_arms_2: "Réarmement II"
  FRA_arms_3: "Réarmement III"
  FRA_arms_4: "Réarmement IV"
+
+ MIN_AI_disabled: "IA désactivée"
   
  AI_disabled_focus: "IA désactivée"
  KAZ_AI_disabled_focus: "IA désactivée"
