@@ -1,0 +1,38 @@
+﻿l_french:
+     ## changement armor ## 
+ cannon_high_velocity_1: "None" #NT!
+ cannon_high_velocity_1_desc: "En augmentant la vitesse de nos obus, nous pouvons augmenter leur pénétration de blindage et leur portée, les rendant ainsi plus efficaces contre les navires ennemis." #NT!
+ cannon_high_velocity_2: "None" #NT!
+ cannon_high_velocity_2_desc: "None" #NT!
+ cannon_high_velocity_3: "None" #NT!
+ cannon_high_velocity_3_desc: "None" #NT!
+ cannon_lourd_1: "Canons lourds" #NT!
+ cannon_lourd_1_desc: "None" #NT!
+ cannon_lourd_2: "None" #NT!
+ cannon_lourd_2_desc: "None" #NT!
+ cannon_lourd_3: "None" #NT!
+ cannon_lourd_3_desc: "None" #NT!
+ cannon_medium_1: "None" #NT!
+ cannon_medium_1_desc: "None" #NT!
+ cannon_medium_2: "None" #NT!
+ cannon_medium_2_desc: "None" #NT!
+ cannon_auto_1: "None" #NT!
+ cannon_auto_1_desc: "None" #NT!
+ cannon_auto_2: "None" #NT!
+ cannon_auto_2_desc: "None" #NT!
+ cannon_small_2: "None" #NT!
+ cannon_small_2_desc: "None" #NT!
+ cannon_support_gun: "None" #NT!
+ cannon_support_gun_desc: "None" #NT!
+ cannon_howitzer_1: "None" #NT!
+ cannon_howitzer_1_desc: "None" #NT!
+ cannon_howitzer_2: "None" #NT!
+ cannon_howitzer_2_desc: "None" #NT!
+ cannon_aa_1: "None" #NT!
+ cannon_aa_1_desc: "None" #NT!
+ cannon_aa_2: "None" #NT!
+ cannon_aa_2_desc: "None" #NT!
+ cannon_aa_3: "None" #NT!
+ cannon_aa_3_desc: "None" #NT!
+  
+  

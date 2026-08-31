@@ -1,0 +1,63 @@
+﻿l_french:
+  
+ HOST_ST_STATE_MARK_FOR_TRANSFER: "§HMarquer l'état pour le transfert§!\nMarquer l'état sélectionné afin qu'il puisse être transféré \n"
+ HOST_ST_STATE_UNMARK_FOR_TRANSFER: "§HDémarquer l'état§!\nDéshôte_marque l'état sélectionné\n"
+ host_mark_state_yes: ""
+ host_mark_state_no: "\n §RMarked!§ !"
+  
+ OBSERVER: "§HObserve§ !\nDéplace le joueur en mode observateur\n\n"
+ OBSERVER_DELAYED: ""
+ WHITEPEACE: "§HWhitepeace§ !\nLe pays sera en paix avec tous les ennemis\n\n"
+ WHITEPEACE_DELAYED: ""
+  
+ host_clear_all_markings: "§HEffacer toutes les marques§!\nChaque marque du monde sera supprimée\n\n"
+ host_clear_all_markings_DELAYED: ""
+  
+ TRANSFER_STATES: "§HTransférer les États§!\nTransférer les États marqués vers ce pays\n\n"
+ TRANSFER_STATES_DELAYED: ""
+  
+ ADD_CORES: "§HAjouter des cœurs§!\nAjouter des cœurs aux États marqués pour ce pays\n\n"
+ ADD_CORES_DELAYED: ""
+  
+ ANNEX_COUNTRY: "§HAnnex§!\nLe pays sélectionné annexe le propriétaire de l'état sélectionné\n\n"
+ ANNEX_COUNTRY_DELAYED: ""
+  
+ PUPPET_COUNTRY: "§HPuppet§ !\nLe pays sélectionné représente le propriétaire de l'état sélectionné\n\n"
+ PUPPET_COUNTRY_DELAYED: ""
+  
+ TRANSFER_HOSTOOL: "§HOutil hôte de transfert§!\nLe pays sélectionné reçoit l'outil hôte\n\n"
+ TRANSFER_HOSTOOL_DELAYED: ""
+  
+ ADD_CHEAT: "§HCheat§!\nLa sélection est donnée au pays sélectionné\n\n"
+ ADD_CHEAT_DELAYED: ""
+  
+ PINGTOOL: "§HAI Reenabler§!\nMarquez, puis cliquez sur (WiP)\n\n"
+ PINGTOOL_DELAYED: ""
+  
+ CIV_ADD: "§HAjouter 1 usine civile§!\nCliquer sur ce bouton ajoutera une usine civile hors carte au pays sélectionné.\n\n"
+ CIV_ADD_DELAYED: ""
+  
+ CIVREMOVE: "§HSupprimer 1 usine civile§!\nCliquer sur ce bouton supprimera une usine civile hors carte du pays sélectionné.\n\n"
+ CIVREMOVE_DELAYED: ""
+  
+ MIL_ADD: "§HAjouter 1 usine militaire§!\nCliquer sur ce bouton ajoutera une usine militaire hors carte au pays sélectionné.\n\n"
+ MIL_ADD_DELAYED: ""
+  
+ MILREMOVE: "§HSupprimer 1 usine militaire§!\nCliquer sur ce bouton supprimera une usine militaire hors carte du pays sélectionné.\n\n"
+ MILREMOVE_DELAYED: ""
+  
+ ADDPP: "§HAjouter 50 de pouvoir politique§!\nCliquer sur ce bouton ajoutera du pouvoir politique au propriétaire de l'État sélectionné.\n\n"
+  
+ host_ST_TOOLTIP_on: "§HActiver « Outil hôte »§!"
+ host_ST_TOOLTIP_off: "§HDésactiver « Outil hôte »§!"
+ host_transfer_states_on: "DT : £trigger_no"
+ host_transfer_states_off: "DT : £trigger_yes"
+  
+ CHEAT_SELECT: "Sélectionnez la triche"
+ CHEAT1: "Ajouter 50 000 effectifs"
+ CHEAT2: "Ajoutez 50 PP"
+ CHEAT3: "Ajoutez 50 XP d'armée"
+  
+  
+ host_mark_status_marked: "Désélectionner l'état"
+ host_mark_status_unmarked: "Marquer l'état"
