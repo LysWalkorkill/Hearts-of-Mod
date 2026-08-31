@@ -591,10 +591,12 @@ political_actions = {
 						}
 					}
 					OR = {
+						state = 105
 						state = 103
 						state = 804
 						state = 104
 						state = 107
+						state = 802
 					}
 				}
 				transfer_state_to = ITA
@@ -617,9 +619,7 @@ political_actions = {
 						}
 					}
 					OR = {
-						state = 105
 						state = 108
-						state = 802
 						state = 803
 						state = 970
 						state = 106
