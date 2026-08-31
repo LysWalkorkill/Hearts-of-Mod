@@ -1,4 +1,12 @@
 on_actions = {
+	on_startup = {
+		# Ajout de noyau Belarus à Vilna pour éviter un border gore si la Pologne est démantelé
+		effect = {
+			784 = {
+				add_core_of = BLR
+			}
+		}
+	}
 	#ROOT: New controller; FROM: Old controller; FROM.FROM: State
 	on_state_control_changed = {
 		# Pour Mita
