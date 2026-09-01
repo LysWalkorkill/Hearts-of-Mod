@@ -225,7 +225,8 @@ hof_sov_category = {
 						state = 722
 					}
 				}
-				transfer_state_to = ROOT
+				set_temp_variable = { dest_owner = ROOT }
+				transfer_state_to_conditionnel = yes
 			}
 		}
 	}
