@@ -1,0 +1,7 @@
+﻿l_french:
+    # Mita
+    SOV_Mita:0 "Mita"
+
+    Hearts-of-Mod_SOV_Mita.1.title:0 "[this_character.GetName] promue cheffe du pays"
+    Hearts-of-Mod_SOV_Mita.1.desc:0 "$VICTORY_POINTS_6380$ est tombée. Alors que l'ennemi avance et que [this_country.GetNameDef] vacille au bord de l'effondrement, une figure inattendue s'est dressée pour prendre les rênes du pays. [this_character.GetName], jusqu'alors inconnue du pouvoir [this_country.GetAdjMS], a été proclamée nouvelle dirigeante. Dans les rues, une question demeure : peut-[this_character.GetSheHe] sauver [this_country.GetNameDef] de sa chute ?"
+    Hearts-of-Mod_SOV_Mita.1.a:0 "[this_character.GetSheHeCap] dirigera le pays jusqu'au bout."

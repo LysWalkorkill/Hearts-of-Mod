@@ -1,0 +1,32 @@
+# Permet de transférer les états que pleinement si l'état est complètement contrôllé (CONTROLLER) par le possédeur (OWNER)
+## set_temp_variable = { dest_owner = PREV }
+transfer_state_to_conditionnel_owner = {
+	effect_tooltip = {
+		transfer_state_to = var:dest_owner
+	}
+	hidden_effect = {
+		if = {
+			limit = {
+				is_fully_controlled_by = OWNER
+			}
+			transfer_state_to = var:dest_owner
+		}
+		else = {
+			set_state_owner_to = var:dest_owner
+		}
+	}
+}
+# Ajoute 70% de compliance que si l'état possédé est aussi contrôlé
+add_compliance_70_conditionnel_owner = {
+	effect_tooltip = {
+		add_compliance = 70
+	}
+	hidden_effect = {
+		if = {
+			limit = {
+				is_controlled_by = OWNER
+			}
+			add_compliance = 70
+		}
+	}
+}

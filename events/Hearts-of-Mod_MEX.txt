@@ -1,0 +1,58 @@
+# Exploration du Mexique
+add_namespace = Hearts-of-Mod_MEX_exploration
+country_event = {
+    id = Hearts-of-Mod_MEX_exploration.1
+    title = Hearts-of-Mod_MEX_exploration.1.title
+    desc = Hearts-of-Mod_MEX_exploration.1.desc
+    picture = GFX_Hearts-of-Mod_report_event_mex1
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_MEX_exploration.1.a
+        add_political_power = 75
+    }
+}
+
+# Narco-Trafiquants
+add_namespace = Hearts-of-Mod_MEX_narco-trafiquant
+country_event = {
+    id = Hearts-of-Mod_MEX_narco-trafiquant.1
+    title = Hearts-of-Mod_MEX_narco-trafiquant.1.title
+    desc = Hearts-of-Mod_MEX_narco-trafiquant.1.desc
+    picture = GFX_Hearts-of-Mod_report_event_mex2
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_MEX_narco-trafiquant.1.a
+        add_stability = 0.10
+    }
+}
+
+# Annexion
+add_namespace = Hearts-of-Mod_MEX_annexion
+country_event = {
+    id = Hearts-of-Mod_MEX_annexion.1
+    title = Hearts-of-Mod_MEX_annexion.1.title
+    desc = Hearts-of-Mod_MEX_annexion.1.desc
+    picture = GFX_Hearts-of-Mod_report_event_mex3
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_MEX_annexion.1.a
+    }
+}

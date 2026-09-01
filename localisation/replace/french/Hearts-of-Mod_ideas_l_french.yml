@@ -1,0 +1,45 @@
+﻿l_french:
+     ## VICHY 
+ VIC_unrecognized_legitimacy_2: "Une légitimité méconnue" #NT!
+ VIC_unrecognized_legitimacy_2_desc: "Le gouvernement de Vichy n’est pas reconnu par la communauté internationale et est considéré comme une marionnette du Reich allemand. Cela a provoqué de nombreux troubles dans le pays et rendu difficile le maintien de l’ordre." #NT!
+ VIC_unrecognized_legitimacy_1: "Une légitimité méconnue" #NT!
+ VIC_unrecognized_legitimacy_1_desc: "Le gouvernement de Vichy n’est pas reconnu par la communauté internationale et est considéré comme une marionnette du Reich allemand. Cela a provoqué de nombreux troubles dans le pays et rendu difficile le maintien de l’ordre." #NT!
+ VIC_lack_of_scientist_3: "Manque de scientifiques" #NT!
+ VIC_lack_of_scientist_3_desc: "Le gouvernement de Vichy n'a pas réussi à attirer et à retenir les meilleurs esprits scientifiques du pays, ce qui a entravé sa capacité à développer de nouvelles technologies et à maintenir un avantage concurrentiel dans le monde." #NT!
+ VIC_lack_of_scientist_2: "Manque de scientifiques" #NT!
+ VIC_lack_of_scientist_2_desc: "Le gouvernement de Vichy n'a pas réussi à attirer et à retenir les meilleurs esprits scientifiques du pays, ce qui a entravé sa capacité à développer de nouvelles technologies et à maintenir un avantage concurrentiel dans le monde." #NT!
+ VIC_lack_of_scientist_1: "Manque de scientifiques" #NT!
+ VIC_lack_of_scientist_1_desc: "Le gouvernement de Vichy n'a pas réussi à attirer et à retenir les meilleurs esprits scientifiques du pays, ce qui a entravé sa capacité à se développer." #NT!
+ VIC_powerfull_scientist: "Des scientifiques puissants" #NT!
+ VIC_powerfull_scientist_desc: "None" #NT!
+ VIC_production_inefficiency_2: "Inefficacité de la production" #NT!
+ VIC_production_inefficiency_2_desc: "Le gouvernement de Vichy a été incapable de maintenir un système de production efficace, ce qui a entravé sa capacité à produire les biens et services nécessaires pour soutenir l’effort de guerre." #NT!
+ VIC_production_inefficiency_1: "Inefficacité de la production" #NT!
+ VIC_production_inefficiency_1_desc: "Le gouvernement de Vichy a été incapable de maintenir un système de production efficace, ce qui a entravé sa capacité à produire les biens et services nécessaires pour soutenir l’effort de guerre." #NT!
+ VIC_anti_republic_support: "Soutien anti-République" #NT!
+ VIC_anti_republic_support_desc: "Le gouvernement de Vichy a pu gagner le soutien de certaines factions anti-républicaines du pays, ce qui lui a permis de maintenir un certain degré de stabilité et de contrôle sur la population." #NT!
+ VIC_political_power_gain: "Gain de pouvoir politique" #NT!
+ VIC_political_power_gain_desc: "None" #NT!
+ VIC_national_resurgency_stability: "Stabilité nationale de la résurrection" #NT!
+ VIC_national_resurgency_stability_desc: "Le gouvernement de Vichy a su maintenir un certain degré de stabilité et de contrôle sur la population, ce qui lui a permis de mettre en œuvre sa politique et de maintenir l'ordre dans le pays." #NT!
+ VIC_grande_armee: "Grande Armée" #NT!
+ VIC_grande_armee_desc: "Le gouvernement de Vichy a su maintenir une force militaire forte, ce qui lui a permis de défendre le pays et de maintenir l'ordre face aux menaces extérieures." #NT!
+ VIC_idea_expanded_mining_industry: "Industrie minière élargie" #NT!
+ VIC_idea_expanded_mining_industry_desc: "None" #NT!
+ VIC_axe_trade: "Commerce de haches" #NT!
+ VIC_axe_trade_desc: "Le gouvernement de Vichy a pu établir des relations commerciales avec les puissances de l’Axe, ce qui lui a permis d’accéder aux biens et ressources nécessaires pour soutenir l’effort de guerre." #NT!
+ VIC_civilian_construction_speed: "Vitesse de construction civile" #NT!
+ VIC_civilian_construction_speed_desc: "Le gouvernement de Vichy a su accélérer les projets de construction civile, ce qui lui a permis d'améliorer les infrastructures et de soutenir l'effort de guerre." #NT!
+ VIC_construction_speed_1: "Vitesse de construction" #NT!
+ VIC_construction_speed_1_desc: "Le gouvernement de Vichy a su accélérer les chantiers, ce qui lui a permis d'améliorer les infrastructures et de soutenir l'effort de guerre." #NT!
+ VIC_military_construction_speed: "Vitesse de construction militaire" #NT!
+ VIC_military_construction_speed_desc: "Le gouvernement de Vichy a su accélérer les projets de construction militaire, ce qui lui a permis d'améliorer ses capacités militaires et de soutenir l'effort de guerre." #NT!
+ VIC_factory_output: "Sortie d'usine" #NT!
+ VIC_factory_output_desc: "Le gouvernement de Vichy a pu augmenter la production de ses usines, ce qui lui a permis de produire davantage de biens et de ressources pour soutenir l'effort de guerre." #NT!
+ VIC_consumer_good: "Biens de consommation" #NT!
+ VIC_consumer_good_desc: "None" #NT!
+ VIC_eff_cap: "Capacité d'efficacité" #NT!
+ VIC_eff_cap_desc: "None" #NT!
+ VIC_construction_speed_2: "None" #NT!
+ VIC_construction_speed_2_desc: "Le gouvernement de Vichy a su accélérer les chantiers, ce qui lui a permis d'améliorer les infrastructures et de soutenir l'effort de guerre." #NT!
+     ## VICHY END 

@@ -1,0 +1,9 @@
+﻿l_english:
+  is_fired:0 "Is fired"
+  is_fired_NOT:0 "Isn't fired"
+  is_arrested:0 "Is arrested"
+  is_arrested_NOT:0 "Isn't arrested"
+  is_killed:0 "Is killed"
+  is_killed_NOT:0 "Isn't killed"
+  is_stalked:0 "Is stalked"
+  is_stalked_NOT:0 "Isn't stalked"

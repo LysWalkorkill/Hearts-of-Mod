@@ -1,0 +1,9 @@
+﻿l_french:
+ is_fired: "Est renvoyé"
+ is_fired_NOT: "N'est pas renvoyé"
+ is_arrested: "Est arrêté"
+ is_arrested_NOT: "N'est pas arrêté"
+ is_killed: "Est tué"
+ is_killed_NOT: "N'est pas tué"
+ is_stalked: "Est chassé"
+ is_stalked_NOT: "N'est pas chassé"

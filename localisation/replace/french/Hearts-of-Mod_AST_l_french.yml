@@ -1,0 +1,50 @@
+﻿l_french:
+    AST_alexandra_casoy:0 "Alexandra Casoy"
+    AST_clover_ewing:0 "Clover Ewing"
+    AST_samantha_simpson:0 "Samantha Simpson"
+
+    # Étude d'animaux 
+    AST_etudier_kangouroux:0 "Étudier les kangouroux dans leur milieu naturel"
+    AST_etudier_requins_blancs:0 "Étudier les requins blancs suite aux incidents de baignade"
+    AST_etudier_rapaces_agressifs:0 "Étudier les rapaces agressifs du désert suite à une migration inhabituelle"
+
+    Hearts-of-Mod_AST_etude_animaux.1.title:0 "Étude des kangouroux"
+    Hearts-of-Mod_AST_etude_animaux.1.desc:0 "Un fait pour le moins étonnant a récemment été rapporté par une équipe de recherche australienne : une scientifique aurait réussi à établir un contact direct avec un kangourou sauvage, allant jusqu’à lui serrer la main en plein cœur de son habitat naturel. Une avancée pour la Science Australienne !\n\nSi cette rencontre demeure fascinante et rare, les spécialistes tiennent à souligner un point essentiel : malgré cet instant presque amical, le kangourou reste avant tout une bête sauvage."
+    Hearts-of-Mod_AST_etude_animaux.1.a:0 "C'était surement Skippy !"
+    
+    Hearts-of-Mod_AST_etude_animaux.2.title:0 "Étude des requins blancs"
+    Hearts-of-Mod_AST_etude_animaux.2.desc:0 "Une équipe de plongeurs et de chercheurs australiens a récemment réalisé une observation aussi audacieuse qu’inédite : nager aux côtés d’un grand requin blanc en pleine mer, sans protection apparente, pendant une durée de 3 minutes et 52 secondes.\n\n« Nous savions que le risque était réel, mais ces quelques minutes nous ont offert des observations précieuses », a expliqué l’un des membres de l’équipe.\nLes spécialistes soulignent que ce type d’interaction reste extrêmement dangereux et ne doit en aucun cas être reproduit sans encadrement scientifique strict."
+    Hearts-of-Mod_AST_etude_animaux.2.a:0 "Mmmh à ne pas reproduire..."
+    
+    Hearts-of-Mod_AST_etude_animaux.3.title:0 "Étude des rapaces agressifs"
+    Hearts-of-Mod_AST_etude_animaux.3.desc:0 "Un événement pour le moins extraordinaire agite actuellement la communauté scientifique australienne. Lors d’une expédition en région isolée, un chercheur aurait réussi — ou plutôt osé — s’agripper aux serres d’un immense rapace, se retrouvant brièvement soulevé du sol pendant quelques secondes.\n\n« C’était aussi impressionnant qu’inquiétant », aurait confié un membre de l’équipe. « On a vu clairement la puissance de l’animal. »"
+    Hearts-of-Mod_AST_etude_animaux.3.a:0 "Envole toi Stanley ! Sois libre !"
+    
+    # Industrie
+    AST_legaliser_chercheurs_cuivres:0 "Légaliser les chercheurs de cuivres"
+    AST_legaliser_chercheurs_or:0 "Légaliser les chercheurs d'or"
+    AST_legaliser_chercheurs_opales:0 "Légaliser les chercheurs d'opales"
+    AST_legaliser_forrage_mecanique:0 "Légaliser le forrage mécanique"
+
+    Hearts-of-Mod_AST_industrie.1.title:0 "Nouvelle législation"
+    Hearts-of-Mod_AST_industrie.1.desc:0 "Le gouvernement australien à encore récemment annoncé une série de nouvelles mesures visant à accorder davantage de droits et de libertés aux chercheurs de pierres précieuses, un secteur en pleine expansion dans plusieurs régions du pays.\n\nSur le terrain, plusieurs prospecteurs accueillent la nouvelle avec enthousiasme. « Ça fait longtemps qu’on attend ça », confie l’un d’eux. « Y’a du potentiel partout, faut juste nous laisser travailler. »\n\nLes responsables politiques, de leur côté, insistent sur le fait que ces changements seront encadrés et progressifs. Ils affirment vouloir trouver un équilibre entre développement économique et gestion des ressources naturelles, tout en soutenant les travailleurs du secteur."
+    Hearts-of-Mod_AST_industrie.1.a:0 "La Ruée vers l'or est Australienne !"
+    
+    # Annexion
+    AST_nouvelles_terres_flag:0 "Est nouvelles terres australiennes"
+    AST_nouvelles_terres_flag_NOT:0 "N'est pas de nouvelles terres australiennes"
+
+    AST_securiser_iles_aru:0 "Sécuriser les îles Aru"
+    AST_securiser_timor_portugais:0 "Sécuriser le Timor Portugais"
+    AST_securiser_papouasie:0 "Prendre le contrôle da la Papouasie"
+    AST_securiser_iles_sonde:0 "Prendre le contrôle des îles de la Sonde"
+
+    Hearts-of-Mod_AST_annexion.1.title:0 "Sécurisation de nouvelles terres"
+    Hearts-of-Mod_AST_annexion.1.desc:0 "Dans un contexte de tensions croissantes dans la région du Pacifique, le gouvernement australien a ordonné la mobilisation de ses forces armées afin de prendre le contrôle d’une île jugée stratégique pour la sécurité maritime.\n\nLes premières informations indiquent que l’opération s’est déroulée sans affrontement majeur. La présence militaire a été établie rapidement, et des mesures sont déjà en place pour organiser la gestion du territoire sous contrôle australien.\n\nDes observateurs internationaux suivent de près cette manœuvre, qui pourrait avoir des répercussions sur l’équilibre géopolitique dans la région."
+    Hearts-of-Mod_AST_annexion.1.a:0 "Ils nous remercierons quand le danger sera présent !"
+    
+    AST_exploiter_nouvelles_regions:0 "Exploiter nos nouvelles régions industrielles"
+
+    Hearts-of-Mod_AST_annexion.2.title:0 "Exploitation des nouvelles terres"
+    Hearts-of-Mod_AST_annexion.2.desc:0 "Plusieurs mois après l’opération militaire présentée comme une mission de sécurisation dans le Pacifique, de nouvelles informations viennent ébranler la version officielle du gouvernement australien. Selon des sources désormais rendues publiques, cette intervention aurait en réalité été motivée par l’exploitation des ressources naturelles de l’île concernée.\n\n« On nous a parlé de protection et de stabilité, mais tout indique que des intérêts économiques majeurs étaient en jeu », affirme un analyste ayant eu accès aux informations divulguées. Ces révélations provoquent un certain malaise, bien que peu de réactions publiques se fassent entendre.\n\nAlors que ces révélations jettent une ombre sur les actions du gouvernement, certains craignent une escalade des tensions dans la région. La guerre semble se rapprocher, et malgré les inquiétudes, le peuple, lui, n’ose pas protester."
+    Hearts-of-Mod_AST_annexion.2.a:0 "Et alors ? La sécurité a un prix..."

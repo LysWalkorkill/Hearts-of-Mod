@@ -40,6 +40,8 @@
   FRA_arms_3:0 "Rearming III"
   FRA_arms_4:0 "Rearming IV"
 
+  MIN_AI_disabled:0 "AI Disabled"
+
   AI_disabled_focus:0 "AI Disabled"
   KAZ_AI_disabled_focus:0 "AI Disabled"
   VIC_AI_disabled_focus:0 "AI Disabled"

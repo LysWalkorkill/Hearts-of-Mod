@@ -1,0 +1,156 @@
+﻿l_french:
+  
+ #For Mod named "udkudk Puppet Faction Members" by udkudk. Have Fun! "Membres de la faction des marionnettes udkudk" #NT!
+  
+ #Decision Category: 
+ udk_Cheat_Division_Templates_via_Decisions: "Ajouter des modèles de division via les décisions" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_desc: "Vous pouvez ajouter des modèles de division sans visiter le wiki ni dépenser de l'XP militaire.\n\nN'oubliez pas que vos doctrines militaires sont très importantes, il est donc suggéré d'ajuster les modèles selon vos préférences.\n\nVous pouvez facilement modifier les modèles.\n\nIl existe généralement 3 variantes de divisions ;\n--§1Cheap§ !\n--§4Normal§ !\n--§8Expensive§ !\n\nCertaines variantes peuvent dépendre de la rentabilité. utilisation à long terme (telle que la division de garnison L.Tank avec un coût initial élevé en IC, mais à long terme plus de rentabilité en IC et en main d'œuvre.)\n\n§GLes décisions sont répétables après 1 jour.§!\n\n§AVERTISSEMENT :§!\nSi vous n'avez pas la technologie nécessaire pour des unités telles que les Mech ou les Marines, les détails de cette division afficheront tout ce qui concerne cette unité de manière erronée. La recherche de la technologie nécessaire résoudra ce problème. Vous pouvez voir quelle technologie vous manque en survolant le bouton de décision." #NT!
+  
+ #Toggle On/Off: 
+ udk_Cheat_Division_Templates_via_Decisions_toggle_on: "§GShow§ ! Toutes les décisions" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_toggle_on_desc: "§GShow§ ! Toutes les décisions" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_toggle_off: "§RHide§ ! Toutes les décisions" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_toggle_off_desc: "§RHide§ ! Toutes les décisions" #NT!
+  
+ #Garrison Toggle On/Off: 
+ udk_Cheat_Division_Templates_via_Decisions_Garrison_toggle_on: "§GShow§ ! Toutes les §YModèle de garnison§! Décisions" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Garrison_toggle_on_desc: "§GShow§ ! Toutes les §YModèle de garnison§! Décisions" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Garrison_toggle_off: "§RHide§ ! Toutes les §YModèle de garnison§! Décisions" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Garrison_toggle_off_desc: "§RHide§ ! Toutes les §YModèle de garnison§! Décisions" #NT!
+ #Garrison Explanation: 
+ udk_Cheat_Division_Templates_via_Decisions_Garrison_title: "§YModèles de garnison :§! Passez la souris sur cette décision pour obtenir une explication des modèles de garnison." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Garrison_title_desc: "§Y1-§ ! §WGarrison bon marché (pas rentable) (Cavalerie uniquement, pas de MP) :§!\nModèle (IC) le moins cher pour les professions. Inclut uniquement la cavalerie, aucune police militaire ajoutée pour réduire les coûts IC. Cela nécessitera une énorme quantité de main-d'œuvre et en perdra beaucoup.\n\n§Y2-§! §WGarrison rentable à moyen terme (Cavalerie + MP) :§!\nUn meilleur modèle de garnison, idéal pour les pays mineurs. Même si cela coûte et perd encore beaucoup de main-d'œuvre, la police militaire pourrait éventuellement rendre ce système 50 % plus efficace. Coûte initialement plus d'IC, mais à moyen-long terme, dépassera la version bon marché.\n\n§Y3-§! §WGarrison rentable à long terme (L.Tank) :§!\nMeilleur modèle de garnison, utilisez-le avec le L.Tank le moins cher (Suspension de bogie, Inter-War L.Tank, coûte 2,4 IC), désactivez l'utilisation de nouveaux équipements. Investissement massif en IC au début. Mais en raison de sa dureté de 80 % et de ses exigences minimales en matière de main-d'œuvre, il surpasse les autres modèles en 2 à 3 ans en perdant 5 fois moins de circuits intégrés et de main-d'œuvre. Particulièrement utile pour l'Axe, le Japon ou la Conquête mondiale." #NT!
+ #Garrison Templates: 
+ udk_Cheat_Division_Templates_via_Decisions_Garrison_Cheap: "§1Garrison bon marché (Cavalerie uniquement)§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Garrison_Cheap_desc: "Modèle le moins cher (IC) pour les professions. Inclut uniquement la cavalerie, aucune police militaire ajoutée pour réduire les coûts IC. Cela prendra énormément de main d’œuvre et en perdra beaucoup." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Garrison_Medium_Term_Cost_Effective: "§4Garrison Normal (Cavalerie+MP)§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Garrison_Medium_Term_Cost_Effective_desc: "Un meilleur modèle de garnison, idéal pour les pays mineurs. Même si cela coûte et perd encore beaucoup de main-d'œuvre, la police militaire pourrait éventuellement rendre ce système 50 % plus efficace. Au départ, le coût du circuit intégré est plus élevé, mais à moyen et long terme, il dépassera la version bon marché." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Garrison_Long_Term_Cost_Effective: "§8Garrison Pays majeur uniquement (L.Tank)§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Garrison_Long_Term_Cost_Effective_desc: "Meilleur modèle de garnison, utilisez-le avec le L.Tank le moins cher (Bogie Suspension, Inter-War L.Tank, coûte 2,4 IC), désactivez l'utilisation de nouveaux équipements. Investissement massif en IC au début. Mais en raison de sa dureté de 80 % et de ses exigences minimales en matière de main-d'œuvre, il surpasse les autres modèles en 2 à 3 ans en perdant 5 fois moins de circuits intégrés et de main-d'œuvre. Particulièrement utile pour l'Axe, le Japon ou la Conquête mondiale." #NT!
+  
+ #Coast Defense Toggle On/Off: 
+ udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_toggle_on: "§GShow§ ! Toutes les décisions §YModèle de défense côtière§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_toggle_on_desc: "§GShow§ ! Toutes les décisions §YModèle de défense côtière§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_toggle_off: "§RHide§ ! Toutes les décisions §YModèle de défense côtière§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_toggle_off_desc: "§RHide§ ! Toutes les décisions §YModèle de défense côtière§!" #NT!
+ #Coast Defense Explanation: 
+ udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_title: "§YModèles de défense côtière :§! Passez la souris sur cette décision pour une explication des modèles de défense côtière." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Coast_Defense_title_desc: "§Y1-§ ! §W Défense côtière bon marché §!\nUtilisez simplement une division d'infanterie normale de 18 W\n\n§Y2-§! §W Défense côtière rentable :§!\nUtilisez simplement une division d'infanterie lourde de 36 W. Pourquoi une compagnie de soutien adaptée\n\n§Y3-§! §W 36 W Meca Wall Coast Defense §!\n Meca Wall sont les meilleure façon de défendre votre littoral, mais cela coûte extrêmement cher.\n" #NT!
+ #Coast Defense: 
+ udk_Cheat_Division_Templates_via_Decisions_Meca_Coast_Defense: "§836W Défense côtière du mur de Meca§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Meca_Coast_Defense_desc: "36W Défense côtière Meca. Principalement le but de l'Axe." #NT!
+  
+ #Infantry Toggle On/Off: 
+ udk_Cheat_Division_Templates_via_Decisions_Infantry_toggle_on: "§GShow§ ! Toutes les décisions §YModèle d'infanterie§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Infantry_toggle_on_desc: "§GShow§ ! Toutes les décisions §YModèle d'infanterie§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Infantry_toggle_off: "§RHide§ ! Toutes les décisions §YModèle d'infanterie§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Infantry_toggle_off_desc: "§RHide§ ! Toutes les décisions §YModèle d'infanterie§!" #NT!
+ #Infantry Explanation: 
+ udk_Cheat_Division_Templates_via_Decisions_Infantry_title: "§YModèles d'infanterie :§! Passez la souris sur cette décision pour une explication des modèles d'infanterie." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Infantry_title_desc: "TRAVAIL EN COURS" #NT!
+ #Infantry: 
+ udk_Cheat_Division_Templates_via_Decisions_Infantry_Cheap: "§118W Infanterie§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Infantry_Cheap_desc: "Modèle d'infanterie 18W. Division d'infanterie par défaut, doit adapter les compagnies de soutien à vos besoins." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective: "§436W Infanterie (rentable)§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_desc: "Infanterie 36WRentable. Idéal pour les terrains merdiques et les zones à faible approvisionnement. Doit adapter les entreprises d’accompagnement à vos besoins." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_Anty_TanK: "§836W Infanterie - Antichar§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_Anty_TanK_desc: "Infanterie 36W - Antichar. Idéal contre Tank sur tous les terrains sauf en plaine." #NT!
+  
+ #Amphibious Assault Toggle On/Off: 
+ udk_Cheat_Division_Templates_via_Decisions_Marines_toggle_on: "§GShow§ ! Toutes les §YModèle d'assaut amphibie§! Décisions" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_toggle_on_desc: "§GShow§ ! Toutes les §YModèle d'assaut amphibie§! Décisions" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_toggle_off: "§RHide§ ! Toutes les §YModèle d'assaut amphibie§! Décisions" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_toggle_off_desc: "§RHide§ ! Toutes les §YModèle d'assaut amphibie§! Décisions" #NT!
+ #Amphibious Assault Explanation: 
+ udk_Cheat_Division_Templates_via_Decisions_Marines_title: "§YModèles d'assaut amphibie :§! Passez la souris sur cette décision pour une explication des modèles d'assaut amphibie. 1/2" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_title_desc: "§Y1-§ ! §W10W Amphibious Assault Marines Cheap v1 :§!\nModèle d'assaut amphibie le moins cher (IC), avec sociétés de support AA, AT, ART, ENG, LOG. Cela vaut la peine d'être utilisé uniquement contre une IA faible. Cela fera beaucoup de victimes. Également faible face à la réponse ennemie. Mauvaise utilisation de la casquette d'invasion navale.\n\n§Y2-§! §W10W Amphibious Assault Marines Cheap v2.a (Rocket + AT) :§!\nUne mise à niveau de Cheap v1, remplacement de la logistique par de l'artillerie de soutien de fusée.\n\n§Y3-§! §W10W Amphibious Assault Marines Cheap v2.b (Rocket + Logistique) :§!\nUne modification de Cheap v2.a, remplace AT par Logistics. Utilisez-les si vous ne rencontrez aucun char ennemi mais avez des problèmes d'approvisionnement.\n\n§Y4-§! §W30W Marines d'assaut amphibie + ART rentable v1 :§!\nModèle d'assaut amphibie le plus rentable, avec artillerie de ligne + compagnies de support AA, AT, ART, ENG, LOG. Toujours vulnérable contre les blindés ennemis (chars Med ou Heav). Mais beaucoup plus fort en terrain normal. Faible en multijoueur. Bon dans la plupart des jeux IA. Meilleure utilisation de la casquette d'invasion navale.\n\n§Y5-§! §W30W Marines d'assaut amphibie+ART rentable v2.a (Rocket + AT) :§!\nUne mise à niveau de la version rentable 1, remplacement de la logistique par de l'artillerie de soutien de fusée.\n\n§Y6-§! §W30W Marines d'assaut amphibie+ART rentable v2.b (Rocket + Logistics) :§!\nUne modification de Cost Effective v2.a, remplace AT par Logistics. Utilisez-les si vous ne rencontrez aucun char ennemi mais avez des problèmes d'approvisionnement." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_title_2: "§YModèles d'assaut amphibie :§! Passez la souris sur cette décision pour une explication des modèles d'assaut amphibie. 2/2" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_title_2_desc: "§Y7-§ ! §W30W Assaut amphibie M.Amph.Tank+Mot. Cher v1.a (AT) :§!\nTrès bon modèle d'assaut amphibie, utilise une armure moyenne amphibie et de l'infanterie motorisée, dispose de compagnies de soutien AA, AT, ART, LOG et PRINCIPALES. A besoin de plus de ravitaillement, mais démolit toute opposition et peut également être utilisé comme division de chars régulière.\n\n§Y8-§! §W30W Assaut amphibie M.Amph.Tank+Mot. Cher v1.b (Rocket) :§!\nUne modification de Cher v1.a, remplace l'AT par de l'artillerie de support de fusée.\n\n§Y9-§! §W30W Assaut amphibie M.Amph.Tank+Mech. Super cher v1.a (AT) :§!\nVraiment cher, utilise une armure moyenne amphibie et de l'infanterie mécanisée, dispose de compagnies de soutien AA, AT, ART, LOG et PRINCIPALES. A besoin de plus de ravitaillement, mais démolit toute opposition et peut également être utilisé comme division de chars régulière. Nécessite une grande quantité de MIL.\n\n§Y10-§! §W30W Assaut amphibie M.Amph.Tank+Mech. Super Expensive v1.b (Rocket) :§!\nUne modification de Super Expensive v1.a, remplace AT par Rocket Support Artillery.\n\n§Y11-§! §W30W Amphibious Assault M.Amph.Tank+Amtrac Super Expensive v1.c (AT):§!\nUne modification de Super Expensive v1.a, remplace Mechanized Infanterie avec Amtrac.\n\n§Y12-§! §W30W Assaut amphibie M.Amph.Tank+Amtrac Super Expensive v1.d (Rocket) :§!\nUne modification de Super Expensive v1.c, remplace l'AT par de l'artillerie de support de fusée." #NT!
+ #Amphibious Assault: 
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v1: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v1_desc: "Le modèle d'assaut amphibie le plus complet (IC), dispose de sociétés de support AA, AT, ART, ENG, LOG. Cela vaut la peine d'être utilisé uniquement contre une IA faible. Cela fera beaucoup de victimes. Également faible face à la réponse ennemie. Mauvaise utilisation de la casquette d'invasion navale." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v2_a: "Marines d'assaut amphibie 10W pas cher v2.a (Rocket + AT)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v2_a_desc: "Une mise à niveau de la version 1 bon marché, remplacement de la logistique par de l'artillerie de support de fusée." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v2_b: "udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v2_b" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v2_b_desc: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v1: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v1_desc: "Modèle d'assaut amphibie le plus rentable, doté d'artillerie de ligne + de sociétés de support AA, AT, ART, ENG, LOG. Toujours vulnérable contre les blindés ennemis (chars Med ou Heav). Mais beaucoup plus fort en terrain normal. Faible en multijoueur. Bon dans la plupart des jeux IA. Meilleure utilisation de la casquette d'invasion navale." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v2_a: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v2_a_desc: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v2_b: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v2_b_desc: "Une modification de Cost Effective v2.a remplace AT par Logistics. Utilisez-les si vous ne rencontrez aucun char ennemi mais avez des problèmes d'approvisionnement." #NT!
+  
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Expensive_v1_a: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Expensive_v1_a_desc: "None" #NT!
+  
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Expensive_v1_b: "Assaut amphibie 30 W M.Amph.Tank+Mot. Cher v1.b (Rocket)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Expensive_v1_b_desc: "Une modification de Expensive v1.a, remplace AT par Rocket Support Artillery." #NT!
+  
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_a: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_a_desc: "Vraiment cher, utilise un blindage moyen amphibie et de l'infanterie mécanisée, dispose de sociétés de soutien AA, AT, ART, LOG et MAIN. A besoin de plus de ravitaillement, mais démolit toute opposition et peut également être utilisé comme division de chars régulière. Nécessite une grande quantité de MIL." #NT!
+  
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_b: "Assaut amphibie 30 W M.Amph.Tank+Mech. Super cher v1.b (Rocket)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_b_desc: "Une modification de Super Expensive v1.a, remplace AT par Rocket Support Artillery." #NT!
+  
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_c: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_c_desc: "Une modification de Super Expensive v1.a remplace l'infanterie mécanisée par celle d'Amtrac." #NT!
+  
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_d: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_d_desc: "Une modification de Super Expensive v1.c, remplace AT par Rocket Support Artillery." #NT!
+  
+ #Mobile Infantry Toggle On/Off: 
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_toggle_on: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_toggle_on_desc: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_toggle_off: "§RHide§ ! Toutes les §YModèle d'infanterie mobile§! Décisions" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_toggle_off_desc: "None" #NT!
+ #Mobile Infantry Explanation: 
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_title: "§YModèles d'infanterie mobile :§! Passez la souris sur cette décision pour une explication des modèles d'infanterie mobile." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_title_desc: "Utilisez l'infanterie mobile pour exploiter les percées créées par les divisions blindées.\n\n§Y1-§ ! §W13W Exploit&Déf. Mot. Pas cher :§!\nModèle d'infanterie mobile le moins cher (IC), ne dispose que de 13 largeurs de combat et d'ART, sociétés de support ENG. Cela vaut la peine d'être utilisé uniquement contre une IA faible. Également faible face à la réponse ennemie. Utile uniquement si vous disposez de MIL insuffisants et devez exploiter des avancées.\n\n§Y2-§! §W27W Exploit&Def. Mot. Rentable v1 : §!\nModèle d'infanterie mobile le plus rentable, 27 W +, avec sociétés de support AA, ART, ENG et LOG. Bien qu'il n'ait pas d'AT, il a toujours une bonne plume contre les armures légères et la plupart des armures moyennes.\n\n§Y3-§! §W27W Exploit&Def. Mot. Rentable v2 (Rocket) :§!\nUne mise à niveau de Rentable v1, ajout d'une artillerie de support de fusée.\n\n§Y4-§! §W27W Exploit&Def. Mot. Cher (AT, No Rocket) :§!\nUne modification de Cost Effective v1, ajout d'AT. Utilisez-le si PEN ne suffit pas. Ce modèle n'a pas de version Rocket Support Artillery, tous les emplacements de support sont pleins, utilisez Cost Effective v2, remplace uniquement S.AT par Rocket Support Artillery.\n\n§Y5-§! §W27W Exploit&Def. Mécanique. Super cher v1.a (maintenance) :§!\nVraiment cher, utilise de l'infanterie mécanisée, dispose d'ENG, AA, ART, LOG, MAIN Support Companies. A besoin de plus d’approvisionnement, mais excelle dans son rôle. Nécessite une grande quantité de MIL.\n\n§Y6-§! §W27W Exploit&Def. Mécanique. Super Expensive v1.b (AT) :§!\nUne modification de Super Expensive v1.a, maintenance remplacée par AT.\n\n§Y7-§! §W27W Exploit&Def. Mécanique. Super Expensive v1.c (Rocket) :§!\nUne modification de Super Expensive v1.a, maintenance remplacée par l'artillerie de support de fusée." #NT!
+ #Mobile Infantry: 
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Cheap: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Cheap_desc: "Le modèle d'infanterie mobile le moins cher (IC), ne compte que 13 sociétés de soutien en largeur de combat et ART, ENG. Cela vaut la peine d'être utilisé uniquement contre une IA faible. Également faible face à la réponse ennemie. Utile uniquement si vous disposez de MIL insuffisants et devez exploiter les avancées." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Cost_Effective_v1: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Cost_Effective_v1_desc: "Le modèle d'infanterie mobile le plus rentable, 27W +, dispose de sociétés de support AA, ART, ENG, LOG. Bien qu'il n'ait pas d'AT, il a toujours une bonne plume contre les armures légères et la plupart des armures moyennes." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Cost_Effective_v2: "None" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Cost_Effective_v2_desc: "Une mise à niveau de la v1 rentable, ajout d'une artillerie de support de fusée." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Expensive: "27W Exploit&Déf. Mot. Cher (AT, No Rocket)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Expensive_desc: "Une modification de Cost Effective v1, ajout d'AT. Utilisez-le si PEN ne suffit pas. Ce modèle n'a pas de version Rocket Support Artillery, tous les emplacements de support sont pleins, utilisez Cost Effective v2, remplace uniquement S.AT par Rocket Support Artillery." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Super_Expensive_v1_a: "27W Exploit&Déf. Mécanique. Super cher v1.a (maintenance)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Super_Expensive_v1_a_desc: "Vraiment cher, utilise de l'infanterie mécanisée, dispose de sociétés de soutien ENG, AA, ART, LOG et MAIN. A besoin de plus d’approvisionnement, mais excelle dans son rôle. Nécessite une grande quantité de MIL." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Super_Expensive_v1_b: "27W Exploit&Déf. Mécanique. Super cher v1.b (AT)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Super_Expensive_v1_b_desc: "Une modification de Super Expensive v1.a, remplacement de la maintenance par AT." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Super_Expensive_v1_c: "27W Exploit&Déf. Mécanique. Super cher v1.c (Rocket)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Mobile_Super_Expensive_v1_c_desc: "Une modification de Super Expensive v1.a, remplacement de la maintenance par Rocket Support Artillery." #NT!
+  
+ #Armored Assault Toggle On/Off: 
+ udk_Cheat_Division_Templates_via_Decisions_Armored_toggle_on: "§GShow§ ! Toutes les décisions §YModèle d'assaut blindé§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Armored_toggle_on_desc: "§GShow§ ! Toutes les décisions §YModèle d'assaut blindé§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Armored_toggle_off: "§RHide§ ! Toutes les décisions §YModèle d'assaut blindé§!" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Armored_toggle_off_desc: "§RHide§ ! Toutes les décisions §YModèle d'assaut blindé§!" #NT!
+ #Armored Assault Explanation: 
+ udk_Cheat_Division_Templates_via_Decisions_Armored_title: "§YModèles d'assaut blindé :§! Passez la souris sur cette décision pour une explication des modèles d'assaut blindé." #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Armored_title_desc: "Ajustez les modèles pour avoir min 40, max. 50 org. Les tanks sont destinés à des percées rapides, ils n'ont pas besoin d'une ORG élevée.\n\n§Y1-§ ! §W30W 40_ORG Armor Med.Tank Mot. Rentable v1.a (AT) :§!\nModèle d'assaut blindé le plus rentable, avec AA, AT, ART, LOG et MAIN Support Companies. Utilisez-le si votre PEN n'est pas suffisant.\n\n§Y2-§! §W30W 40_ORG Armor Med.Tank Mot. Cost Effective v1.b (Rocket) :§!\nUne modification de Cost Effective v1.a, remplacement de l'AT par une artillerie de support de fusée. Utilisez-le si vous n'avez pas besoin d'AT.\n\n§Y3-§! §W30W 40_ORG Armor Mod.Tank Mot. Rentable v2.a (AT) :§!\nUne mise à niveau de Rentable v1.b, utilise des chars modernes. Utilisez-le si votre PEN n'est pas suffisant.\n\n§Y4-§! §W30W 40_ORG Armor Mod.Tank Mot. Cost Effective v2.b (Rocket) :§!\nUne modification de Cost Effective v2.a, remplacement de l'AT par de l'artillerie de support de fusée. Utilisez-le si vous n'avez pas besoin d'AT.\n\n§Y5-§! §W30W 40_ORG Armor Med.Tank Mech. Cher v1.a (AT) :§!\nVraiment cher, utilise l'infanterie mécanisée, dispose de AA, AT, ART, LOG, MAIN Support Companies. Ultra OP en SP. A besoin de plus d’approvisionnement, mais excelle dans son rôle. Nécessite une grande quantité de MIL. Pas rentable. Utilisez-le si votre PEN n'est pas suffisant.\n\n§Y6-§! §W30W 40_ORG Armor Med.Tank Mech. Cher v1.b (Rocket) :§!\nUne modification de Cher v1.a, remplacé l'AT par de l'artillerie de support de fusée. Utilisez-le si vous n'avez pas besoin d'AT.\n\n§Y7-§! §W30W 40_ORG Armor Mod.Tank Mech. Expensive v2.a (AT) :§!\nUne mise à niveau de Expensive v1.a, utilise des chars modernes. Utilisez-le si votre PEN n'est pas suffisant.\n\n§Y8-§! §W30W 40_ORG Armor Mod.Tank Mech. Cher v2.b (Rocket) :§!\nUne modification de Cher v2.a, remplacé l'AT par de l'artillerie de support de fusée. Utilisez-le si vous n'avez pas besoin d'AT." #NT!
+ #Armored Assault: 
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v1_a: "30W 40_ORG Armor Med.Tank Mot. Rentable v1.a (AT)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v1_a_desc: "Le modèle d'assaut blindé le plus rentable comprend les sociétés de support AA, AT, ART, LOG et MAIN. Utilisez-le si votre PEN ne suffit pas." #NT!
+  
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v1_b: "30W 40_ORG Armor Med.Tank Mot. Rentable v1.b (Rocket)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v1_b_desc: "Une modification de Cost Effective v1.a, remplacé l'AT par de l'artillerie de support de fusée. Utilisez-le si vous n'avez pas besoin d'AT." #NT!
+  
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v2_a: "30W 40_ORG Armor Mod.Tank Mot. Rentable v2.a (AT)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v2_a_desc: "Une mise à niveau de la v1.b rentable, utilise des chars modernes. Utilisez-le si votre PEN ne suffit pas." #NT!
+  
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v2_b: "30W 40_ORG Armor Mod.Tank Mot. Rentable v2.b (Rocket)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v2_b_desc: "Une modification de Cost Effective v2.a, remplacé l'AT par de l'artillerie de support de fusée. Utilisez-le si vous n'avez pas besoin d'AT." #NT!
+  
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_a: "30W 40_ORG Armor Med.Tank Mech. Cher v1.a (AT)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_a_desc: "Vraiment cher, utilise de l'infanterie mécanisée, dispose de sociétés de soutien AA, AT, ART, LOG et PRINCIPALES. Ultra OP en SP. A besoin de plus d’approvisionnement, mais excelle dans son rôle. Nécessite une grande quantité de MIL. Pas rentable. Utilisez-le si votre PEN ne suffit pas." #NT!
+  
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_b: "30W 40_ORG Armor Med.Tank Mech. Cher v1.b (Rocket)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_b_desc: "Une modification de Expensive v1.a, remplacé l'AT par de l'artillerie de support de fusée. Utilisez-le si vous n'avez pas besoin d'AT." #NT!
+  
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v2_a: "30W 40_ORG Armor Mod.Tank Mech. Cher v2.a (AT)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v2_a_desc: "Une mise à niveau de la coûteuse v1.a, utilise des chars modernes. Utilisez-le si votre PEN ne suffit pas." #NT!
+  
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v2_b: "30W 40_ORG Armor Mod.Tank Mech. Cher v2.b (Rocket)" #NT!
+ udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v2_b_desc: "Une modification de Expensive v2.a, remplacé l'AT par de l'artillerie de support de fusée. Utilisez-le si vous n'avez pas besoin d'AT." #NT!
