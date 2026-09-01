@@ -5695,7 +5695,7 @@ JAP_kwantung_army_decisions = {
 						state = 724
 					}
 				}
-				add_compliance_70_conditionnel = yes
+				add_compliance_70_conditionnel_owner = yes
 				add_claim_by = ROOT
 			}
 			
@@ -5757,7 +5757,7 @@ JAP_kwantung_army_decisions = {
 					}
 				}
 				set_temp_variable = { dest_owner = MAN }
-				transfer_state_to_conditionnel = yes
+				transfer_state_to_conditionnel_owner = yes
 				add_claim_by = MAN
 			}
 			ROOT = {
@@ -5828,7 +5828,7 @@ JAP_kwantung_army_decisions = {
 					}
 				}
 				set_temp_variable = { dest_owner = MAN }
-				transfer_state_to_conditionnel = yes
+				transfer_state_to_conditionnel_owner = yes
 				add_claim_by = MAN
 			}
 			news_event = { id = news.121 }
@@ -5877,7 +5877,7 @@ JAP_kwantung_army_decisions = {
 					}
 				}
 				set_temp_variable = { dest_owner = MAN }
-				transfer_state_to_conditionnel = yes
+				transfer_state_to_conditionnel_owner = yes
 				add_claim_by = MAN
 			}
 		}

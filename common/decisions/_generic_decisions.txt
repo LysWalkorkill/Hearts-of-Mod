@@ -152,8 +152,8 @@ political_actions = {
 					}
 				}
 				set_temp_variable = { dest_owner = ROOT }
-				transfer_state_to_conditionnel = yes
-				add_compliance_70_conditionnel = yes
+				transfer_state_to_conditionnel_owner = yes
+				add_compliance_70_conditionnel_owner = yes
 			}
 		}
 	}
@@ -259,8 +259,8 @@ political_actions = {
 					}
 				}
 				set_temp_variable = { dest_owner = ROOT }
-				transfer_state_to_conditionnel = yes
-				add_compliance_70_conditionnel = yes
+				transfer_state_to_conditionnel_owner = yes
+				add_compliance_70_conditionnel_owner = yes
 				add_claim_by = ROOT
 			}
 			every_state = {
@@ -281,8 +281,8 @@ political_actions = {
 					}
 				}
 				set_temp_variable = { dest_owner = ITA }
-				transfer_state_to_conditionnel = yes
-				add_compliance_70_conditionnel = yes
+				transfer_state_to_conditionnel_owner = yes
+				add_compliance_70_conditionnel_owner = yes
 				add_claim_by = ITA
 			}
 		}
@@ -351,8 +351,8 @@ political_actions = {
 					}
 				}
 				set_temp_variable = { dest_owner = ROOT }
-				transfer_state_to_conditionnel = yes
-				add_compliance_70_conditionnel = yes
+				transfer_state_to_conditionnel_owner = yes
+				add_compliance_70_conditionnel_owner = yes
 			}
 			news_event = { id = news.22 }
 		}
@@ -546,8 +546,8 @@ political_actions = {
 					}
 				}
 				set_temp_variable = { dest_owner = ROOT }
-				transfer_state_to_conditionnel = yes
-				add_compliance_70_conditionnel = yes
+				transfer_state_to_conditionnel_owner = yes
+				add_compliance_70_conditionnel_owner = yes
 				add_claim_by = ROOT
 			}
 			every_state = {
@@ -572,8 +572,8 @@ political_actions = {
 					}
 				}
 				set_temp_variable = { dest_owner = HUN }
-				transfer_state_to_conditionnel = yes
-				add_compliance_70_conditionnel = yes
+				transfer_state_to_conditionnel_owner = yes
+				add_compliance_70_conditionnel_owner = yes
 				add_claim_by = HUN
 			}
 			every_state = {
@@ -602,8 +602,8 @@ political_actions = {
 					}
 				}
 				set_temp_variable = { dest_owner = ROOT }
-				transfer_state_to_conditionnel = yes
-				add_compliance_70_conditionnel = yes
+				transfer_state_to_conditionnel_owner = yes
+				add_compliance_70_conditionnel_owner = yes
 				add_claim_by = ITA
 			}
 			every_state = {
@@ -631,8 +631,8 @@ political_actions = {
 					}
 				}
 				set_temp_variable = { dest_owner = BUL }
-				transfer_state_to_conditionnel = yes
-				add_compliance_70_conditionnel = yes
+				transfer_state_to_conditionnel_owner = yes
+				add_compliance_70_conditionnel_owner = yes
 			}
 		}
 	}

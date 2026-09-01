@@ -261,8 +261,8 @@ MEX_category_military_issues = {
 		remove_effect = {
 			311 = {
 				set_temp_variable = { dest_owner = ROOT }
-				transfer_state_to_conditionnel = yes
-				add_compliance_70_conditionnel = yes
+				transfer_state_to_conditionnel_owner = yes
+				add_compliance_70_conditionnel_owner = yes
 			}
 			
 			country_event = {
