@@ -81,13 +81,9 @@ political_actions = {
 				}
 			}
 		}
-
+		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		fire_only_once = yes
@@ -155,8 +151,9 @@ political_actions = {
 						state = 764
 					}
 				}
-				transfer_state_to = ROOT
-				add_compliance = 70
+				set_temp_variable = { dest_owner = ROOT }
+				transfer_state_to_conditionnel = yes
+				add_compliance_70_conditionnel = yes
 			}
 		}
 	}
@@ -199,7 +196,10 @@ political_actions = {
 						AND = {
 							state = 182
 							ITA = {
-								has_war_with = ROOT
+								OR  = {
+									exists = no
+									has_war_with = ROOT
+								}
 							}
 						}
 					}
@@ -209,6 +209,7 @@ political_actions = {
 			every_state = {
 				limit = {
 					ITA = {
+						exists = yes
 						NOT = {
 							has_war_with = ROOT
 						}
@@ -249,18 +250,23 @@ political_actions = {
 						AND = {
 							state = 182
 							ITA = {
-								has_war_with = ROOT
+								OR = {
+									exists = no
+									has_war_with = ROOT
+								}
 							}
 						}
 					}
 				}
-				transfer_state_to = ROOT
+				set_temp_variable = { dest_owner = ROOT }
+				transfer_state_to_conditionnel = yes
+				add_compliance_70_conditionnel = yes
 				add_claim_by = ROOT
-				add_compliance = 70
 			}
 			every_state = {
 				limit = {
 					ITA = {
+						exists = yes
 						NOT = {
 							has_war_with = ROOT
 						}
@@ -274,9 +280,10 @@ political_actions = {
 						state = 182
 					}
 				}
-				transfer_state_to = ITA
+				set_temp_variable = { dest_owner = ITA }
+				transfer_state_to_conditionnel = yes
+				add_compliance_70_conditionnel = yes
 				add_claim_by = ITA
-				add_compliance = 70
 			}
 		}
 	}
@@ -305,7 +312,7 @@ political_actions = {
 		cancel_if_not_visible = yes
 		
 		is_good = yes
-
+		
 		complete_effect = {
 			every_state = {
 				limit = {
@@ -343,9 +350,9 @@ political_actions = {
 						state = 805
 					}
 				}
-				transfer_state_to = ROOT
-				add_claim_by = ROOT
-				add_compliance = 70
+				set_temp_variable = { dest_owner = ROOT }
+				transfer_state_to_conditionnel = yes
+				add_compliance_70_conditionnel = yes
 			}
 			news_event = { id = news.22 }
 		}
@@ -367,11 +374,7 @@ political_actions = {
 			date > 1939.01.01
 		}
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		visible = {
 			tag = BUL
@@ -477,14 +480,11 @@ political_actions = {
 			}
 		}
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		visible = {
 			tag = GER
+			is_ai = no
 		}
 		allowed = {
 			original_tag = GER
@@ -521,14 +521,11 @@ political_actions = {
 			}
 		}
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		visible = {
 			tag = GER
+			is_ai = no
 		}
 		allowed = {
 			original_tag = GER
@@ -548,12 +545,15 @@ political_actions = {
 						state = 853
 					}
 				}
-				transfer_state_to = ROOT
-				add_compliance = 70
+				set_temp_variable = { dest_owner = ROOT }
+				transfer_state_to_conditionnel = yes
+				add_compliance_70_conditionnel = yes
+				add_claim_by = ROOT
 			}
 			every_state = {
 				limit = {
 					HUN = {
+						exists = yes
 						NOT = {
 							has_war_with = ROOT
 						}
@@ -571,8 +571,10 @@ political_actions = {
 						state = 109
 					}
 				}
-				transfer_state_to = HUN
-				add_compliance = 70
+				set_temp_variable = { dest_owner = HUN }
+				transfer_state_to_conditionnel = yes
+				add_compliance_70_conditionnel = yes
+				add_claim_by = HUN
 			}
 			every_state = {
 				limit = {
@@ -599,12 +601,15 @@ political_actions = {
 						state = 802
 					}
 				}
-				transfer_state_to = ITA
-				add_compliance = 70
+				set_temp_variable = { dest_owner = ROOT }
+				transfer_state_to_conditionnel = yes
+				add_compliance_70_conditionnel = yes
+				add_claim_by = ITA
 			}
 			every_state = {
 				limit = {
 					BUL = {
+						exists = yes
 						NOT = {
 							has_war_with = ROOT
 						}
@@ -625,8 +630,9 @@ political_actions = {
 						state = 106
 					}
 				}
-				transfer_state_to = BUL
-				add_compliance = 70
+				set_temp_variable = { dest_owner = BUL }
+				transfer_state_to_conditionnel = yes
+				add_compliance_70_conditionnel = yes
 			}
 		}
 	}
@@ -645,11 +651,7 @@ political_actions = {
 			}
 		}
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		visible = {
 			tag = USA
@@ -659,7 +661,14 @@ political_actions = {
 		}
 		fire_only_once = yes
 		complete_effect = {
-			annex_country = { target = PHI transfer_troops = yes }
+			PHI = {
+				ROOT = {
+					annex_country = { target = PREV transfer_troops = yes }
+				}
+				every_core_state = {
+					add_claim_by = ROOT
+				}
+			}
 		}
 	}
 	
@@ -678,11 +687,7 @@ political_actions = {
 			has_capitulated = yes
 		}
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		visible = {
 			tag = FRA

@@ -68,11 +68,7 @@ political_actions = {
 		fixed_random_seed = no
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		cost = 0
@@ -129,11 +125,7 @@ political_actions = {
 		fixed_random_seed = no
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		cost = 0
@@ -186,11 +178,7 @@ war_measures = {
 		fixed_random_seed = no
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		cost = 0
@@ -251,11 +239,7 @@ MEX_category_military_issues = {
 		}
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		complete_effect = {
@@ -276,7 +260,9 @@ MEX_category_military_issues = {
 		
 		remove_effect = {
 			311 = {
-				transfer_state_to = ROOT
+				set_temp_variable = { dest_owner = ROOT }
+				transfer_state_to_conditionnel = yes
+				add_compliance_70_conditionnel = yes
 			}
 			
 			country_event = {
@@ -310,11 +296,7 @@ MEX_category_military_issues = {
 		}
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		complete_effect = {
@@ -365,11 +347,7 @@ MEX_category_military_issues = {
 		}
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		complete_effect = {
@@ -420,11 +398,7 @@ MEX_category_military_issues = {
 		}
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		complete_effect = {
@@ -475,11 +449,7 @@ MEX_category_military_issues = {
 		}
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		complete_effect = {

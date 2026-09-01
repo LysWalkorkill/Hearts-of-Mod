@@ -1,0 +1,30 @@
+# set_temp_variable = { dest_owner = PREV }
+transfer_state_to_conditionnel = {
+	effect_tooltip = {
+		transfer_state_to = var:dest_owner
+	}
+	hidden_effect = {
+		if = {
+			limit = {
+				is_fully_controlled_by = OWNER
+			}
+			transfer_state_to = var:dest_owner
+		}
+		else = {
+			set_state_owner_to = var:dest_owner
+		}
+	}
+}
+add_compliance_70_conditionnel = {
+	effect_tooltip = {
+		add_compliance = 70
+	}
+	hidden_effect = {
+		if = {
+			limit = {
+				is_controlled_by = OWNER
+			}
+			add_compliance = 70
+		}
+	}
+}

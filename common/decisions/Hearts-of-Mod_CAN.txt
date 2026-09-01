@@ -39,11 +39,7 @@ political_actions = {
 		fixed_random_seed = no
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		cost = 25
@@ -116,11 +112,7 @@ economy_decisions = {
 		fixed_random_seed = no
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		cost = 0
@@ -201,11 +193,7 @@ economy_decisions = {
 		fixed_random_seed = no
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		cost = 0
@@ -286,11 +274,7 @@ economy_decisions = {
 		fixed_random_seed = no
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		cost = 0
@@ -369,11 +353,7 @@ economy_decisions = {
 		fixed_random_seed = no
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		cost = 0
@@ -454,11 +434,7 @@ economy_decisions = {
 		fixed_random_seed = no
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		cost = 0
@@ -533,11 +509,7 @@ economy_decisions = {
 		fixed_random_seed = no
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		cost = 0
@@ -611,11 +583,7 @@ war_measures = {
 		fixed_random_seed = no
 		
 		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = yes
-			}
+			base = 2
 		}
 		
 		cost = 200
