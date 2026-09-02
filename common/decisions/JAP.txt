@@ -5665,7 +5665,7 @@ JAP_kwantung_army_decisions = {
 			has_war_with = SIA
 		}
 		
-		days_mission_timeout = 912
+		days_mission_timeout = 1481 # Déplacer pour que ça soit après le début de la guerre sini-japonaise # 912
 		
 		fire_only_once = yes
 		
@@ -5717,10 +5717,11 @@ JAP_kwantung_army_decisions = {
 			OR = {
 				has_war_with = MAN
 				has_war_with = CHI
+				has_war_with = PRC
 			}
 		}
 		
-		days_mission_timeout = 731
+		days_mission_timeout = 1300 # Déplacer pour que ça soit juste un peu avant la WW2 en Europe # 731
 		
 		fire_only_once = yes
 		
@@ -5729,6 +5730,62 @@ JAP_kwantung_army_decisions = {
 		cancel_if_not_visible = yes
 		
 		is_good = yes
+		
+		complete_effect = {
+			ROOT = {
+				create_wargoal = {
+					target = CHI
+					type = annex_everything
+				}
+				create_wargoal = {
+					target = PRC
+					type = annex_everything
+				}
+				add_ideas = {
+					tot_economic_mobilisation
+				}
+			}
+			MAN = {
+				create_wargoal = {
+					target = CHI
+					type = annex_everything
+				}
+				create_wargoal = {
+					target = PRC
+					type = annex_everything
+				}
+				add_offsite_building = {
+					type = industrial_complex level = 16
+				}
+				add_offsite_building = {
+					type = arms_factory level = 11
+				}
+				add_ideas = {
+					tot_economic_mobilisation
+				}
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = CHI
+						is_core_of = PRC
+					}
+					if = {
+						limit = {
+							MAN = {
+								NOT = {
+									has_war_with = ROOT
+								}
+							}
+						}
+						NOT = {
+							is_owned_by = ROOT
+						}
+					}
+				}
+				add_claim_by = MAN
+			}
+		}
 		
 		timeout_effect = {
 			every_state = {
@@ -5765,6 +5822,7 @@ JAP_kwantung_army_decisions = {
 			}
 			ROOT = {
 				declare_war_on = { target = CHI type = annex_everything }
+				declare_war_on = { target = PRC type = annex_everything }
 				add_ideas = {
 					tot_economic_mobilisation
 				}
@@ -5775,6 +5833,7 @@ JAP_kwantung_army_decisions = {
 			}
 			MAN = {
 				declare_war_on = { target = CHI type = annex_everything }
+				declare_war_on = { target = PRC type = annex_everything }
 				add_offsite_building = {
 					type = industrial_complex level = 16
 				}
@@ -5786,6 +5845,27 @@ JAP_kwantung_army_decisions = {
 				}
 			}
 			news_event = { id = news.210 }
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = CHI
+						is_core_of = PRC
+					}
+					if = {
+						limit = {
+							MAN = {
+								NOT = {
+									has_war_with = ROOT
+								}
+							}
+						}
+						NOT = {
+							is_owned_by = ROOT
+						}
+					}
+				}
+				add_claim_by = MAN
+			}
 		}
 		
 	}
@@ -5803,10 +5883,11 @@ JAP_kwantung_army_decisions = {
 			OR = {
 				has_war_with = MAN
 				has_war_with = CHI
+				has_war_with = PRC
 			}
 		}
 		
-		days_mission_timeout = 639
+		days_mission_timeout = 712 # Légèrement déplacer pour que l'évènement se produit en histo # 639
 		
 		fire_only_once = yes
 		
