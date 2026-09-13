@@ -1,34 +1,34 @@
 ﻿l_english:
-     # Grizzly Géant Québec 
- CAN_chasser_grizzly_geant_quebec: "None"
-  
- Hearts-of-Mod_CAN_grizzly_geant_quebec.1.title: "We finally got it!"
- Hearts-of-Mod_CAN_grizzly_geant_quebec.1.desc: "After several weeks of fear and worrying stories from the wooded regions of the north, Canadian authorities announced the neutralization of the animal nicknamed by locals “the Giant Grizzly of Quebec”. This creature, described as exceptionally large and aggressive, is said to have been responsible for numerous livestock attacks and several incidents that have caused panic among local populations."
- Hearts-of-Mod_CAN_grizzly_geant_quebec.1.a: "None"
-  
- Hearts-of-Mod_CAN_grizzly_geant_quebec.2.title: "The wild beast escapes us!"
- Hearts-of-Mod_CAN_grizzly_geant_quebec.2.desc: "None"
- Hearts-of-Mod_CAN_grizzly_geant_quebec.2.a: "None"
-  
-     # INDUSTRIE 
- CAN_ouvrir_mine_or_quebec: "None"
- CAN_ouvrir_mine_or_ontario: "None"
- CAN_ouvrir_mine_or_alberta: "None"
- CAN_ouvrir_mine_or_colombie_britannique: "None"
- CAN_ouvrir_mine_or_nuvarut: "None"
- CAN_finir_programme_industrie_minier: "None"
-  
- Hearts-of-Mod_CAN_industrie.1.title: "None"
- Hearts-of-Mod_CAN_industrie.1.desc: "None"
- Hearts-of-Mod_CAN_industrie.1.a: "None"
-  
- Hearts-of-Mod_CAN_industrie.2.title: "None"
- Hearts-of-Mod_CAN_industrie.2.desc: "None"
- Hearts-of-Mod_CAN_industrie.2.a: "None"
-  
-     # RECONNAÎTRE 
- CAN_reconnaitre_heros_quebecois_ww1: "None"
-  
- Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1.title: "None"
- Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1.desc: "None"
- Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1.a: "None"
+    # Quebec Giant Grizzly
+    CAN_chasser_grizzly_geant_quebec:0 "Hunt the Quebec Giant Grizzly"
+
+    Hearts-of-Mod_CAN_grizzly_geant_quebec.1.title:0 "We Finally Got It!"
+    Hearts-of-Mod_CAN_grizzly_geant_quebec.1.desc:0 "After several weeks of fear and alarming reports coming from the northern forests, Canadian authorities have announced the neutralization of the animal nicknamed by locals the “Quebec Giant Grizzly.” This creature, described as exceptionally large and aggressive, was reportedly responsible for numerous livestock attacks and several incidents that caused panic among local communities."
+    Hearts-of-Mod_CAN_grizzly_geant_quebec.1.a:0 "No doubt about it this time, it's dead!"
+
+    Hearts-of-Mod_CAN_grizzly_geant_quebec.2.title:0 "The Wild Beast Escapes Us!"
+    Hearts-of-Mod_CAN_grizzly_geant_quebec.2.desc:0 "The Quebec Giant Grizzly has escaped us once again... The authorities, exercising caution, have urged the public to limit travel in isolated areas and to report any suspicious activity. “We are dealing with an extraordinary animal, particularly difficult to locate,” admitted an operation official."
+    Hearts-of-Mod_CAN_grizzly_geant_quebec.2.a:0 "It's just a LEGEND!"
+
+    # INDUSTRY
+    CAN_ouvrir_mine_or_quebec:0 "Open Quebec's Gold Mines"
+    CAN_ouvrir_mine_or_ontario:0 "Open Ontario's Gold Mines"
+    CAN_ouvrir_mine_or_alberta:0 "Open Alberta's Gold Mines"
+    CAN_ouvrir_mine_or_colombie_britannique:0 "Open British Columbia's Gold Mines"
+    CAN_ouvrir_mine_or_nuvarut:0 "Open Nunavut's Gold Mines"
+    CAN_finir_programme_industrie_minier:0 "Complete the Canadian Mining Industry Program"
+
+    Hearts-of-Mod_CAN_industrie.1.title:0 "Mining Program Progress"
+    Hearts-of-Mod_CAN_industrie.1.desc:0 "Across the vast territories of northern Canada, mining activities continue to expand, playing an essential role in the country's economic development. Despite often demanding working conditions, miners continue to explore new deposits and exploit natural resources that contribute to the nation's prosperity.\n\nThe initiative is a success, and notably, even the miners themselves claim to be satisfied and happy to take part in this national growth."
+    Hearts-of-Mod_CAN_industrie.1.a:0 "That's just fine!"
+
+    Hearts-of-Mod_CAN_industrie.2.title:0 "End of the Mining Program"
+    Hearts-of-Mod_CAN_industrie.2.desc:0 "Against all expectations, Canada has just completed its mining expansion program ahead of schedule. A real feat for the industry, which managed to accelerate construction projects without slowing production too much. “We delivered the goods ahead of schedule, and did a damn good job of it,” said an official, visibly quite proud of himself.\n\nBut not everyone thinks that's just fine. In recent days, an environmental protest movement has begun to emerge, particularly among communities concerned about the impact on forests and waterways."
+    Hearts-of-Mod_CAN_industrie.2.a:0 "They'll have a hard time protesting..."
+
+    # RECOGNIZE
+    CAN_reconnaitre_heros_quebecois_ww1:0 "Recognize the Heroism of Quebecers During the Great War"
+
+    Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1.title:0 "Recognition of Quebec's Heroes"
+    Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1.desc:0 "As memories of the Great War remain vivid in people's minds, an increasingly strong voice is rising in Quebec to demand recognition of the role and sacrifice of Quebecers during the 1914–1918 conflict.\n\n“Our boys gave just as much as everyone else, if not more in some circumstances, yet we hardly ever hear about it,” lamented a veteran interviewed in Montreal. This feeling of being forgotten is shared by many families, still marked by the absence of those who never returned."
+    Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1.a:0 "It was about time we recognized the sacrifices of these men..."

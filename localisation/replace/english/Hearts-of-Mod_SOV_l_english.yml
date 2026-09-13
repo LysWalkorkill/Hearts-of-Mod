@@ -1,7 +1,7 @@
 ﻿l_english:
-     # Mita 
- SOV_Mita: "None"
-  
- Hearts-of-Mod_SOV_Mita.1.title: "None"
- Hearts-of-Mod_SOV_Mita.1.desc: "None"
- Hearts-of-Mod_SOV_Mita.1.a: "[this_character.GetSheHeCap] will lead the country until the end."
+    # Mita 
+    SOV_Mita: "Mita"
+
+    Hearts-of-Mod_SOV_Mita.1.title: "[this_character.GetName] appointed head of state"
+    Hearts-of-Mod_SOV_Mita.1.desc: "$VICTORY_POINTS_6380$ has fallen. As the enemy advances and [this_country.GetNameDef] teeters on the brink of collapse, an unexpected figure has stepped forward to take the reins of the country. [this_character.GetName], previously unknown in the corridors of power [this_country.GetAdjMS], has been proclaimed the new leader. In the streets, one question remains: can [this_character.GetSheHe] save [this_country.GetNameDef] from its downfall?"
+    Hearts-of-Mod_SOV_Mita.1.a: "[this_character.GetSheHeCap] will lead the country until the end."
