@@ -431,6 +431,51 @@ if = {
 		female = yes
 		nationalities = { RAJ }
 	}
+	create_operative_leader = {
+		name = "Irfan Khan"
+		GFX = GFX_portrait_irfan_khan
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { RAJ }
+	}
+	create_operative_leader = {
+		name = "Ezra Bridger"
+		GFX = GFX_portrait_ezra_bridger
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { RAJ }
+	}
+	create_operative_leader = {
+		name = "DJ Snake"
+		GFX = GFX_portrait_dj_snake
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { RAJ ENG }
+	}
+	create_operative_leader = {
+		name = "Deepika Padukone"
+		GFX = GFX_portrait_deepika_padukone
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { RAJ }
+	}
+	create_operative_leader = {
+		name = "Priyanka Chopra"
+		GFX = GFX_portrait_priyanka_chopra
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { RAJ }
+	}
 }
 
 #432 = {
