@@ -1,0 +1,26 @@
+﻿l_french:
+ DIP: "Partisans" #NT!
+ DIP_DEF: "les partisans" #NT!
+ DIP_ADJ: "Partisans" #NT!
+  
+ EHA: "Gouvernement autonome du Hebei oriental" #NT!
+ EHA_DEF: "le gouvernement autonome du Hebei oriental" #NT!
+ EHA_ADJ: "Chinois" #NT!
+ EHA_communism: "Gouvernement autonome populaire du Hebei oriental" #NT!
+ EHA_communism_DEF: "le gouvernement autonome populaire du Hebei oriental" #NT!
+ EHA_autonomy_sea_warlord_subject: "Gouvernement autonome du Hebei oriental" #NT!
+ EHA_autonomy_sea_warlord_subject_DEF: "le gouvernement autonome du Hebei oriental" #NT!
+ EHA_autonomy_sea_integrated_warlord_subject: "Gouvernement autonome du Hebei oriental" #NT!
+ EHA_autonomy_sea_integrated_warlord_subject_DEF: "le gouvernement autonome du Hebei oriental" #NT!
+  
+ FFL: "Force Française Libre" #NT!
+ FFL_DEF: "la Force Française Libre" #NT!
+ FFL_ADJ: "Français" #NT!
+ FFL_autonomy_sea_warlord_subject: "Force Française Libre" #NT!
+ FFL_autonomy_sea_warlord_subject_DEF: "la Force Française Libre" #NT!
+ FFL_autonomy_sea_integrated_warlord_subject: "Force Française Libre" #NT!
+ FFL_autonomy_sea_integrated_warlord_subject_DEF: "la Force Française Libre" #NT!
+  
+ VIC: "Vichy France" #NT!
+ VIC_DEF: "le Vichy France" #NT!
+ VIC_ADJ: "Français" #NT!

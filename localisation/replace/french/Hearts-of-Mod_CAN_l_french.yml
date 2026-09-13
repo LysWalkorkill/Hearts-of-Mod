@@ -1,0 +1,34 @@
+﻿l_french:
+    # Grizzly Géant Québec
+    CAN_chasser_grizzly_geant_quebec:0 "Chasser le Grizzly Géant du Québec"
+
+    Hearts-of-Mod_CAN_grizzly_geant_quebec.1.title:0 "Nous l'avons enfin eu !"
+    Hearts-of-Mod_CAN_grizzly_geant_quebec.1.desc:0 "Après plusieurs semaines de crainte et de récits inquiétants venus des régions boisées du nord, les autorités canadiennes ont annoncé la neutralisation de l’animal surnommé par les habitants « le Grizzly Géant du Québec ». Cette créature, décrite comme exceptionnellement grande et agressive, aurait été responsable de nombreuses attaques de bétail et de plusieurs incidents ayant semé la panique parmi les populations locales."
+    Hearts-of-Mod_CAN_grizzly_geant_quebec.1.a:0 "Aucun doute cette fois il est mort !"
+    
+    Hearts-of-Mod_CAN_grizzly_geant_quebec.2.title:0 "La bête sauvage nous échappe !"
+    Hearts-of-Mod_CAN_grizzly_geant_quebec.2.desc:0 "Le Grizzly Géant du Québec nous échappe encore... Les autorités, prudentes, ont appelé la population à limiter ses déplacements dans les zones isolées et à signaler toute activité suspecte. « Nous faisons face à un animal hors du commun, particulièrement difficile à localiser », a reconnu un responsable de l’opération."
+    Hearts-of-Mod_CAN_grizzly_geant_quebec.2.a:0 "Ce n'est qu'une LÉGENDE !"
+    
+    # INDUSTRIE
+    CAN_ouvrir_mine_or_quebec:0 "Ouvrir les mines d'or du Québec"
+    CAN_ouvrir_mine_or_ontario:0 "Ouvrir les mines d'or d'Ontario"
+    CAN_ouvrir_mine_or_alberta:0 "Ouvrir les mines d'or d'Alberta"
+    CAN_ouvrir_mine_or_colombie_britannique:0 "Ouvrir les mines d'or de Colombie Britannique"
+    CAN_ouvrir_mine_or_nuvarut:0 "Ouvrir les mines d'or du Nunavut"
+    CAN_finir_programme_industrie_minier:0 "Terminer le programme d'industrie minier Canadien"
+
+    Hearts-of-Mod_CAN_industrie.1.title:0 "Avancement du programme minier"
+    Hearts-of-Mod_CAN_industrie.1.desc:0 "Dans les vastes territoires du nord Canadien, les activités minières poursuivent leur expansion, jouant un rôle essentiel dans le développement économique du Canada. Malgré des conditions de travail souvent exigeantes, les mineurs continuent d’explorer de nouveaux gisements et d’exploiter les ressources naturelles qui contribuent à la prospérité du pays.\n\nL’initiative est un succès, et fait notable, même les mineurs eux-mêmes se disent satisfaits et heureux de participer à cet essor national."
+    Hearts-of-Mod_CAN_industrie.1.a:0 "C’est ben correct !"
+    
+    Hearts-of-Mod_CAN_industrie.2.title:0 "Fin du programme minier"
+    Hearts-of-Mod_CAN_industrie.2.desc:0 "Contre toute attente, le Canada vient de boucler son programme d’expansion minière plus tôt que prévu. Un vrai tour de force pour l’industrie, qui a su accélérer les chantiers sans trop ralentir la production. « On a livré la marchandise en avance, pis solide », a lancé un responsable, visiblement pas peu fier.\n\nMais c’est pas tout le monde qui trouve ça ben correct. Depuis quelques jours, une contestation écologique commence à lever, surtout dans certaines communautés inquiètes des impacts sur les forêts pis les cours d’eau."
+    Hearts-of-Mod_CAN_industrie.2.a:0 "Ils auront de la misère à protester..."
+    
+    # RECONNAÎTRE 
+    CAN_reconnaitre_heros_quebecois_ww1:0 "Reconnaitre l'héroïsme des Québécois Durant la Grande Guerre"
+
+    Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1.title:0 "Reconnaissance des héros Québécois"
+    Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1.desc:0 "Alors que les souvenirs de la Grande Guerre demeurent encore bien vivants dans les esprits, une voix de plus en plus forte s’élève au Québec pour réclamer la reconnaissance du rôle et du sacrifice des Québécois durant le conflit de 1914-1918.\n\n« Nos gars ont donné autant que les autres, sinon plus dans certaines circonstances, pis pourtant on en parle presque pas », déplore un vétéran rencontré à Montréal. Ce sentiment d’oubli est partagé par de nombreuses familles, encore marquées par l’absence de ceux qui ne sont jamais revenus."
+    Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1.a:0 "Il était temps de reconnaître le sacrifices de ses hommes..."

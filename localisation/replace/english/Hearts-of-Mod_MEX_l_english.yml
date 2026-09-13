@@ -1,0 +1,28 @@
+﻿l_english:
+    # Exploration
+    MEX_explorer_temple_maya:0 "Explore a Mayan Temple"
+    MEX_explorer_temple_azteque:0 "Explore an Aztec Temple"
+    MEX_explorer_temple_inca:0 "Explore an Incan Temple"
+
+    Hearts-of-Mod_MEX_exploration.1.title:0 "Expedition Report"
+    Hearts-of-Mod_MEX_exploration.1.desc:0 "A joint team of the Mexican Army and archaeologists recently conducted a new expedition into a previously unknown indigenous temple, hidden deep within a remote and mountainous region. The mission, organized as part of a national historical research program, aims to deepen our understanding of Mexico's pre-Hispanic civilizations.\n\nDespite a few unexpected incidents in the field, particularly when Captain Ramoucho nearly fell into a concealed chamber within the temple, the expedition is considered a resounding success. Researchers hail it as a major breakthrough for Mexico's historical and scientific knowledge, paving the way for promising future explorations."
+    Hearts-of-Mod_MEX_exploration.1.a:0 "¡Viva Mexico!"
+
+    # Drug Traffickers
+    MEX_sevir_contre_narco_trafiquants:0 "Crack Down on Drug Traffickers"
+
+    Hearts-of-Mod_MEX_narco-trafiquant.1.title:0 "Drug Traffickers Arrested"
+    Hearts-of-Mod_MEX_narco-trafiquant.1.desc:0 "As part of a large-scale operation carried out this week, Mexican authorities launched a series of targeted raids against drug trafficking networks operating in the northern regions of the country.\n\nThe operation proceeded under largely controlled conditions. Only one member of the forces involved, Penultimo, was slightly injured during the intervention. Authorities have confirmed that his condition is stable and that the mission can be considered a significant success in the fight against drug trafficking."
+    Hearts-of-Mod_MEX_narco-trafiquant.1.a:0 "Another giant leap forward for Mexico!"
+
+    # Annexation
+    MEX_annex_britain_honduras:0 "Annex $STATE_311$"
+    MEX_annex_guatemala:0 "Annex [GUA.GetNameDef]"
+    MEX_annex_honduras:0 "Annex [HON.GetNameDef]"
+    MEX_annex_salvador:0 "Annex [ELS.GetNameDef]"
+    MEX_annex_nicaragua:0 "Annex [NIC.GetNameDef]"
+
+
+    Hearts-of-Mod_MEX_annexion.1.title:0 "A State Joins Mexico"
+    Hearts-of-Mod_MEX_annexion.1.desc:0 "The Mexican government has announced the arrival of a new ally from Central America. Without officially revealing its identity, the authorities have confirmed that it is a regional power prepared to stand alongside Mexico in the fight against the Axis forces.\n\nThis diplomatic rapprochement, the result of negotiations conducted with the utmost discretion, demonstrates a shared desire to defend the stability of the continent and counter the growing influence of hostile powers. Representatives of both nations emphasized the importance of this cooperation, which forms part of a shared vision of security and sovereignty."
+    Hearts-of-Mod_MEX_annexion.1.a:0 "Together, we are invincible!"

@@ -1,0 +1,115 @@
+spriteTypes = {
+	# MEX
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_mex1"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/mex1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_mex2"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/mex2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_mex3"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/mex3.dds"
+	}
+	
+	# CAN
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_can1"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/can1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_can2"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/can2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_can3"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/can3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_can4"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/can4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_can5"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/can5.dds"
+	}
+
+	# AST
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_ast1"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_ast2"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_ast3"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_ast4"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_ast5"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_ast6"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast6.dds"
+	}
+
+	# FIN
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_fin1"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/fin1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_fin2"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/fin2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_fin3"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/fin3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_fin4"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/fin4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_fin5"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/fin5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_fin6"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/fin6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_fin7"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/fin7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_fin8"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/fin8.dds"
+	}
+}
