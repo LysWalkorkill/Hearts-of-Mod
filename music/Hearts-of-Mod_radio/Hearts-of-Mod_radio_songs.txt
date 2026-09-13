@@ -1,0 +1,13 @@
+
+music_station = "Hearts-of-Mod_radio"
+
+# music = {
+# 	song = "Example"
+# 	chance = {
+# 		factor = 2
+# 		modifier = {
+# 			original_tag = FRA
+# 			factor = 3
+# 		}
+# 	}
+# }
