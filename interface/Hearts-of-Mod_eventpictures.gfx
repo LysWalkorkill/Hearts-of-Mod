@@ -98,10 +98,10 @@ spriteTypes = {
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/fin5.dds"
 	}
 	
-	SpriteType = {
-		name = "GFX_Hearts-of-Mod_report_event_fin6"
-		texturefile = "gfx/Hearts-of-Mod/event_pictures/fin6.dds"
-	}
+	# SpriteType = {
+	# 	name = "GFX_Hearts-of-Mod_report_event_fin6"
+	# 	texturefile = "gfx/Hearts-of-Mod/event_pictures/fin6.dds"
+	# }
 	
 	SpriteType = {
 		name = "GFX_Hearts-of-Mod_report_event_fin7"

@@ -35,7 +35,15 @@ political_actions = {
 		
 		days_remove = 15
 		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				add_command_power = -80
+			}
+		}
+		
 		remove_effect = {
+			# EFFECT
 			hidden_effect = {
 				set_country_flag = FIN_lancer_referendum_ecosysteme
 			}
@@ -108,7 +116,15 @@ political_actions = {
 		
 		days_remove = 15
 		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				army_experience = -150
+			}
+		}
+		
 		remove_effect = {
+			# EFFECT
 			hidden_effect = {
 				set_country_flag = FIN_prendre_decision_chasse_elan
 			}
@@ -232,7 +248,15 @@ political_actions = {
 		
 		days_remove = 15
 		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				air_experience = -200
+			}
+		}
+		
 		remove_effect = {
+			# EFFECT
 			hidden_effect = {
 				set_country_flag = FIN_cloturer_polemique_hibou_blanc
 			}
@@ -262,7 +286,7 @@ political_actions = {
 			}
 		}
 	}
-
+	
 	FIN_affirmer_trouve_equilibre_ecosysteme = {
 		icon = GFX_decision_generic_political_discourse
 		allowed = {
@@ -309,6 +333,363 @@ political_actions = {
 					type = industrial_complex
 					level = 3
 				}
+			}
+		}
+	}
+}
+
+economy_decisions = {
+	FIN_continuer_developper_port_helsinki_1 = {
+		name = FIN_continuer_developper_port_helsinki
+		icon = GFX_decision_generic_naval
+		allowed = {
+			original_tag = FIN
+		}
+		
+		available = {
+			controls_state = 111
+		}
+		
+		cancel_trigger = {
+			NOT = {
+				controls_state = 111
+			}
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 111
+			}
+		}
+		
+		visible = {
+			111 = {
+				is_owned_by = ROOT
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+			}
+			NOT = {
+				has_country_flag = FIN_continuer_developper_port_helsinki_1
+			}
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 0
+		
+		custom_cost_text = decision_cost_NavXP_50
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = navy_experience
+				value = 50
+				compare = greater_than_or_equals
+			}
+		}
+		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				navy_experience = -50
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				111 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			
+			hidden_effect = {
+				set_country_flag = FIN_continuer_developper_port_helsinki_1
+			}
+			country_event = {
+				id = Hearts-of-Mod_FIN_developpement_port_helsinki.1
+				days = 0
+			}
+		}
+	}
+
+	FIN_continuer_developper_port_helsinki_2 = {
+		name = FIN_continuer_developper_port_helsinki
+		icon = GFX_decision_generic_naval
+		allowed = {
+			original_tag = FIN
+		}
+		
+		available = {
+			controls_state = 111
+		}
+		
+		cancel_trigger = {
+			NOT = {
+				controls_state = 111
+			}
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 111
+			}
+		}
+		
+		visible = {
+			111 = {
+				is_owned_by = ROOT
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+			}
+			has_country_flag = FIN_continuer_developper_port_helsinki_1
+			NOT = {
+				has_country_flag = FIN_continuer_developper_port_helsinki_2
+			}
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 0
+		
+		custom_cost_text = decision_cost_NavXP_75
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = navy_experience
+				value = 75
+				compare = greater_than_or_equals
+			}
+		}
+		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				navy_experience = -75
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				111 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			
+			hidden_effect = {
+				set_country_flag = FIN_continuer_developper_port_helsinki_2
+			}
+			country_event = {
+				id = Hearts-of-Mod_FIN_developpement_port_helsinki.1
+				days = 0
+			}
+		}
+	}
+
+	FIN_continuer_developper_port_helsinki_3 = {
+		name = FIN_continuer_developper_port_helsinki
+		icon = GFX_decision_generic_naval
+		allowed = {
+			original_tag = FIN
+		}
+		
+		available = {
+			controls_state = 111
+		}
+		
+		cancel_trigger = {
+			NOT = {
+				controls_state = 111
+			}
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 111
+			}
+		}
+		
+		visible = {
+			111 = {
+				is_owned_by = ROOT
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+			}
+			has_country_flag = FIN_continuer_developper_port_helsinki_2
+			NOT = {
+				has_country_flag = FIN_continuer_developper_port_helsinki_3
+			}
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 0
+		
+		custom_cost_text = decision_cost_NavXP_100
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = navy_experience
+				value = 100
+				compare = greater_than_or_equals
+			}
+		}
+		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				navy_experience = -100
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				111 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			
+			hidden_effect = {
+				set_country_flag = FIN_continuer_developper_port_helsinki_3
+			}
+			country_event = {
+				id = Hearts-of-Mod_FIN_developpement_port_helsinki.1
+				days = 0
+			}
+		}
+	}
+
+	FIN_continuer_developper_port_helsinki_4 = {
+		name = FIN_continuer_developper_port_helsinki
+		icon = GFX_decision_generic_naval
+		allowed = {
+			original_tag = FIN
+		}
+		
+		available = {
+			controls_state = 111
+		}
+		
+		cancel_trigger = {
+			NOT = {
+				controls_state = 111
+			}
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 111
+			}
+		}
+		
+		visible = {
+			111 = {
+				is_owned_by = ROOT
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+			}
+			has_country_flag = FIN_continuer_developper_port_helsinki_3
+			NOT = {
+				has_country_flag = FIN_continuer_developper_port_helsinki_4
+			}
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 0
+		
+		custom_cost_text = decision_cost_NavXP_150
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = navy_experience
+				value = 150
+				compare = greater_than_or_equals
+			}
+		}
+		
+		complete_effect = {
+			# COST
+			hidden_effect = {
+				navy_experience = -150
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				111 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			
+			hidden_effect = {
+				set_country_flag = FIN_continuer_developper_port_helsinki_4
+			}
+			country_event = {
+				id = Hearts-of-Mod_FIN_developpement_port_helsinki.1
+				days = 0
 			}
 		}
 	}

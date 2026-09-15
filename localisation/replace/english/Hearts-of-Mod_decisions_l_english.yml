@@ -31,6 +31,14 @@
     decision_cost_NavXP_50_blocked: "£navy_experience  §R50§!"
     decision_cost_NavXP_50_tooltip: "It costs £navy_experience  §Y50§! to take the decision"
 
+    decision_cost_NavXP_75: "£navy_experience  §Y75§!"
+    decision_cost_NavXP_75_blocked: "£navy_experience  §R75§!"
+    decision_cost_NavXP_75_tooltip: "It costs £navy_experience  §Y75§! to take the decision"
+
+    decision_cost_NavXP_100: "£navy_experience  §Y100§!"
+    decision_cost_NavXP_100_blocked: "£navy_experience  §R100§!"
+    decision_cost_NavXP_100_tooltip: "It costs £navy_experience  §Y100§! to take the decision"
+
     decision_cost_NavXP_150: "£navy_experience  §Y150§!"
     decision_cost_NavXP_150_blocked: "£navy_experience  §R150§!"
     decision_cost_NavXP_150_tooltip: "It costs £navy_experience  §Y150§! to take the decision"
@@ -42,6 +50,10 @@
     decision_cost_CP_70: "£command_power  §Y70§!"
     decision_cost_CP_70_blocked: "£command_power  §R70§!"
     decision_cost_CP_70_tooltip: "It costs £command_power  §Y70§! to take the decision"
+
+    decision_cost_CP_75: "£command_power  §Y75§!"
+    decision_cost_CP_75_blocked: "£command_power  §R75§!"
+    decision_cost_CP_75_tooltip: "It costs £command_power  §Y75§! to take the decision"
 
     decision_cost_CP_80: "£command_power  §Y80§!"
     decision_cost_CP_80_blocked: "£command_power  §R80§!"
