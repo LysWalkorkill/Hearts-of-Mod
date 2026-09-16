@@ -1,0 +1,25 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_portrait_SOV_Mita_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_Mita_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_Mita_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_Mita_small.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_ast_alexandra_casoy_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/AST/Alex.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_ast_clover_ewing_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/AST/Clover.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_ast_samantha_simpson_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/AST/Sam.dds"
+	}
+}

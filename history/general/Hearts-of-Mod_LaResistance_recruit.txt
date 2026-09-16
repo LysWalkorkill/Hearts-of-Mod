@@ -1,0 +1,49 @@
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	AST = {
+		create_operative_leader = {
+			name = AST_alexandra_casoy
+			gfx = "GFX_portrait_ast_alexandra_casoy_large"
+			female = yes
+			traits = {
+				operative_seducer
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				AST
+				USA
+			}
+		}
+		create_operative_leader = {
+			name = AST_clover_ewing
+			gfx = "GFX_portrait_ast_clover_ewing_large"
+			female = yes
+			traits = {
+				operative_infiltrator
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				AST
+				USA
+			}
+		}
+		create_operative_leader = {
+			name = AST_samantha_simpson
+			gfx = "GFX_portrait_ast_samantha_simpson_large"
+			female = yes
+			traits = {
+				operative_safe_cracker
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				AST
+				USA
+			}
+		}
+	}
+}
