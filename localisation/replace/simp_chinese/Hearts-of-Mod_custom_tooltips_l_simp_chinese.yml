@@ -1,0 +1,9 @@
+﻿l_simp_chinese:
+ is_fired: "被解雇" #NT!
+ is_fired_NOT: "没有被解雇" #NT!
+ is_arrested: "被捕" #NT!
+ is_arrested_NOT: "没有被捕" #NT!
+ is_killed: "被杀" #NT!
+ is_killed_NOT: "没有被杀" #NT!
+ is_stalked: "被跟踪" #NT!
+ is_stalked_NOT: "没有被跟踪" #NT!

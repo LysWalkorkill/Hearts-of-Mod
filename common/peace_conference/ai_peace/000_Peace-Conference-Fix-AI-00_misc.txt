@@ -1,0 +1,241 @@
+# Scripted AI desire for peace actions
+
+# *** How to access data from the peace action ***
+# ROOT - Negotiator country
+# FROM - Taker country
+# FROM.FROM - Giver country
+# FROM.FROM.FROM - State (if peace action refers to a state)
+# You might have to use e.g. ROOT.FROM to access the variable from inside another scope
+
+# Peace actions
+# take_states
+# puppet
+# force_government
+# liberate
+
+peace_ai_desires = {
+	# Take claimed states
+	generic_contested_take_states = { 
+		peace_action_type = { take_states }
+		enable = {
+			ROOT = { 
+				tag = FROM
+			}
+			FROM.FROM.FROM = {
+				has_contested_owner = ROOT
+			}
+		}
+		ai_desire = 250
+	}
+	
+	# Take claimed states
+	generic_claim_take_states = { 
+		peace_action_type = { take_states }
+		enable = {
+			ROOT = { 
+				tag = FROM
+			}
+			FROM.FROM.FROM = {
+				is_claimed_by = ROOT
+			}
+		}
+		ai_desire = 250
+	}
+	
+	# Take core states
+	generic_core_take_states = { 
+		peace_action_type = { take_states }
+		enable = {
+			ROOT = { 
+				tag = FROM
+			}
+			FROM.FROM.FROM = {
+				is_core_of = ROOT
+			}
+		}
+		ai_desire = 250
+	}
+	
+	# Take states of the same original country
+	generic_same_country_take_states = { 
+		peace_action_type = { take_states }
+		enable = {
+			ROOT = { 
+				tag = FROM
+			}
+			FROM.FROM = {
+				original_tag = ROOT
+			}
+		}
+		ai_desire = 200
+	}
+	
+	# Avoid taking states that are not right next to us
+	generic_avoid_take_states = { 
+		peace_action_type = { take_states }
+		enable = {
+			ROOT = { 
+				tag = FROM
+			}
+			FROM.FROM.FROM = {
+				all_neighbor_state = {
+					NOT = {
+						is_owned_by = ROOT
+					}
+					NOT = {
+						pc_is_state_claimed_and_taken_by = ROOT
+					}
+				}
+			}
+		}
+		ai_desire = -70
+	}
+	
+	# Avoid to create influence sphere that are not right next to us
+	generic_avoid_create_influence_sphere_alone = { 
+		peace_action_type = { liberate puppet take_states force_government  }
+		enable = {
+			FROM.FROM.FROM = {
+				all_neighbor_state = {
+					NOT = {
+						is_owned_by = ROOT
+					}
+					NOT = {
+						pc_is_state_claimed_by = ROOT
+					}
+				}
+			}
+		}
+		ai_desire = -30
+	}
+	
+	# Annex country if ROOT has a wargoal annex_everything against FROM.FROM
+	wargoal_annex_everything_take_states = {
+		peace_action_type = { take_states }
+		enable = {
+			ROOT = { 
+				tag = FROM
+			}
+			ROOT = {
+				OR = {
+					has_wargoal_against = {
+						target = FROM.FROM
+						type = annex_everything
+					}
+					has_war_with_wargoal_against = {
+						target = FROM.FROM
+						type = annex_everything
+					}
+				}
+			}
+			FROM.FROM.FROM = {
+				is_core_of = FROM.FROM
+			}
+		}
+		ai_desire = 50
+	}
+	
+	# Annex country if ROOT has a wargoal civil_war against FROM.FROM
+	wargoal_civil_war_take_states = {
+		peace_action_type = { take_states }
+		enable = {
+			ROOT = { 
+				tag = FROM
+			}
+			ROOT = {
+				OR = {
+					has_wargoal_against = {
+						target = FROM.FROM
+						type = civil_war
+					}
+					has_war_with_wargoal_against = {
+						target = FROM.FROM
+						type = civil_war
+					}
+				}
+			}
+			FROM.FROM.FROM = {
+				is_core_of = FROM.FROM
+			}
+		}
+		ai_desire = 50
+	}
+	
+	# Puppet country if ROOT has a wargoal puppet_wargoal_focus against FROM.FROM
+	wargoal_puppet_wargoal_focus_puppet = {
+		peace_action_type = { puppet }
+		enable = {
+			FROM.FROM = { 
+				tag = FROM
+			}
+			ROOT = {
+				OR = {
+					has_wargoal_against = {
+						target = FROM.FROM
+						type = puppet_wargoal_focus
+					}
+					has_war_with_wargoal_against = {
+						target = FROM.FROM
+						type = puppet_wargoal_focus
+					}
+				}
+			}
+			FROM.FROM.FROM = {
+				is_core_of = FROM.FROM
+			}
+		}
+		ai_desire = 50
+	}
+	
+	# Force governement country if ROOT has a wargoal topple_government against FROM.FROM
+	wargoal_topple_government_force_government = {
+		peace_action_type = { force_government }
+		enable = {
+			FROM.FROM = { 
+				tag = FROM
+			}
+			ROOT = {
+				OR = {
+					has_wargoal_against = {
+						target = FROM.FROM
+						type = topple_government
+					}
+					has_war_with_wargoal_against = {
+						target = FROM.FROM
+						type = topple_government
+					}
+				}
+			}
+			FROM.FROM.FROM = {
+				is_core_of = FROM.FROM
+			}
+		}
+		ai_desire = 50
+	}
+	
+	# Liberate country if ROOT has a wargoal liberate_wargoal against FROM.FROM
+	wargoal_liberate_wargoal_liberate = {
+		peace_action_type = { liberate }
+		enable = {
+			FROM.FROM = { 
+				tag = FROM
+			}
+			ROOT = {
+				OR = {
+					has_wargoal_against = {
+						target = FROM.FROM
+						type = liberate_wargoal
+					}
+					has_war_with_wargoal_against = {
+						target = FROM.FROM
+						type = liberate_wargoal
+					}
+				}
+			}
+			FROM.FROM.FROM = {
+				is_core_of = FROM.FROM
+			}
+		}
+		ai_desire = 50
+	}
+}

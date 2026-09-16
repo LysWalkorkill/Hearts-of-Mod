@@ -1,0 +1,28 @@
+﻿l_french:
+    # Exploration
+    MEX_explorer_temple_maya:0 "Explorer un Temple Maya"
+    MEX_explorer_temple_azteque:0 "Explorer un Temple Aztèque"
+    MEX_explorer_temple_inca:0 "Explorer un Temple Incas"
+
+    Hearts-of-Mod_MEX_exploration.1.title:0 "Rapport d'expédition"
+    Hearts-of-Mod_MEX_exploration.1.desc:0 "Une équipe conjointe de l’armée mexicaine et d’archéologues a récemment mené une nouvelle expédition dans un temple autochtone jusqu’alors inconnu, niché au cœur d’une région montagneuse difficile d’accès. Cette mission, organisée dans le cadre d’un programme national de recherche historique, vise à approfondir la compréhension des civilisations préhispaniques du Mexique.\n\nMalgré quelques imprévus sur le terrain, notamment lorsque le capitaine Ramoucho a failli chuter dans une pièce dissimulée du temple, l’expédition est considérée comme un franc succès. Les chercheurs saluent une avancée majeure pour la connaissance historique et scientifique du Mexique, ouvrant la voie à de futures explorations prometteuses."
+    Hearts-of-Mod_MEX_exploration.1.a:0 "Holà vive le Mexique !"
+    
+    # Narco Trafiquants
+    MEX_sevir_contre_narco_trafiquants:0 "Sévir contre les Narco-Trafiquants"
+
+    Hearts-of-Mod_MEX_narco-trafiquant.1.title:0 "Arrestations des Narco-Trafiquants"
+    Hearts-of-Mod_MEX_narco-trafiquant.1.desc:0 "Dans le cadre d’une opération d’envergure menée cette semaine, les autorités mexicaines ont lancé une série d’interventions ciblées contre des réseaux de trafic de drogue opérant dans le nord du pays.\n\nL’opération s’est déroulée dans des conditions globalement maîtrisées. Seul un membre des forces engagées, Penultimo, a été légèrement blessé au cours de l’intervention. Les autorités confirment que son état est stable et que la mission peut être considérée comme un succès significatif dans la lutte contre le trafic de drogue."
+    Hearts-of-Mod_MEX_narco-trafiquant.1.a:0 "Encore un bon de géant pour le Mexique !"
+    
+    # Annexion
+    MEX_annex_britain_honduras:0 "Annexer $STATE_311$"
+    MEX_annex_guatemala:0 "Annexer [GUA.GetNameDef]"
+    MEX_annex_honduras:0 "Annexer [HON.GetNameDef]"
+    MEX_annex_salvador:0 "Annexer [ELS.GetNameDef]"
+    MEX_annex_nicaragua:0 "Annexer [NIC.GetNameDef]"
+
+
+    Hearts-of-Mod_MEX_annexion.1.title:0 "Un état rejoint le Mexique"
+    Hearts-of-Mod_MEX_annexion.1.desc:0 "Le gouvernement mexicain a annoncé l’arrivée d’un nouvel allié en provenance d’Amérique centrale. Sans révéler officiellement son identité, les autorités ont confirmé qu’il s’agit d’une puissance régionale prête à s’engager aux côtés du Mexique dans la lutte contre les forces de l’Axe.\n\nCe rapprochement diplomatique, fruit de négociations menées dans la plus grande discrétion, témoigne d’une volonté commune de défendre la stabilité du continent et de contrer l’influence grandissante des puissances hostiles. Des représentants des deux nations ont souligné l’importance de cette coopération, qui s’inscrit dans une vision partagée de sécurité et de souveraineté."
+    Hearts-of-Mod_MEX_annexion.1.a:0 "Ensemble nous sommes invincible !"

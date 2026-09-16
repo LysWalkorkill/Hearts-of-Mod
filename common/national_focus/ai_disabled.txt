@@ -111,10 +111,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		available = {}
+		available = {
+			is_ai = yes
+			has_war = no
+		}
 		bypass = { }
-		cancel_if_invalid = no
-		continue_if_invalid = yes
+		cancel_if_invalid = yes
+		continue_if_invalid = no
 		available_if_capitulated = yes
 		complete_tooltip = { }
 		completion_reward = { }
