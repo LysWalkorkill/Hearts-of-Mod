@@ -49,6 +49,12 @@ technologies = {
 			tank_light_fixed_superstructure_turret
 			tank_medium_one_man_tank_turret
 			tank_medium_fixed_superstructure_turret
+			tank_light_two_man_tank_turret
+			tank_medium_two_man_tank_turret
+			tank_heavy_two_man_tank_turret
+			tank_light_three_man_tank_turret
+			tank_medium_three_man_tank_turret
+			tank_heavy_three_man_tank_turret
 			tank_heavy_fixed_superstructure_turret
 			tank_super_heavy_four_man_tank_turret
 			tank_super_heavy_three_man_tank_turret
@@ -117,6 +123,11 @@ technologies = {
 		}
 
 		path = {
+			leads_to_tech = cannon_medium_1
+			research_cost_coeff = 1
+		}
+
+		path = {
 			leads_to_tech = cannon_aa_1
 			research_cost_coeff = 1
 		}
@@ -170,7 +181,7 @@ technologies = {
 			light_tank_aa_chassis_1
 		}
 		enable_equipment_modules = {
-			tank_light_two_man_tank_turret
+			#tank_light_two_man_tank_turret
 		}
 		enable_subunits = {
 			light_armor
@@ -271,7 +282,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_light_three_man_tank_turret
+			#tank_light_three_man_tank_turret
 		}
 
 		path = {
@@ -613,7 +624,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_medium_two_man_tank_turret
+			#tank_medium_two_man_tank_turret
 		}
 
 		enable_subunits = {
@@ -652,7 +663,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = cannon_medium_1
+			leads_to_tech = cannon_medium_2
 			research_cost_coeff = 1
 		}
 
@@ -763,7 +774,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_medium_three_man_tank_turret
+			#tank_medium_three_man_tank_turret
 		}
 
 		path = {
@@ -772,7 +783,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = cannon_medium_2
+			leads_to_tech = cannon_high_velocity_2
 			research_cost_coeff = 1
 		}
 
@@ -1143,7 +1154,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_heavy_two_man_tank_turret
+			#tank_heavy_two_man_tank_turret
 		}
 
 		enable_subunits = {
@@ -1247,7 +1258,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_heavy_three_man_tank_turret
+			#tank_heavy_three_man_tank_turret
 		}
 
 		path = {
@@ -2566,13 +2577,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1941
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = @1942 }
+			position = { x = 5 y = @1940 }
 		}
 
 		categories = {
@@ -2707,7 +2718,7 @@ technologies = {
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = @1938 }
+			position = { x = 5 y = @1934 }
 		}
 
 		categories = {
@@ -2734,7 +2745,7 @@ technologies = {
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = @1940 }
+			position = { x = 5 y = @1938 }
 		}
 
 		categories = {
