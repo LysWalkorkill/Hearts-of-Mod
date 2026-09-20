@@ -649,6 +649,8 @@ on_actions = {
                     type = arms_factory level = 5
                 }
 
+                transfer_state = 732
+                add_state_core = 732
                 transfer_state = 584
                 add_state_core = 584
                 transfer_state = 742
