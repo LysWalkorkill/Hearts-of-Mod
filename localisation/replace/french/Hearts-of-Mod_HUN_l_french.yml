@@ -1,0 +1,23 @@
+﻿l_french:
+    # Autoroute
+    HUN_poursuivre_travaux_autoroute_horthy:0 "Poursuivre les travaux de l'autoroute \"Horthy\""
+
+    Hearts-of-Mod_HUN_autoroute.1.title:0 "Développement de l'autoroute \"Horthy\""
+    Hearts-of-Mod_HUN_autoroute.1.desc:0 "Le chantier de l’autoroute Horthy continue de progresser à un rythme soutenu, marquant une nouvelle étape importante dans l’ambitieux programme d’infrastructures du pays.\n\nLes autorités ont annoncé cette semaine l’achèvement d’un nouveau tronçon, reliant plusieurs axes stratégiques et facilitant la circulation entre différentes régions. Ce projet, considéré comme emblématique de la modernisation de la Hongrie, vise à améliorer les échanges commerciaux et à renforcer la cohésion territoriale.\n\nLes responsables politiques saluent cette progression, qu’ils présentent comme un signe de dynamisme et de renouveau national. « Chaque kilomètre construit rapproche la Hongrie de son avenir », a déclaré un représentant du gouvernement."
+    Hearts-of-Mod_HUN_autoroute.1.a:0 "C'est 130km/h et sans alcool..."
+
+    # Gub
+    HUN_homme_chapeau_melon:0 "Recevoir "\l'homme au chapeau Melon"\"
+
+    Hearts-of-Mod_HUN_gub.1.title:0 "Polémique autour de Gub"
+    Hearts-of-Mod_HUN_gub.1.desc:0 "Une polémique grandissante secoue actuellement la scène politique hongroise, après l’apparition de rumeurs persistantes concernant l’influence d’un individu énigmatique sur les décisions du gouvernement.\n\nSurnommé « Gub », cet homme au chapeau melon, dont l’identité demeure floue, aurait récemment gagné la confiance de certains hauts responsables. Selon plusieurs sources, il aurait proposé une série de mesures visant à accélérer le réarmement du pays, dans un contexte international de plus en plus tendu.\n\n« Il est préoccupant de voir des décisions d’une telle importance influencées par une figure aussi obscure », déclare un analyste politique. « La transparence devrait être de mise dans un moment aussi crucial pour le pays. »"
+    Hearts-of-Mod_HUN_gub.1.a:0 "Officialiser la présence de Gub."
+    Hearts-of-Mod_HUN_gub.1.b:0 "Il agira secrètement depuis les bois."
+
+    
+    HUN_ecouter_plan_remilitarisation_gub:0 "Écouter le plan de remilitarisation de Gub"
+
+    Hearts-of-Mod_HUN_gub.2.title:0 "Plan de remilitarisation de Gub"
+    Hearts-of-Mod_HUN_gub.2.desc:0 "À l’attention du dirigeant de la Hongrie,\n\nJe vous propose une approche indirecte mais efficace pour le réarmement Hongrois: établir nos capacités industrielles au-delà de nos frontières. Ces installations devront apparaître comme extérieure à notre pays, indépendantes, voire étrangères. Pourtant, dans leur conception même, elles devront être prêtes à servir un objectif bien plus stratégique.\n\nEn procédant ainsi, nous contournons les regards, tout en bâtissant une base solide pour l’avenir. Le jour venu, ces territoires — déjà liés à nous par leurs intérêts et leurs infrastructures — pourront naturellement être intégrés à notre sphère d’influence.\n\nCe qui est extérieur aujourd’hui pourra devenir intérieur demain.\nGub"
+    Hearts-of-Mod_HUN_gub.2.a:0 "Excellent, plaçons nos usines militaire hors Hongrie !"
+    Hearts-of-Mod_HUN_gub.2.b:0 "Non c'est une FRAUDE le peuple avant tout !"

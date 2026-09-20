@@ -1,0 +1,861 @@
+economy_decisions = {
+	HUN_poursuivre_travaux_autoroute_horthy_1 = {
+		name = HUN_poursuivre_travaux_autoroute_horthy
+		icon = GFX_decision_generic_construction
+		allowed = {
+			original_tag = HUN
+		}
+		
+		available = {
+			any_owned_state = {
+				is_core_of = HUN
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+		}
+		
+		cancel_trigger = {
+			all_owned_state = {
+				NOT = {
+					is_core_of = HUN
+					is_controlled_by = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+				}
+			}
+		}
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				is_core_of = HUN
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+		}
+		
+		visible = {
+			any_owned_state = {
+				is_core_of = HUN
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+			NOT = {
+				has_country_flag = HUN_poursuivre_travaux_autoroute_horthy_1
+			}
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 25
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				random_owned_state = {
+					limit = {
+						is_core_of = HUN
+						is_controlled_by = ROOT
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			
+			hidden_effect = {
+				set_country_flag = HUN_poursuivre_travaux_autoroute_horthy_1
+			}
+			country_event = {
+				id = Hearts-of-Mod_HUN_autoroute.1
+				days = 0
+			}
+		}
+	}
+	
+	HUN_poursuivre_travaux_autoroute_horthy_2 = {
+		name = HUN_poursuivre_travaux_autoroute_horthy
+		icon = GFX_decision_generic_construction
+		allowed = {
+			original_tag = HUN
+		}
+		
+		available = {
+			any_owned_state = {
+				is_core_of = HUN
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+		}
+		
+		cancel_trigger = {
+			all_owned_state = {
+				NOT = {
+					is_core_of = HUN
+					is_controlled_by = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+				}
+			}
+		}
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				is_core_of = HUN
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+		}
+		
+		visible = {
+			any_owned_state = {
+				is_core_of = HUN
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+			has_country_flag = HUN_poursuivre_travaux_autoroute_horthy_1
+			NOT = {
+				has_country_flag = HUN_poursuivre_travaux_autoroute_horthy_2
+			}
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 25
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				random_owned_state = {
+					limit = {
+						is_core_of = HUN
+						is_controlled_by = ROOT
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			
+			hidden_effect = {
+				set_country_flag = HUN_poursuivre_travaux_autoroute_horthy_2
+			}
+			country_event = {
+				id = Hearts-of-Mod_HUN_autoroute.1
+				days = 0
+			}
+		}
+	}
+	
+	HUN_poursuivre_travaux_autoroute_horthy_3 = {
+		name = HUN_poursuivre_travaux_autoroute_horthy
+		icon = GFX_decision_generic_construction
+		allowed = {
+			original_tag = HUN
+		}
+		
+		available = {
+			any_owned_state = {
+				is_core_of = HUN
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+		}
+		
+		cancel_trigger = {
+			all_owned_state = {
+				NOT = {
+					is_core_of = HUN
+					is_controlled_by = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+				}
+			}
+		}
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				is_core_of = HUN
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+		}
+		
+		visible = {
+			any_owned_state = {
+				is_core_of = HUN
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+			has_country_flag = HUN_poursuivre_travaux_autoroute_horthy_2
+			NOT = {
+				has_country_flag = HUN_poursuivre_travaux_autoroute_horthy_3
+			}
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 25
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				random_owned_state = {
+					limit = {
+						is_core_of = HUN
+						is_controlled_by = ROOT
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			
+			hidden_effect = {
+				set_country_flag = HUN_poursuivre_travaux_autoroute_horthy_3
+			}
+			country_event = {
+				id = Hearts-of-Mod_HUN_autoroute.1
+				days = 0
+			}
+		}
+	}
+	
+	HUN_poursuivre_travaux_autoroute_horthy_4 = {
+		name = HUN_poursuivre_travaux_autoroute_horthy
+		icon = GFX_decision_generic_construction
+		allowed = {
+			original_tag = HUN
+		}
+		
+		available = {
+			any_owned_state = {
+				is_core_of = HUN
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+		}
+		
+		cancel_trigger = {
+			all_owned_state = {
+				NOT = {
+					is_core_of = HUN
+					is_controlled_by = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+				}
+			}
+		}
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				is_core_of = HUN
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+		}
+		
+		visible = {
+			any_owned_state = {
+				is_core_of = HUN
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+			has_country_flag = HUN_poursuivre_travaux_autoroute_horthy_3
+			NOT = {
+				has_country_flag = HUN_poursuivre_travaux_autoroute_horthy_4
+			}
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 25
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				random_owned_state = {
+					limit = {
+						is_core_of = HUN
+						is_controlled_by = ROOT
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			
+			hidden_effect = {
+				set_country_flag = HUN_poursuivre_travaux_autoroute_horthy_4
+			}
+			country_event = {
+				id = Hearts-of-Mod_HUN_autoroute.1
+				days = 0
+			}
+		}
+	}
+	
+	HUN_poursuivre_travaux_autoroute_horthy_5 = {
+		name = HUN_poursuivre_travaux_autoroute_horthy
+		icon = GFX_decision_generic_construction
+		allowed = {
+			original_tag = HUN
+		}
+		
+		available = {
+			any_owned_state = {
+				is_core_of = HUN
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+		}
+		
+		cancel_trigger = {
+			all_owned_state = {
+				NOT = {
+					is_core_of = HUN
+					is_controlled_by = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+				}
+			}
+		}
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				is_core_of = HUN
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+		}
+		
+		visible = {
+			any_owned_state = {
+				is_core_of = HUN
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+			has_country_flag = HUN_poursuivre_travaux_autoroute_horthy_4
+			NOT = {
+				has_country_flag = HUN_poursuivre_travaux_autoroute_horthy_5
+			}
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 25
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				random_owned_state = {
+					limit = {
+						is_core_of = HUN
+						is_controlled_by = ROOT
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			
+			hidden_effect = {
+				set_country_flag = HUN_poursuivre_travaux_autoroute_horthy_5
+			}
+			country_event = {
+				id = Hearts-of-Mod_HUN_autoroute.1
+				days = 0
+			}
+		}
+	}
+	
+	HUN_poursuivre_travaux_autoroute_horthy_6 = {
+		name = HUN_poursuivre_travaux_autoroute_horthy
+		icon = GFX_decision_generic_construction
+		allowed = {
+			original_tag = HUN
+		}
+		
+		available = {
+			any_owned_state = {
+				is_core_of = HUN
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+		}
+		
+		cancel_trigger = {
+			all_owned_state = {
+				NOT = {
+					is_core_of = HUN
+					is_controlled_by = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+				}
+			}
+		}
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				is_core_of = HUN
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+		}
+		
+		visible = {
+			any_owned_state = {
+				is_core_of = HUN
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+				}
+			}
+			has_country_flag = HUN_poursuivre_travaux_autoroute_horthy_5
+			NOT = {
+				has_country_flag = HUN_poursuivre_travaux_autoroute_horthy_6
+			}
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 25
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			effect_tooltip = {
+				random_owned_state = {
+					limit = {
+						is_core_of = HUN
+						is_controlled_by = ROOT
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			
+			hidden_effect = {
+				set_country_flag = HUN_poursuivre_travaux_autoroute_horthy_6
+			}
+			country_event = {
+				id = Hearts-of-Mod_HUN_autoroute.1
+				days = 0
+			}
+		}
+	}
+}
+
+political_actions = {
+	HUN_homme_chapeau_melon = {
+		icon = GFX_decision_generic_political_discourse
+		allowed = {
+			original_tag = HUN
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 50
+		
+		visible = {
+			NOT = {
+				has_global_flag = HUN_homme_chapeau_melon
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			hidden_effect = {
+				set_global_flag = HUN_homme_chapeau_melon
+			}
+			
+			country_event = {
+				id = Hearts-of-Mod_HUN_gub.1
+				days = 0
+			}
+			effect_tooltip = {
+				custom_effect_tooltip = RULE_OPTION_1
+				custom_effect_tooltip = newline_tt
+				add_stability = -0.13
+				add_political_power = 200
+				
+				custom_effect_tooltip = newline_tt
+				
+				custom_effect_tooltip = RULE_OPTION_2
+				custom_effect_tooltip = newline_tt
+				add_stability = 0.15
+			}
+		}
+	}
+	
+	HUN_ecouter_plan_remilitarisation_gub = {
+		icon = GFX_decision_FIN_weapon_caches
+		allowed = {
+			original_tag = HUN
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		available = {
+			OR = {
+				OR = {
+					664 = {
+						CONTROLLER = {
+							NOT = {
+								has_war_with = ROOT
+							}
+						}
+						free_building_slots = {
+							building = arms_factory
+							size > 2
+							include_locked = yes
+						}
+					}
+					45 = {
+						CONTROLLER = {
+							NOT = {
+								has_war_with = ROOT
+							}
+						}
+						free_building_slots = {
+							building = arms_factory
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+				43 = {
+					is_owned_and_controlled_by = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		
+		cancel_trigger = {
+			AND = {
+				AND = {
+					664 = {
+						OR = {				
+							CONTROLLER = {
+								has_war_with = ROOT
+							}
+							NOT = {
+								free_building_slots = {
+									building = arms_factory
+									size > 2
+									include_locked = yes
+								}
+							}
+						}
+					}
+					45 = {
+						OR = {
+							CONTROLLER = {
+								has_war_with = ROOT
+							}
+							NOT = {
+								free_building_slots = {
+									building = arms_factory
+									size > 1
+									include_locked = yes
+								}
+							}
+						}
+					}
+				}
+				43 = {
+					NOT = {
+						is_owned_and_controlled_by = ROOT
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 150
+		
+		visible = {
+			has_global_flag = HUN_homme_chapeau_melon
+			NOT = {
+				has_global_flag = HUN_ecouter_plan_remilitarisation_gub
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			hidden_effect = {
+				set_global_flag = HUN_ecouter_plan_remilitarisation_gub
+			}
+			
+			country_event = {
+				id = Hearts-of-Mod_HUN_gub.2
+				days = 0
+			}
+			effect_tooltip = {
+				if = {
+					limit = {
+						OR = {
+							664 = {
+								CONTROLLER = {
+									NOT = {
+										has_war_with = ROOT
+									}
+								}
+								free_building_slots = {
+									building = arms_factory
+									size > 2
+									include_locked = yes
+								}
+							}
+							45 = {
+								CONTROLLER = {
+									NOT = {
+										has_war_with = ROOT
+									}
+								}
+								free_building_slots = {
+									building = arms_factory
+									size > 1
+									include_locked = yes
+								}
+							}
+						}
+					}
+					custom_effect_tooltip = RULE_OPTION_1
+					custom_effect_tooltip = newline_tt
+					if = {
+						limit = {
+							664 = {
+								CONTROLLER = {
+									NOT = {
+										has_war_with = ROOT
+									}
+								}
+								free_building_slots = {
+									building = arms_factory
+									size > 2
+									include_locked = yes
+								}
+							}
+						}
+						664 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+								type = arms_factory
+								level = 3
+								instant_build = yes
+							}
+							add_claim_by = ROOT
+						}
+					}
+					if = {
+						limit = {
+							45 = {
+								CONTROLLER = {
+									NOT = {
+										has_war_with = ROOT
+									}
+								}
+								free_building_slots = {
+									building = arms_factory
+									size > 1
+									include_locked = yes
+								}
+							}
+						}
+						45 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = arms_factory
+								level = 2
+								instant_build = yes
+							}
+							add_claim_by = ROOT
+						}
+					}
+				}
+				
+				custom_effect_tooltip = newline_tt
+				if = {
+					limit = {
+						43 = {
+							is_owned_and_controlled_by = ROOT
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+						}
+					}
+					custom_effect_tooltip = RULE_OPTION_2
+					custom_effect_tooltip = newline_tt
+					if = {
+						limit = {
+							43 = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 1
+									include_locked = yes
+								}
+							}
+						}
+						43 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = industrial_complex
+								level = 2
+								instant_build = yes
+							}
+							add_claim_by = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
