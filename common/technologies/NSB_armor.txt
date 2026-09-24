@@ -2606,11 +2606,11 @@ technologies = {
 
 		research_cost = 1.75
 
-		start_year = 1943
+		start_year = 1944
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = @1943 }
+			position = { x = 5 y = @1944 }
 		}
 
 		categories = {
