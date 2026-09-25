@@ -825,11 +825,6 @@ political_actions = {
 					limit = {
 						43 = {
 							is_owned_and_controlled_by = ROOT
-							free_building_slots = {
-								building = industrial_complex
-								size > 1
-								include_locked = yes
-							}
 						}
 					}
 					custom_effect_tooltip = RULE_OPTION_2
@@ -853,6 +848,279 @@ political_actions = {
 							}
 							add_claim_by = ROOT
 						}
+					}
+				}
+			}
+		}
+	}
+	
+	HUN_nouvelle_idee_gub = {
+		icon = GFX_decision_oppression
+		allowed = {
+			original_tag = HUN
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		available = {
+			OR = {
+				OR = {
+					controls_state = 155
+					controls_state = 974
+				}
+				43 = {
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		
+		cancel_trigger = {
+			AND = {
+				AND = {
+					NOT = {
+						controls_state = 155
+					}
+					NOT = {
+						controls_state = 974
+					}
+				}
+				43 = {
+					NOT = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 200
+		
+		visible = {
+			has_global_flag = HUN_ecouter_plan_remilitarisation_gub
+			NOT = {
+				has_global_flag = HUN_nouvelle_idee_gub
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			hidden_effect = {
+				set_global_flag = HUN_nouvelle_idee_gub
+			}
+			
+			country_event = {
+				id = Hearts-of-Mod_HUN_gub.3
+				days = 0
+			}
+			effect_tooltip = {
+				if = {
+					limit = {
+						OR = {
+							controls_state = 155
+							controls_state = 974
+						}
+					}
+					custom_effect_tooltip = RULE_OPTION_1
+					custom_effect_tooltip = newline_tt
+					if = {
+						limit = {
+							controls_state = 155
+						}
+						155 = {
+							add_resource = {
+								type = steel
+								amount = 8
+							}
+							add_claim_by = ROOT
+						}
+					}
+					if = {
+						limit = {
+							controls_state = 974
+						}
+						974 = {
+							add_resource = {
+								type = steel
+								amount = 8
+							}
+							add_claim_by = ROOT
+						}
+					}
+				}
+				
+				custom_effect_tooltip = newline_tt
+				if = {
+					limit = {
+						43 = {
+							is_controlled_by = ROOT
+						}
+					}
+					custom_effect_tooltip = RULE_OPTION_2
+					custom_effect_tooltip = newline_tt
+					43 = {
+						add_resource = {
+							type = steel
+							amount = 10
+						}
+					}
+					if = {
+						limit = {
+							43 = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+						}
+						43 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+							}
+							add_claim_by = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	HUN_armee_gub = {
+		icon = GFX_decision_generic_army_support
+		allowed = {
+			original_tag = HUN
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		available = {
+		}
+		
+		cancel_trigger = {
+		}
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 200
+		
+		visible = {
+			has_global_flag = HUN_nouvelle_idee_gub
+			NOT = {
+				has_global_flag = HUN_armee_gub
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			hidden_effect = {
+				set_global_flag = HUN_armee_gub
+			}
+			
+			country_event = {
+				id = Hearts-of-Mod_HUN_gub.4
+				days = 0
+			}
+			effect_tooltip = {
+				if = {
+					limit = {
+						has_stability > 0.15
+						has_war_support > 0.05
+					}
+					custom_effect_tooltip = RULE_OPTION_1
+					custom_effect_tooltip = newline_tt
+					add_manpower = 95000
+					add_stability = -0.15
+					add_war_support = -0.05
+				}
+				
+				custom_effect_tooltip = newline_tt
+				
+				custom_effect_tooltip = RULE_OPTION_2
+				custom_effect_tooltip = newline_tt
+				add_offsite_building = {
+					type = arms_factory
+					level = 3
+				}
+			}
+		}
+	}
+	
+	HUN_destin_gub = {
+		icon = GFX_decision_generic_arrest
+		allowed = {
+			original_tag = HUN
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		available = {
+		}
+		
+		cancel_trigger = {
+		}
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 200
+		
+		visible = {
+			has_global_flag = HUN_armee_gub
+			NOT = {
+				has_global_flag = HUN_destin_gub
+			}
+		}
+		
+		days_remove = 15
+		
+		remove_effect = {
+			# EFFECT
+			hidden_effect = {
+				set_global_flag = HUN_destin_gub
+			}
+			
+			country_event = {
+				id = Hearts-of-Mod_HUN_gub.5
+				days = 0
+			}
+			effect_tooltip = {
+				custom_effect_tooltip = RULE_OPTION_1
+				custom_effect_tooltip = newline_tt
+				add_stability = 0.15
+				add_war_support = 0.15
+				
+				custom_effect_tooltip = newline_tt
+				
+				if = {
+					limit = {
+						has_stability > 0.10
+					}
+					custom_effect_tooltip = RULE_OPTION_2
+					custom_effect_tooltip = newline_tt
+					add_stability = -0.10
+					add_offsite_building = {
+						type = industrial_complex
+						level = 2
+					}
+					add_offsite_building = {
+						type = arms_factory
+						level = 2
 					}
 				}
 			}
