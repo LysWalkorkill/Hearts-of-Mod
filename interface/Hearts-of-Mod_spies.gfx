@@ -1,0 +1,37 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_portrait_ast_alexandra_casoy_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/AST/Alex.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_ast_clover_ewing_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/AST/Clover.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_ast_samantha_simpson_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/AST/Sam.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_raj_irfan_khan_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_irfan_khan.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_raj_ezra_bridger_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_ezra_bridger.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_raj_dj_snake_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_dj_snake.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_raj_deepika_padukone_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_deepika_padukone.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_raj_priyanka_chopra_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_priyanka_chopra.dds"
+	}
+}

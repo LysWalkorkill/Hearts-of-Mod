@@ -1,0 +1,53 @@
+﻿l_english:
+    # Ecosystem
+    FIN_lancer_referendum_ecosysteme:0 "Hold a Referendum on the Finnish Ecosystem"
+
+    Hearts-of-Mod_FIN_ecosysteme.1.title:0 "The Finnish Salmon Question"
+    Hearts-of-Mod_FIN_ecosysteme.1.desc:0 "The issue of salmon fishing currently occupies a central place in Finnish political debates. An iconic resource of the country, salmon represents both an important economic asset and a key element in the natural balance of northern rivers.\n\nHowever, this perspective has raised serious concerns among scientists and environmentalists. Several studies have warned of the risks of overfishing, which could lead to a rapid decline in salmon populations and cause lasting disruption to aquatic ecosystems.\n\nThe government therefore faces a difficult choice: support a lucrative and rapidly expanding industry, or impose restrictions in order to preserve this resource for future generations. Consultations are currently underway, bringing together fishermen, experts, and political representatives."
+    Hearts-of-Mod_FIN_ecosysteme.1.a:0 "We must allow overfishing!"
+    Hearts-of-Mod_FIN_ecosysteme.1.b:0 "Finland will never accept such a thing!"
+
+    FIN_prendre_decision_chasse_elan:0 "Make a Decision on Moose Hunting"
+
+    Hearts-of-Mod_FIN_ecosysteme.2.title:0 "The Moose Hunting Question"
+    Hearts-of-Mod_FIN_ecosysteme.2.desc:0 "After being deemed overpopulated in several regions of the country, the moose population is now subject to intensified hunting in Finland. What was initially intended as a population control measure now appears to be raising new concerns among wildlife specialists.\n\nBiologists are sounding the alarm: a decline in the moose population that is too rapid could disrupt the entire ecosystem. Indeed, this animal plays a key role in maintaining the balance of forests, influencing vegetation and the presence of other species. “At this rate, it is not just the moose that is at stake, but an entire ecosystem,” warns one expert.\n\nFaced with an increasingly concerning situation, Finland now faces a crucial choice."
+    Hearts-of-Mod_FIN_ecosysteme.2.a:0 "We have no reason to reduce hunting!"
+    Hearts-of-Mod_FIN_ecosysteme.2.b:0 "The hunters are going too far! This is a circus!"
+
+    FIN_trancher_question_manteaux_fourrures:0 "Settle the Fur Coat Question"
+
+    Hearts-of-Mod_FIN_ecosysteme.3.title:0 "The Fur Coat Question"
+    Hearts-of-Mod_FIN_ecosysteme.3.desc:0 "The controversy surrounding the fashion of red fox fur coats has intensified in recent days following the heated statements of an environmental activist dedicated to wildlife protection.\n\nDuring a public meeting, she reportedly harshly criticized followers of the trend, directly accusing certain women of contributing to the disappearance of the species. Carried away by her indignation, she allegedly used particularly harsh language, going so far as to call them “sluts,” remarks that quickly sparked outrage and controversy.\n\nAmid outrage and controversy, the debate over fur is intensifying. One thing is certain: the environmental issue can no longer be ignored."
+    Hearts-of-Mod_FIN_ecosysteme.3.a:0 "This is a global fashion trend. We won't change anything!"
+    Hearts-of-Mod_FIN_ecosysteme.3.b:0 "Let's work on synthetic fur!"
+
+    FIN_cloturer_polemique_hibou_blanc:0 "Put an End to the Great White Owl Controversy"
+
+    Hearts-of-Mod_FIN_ecosysteme.4.title:0 "The Great White Owl Controversy"
+    Hearts-of-Mod_FIN_ecosysteme.4.desc:0 "An unusual discovery is currently attracting the attention of Finnish naturalists and authorities: a large owl, apparently belonging to the eagle-owl family, has reportedly been spotted in a vast forested area of the country, sparking considerable scientific interest.\n\nSeveral environmental groups strongly oppose any attempt to capture the animal, arguing that it should be allowed to live freely in its natural environment. “We cannot disturb a wild species in the name of science,” one of them insists.\n\nThe debate is intensifying as the authorities consider how to proceed. Caught between the pursuit of scientific progress and respect for wildlife, the situation remains delicate."
+    Hearts-of-Mod_FIN_ecosysteme.4.a:0 "Science is science!"
+    Hearts-of-Mod_FIN_ecosysteme.4.b:0 "Don't you have some work waiting for you at the factory?"
+
+    FIN_affirmer_trouve_equilibre_ecosysteme:0 "Declare that a Fair Balance Has Been Found for the Finnish Ecosystem"
+
+    Hearts-of-Mod_FIN_ecosysteme.5.title:0 "Finnish Ecosystem Session Concluded"
+    Hearts-of-Mod_FIN_ecosysteme.5.desc:0 "After months of heated discussions surrounding the management of wildlife and natural resources, the Finnish authorities have announced the end of the major debates concerning the balance of the national ecosystem.\n\nThese discussions, which had pitted hunters, scientists, industrialists, and environmentalists against one another, have ultimately resulted in a series of measures presented as a compromise. Although some decisions are still considered imperfect, they aim to reconcile economic development with the preservation of natural environments.\n\nOn the ground, tensions appear to be easing. The disputes are gradually subsiding, giving way to a degree of optimism. “It's not perfect, but at least we're moving in the right direction,” says a local observer."
+    Hearts-of-Mod_FIN_ecosysteme.5.a:0 "These were the right decisions to make."
+
+    # Economic Development
+    FIN_preparer_infrastructures_minieres:0 "Prepare Mining Infrastructure"
+    FIN_construire_mines_fer_oulu:0 "Build the Oulu Iron Mines"
+    FIN_construire_mines_aluminium_lappi:0 "Build Aluminum Mines in Lapland"
+    FIN_construire_mines_charbons_vaasa:0 "Build Coal Mines in Vaasa"
+    FIN_construire_mines_fer_kuopio:0 "Build the Kuopio Iron Mines"
+
+    Hearts-of-Mod_FIN_developpement_economique.1.title:0 "Expansion of Mining Activities"
+    Hearts-of-Mod_FIN_developpement_economique.1.desc:0 "In an effort to strengthen its economic development, Finland has recently launched an expansion of its mining activities beyond traditional urban areas. This initiative aims to exploit more remote regions rich in resources that have so far remained largely untapped.\n\nThe authorities have confirmed that several exploration projects are underway in forested and isolated areas, where the presence of strategic minerals suggests considerable potential. This expansion marks a significant shift in national strategy, which had previously focused on already-developed centers.\n\nOn the ground, the first teams of miners and engineers have been deployed, opening new access routes and installing the infrastructure required for extraction. Industry officials describe this as a major opportunity to increase production and support the country's industrialization.\n\nHowever, some observers are calling for caution, highlighting the challenges posed by these remote regions, both logistically and environmentally."
+    Hearts-of-Mod_FIN_developpement_economique.1.a:0 "Onward to the resources!"
+
+    # Helsinki Port Development
+    FIN_continuer_developper_port_helsinki:0 "Continue Developing the Port of Helsinki"
+
+    Hearts-of-Mod_FIN_developpement_port_helsinki.1.title:0 "Development of the Port of Helsinki"
+    Hearts-of-Mod_FIN_developpement_port_helsinki.1.desc:0 "Expansion work at the Port of Helsinki is progressing at a steady pace, confirming the Finnish government's determination to strengthen its maritime infrastructure. Officially presented as a project intended to support trade and international commerce, this development has nevertheless raised numerous questions.\n\nHowever, several observers have noted that certain aspects of the project appear to go beyond simple commercial needs. The scale of the improvements, along with certain specialized structures, suggests that the construction may also serve military purposes.\n\n“It doesn't look like it's just for trade,” confides one analyst. “There are elements suggesting preparations for more strategic uses.”\n\nThe government, for its part, remains tight-lipped about these interpretations, insisting that the primary objective remains the country's economic development."
+    Hearts-of-Mod_FIN_developpement_port_helsinki.1.a:0 "A military or civilian ship is still a ship..."

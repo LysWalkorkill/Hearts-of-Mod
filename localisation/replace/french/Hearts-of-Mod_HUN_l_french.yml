@@ -1,0 +1,45 @@
+﻿l_french:
+    # Autoroute
+    HUN_poursuivre_travaux_autoroute_horthy:0 "Poursuivre les travaux de l'autoroute \"Horthy\""
+
+    Hearts-of-Mod_HUN_autoroute.1.title:0 "Développement de l'autoroute \"Horthy\""
+    Hearts-of-Mod_HUN_autoroute.1.desc:0 "Le chantier de l’autoroute Horthy continue de progresser à un rythme soutenu, marquant une nouvelle étape importante dans l’ambitieux programme d’infrastructures du pays.\n\nLes autorités ont annoncé cette semaine l’achèvement d’un nouveau tronçon, reliant plusieurs axes stratégiques et facilitant la circulation entre différentes régions. Ce projet, considéré comme emblématique de la modernisation de la Hongrie, vise à améliorer les échanges commerciaux et à renforcer la cohésion territoriale.\n\nLes responsables politiques saluent cette progression, qu’ils présentent comme un signe de dynamisme et de renouveau national. « Chaque kilomètre construit rapproche la Hongrie de son avenir », a déclaré un représentant du gouvernement."
+    Hearts-of-Mod_HUN_autoroute.1.a:0 "C'est 130km/h et sans alcool..."
+
+    # Gub
+    HUN_homme_chapeau_melon:0 "Recevoir "\l'homme au chapeau Melon"\"
+
+    Hearts-of-Mod_HUN_gub.1.title:0 "Polémique autour de Gub"
+    Hearts-of-Mod_HUN_gub.1.desc:0 "Une polémique grandissante secoue actuellement la scène politique hongroise, après l’apparition de rumeurs persistantes concernant l’influence d’un individu énigmatique sur les décisions du gouvernement.\n\nSurnommé « Gub », cet homme au chapeau melon, dont l’identité demeure floue, aurait récemment gagné la confiance de certains hauts responsables. Selon plusieurs sources, il aurait proposé une série de mesures visant à accélérer le réarmement du pays, dans un contexte international de plus en plus tendu.\n\n« Il est préoccupant de voir des décisions d’une telle importance influencées par une figure aussi obscure », déclare un analyste politique. « La transparence devrait être de mise dans un moment aussi crucial pour le pays. »"
+    Hearts-of-Mod_HUN_gub.1.a:0 "Officialiser la présence de Gub."
+    Hearts-of-Mod_HUN_gub.1.b:0 "Il agira secrètement depuis les bois."
+
+    
+    HUN_ecouter_plan_remilitarisation_gub:0 "Écouter le plan de remilitarisation de Gub"
+
+    Hearts-of-Mod_HUN_gub.2.title:0 "Plan de remilitarisation de Gub"
+    Hearts-of-Mod_HUN_gub.2.desc:0 "À l’attention du dirigeant de la Hongrie,\n\nJe vous propose une approche indirecte mais efficace pour le réarmement Hongrois: établir nos capacités industrielles au-delà de nos frontières. Ces installations devront apparaître comme extérieure à notre pays, indépendantes, voire étrangères. Pourtant, dans leur conception même, elles devront être prêtes à servir un objectif bien plus stratégique.\n\nEn procédant ainsi, nous contournons les regards, tout en bâtissant une base solide pour l’avenir. Le jour venu, ces territoires — déjà liés à nous par leurs intérêts et leurs infrastructures — pourront naturellement être intégrés à notre sphère d’influence.\n\nCe qui est extérieur aujourd’hui pourra devenir intérieur demain.\nGub"
+    Hearts-of-Mod_HUN_gub.2.a:0 "Excellent, plaçons nos usines militaire hors Hongrie !"
+    Hearts-of-Mod_HUN_gub.2.b:0 "Non c'est une FRAUDE le peuple avant tout !"
+
+    HUN_nouvelle_idee_gub:0 "La nouvelle idée de Gub"
+
+    Hearts-of-Mod_HUN_gub.3.title:0 "Les camps de Gub"
+    Hearts-of-Mod_HUN_gub.3.desc:0 "J’ai une idée… presque légale, du moins en apparence.\n\nJe vous propose l’établissement de camps de travail discrets, éloignés des centres de contrôle et des regards extérieurs. Officiellement, ces installations pourraient être présentées comme des projets d’exploitation forestière ou de développement régional. En réalité, elles serviraient à extraire et produire les ressources nécessaires à nos ambitions, sans interférence.\n\nLes hommes envoyés dans ces lieux n’auront ni voix ni visibilité. L’isolement naturel fera le reste. Aucun témoin, aucune question. Ce qui s’y passe y restera.\n\nVous comprendrez que ce type d’initiative ne doit laisser aucune trace officielle. Elle doit exister sans exister.\nGub"
+    Hearts-of-Mod_HUN_gub.3.a:0 "Nous allons avoir des ressources... c'est l'essentiel."
+    Hearts-of-Mod_HUN_gub.3.b:0 "JAMAIS de l'exploitation secrète..."
+    
+    HUN_armee_gub:0 "L'armée de Gub"
+
+    Hearts-of-Mod_HUN_gub.4.title:0 "Les hommes de Gub"
+    Hearts-of-Mod_HUN_gub.4.desc:0 "Les priorités évoluent. Ce qui hier relevait de l’industrie appartient désormais au passé immédiat. L’avenir, lui, repose sur un facteur bien plus décisif : l’humain.\n\nC’est précisément ce que je suis en mesure de vous offrir.\n\nJe dispose d’hommes fiables. Discrets. Efficaces. Des individus qui comprennent la nature réelle des choses et qui savent agir en conséquence. Ils ne cherchent ni reconnaissance, ni lumière — seulement des directives claires et un cadre stable.\n\nEn échange, je ne demande qu’une chose simple : une place… confortable.\nGub"
+    Hearts-of-Mod_HUN_gub.4.a:0 "Un soldat est un soldat... "
+    Hearts-of-Mod_HUN_gub.4.b:0 "Des bandits dans l'armée ? JAMAIS !"
+    
+    HUN_destin_gub:0 "Le destin de Gub"
+
+    Hearts-of-Mod_HUN_gub.5.title:0 "L'arrestation de Gub"
+    Hearts-of-Mod_HUN_gub.5.desc:0 "Après des mois de rumeurs, de soupçons et de révélations troublantes, les autorités hongroises ont confirmé l’arrestation d’un individu identifié comme étant « Gub », de son vrai nom présumé Vicktor Keketh. Celui-ci aurait été intercepté alors qu’il tentait de fuir le pays, emportant avec lui une importante somme d’argent.\n\nLes autorités reconnaissent que cette intervention a coûté cher : plusieurs membres des forces de l’ordre ont été blessés, et des pertes sont à déplorer. « Ce fut une opération complexe et dangereuse », a indiqué un responsable, sans toutefois donner davantage de détails.\n\nFigure mystérieuse et controversée, Gub était au centre de nombreuses accusations, allant de manipulations politiques à des projets clandestins liés au réarmement du pays. Son arrestation pourrait marquer un tournant majeur dans cette affaire, longtemps entourée de zones d’ombre."
+    Hearts-of-Mod_HUN_gub.5.a:0 "C'est foutu pour lui bon vent ! "
+    Hearts-of-Mod_HUN_gub.5.b:0 "Ses biens contre la liberté..."
+

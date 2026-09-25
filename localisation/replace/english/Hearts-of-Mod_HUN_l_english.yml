@@ -1,0 +1,43 @@
+﻿l_english:
+    # Highway
+    HUN_poursuivre_travaux_autoroute_horthy:0 "Continue Construction of the \"Horthy\" Highway"
+
+    Hearts-of-Mod_HUN_autoroute.1.title:0 "Development of the \"Horthy\" Highway"
+    Hearts-of-Mod_HUN_autoroute.1.desc:0 "Construction of the Horthy Highway continues to progress at a steady pace, marking another important milestone in the country's ambitious infrastructure program.\n\nAuthorities announced this week the completion of a new section, connecting several strategic routes and facilitating travel between different regions. The project, considered emblematic of Hungary's modernization, aims to improve trade and strengthen territorial cohesion.\n\nPolitical leaders have praised this progress, presenting it as a sign of national dynamism and renewal. “Every kilometer we build brings Hungary closer to its future,” declared a government representative."
+    Hearts-of-Mod_HUN_autoroute.1.a:0 "130 km/h and no alcohol..."
+
+    # Gub
+    HUN_homme_chapeau_melon:0 "Receive \"the Man in the Bowler Hat\""
+
+    Hearts-of-Mod_HUN_gub.1.title:0 "Controversy Surrounding Gub"
+    Hearts-of-Mod_HUN_gub.1.desc:0 "A growing controversy is currently shaking the Hungarian political scene following persistent rumors concerning the influence of an enigmatic individual over government decisions.\n\nNicknamed “Gub,” this man in a bowler hat, whose identity remains unclear, has reportedly gained the trust of several senior officials. According to multiple sources, he has proposed a series of measures aimed at accelerating the country's rearmament in an increasingly tense international climate.\n\n“It is troubling to see decisions of such importance being influenced by such an obscure figure,” stated a political analyst. “Transparency should be paramount at such a crucial moment for the country.”"
+    Hearts-of-Mod_HUN_gub.1.a:0 "Make Gub's presence official."
+    Hearts-of-Mod_HUN_gub.1.b:0 "He will operate secretly from the woods."
+
+    HUN_ecouter_plan_remilitarisation_gub:0 "Listen to Gub's Rearmament Plan"
+
+    Hearts-of-Mod_HUN_gub.2.title:0 "Gub's Rearmament Plan"
+    Hearts-of-Mod_HUN_gub.2.desc:0 "To the Leader of Hungary,\n\nI propose an indirect but effective approach to Hungarian rearmament: establishing our industrial capabilities beyond our borders. These facilities must appear to be located outside our country, independent, or even foreign. Yet by their very design, they must be ready to serve a far more strategic purpose.\n\nBy proceeding this way, we can avoid unwanted attention while building a solid foundation for the future. When the time comes, these territories — already tied to us through their interests and infrastructure — can naturally be brought into our sphere of influence.\n\nWhat is external today may become internal tomorrow.\nGub"
+    Hearts-of-Mod_HUN_gub.2.a:0 "Excellent, let's place our military factories outside Hungary!"
+    Hearts-of-Mod_HUN_gub.2.b:0 "No, that's FRAUD! The people come first!"
+
+    HUN_nouvelle_idee_gub:0 "Gub's New Idea"
+
+    Hearts-of-Mod_HUN_gub.3.title:0 "Gub's Camps"
+    Hearts-of-Mod_HUN_gub.3.desc:0 "I have an idea... almost legal, at least on the surface.\n\nI propose establishing discreet labor camps, far from centers of oversight and prying eyes. Officially, these facilities could be presented as forestry or regional development projects. In reality, they would be used to extract and produce the resources required for our ambitions, without interference.\n\nThe men sent to these places will have neither a voice nor any visibility. The natural isolation will take care of the rest. No witnesses, no questions. What happens there will stay there.\n\nYou will understand that this kind of initiative must leave no official trace. It must exist without appearing to exist.\nGub"
+    Hearts-of-Mod_HUN_gub.3.a:0 "We will have resources... that's all that matters."
+    Hearts-of-Mod_HUN_gub.3.b:0 "NEVER any secret exploitation..."
+
+    HUN_armee_gub:0 "Gub's Army"
+
+    Hearts-of-Mod_HUN_gub.4.title:0 "Gub's Men"
+    Hearts-of-Mod_HUN_gub.4.desc:0 "Priorities are changing. What yesterday was a matter of industry is now already a thing of the past. The future, however, rests on a far more decisive factor: people.\n\nThat is precisely what I am able to offer you.\n\nI have reliable men. Discreet. Efficient. Individuals who understand the true nature of things and know how to act accordingly. They seek neither recognition nor the spotlight — only clear orders and a stable framework.\n\nIn return, I ask for only one simple thing: a place... a comfortable one.\nGub"
+    Hearts-of-Mod_HUN_gub.4.a:0 "A soldier is a soldier..."
+    Hearts-of-Mod_HUN_gub.4.b:0 "Bandits in the army? NEVER!"
+
+    HUN_destin_gub:0 "Gub's Fate"
+
+    Hearts-of-Mod_HUN_gub.5.title:0 "Gub's Arrest"
+    Hearts-of-Mod_HUN_gub.5.desc:0 "After months of rumors, suspicions, and troubling revelations, Hungarian authorities have confirmed the arrest of an individual identified as “Gub,” whose presumed real name is Vicktor Keketh. He was reportedly intercepted while attempting to flee the country, carrying a large sum of money with him.\n\nAuthorities acknowledge that the operation came at a heavy cost: several law enforcement officers were injured, and casualties were reported. “It was a complex and dangerous operation,” stated one official, without providing further details.\n\nA mysterious and controversial figure, Gub was at the center of numerous accusations, ranging from political manipulation to clandestine projects related to the country's rearmament. His arrest could mark a major turning point in an affair that had long been shrouded in mystery."
+    Hearts-of-Mod_HUN_gub.5.a:0 "It's over for him. Good riddance!"
+    Hearts-of-Mod_HUN_gub.5.b:0 "His assets in exchange for freedom..."
