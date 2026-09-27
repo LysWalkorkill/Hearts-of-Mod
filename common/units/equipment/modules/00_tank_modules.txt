@@ -1076,7 +1076,7 @@ equipment_modules = {
 		xp_cost = 0
 		can_convert_from = {
 			module_category = tank_medium_main_armament
-			convert_cost_ic = 5
+			convert_cost_ic = 7
 		}
 		build_cost_resources = {
 			tungsten = 1
@@ -1109,7 +1109,7 @@ equipment_modules = {
 
 		can_convert_from = {
 			module_category = tank_medium_main_armament
-			convert_cost_ic = 7
+			convert_cost_ic = 14
 		}
 
 		build_cost_resources = {
@@ -1164,7 +1164,7 @@ equipment_modules = {
 		xp_cost = 0
 		can_convert_from = {
 			module_category = tank_heavy_main_armament
-			convert_cost_ic = 7
+			convert_cost_ic = 10
 		}
 		build_cost_resources = {
 			tungsten = 1
@@ -1191,7 +1191,7 @@ equipment_modules = {
 		xp_cost = 0
 		can_convert_from = {
 			module_category = tank_heavy_main_armament
-			convert_cost_ic = 8
+			convert_cost_ic = 16
 		}
 		build_cost_resources = {
 			tungsten = 1

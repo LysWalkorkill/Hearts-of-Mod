@@ -61,42 +61,13 @@ udk_Cheat_Division_Templates_via_Decisions_Marines_toggle_on: "§GShow§! All §
 udk_Cheat_Division_Templates_via_Decisions_Marines_toggle_on_desc: "§GShow§! All §YAmphibious Assault Template§! Decisions"
 udk_Cheat_Division_Templates_via_Decisions_Marines_toggle_off: "§RHide§! All §YAmphibious Assault Template§! Decisions"
 udk_Cheat_Division_Templates_via_Decisions_Marines_toggle_off_desc: "§RHide§! All §YAmphibious Assault Template§! Decisions"
-#Amphibious Assault Explanation:
-udk_Cheat_Division_Templates_via_Decisions_Marines_title: "§YAmphibious Assault Templates:§! Hover on this decision for explanation of Amphibious Assault Templates. 1/2"
-udk_Cheat_Division_Templates_via_Decisions_Marines_title_desc: "§Y1-§! §W10W Amphibious Assault Marines Cheap v1:§!\nCheapest (IC) Amphibious Assault Template, has AA, AT, ART, ENG, LOG Support Companies. Worth using against only weak AI. Will take lot's of casualties. Also weak against enemy response. Bad usage of Naval Invasion Cap.\n\n§Y2-§! §W10W Amphibious Assault Marines Cheap v2.a (Rocket + AT):§!\nAn Upgrade of Cheap v1, Replaced Logistics with Rocket Support Artillery.\n\n§Y3-§! §W10W Amphibious Assault Marines Cheap v2.b (Rocket + Logistics):§!\nAn Modification of Cheap v2.a, replaces AT with Logistics. Use those if encounter no enemy tanks but have supply problems.\n\n§Y4-§! §W30W Amphibious Assault Marines+ART Cost Effective v1:§!\nMost Cost Effective Amphibious Assault Template, has Line Artillery + has AA, AT, ART, ENG, LOG Support Companies. Still vulnerable against Enemy Armor (Med or Heav tanks). But much stronger in normal terrain. Weak in Multiplayer. Good in most of AI games. Better usage of Naval Invasion Cap.\n\n§Y5-§! §W30W Amphibious Assault Marines+ART Cost Effective v2.a (Rocket + AT):§!\nAn Upgrade of Cost Effective v1, Replaced Logistics with Rocket Support Artillery.\n\n§Y6-§! §W30W Amphibious Assault Marines+ART Cost Effective v2.b (Rocket + Logistics):§!\nAn Modification of Cost Effective v2.a, replaces AT with Logistics. Use those if encounter no enemy tanks but have supply problems."
-udk_Cheat_Division_Templates_via_Decisions_Marines_title_2: "§YAmphibious Assault Templates:§! Hover on this decision for explanation of Amphibious Assault Templates. 2/2"
-udk_Cheat_Division_Templates_via_Decisions_Marines_title_2_desc: "§Y7-§! §W30W Amphibious Assault M.Amph.Tank+Mot. Expensive v1.a (AT):§!\nReally Good Amphibious Assault Template, uses Amphibious Medium Armor and Motorized Infantry, has AA, AT, ART, LOG, MAIN Support Companies. Needs more supply, but demolishes all opposition, and can also be used as regular tank divisions.\n\n§Y8-§! §W30W Amphibious Assault M.Amph.Tank+Mot. Expensive v1.b (Rocket):§!\nAn Modification of Expensive v1.a, replaces AT with Rocket Support Artillery.\n\n§Y9-§! §W30W Amphibious Assault M.Amph.Tank+Mech. Super Expensive v1.a (AT):§!\nReally Expensive, uses Amphibious Medium Armor and Mechanized Infantry, has AA, AT, ART, LOG, MAIN Support Companies. Needs more supply, but demolishes all opposition, and can also be used as regular tank divisions. Needs great amount of MIL's.\n\n§Y10-§! §W30W Amphibious Assault M.Amph.Tank+Mech. Super Expensive v1.b (Rocket):§!\nAn Modification of Super Expensive v1.a, replaces AT with Rocket Support Artillery.\n\n§Y11-§! §W30W Amphibious Assault M.Amph.Tank+Amtrac Super Expensive v1.c (AT):§!\nAn Modification of Super Expensive v1.a, replaces Mechanized Infantry with Amtrac's.\n\n§Y12-§! §W30W Amphibious Assault M.Amph.Tank+Amtrac Super Expensive v1.d (Rocket):§!\nAn Modification of Super Expensive v1.c, replaces AT with Rocket Support Artillery."
 #Amphibious Assault:
-udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v1: "10W Amphibious Assault Marines Cheap v1"
-udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v1_desc: "heapest (IC) Amphibious Assault Template, has AA, AT, ART, ENG, LOG Support Companies. Worth using against only weak AI. Will take lot's of casualties. Also weak against enemy response. Bad usage of Naval Invasion Cap."
-udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v2_a: "10W Amphibious Assault Marines Cheap v2.a (Rocket + AT)"
-udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v2_a_desc: "An Upgrade of Cheap v1, Replaced Logistics with Rocket Support Artillery."
-udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v2_b: "udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v2_b"
-udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v2_b_desc: "An Modification of Cheap v2.a, replaces AT with Logistics. Use those if encounter no enemy tanks but have supply problems."
-udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v1: "30W Amphibious Assault Marines+ART Cost Effective v1"
-udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v1_desc: "Most Cost Effective Amphibious Assault Template, has Line Artillery + has AA, AT, ART, ENG, LOG Support Companies. Still vulnerable against Enemy Armor (Med or Heav tanks). But much stronger in normal terrain. Weak in Multiplayer. Good in most of AI games. Better usage of Naval Invasion Cap."
-udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v2_a: "30W Amphibious Assault Marines+ART Cost Effective v2.a (Rocket + AT)"
-udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v2_a_desc: "An Upgrade of Cost Effective v1, Replaced Logistics with Rocket Support Artillery."
-udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v2_b: "30W Amphibious Assault Marines+ART Cost Effective v2.b (Rocket + Logistics)"
-udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v2_b_desc: "An Modification of Cost Effective v2.a, replaces AT with Logistics. Use those if encounter no enemy tanks but have supply problems."
-
-udk_Cheat_Division_Templates_via_Decisions_Marines_Expensive_v1_a: "30W Amphibious Assault M.Amph.Tank+Mot. Expensive v1.a (AT)"
-udk_Cheat_Division_Templates_via_Decisions_Marines_Expensive_v1_a_desc: "Really Good Amphibious Assault Template, uses Amphibious Medium Armor and Motorized Infantry, has AA, AT, ART, LOG, MAIN Support Companies. Needs more supply, but demolishes all opposition, and can also be used as regular tank divisions."
-
-udk_Cheat_Division_Templates_via_Decisions_Marines_Expensive_v1_b: "30W Amphibious Assault M.Amph.Tank+Mot. Expensive v1.b (Rocket)"
-udk_Cheat_Division_Templates_via_Decisions_Marines_Expensive_v1_b_desc: "An Modification of Expensive v1.a, replaces AT with Rocket Support Artillery."
-
-udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_a: "30W Amphibious Assault M.Amph.Tank+Mech. Super Expensive v1.a (AT)"
-udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_a_desc: "Really Expensive, uses Amphibious Medium Armor and Mechanized Infantry, has AA, AT, ART, LOG, MAIN Support Companies. Needs more supply, but demolishes all opposition, and can also be used as regular tank divisions. Needs great amount of MIL's."
-
-udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_b: "30W Amphibious Assault M.Amph.Tank+Mech. Super Expensive v1.b (Rocket)"
-udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_b_desc: "An Modification of Super Expensive v1.a, replaces AT with Rocket Support Artillery."
-
-udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_c: "30W Amphibious Assault M.Amph.Tank+Amtrac Super Expensive v1.c (AT)"
-udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_c_desc: "An Modification of Super Expensive v1.a, replaces Mechanized Infantry with Amtrac's."
-
-udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_d: "30W Amphibious Assault M.Amph.Tank+Amtrac Super Expensive v1.d (Rocket)"
-udk_Cheat_Division_Templates_via_Decisions_Marines_Super_Expensive_v1_d_desc: "An Modification of Super Expensive v1.c, replaces AT with Rocket Support Artillery."
+udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v1: "Work in progress"
+udk_Cheat_Division_Templates_via_Decisions_Marines_Cheap_v1_desc:  "Work in progress"
+udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v1: "Work in progress"
+udk_Cheat_Division_Templates_via_Decisions_Marines_Cost_Effective_v1_desc: "Work in progress"
+udk_Cheat_Division_Templates_via_Decisions_Marines_Expensive_v1_a: "§436W DD marines + meca§!"
+udk_Cheat_Division_Templates_via_Decisions_Marines_Expensive_v1_a_desc: "Default DD marines"
 
 #Mobile Infantry Toggle On/Off:
 udk_Cheat_Division_Templates_via_Decisions_Mobile_toggle_on: "§GShow§! All §YMobile Infantry Template§! Decisions"
@@ -127,30 +98,10 @@ udk_Cheat_Division_Templates_via_Decisions_Armored_toggle_on: "§GShow§! All §
 udk_Cheat_Division_Templates_via_Decisions_Armored_toggle_on_desc: "§GShow§! All §YArmored Assault Template§! Decisions"
 udk_Cheat_Division_Templates_via_Decisions_Armored_toggle_off: "§RHide§! All §YArmored Assault Template§! Decisions"
 udk_Cheat_Division_Templates_via_Decisions_Armored_toggle_off_desc: "§RHide§! All §YArmored Assault Template§! Decisions"
-#Armored Assault Explanation:
-udk_Cheat_Division_Templates_via_Decisions_Armored_title: "§YArmored Assault Templates:§! Hover on this decision for explanation of Armored Assault Templates."
-udk_Cheat_Division_Templates_via_Decisions_Armored_title_desc: "Adjust templates to have min 40, max. 50 org. Tanks are for fast breakthroughs, they don't need high ORG.\n\n§Y1-§! §W30W 40_ORG Armor Med.Tank Mot. Cost Effective v1.a (AT):§!\nMost Cost Effective Armored Assault Template, has AA, AT, ART, LOG, MAIN Support Companies. Use this if your PEN isn't enough.\n\n§Y2-§! §W30W 40_ORG Armor Med.Tank Mot. Cost Effective v1.b (Rocket):§!\nA modification of Cost Effective v1.a, Replaced AT with Rocket Support Artillery. Use it if you don't need AT.\n\n§Y3-§! §W30W 40_ORG Armor Mod.Tank Mot. Cost Effective v2.a (AT):§!\nAn Upgrade of Cost Effective v1.b, Uses Modern Tanks. Use this if your PEN isn't enough.\n\n§Y4-§! §W30W 40_ORG Armor Mod.Tank Mot. Cost Effective v2.b (Rocket):§!\nA modification of Cost Effective v2.a, Replaced AT with Rocket Support Artillery. Use it if you don't need AT.\n\n§Y5-§! §W30W 40_ORG Armor Med.Tank Mech. Expensive v1.a (AT):§!\nReally Expensive, uses Mechanized Infantry, has AA, AT, ART, LOG, MAIN Support Companies. Ultra OP in SP. Needs more supply, but excels in it's role. Needs great amount of MIL's. Not cost effective. Use this if your PEN isn't enough.\n\n§Y6-§! §W30W 40_ORG Armor Med.Tank Mech. Expensive v1.b (Rocket):§!\nA modification of Expensive v1.a, Replaced AT with Rocket Support Artillery. Use it if you don't need AT.\n\n§Y7-§! §W30W 40_ORG Armor Mod.Tank Mech. Expensive v2.a (AT):§!\nAn Upgrade of Expensive v1.a, Uses Modern Tanks. Use this if your PEN isn't enough.\n\n§Y8-§! §W30W 40_ORG Armor Mod.Tank Mech. Expensive v2.b (Rocket):§!\nA modification of Expensive v2.a, Replaced AT with Rocket Support Artillery. Use it if you don't need AT."
 #Armored Assault:
-udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v1_a: "30W 40_ORG Armor Med.Tank Mot. Cost Effective v1.a (AT)"
-udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v1_a_desc: "Most Cost Effective Armored Assault Template, has AA, AT, ART, LOG, MAIN Support Companies. Use this if your PEN isn't enough."
-
-udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v1_b: "30W 40_ORG Armor Med.Tank Mot. Cost Effective v1.b (Rocket)"
-udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v1_b_desc: "A modification of Cost Effective v1.a, Replaced AT with Rocket Support Artillery. Use it if you don't need AT."
-
-udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v2_a: "30W 40_ORG Armor Mod.Tank Mot. Cost Effective v2.a (AT)"
-udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v2_a_desc: "An Upgrade of Cost Effective v1.b, Uses Modern Tanks. Use this if your PEN isn't enough."
-
-udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v2_b: "30W 40_ORG Armor Mod.Tank Mot. Cost Effective v2.b (Rocket)"
-udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v2_b_desc: "A modification of Cost Effective v2.a, Replaced AT with Rocket Support Artillery. Use it if you don't need AT."
-
-udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_a: "30W 40_ORG Armor Med.Tank Mech. Expensive v1.a (AT)"
-udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_a_desc: "Really Expensive, uses Mechanized Infantry, has AA, AT, ART, LOG, MAIN Support Companies. Ultra OP in SP. Needs more supply, but excels in it's role. Needs great amount of MIL's. Not cost effective. Use this if your PEN isn't enough."
-
-udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_b: "30W 40_ORG Armor Med.Tank Mech. Expensive v1.b (Rocket)"
-udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_b_desc: "A modification of Expensive v1.a, Replaced AT with Rocket Support Artillery. Use it if you don't need AT."
-
-udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v2_a: "30W 40_ORG Armor Mod.Tank Mech. Expensive v2.a (AT)"
-udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v2_a_desc: "An Upgrade of Expensive v1.a, Uses Modern Tanks. Use this if your PEN isn't enough."
-
-udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v2_b: "30W 40_ORG Armor Mod.Tank Mech. Expensive v2.b (Rocket)"
-udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v2_b_desc: "A modification of Expensive v2.a, Replaced AT with Rocket Support Artillery. Use it if you don't need AT."
+udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v1_a: "Work in progress"
+udk_Cheat_Division_Templates_via_Decisions_Armored_Cost_Effective_v1_a_desc: "Work in progress"
+udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_a: "§839W heavy tank + heavy AA§!"
+udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_a_desc: "§839W heavy tank + heavy AA§!"
+udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_b: "§838W heavy tank§!"
+udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_b_desc: "§838W heavy tank§!"
