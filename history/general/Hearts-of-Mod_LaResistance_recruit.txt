@@ -45,5 +45,19 @@ if = {
 				USA
 			}
 		}
+		create_operative_leader = {
+			name = AST_mandy
+			gfx = "GFX_portrait_ast_mandy_large"
+			female = yes
+			traits = {
+				operative_commando
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				AST
+				USA
+			}
+		}
 	}
 }

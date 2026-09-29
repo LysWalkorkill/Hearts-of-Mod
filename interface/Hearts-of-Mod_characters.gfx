@@ -7,4 +7,13 @@ spriteTypes = {
 		name = "GFX_idea_SOV_Mita_small"
 		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_Mita_small.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_portrait_CAN_Ryan_Gosling_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/CAN/portrait_Ryan_Gosling_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_CAN_Ryan_Gosling_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/CAN/portrait_Ryan_Gosling_small.dds"
+	}
 }
