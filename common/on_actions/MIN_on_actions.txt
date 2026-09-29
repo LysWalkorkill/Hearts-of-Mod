@@ -1099,55 +1099,19 @@ on_actions = {
 				add_ideas = MIN_peacetime_training
 			}
             GER = {
-				every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				add_unit_leader_trait = no_grind
-				}
+				
 			}
             ITA = {
-				every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				add_unit_leader_trait = no_grind
-				}
+				
 			}
             BUL = {
-				every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				add_unit_leader_trait = no_grind
-				}
+				
 			}
             JAP = {
-				every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				add_unit_leader_trait = no_grind
-				}
+				
 			}
             SOV = {
-				every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				add_unit_leader_trait = no_grind
-				}
-			}
+				
 		}
         # Set up right core of EHA
         effect = {
