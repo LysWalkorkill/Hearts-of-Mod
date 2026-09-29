@@ -26,6 +26,9 @@ state={
 		victory_points = {
 			11535 10 # Caen
 		}
+		victory_points = {
+			6599 3 # Lisieux
+		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
