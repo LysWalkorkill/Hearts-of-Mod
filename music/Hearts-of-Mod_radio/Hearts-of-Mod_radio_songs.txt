@@ -3,14 +3,14 @@ music_station = "Hearts-of-Mod_radio"
 music = {
 	song = "eng_peace_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = no
 		}
 		modifier = {
 			original_tag = ENG
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -25,14 +25,14 @@ music = {
 music = {
 	song = "eng_war_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = yes
 		}
 		modifier = {
 			original_tag = ENG
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -47,14 +47,14 @@ music = {
 music = {
 	song = "eng_war_two"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = yes
 		}
 		modifier = {
 			original_tag = ENG
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -69,14 +69,14 @@ music = {
 music = {
 	song = "fin_peace_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = no
 		}
 		modifier = {
 			original_tag = FIN
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -91,14 +91,14 @@ music = {
 music = {
 	song = "ita_peace_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = no
 		}
 		modifier = {
 			original_tag = ITA
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -113,14 +113,14 @@ music = {
 music = {
 	song = "ita_war_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = yes
 		}
 		modifier = {
 			original_tag = ITA
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -135,14 +135,14 @@ music = {
 music = {
 	song = "jap_peace_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = no
 		}
 		modifier = {
 			original_tag = JAP
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			original_tag = MAN
@@ -161,14 +161,14 @@ music = {
 music = {
 	song = "jap_peace_two"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = no
 		}
 		modifier = {
 			original_tag = JAP
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			original_tag = MAN
@@ -187,14 +187,14 @@ music = {
 music = {
 	song = "jap_war_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = yes
 		}
 		modifier = {
 			original_tag = JAP
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			original_tag = MAN
@@ -213,14 +213,14 @@ music = {
 music = {
 	song = "jap_war_two"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = yes
 		}
 		modifier = {
 			original_tag = JAP
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			original_tag = MAN
@@ -239,14 +239,14 @@ music = {
 music = {
 	song = "sov_peace_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = no
 		}
 		modifier = {
 			original_tag = SOV
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -261,7 +261,7 @@ music = {
 music = {
 	song = "sov_superwar_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war_with_major = yes
@@ -269,7 +269,7 @@ music = {
 		}
 		modifier = {
 			original_tag = SOV
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -284,14 +284,14 @@ music = {
 music = {
 	song = "sov_war_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = yes
 		}
 		modifier = {
 			original_tag = SOV
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -306,14 +306,14 @@ music = {
 music = {
 	song = "spr_war_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = yes
 		}
 		modifier = {
 			original_tag = SPR
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -328,14 +328,14 @@ music = {
 music = {
 	song = "usa_peace_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = no
 		}
 		modifier = {
 			original_tag = USA
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -350,14 +350,14 @@ music = {
 music = {
 	song = "usa_peace_two"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = no
 		}
 		modifier = {
 			original_tag = USA
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -372,7 +372,7 @@ music = {
 music = {
 	song = "usa_superwar_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war_with_major = yes
@@ -380,7 +380,7 @@ music = {
 		}
 		modifier = {
 			original_tag = USA
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -395,14 +395,14 @@ music = {
 music = {
 	song = "usa_war_one"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = yes
 		}
 		modifier = {
 			original_tag = USA
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
@@ -417,14 +417,14 @@ music = {
 music = {
 	song = "usa_war_two"
 	chance = {
-		factor = 0
+		base = 0
 		modifier = {
 			add = 1
 			has_war = yes
 		}
 		modifier = {
 			original_tag = USA
-			factor = 3
+			factor = 4
 		}
 		modifier = {
 			any_other_country = {
