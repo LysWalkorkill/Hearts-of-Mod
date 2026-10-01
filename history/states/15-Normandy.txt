@@ -29,6 +29,9 @@ state={
 		victory_points = {
 			6599 3 # Lisieux
 		}
+		victory_points = {
+			9550 3 # Granville
+		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2

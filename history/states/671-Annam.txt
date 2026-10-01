@@ -37,6 +37,10 @@ state = {
 			4119 2 # Haiphong
 		}
 
+		victory_points = {
+			4529 5 # Diên Biên Phu
+		}
+
 		buildings = {
 
 			infrastructure = 2

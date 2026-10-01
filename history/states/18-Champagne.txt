@@ -20,6 +20,9 @@ state={
 		victory_points = {
 			3533 3 # Colombey-les-Deux-Églises
 		}
+		victory_points = {
+			9505 2 # Chaumont
+		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
