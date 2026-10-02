@@ -35,6 +35,11 @@
     Hearts-of-Mod_FIN_ecosysteme.5.a:0 "C'était les bonnes décisions à prendre "
     
     # Développement économique
+    FIN_preparer_infrastructures_minieres:0 "Préparer les infrastructures minières"
+    FIN_construire_mines_fer_oulu:0 "Construire les mines de fer d'Oulu"
+    FIN_construire_mines_aluminium_lappi:0 "Construire les mines d'aluminium en Lappi"
+    FIN_construire_mines_charbons_vaasa:0 "Construire les mines de charbon en Vaasa"
+    FIN_construire_mines_fer_kuopio:0 "Construire les mines de fer de Kuopio"
 
     Hearts-of-Mod_FIN_developpement_economique.1.title:0 "Expansion des activités minières"
     Hearts-of-Mod_FIN_developpement_economique.1.desc:0 "Dans une volonté affirmée de renforcer son développement économique, la Finlande a récemment lancé une expansion de ses activités minières au-delà des zones urbaines traditionnelles. Cette initiative vise à exploiter des régions plus reculées, riches en ressources encore peu utilisées.\n\nLes autorités ont confirmé que plusieurs projets d’exploration sont en cours dans des zones forestières et isolées, où la présence de minerais stratégiques laisse entrevoir un potentiel considérable. Cette expansion marque un changement important dans la stratégie nationale, jusque-là concentrée autour des centres déjà développés.\n\nSur le terrain, les premières équipes de mineurs et d’ingénieurs ont été déployées, ouvrant de nouvelles voies d’accès et installant des infrastructures nécessaires à l’exploitation. Les responsables du secteur évoquent une opportunité majeure pour accroître la production et soutenir l’industrialisation du pays.\n\nCependant, certains observateurs appellent à la prudence, soulignant les défis liés à ces régions éloignées, tant sur le plan logistique qu’environnemental."
