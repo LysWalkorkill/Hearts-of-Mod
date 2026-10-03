@@ -3,7 +3,7 @@ technologies = {
 	basic_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
-		equipment_conversion_speed = 0.2
+		equipment_conversion_speed = 0.1
 		
 		path = {
 			leads_to_tech = improved_machine_tools 
@@ -41,7 +41,7 @@ technologies = {
 	improved_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
-		equipment_conversion_speed = 0.2
+		equipment_conversion_speed = 0.1
 
 		path = {
 			leads_to_tech = advanced_machine_tools 
@@ -79,7 +79,7 @@ technologies = {
 	advanced_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
-		equipment_conversion_speed = 0.2
+		equipment_conversion_speed = 0.1
 		
 		path = {
 			leads_to_tech = assembly_line_production 
@@ -112,7 +112,7 @@ technologies = {
 	assembly_line_production = {
 	
 		production_factory_max_efficiency_factor = 0.1
-		equipment_conversion_speed = 0.2
+		equipment_conversion_speed = 0.1
 		
 		path = {
 			leads_to_tech = flexible_line
@@ -300,7 +300,7 @@ technologies = {
 	###############
 	concentrated_industry = {
 
-		industrial_capacity_factory = 0.15
+		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.075 
 		#industrial_capacity_dockyard_powered = 0.05 
@@ -373,7 +373,7 @@ technologies = {
 	
 	concentrated_industry2 = {
 
-		industrial_capacity_factory = 0.15
+		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.1 
 		#industrial_capacity_dockyard_powered = 0.075 
@@ -414,7 +414,7 @@ technologies = {
 	
 	concentrated_industry3 = {
 
-		industrial_capacity_factory = 0.15
+		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.125 
 		#industrial_capacity_dockyard_powered = 0.1 
@@ -454,7 +454,7 @@ technologies = {
 	
 	concentrated_industry4 = {
 
-		industrial_capacity_factory = 0.15
+		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.15 
 		#industrial_capacity_dockyard_powered = 0.1 
@@ -494,7 +494,7 @@ technologies = {
 	
 	concentrated_industry5 = {
 
-		industrial_capacity_factory = 0.15
+		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.15 
 		#industrial_capacity_dockyard_powered = 0.1 
@@ -534,7 +534,7 @@ technologies = {
 	
 	dispersed_industry = {
 
-		industrial_capacity_factory = 0.1
+		industrial_capacity_factory = 0.075
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.05 
 		#industrial_capacity_dockyard_powered = 0.05 
@@ -610,7 +610,7 @@ technologies = {
 	
 	dispersed_industry2 = {
 
-		industrial_capacity_factory = 0.1
+		industrial_capacity_factory = 0.075
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.075 
 		#industrial_capacity_dockyard_powered = 0.075 
@@ -653,7 +653,7 @@ technologies = {
 	
 	dispersed_industry3 = {
 
-		industrial_capacity_factory = 0.1
+		industrial_capacity_factory = 0.075
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.075 #TODO SEA set value
 		#industrial_capacity_dockyard_powered = 0.075 #TODO SEA set value
@@ -696,7 +696,7 @@ technologies = {
 	
 	dispersed_industry4 = {
 
-		industrial_capacity_factory = 0.1
+		industrial_capacity_factory = 0.075
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.1 
 		#industrial_capacity_dockyard_powered = 0.1 
@@ -739,7 +739,7 @@ technologies = {
 	
 	dispersed_industry5 = {
 
-		industrial_capacity_factory = 0.1
+		industrial_capacity_factory = 0.075
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.1 
 		#industrial_capacity_dockyard_powered = 0.1 

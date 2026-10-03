@@ -1426,6 +1426,11 @@
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
 			random_owned_state = {
 				limit = {
 					is_controlled_by = ROOT
@@ -1500,6 +1505,12 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_tech_bonus = {
+				name = FRA_infantry_tanks
+				bonus = 2.0
+				uses = 2
+				category = artillery
+			}
 			add_ideas = { FRA_firepower }
 		}
 	}
@@ -1778,6 +1789,12 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_tech_bonus = {
+				name = FRA_infantry_tanks
+				bonus = 2.0
+				uses = 2
+				category = armor
+			}
 			IF = {
 				limit = { has_dlc = "Arms Against Tyranny" }
 				mio:FRA_renault_organization = {
