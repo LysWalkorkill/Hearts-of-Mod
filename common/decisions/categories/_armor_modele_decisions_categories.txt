@@ -1,0 +1,18 @@
+armor_modele_decision_category = {
+
+	icon = GFX_decision_category_generic_arms_trade
+
+	priority = {
+		base = 2
+	}
+
+	picture = GFX_decision_category_modele_armor
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		always = yes
+	}
+}
