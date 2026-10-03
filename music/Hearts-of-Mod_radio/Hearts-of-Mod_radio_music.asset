@@ -1,0 +1,114 @@
+# Hearts of Mod Francophone - Radio
+music = {
+	name = "eng_peace_one"
+	file = "eng_peace_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "eng_war_one"
+	file = "eng_war_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "eng_war_two"
+	file = "eng_war_two.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "fin_peace_one"
+	file = "fin_peace_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "ita_peace_one"
+	file = "ita_peace_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "ita_war_one"
+	file = "ita_war_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "jap_peace_one"
+	file = "jap_peace_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "jap_peace_two"
+	file = "jap_peace_two.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "jap_war_one"
+	file = "jap_war_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "jap_war_two"
+	file = "jap_war_two.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "sov_peace_one"
+	file = "sov_peace_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "sov_superwar_one"
+	file = "sov_superwar_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "sov_war_one"
+	file = "sov_war_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "spr_war_one"
+	file = "spr_war_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "usa_peace_one"
+	file = "usa_peace_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "usa_peace_two"
+	file = "usa_peace_two.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "usa_superwar_one"
+	file = "usa_superwar_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "usa_war_one"
+	file = "usa_war_one.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "usa_war_two"
+	file = "usa_war_two.ogg"
+	volume = 0.65
+}

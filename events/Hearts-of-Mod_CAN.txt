@@ -5,7 +5,7 @@ country_event = {
     id = Hearts-of-Mod_CAN_grizzly_geant_quebec.1
     title = Hearts-of-Mod_CAN_grizzly_geant_quebec.1.title
     desc = Hearts-of-Mod_CAN_grizzly_geant_quebec.1.desc
-    picture = GFX_Hearts-of-Mod_report_event_can_1
+    picture = GFX_Hearts-of-Mod_report_event_can1
     is_triggered_only = yes
     
     immediate = {
@@ -27,7 +27,7 @@ country_event = {
     id = Hearts-of-Mod_CAN_grizzly_geant_quebec.2
     title = Hearts-of-Mod_CAN_grizzly_geant_quebec.2.title
     desc = Hearts-of-Mod_CAN_grizzly_geant_quebec.2.desc
-    picture = GFX_Hearts-of-Mod_report_event_can_2
+    picture = GFX_Hearts-of-Mod_report_event_can2
     is_triggered_only = yes
     
     immediate = {
@@ -48,7 +48,7 @@ country_event = {
     id = Hearts-of-Mod_CAN_industrie.1
     title = Hearts-of-Mod_CAN_industrie.1.title
     desc = Hearts-of-Mod_CAN_industrie.1.desc
-    picture = GFX_Hearts-of-Mod_report_event_can_3
+    picture = GFX_Hearts-of-Mod_report_event_can3
     is_triggered_only = yes
     
     immediate = {
@@ -67,7 +67,7 @@ country_event = {
     id = Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1
     title = Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1.title
     desc = Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1.desc
-    picture = GFX_Hearts-of-Mod_report_event_can_5
+    picture = GFX_Hearts-of-Mod_report_event_can5
     is_triggered_only = yes
     
     immediate = {

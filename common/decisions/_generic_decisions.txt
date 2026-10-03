@@ -122,6 +122,18 @@ political_actions = {
 			}
 		}
 		
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						state = 45
+						state = 764
+					}
+				}
+				add_claim_by = ROOT
+			}
+		}
+		
 		days_mission_timeout = 547
 		
 		fire_only_once = yes
@@ -154,6 +166,7 @@ political_actions = {
 				set_temp_variable = { dest_owner = ROOT }
 				transfer_state_to_conditionnel_owner = yes
 				add_compliance_70_conditionnel_owner = yes
+				add_claim_by = ROOT
 			}
 		}
 	}

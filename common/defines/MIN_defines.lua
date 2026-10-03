@@ -42,7 +42,7 @@
 	NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 35
 
     -- No XP for training
-	NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0000 -- 0.0015
+	NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0015 -- 0.0015
 
 	-- FREE LICENCE
 	NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0					-- Free license
@@ -80,9 +80,9 @@
 	NDefines.NMilitary.MAX_NUM_TRAITS = 18						-- cant have more, -1 to disable (-1)
 	NDefines.NMilitary.UNIT_LEADER_USE_NONLINEAR_XP_GAIN = false   -- Whether unit leader XP gain is scaled by 1/<nr_of_traits>
 	NDefines.NMilitary.UNIT_LEADER_INITIAL_TRAIT_SLOT = { 				-- trait slot for 0 level leader
-		2.0, -- field marshal
-		1.0, -- corps commander
-		2.0, -- navy general
+		1.0, -- field marshal
+		0.0, -- corps commander
+		1.0, -- navy general
 		0.0, -- operative
 	}
 	NDefines.NMilitary.UNIT_LEADER_TRAIT_SLOT_PER_LEVEL = { 			-- num extra traits on each level

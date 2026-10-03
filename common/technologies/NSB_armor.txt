@@ -1371,6 +1371,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = tank_heavy_howitzer_1
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2.75
 		start_year = 1943
 
@@ -2610,7 +2615,7 @@ technologies = {
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = @1944 }
+			position = { x = 3 y = @1944 }
 		}
 
 		categories = {
@@ -2692,6 +2697,33 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 9 y = @1944 }
+		}
+
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+			mio_cat_artillery #Only Artillery
+		}
+		special_project_specialization = { specialization_land }
+
+	}
+
+	tank_heavy_howitzer_1 = {
+		enable_equipment_modules = {
+			tank_heavy_howitzer
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.75
+
+		start_year = 1944
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 5 y = @1944 }
 		}
 
 		categories = {
