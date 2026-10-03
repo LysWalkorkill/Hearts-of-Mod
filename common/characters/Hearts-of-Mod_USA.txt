@@ -1,0 +1,26 @@
+characters = {
+	USA_Taylor_Swift = {
+		name = USA_Taylor_Swift
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_Taylor_Swift_large
+				small = GFX_idea_USA_Taylor_Swift_small
+			}
+			army = {
+				large = GFX_portrait_USA_Taylor_Swift_large
+				small = GFX_idea_USA_Taylor_Swift_small
+			}
+		}
+		corps_commander={
+		
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+}

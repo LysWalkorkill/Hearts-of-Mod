@@ -59,5 +59,37 @@ if = {
 				USA
 			}
 		}
+		create_operative_leader = {
+			name = AST_jerry_lewis
+			gfx = "GFX_portrait_ast_jerry_lewis_large"
+			female = yes
+			traits = {
+			    linguist
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				AST
+				ENG
+			}
+		}
+		
 	}
+
+	MEX = {
+		create_operative_leader = {
+			name = MEX_pablo_escobar
+			gfx = "GFX_portrait_mex_pablo_escobar_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				MEX
+				
+			}
+		}
+		}
 }

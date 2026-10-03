@@ -20,6 +20,16 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_portrait_ast_jerry_lewis_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/AST/jerry_lewis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_mex_pablo_escobar_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MEX/pablo_escobar.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_portrait_raj_irfan_khan_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_irfan_khan.dds"
 	}

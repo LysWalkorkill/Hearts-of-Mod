@@ -5,3 +5,7 @@ CAN = {
 	recruit_character = CAN_Ryan_Gosling
 
 }
+USA = {
+	recruit_character = USA_Taylor_Swift
+
+}

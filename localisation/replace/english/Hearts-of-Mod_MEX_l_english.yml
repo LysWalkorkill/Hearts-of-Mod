@@ -16,12 +16,11 @@
     Hearts-of-Mod_MEX_narco-trafiquant.1.a:0 "Another giant leap forward for Mexico!"
 
     # Annexation
-    MEX_annex_britain_honduras:0 "Annex $STATE_311$"
-    MEX_annex_guatemala:0 "Annex [GUA.GetNameDef]"
-    MEX_annex_honduras:0 "Annex [HON.GetNameDef]"
-    MEX_annex_salvador:0 "Annex [ELS.GetNameDef]"
-    MEX_annex_nicaragua:0 "Annex [NIC.GetNameDef]"
-
+    MEX_annex_britain_honduras:0 "Annexer $STATE_311$"
+    MEX_annex_guatemala:0 "Annexer [GUA.GetNameDef]"
+    MEX_annex_honduras:0 "Annexer [HON.GetNameDef]"
+    MEX_annex_salvador:0 "Annexer [ELS.GetNameDef]"
+    MEX_annex_nicaragua:0 "Annexer [NIC.GetNameDef]"
 
     Hearts-of-Mod_MEX_annexion.1.title:0 "A State Joins Mexico"
     Hearts-of-Mod_MEX_annexion.1.desc:0 "The Mexican government has announced the arrival of a new ally from Central America. Without officially revealing its identity, the authorities have confirmed that it is a regional power prepared to stand alongside Mexico in the fight against the Axis forces.\n\nThis diplomatic rapprochement, the result of negotiations conducted with the utmost discretion, demonstrates a shared desire to defend the stability of the continent and counter the growing influence of hostile powers. Representatives of both nations emphasized the importance of this cooperation, which forms part of a shared vision of security and sovereignty."

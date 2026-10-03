@@ -16,4 +16,13 @@ spriteTypes = {
 		name = "GFX_idea_CAN_Ryan_Gosling_small"
 		texturefile = "gfx/Hearts-of-Mod/characters/CAN/portrait_Ryan_Gosling_small.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_portrait_USA_Taylor_Swift_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/USA/portrait_Taylor_Swift_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_Taylor_Swift_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/USA/portrait_Taylor_Swift_small.dds"
+	}
 }
