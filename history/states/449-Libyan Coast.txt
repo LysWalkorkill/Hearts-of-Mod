@@ -15,6 +15,9 @@ state={
 			}
 		}
 		add_core_of = LBA
+		victory_points = {
+			4057 2 # Mos Eisley
+		}
 	}
 
 	provinces={

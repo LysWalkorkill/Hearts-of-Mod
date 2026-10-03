@@ -40,7 +40,7 @@ spriteTypes = {
 		name = "GFX_Hearts-of-Mod_report_event_can5"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/can5.dds"
 	}
-
+	
 	# AST
 	SpriteType = {
 		name = "GFX_Hearts-of-Mod_report_event_ast1"
@@ -56,7 +56,7 @@ spriteTypes = {
 		name = "GFX_Hearts-of-Mod_report_event_ast3"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast3.dds"
 	}
-
+	
 	SpriteType = {
 		name = "GFX_Hearts-of-Mod_report_event_ast4"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast4.dds"
@@ -71,7 +71,7 @@ spriteTypes = {
 		name = "GFX_Hearts-of-Mod_report_event_ast6"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/ast6.dds"
 	}
-
+	
 	# FIN
 	SpriteType = {
 		name = "GFX_Hearts-of-Mod_report_event_fin1"
@@ -87,7 +87,7 @@ spriteTypes = {
 		name = "GFX_Hearts-of-Mod_report_event_fin3"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/fin3.dds"
 	}
-
+	
 	SpriteType = {
 		name = "GFX_Hearts-of-Mod_report_event_fin4"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/fin4.dds"
@@ -111,5 +111,51 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Hearts-of-Mod_report_event_fin8"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/fin8.dds"
+	}
+	
+	# HUN
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_hun1"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/hun1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_hun2"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/hun2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_hun3"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/hun3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_hun4"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/hun4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_hun5"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/hun5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_hun6"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/hun6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_hun7"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/hun7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_hun8"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/hun8.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_hun9"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/hun9.dds"
 	}
 }

@@ -1,0 +1,302 @@
+# Autoroute
+add_namespace = Hearts-of-Mod_HUN_autoroute
+country_event = {
+    id = Hearts-of-Mod_HUN_autoroute.1
+    title = Hearts-of-Mod_HUN_autoroute.1.title
+    desc = Hearts-of-Mod_HUN_autoroute.1.desc
+    picture = GFX_Hearts-of-Mod_report_event_hun1
+    is_triggered_only = yes
+    
+    option = {
+        name = Hearts-of-Mod_HUN_autoroute.1.a
+        random_owned_state = {
+            limit = {
+                is_core_of = HUN
+                is_controlled_by = ROOT
+                free_building_slots = {
+                    building = infrastructure
+                    size > 0
+                }
+            }
+            add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+            }
+        }
+    }
+}
+
+# Gub
+add_namespace = Hearts-of-Mod_HUN_gub
+country_event = {
+    id = Hearts-of-Mod_HUN_gub.1
+    title = Hearts-of-Mod_HUN_gub.1.title
+    desc = Hearts-of-Mod_HUN_gub.1.desc
+    picture = GFX_Hearts-of-Mod_report_event_hun2
+    is_triggered_only = yes
+    
+    option = {
+        name = Hearts-of-Mod_HUN_gub.1.a
+        add_stability = -0.13
+        add_political_power = 200
+    }
+    
+    option = {
+        name = Hearts-of-Mod_HUN_gub.1.b
+        add_stability = 0.15
+    }
+}
+
+country_event = {
+    id = Hearts-of-Mod_HUN_gub.2
+    title = Hearts-of-Mod_HUN_gub.2.title
+    desc = Hearts-of-Mod_HUN_gub.2.desc
+    picture = GFX_Hearts-of-Mod_report_event_hun3
+    is_triggered_only = yes
+    
+    option = {
+        name = Hearts-of-Mod_HUN_gub.2.a
+        trigger = {
+            OR = {
+                664 = {
+                    CONTROLLER = {
+                        NOT = {
+                            has_war_with = ROOT
+                        }
+                    }
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 2
+                        include_locked = yes
+                    }
+                }
+                45 = {
+                    CONTROLLER = {
+                        NOT = {
+                            has_war_with = ROOT
+                        }
+                    }
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 1
+                        include_locked = yes
+                    }
+                }
+            }
+        }
+        if = {
+            limit = {
+                664 = {
+                    CONTROLLER = {
+                        NOT = {
+                            has_war_with = ROOT
+                        }
+                    }
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 2
+                        include_locked = yes
+                    }
+                }
+            }
+            664 = {
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+                add_claim_by = ROOT
+            }
+        }
+        if = {
+            limit = {
+                45 = {
+                    CONTROLLER = {
+                        NOT = {
+                            has_war_with = ROOT
+                        }
+                    }
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 1
+                        include_locked = yes
+                    }
+                }
+            }
+            45 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+                add_claim_by = ROOT
+            }
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_HUN_gub.2.b
+        trigger = {
+            43 = {
+                is_owned_and_controlled_by = ROOT
+            }
+        }
+        if = {
+            limit = {
+                43 = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 1
+                        include_locked = yes
+                    }
+                }
+            }
+            43 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+                add_claim_by = ROOT
+            }
+        }
+    }
+}
+
+country_event = {
+    id = Hearts-of-Mod_HUN_gub.3
+    title = Hearts-of-Mod_HUN_gub.3.title
+    desc = Hearts-of-Mod_HUN_gub.3.desc
+    picture = GFX_Hearts-of-Mod_report_event_hun4
+    is_triggered_only = yes
+    
+    option = {
+        name = Hearts-of-Mod_HUN_gub.3.a
+        trigger = {
+            OR = {
+                controls_state = 155
+                controls_state = 974
+            }
+        }
+        if = {
+            limit = {
+                controls_state = 155
+            }
+            155 = {
+                add_resource = {
+                    type = steel
+                    amount = 8
+                }
+                add_claim_by = ROOT
+            }
+        }
+        if = {
+            limit = {
+                controls_state = 974
+            }
+            974 = {
+                add_resource = {
+                    type = steel
+                    amount = 8
+                }
+                add_claim_by = ROOT
+            }
+        }
+    }
+    
+    option = {
+        name = Hearts-of-Mod_HUN_gub.3.b
+        trigger = {
+            43 = {
+                is_controlled_by = ROOT
+            }
+        }
+        43 = {
+            add_resource = {
+                type = steel
+                amount = 10
+            }
+        }
+        if = {
+            limit = {
+                43 = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+            }
+            43 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+                add_claim_by = ROOT
+            }
+        }
+    }
+}
+
+country_event = {
+    id = Hearts-of-Mod_HUN_gub.4
+    title = Hearts-of-Mod_HUN_gub.4.title
+    desc = Hearts-of-Mod_HUN_gub.4.desc
+    picture = GFX_Hearts-of-Mod_report_event_hun5
+    is_triggered_only = yes
+    
+    option = {
+        name = Hearts-of-Mod_HUN_gub.4.a
+        trigger = {
+            has_stability > 0.15
+            has_war_support > 0.05
+        }
+        add_manpower = 95000
+        add_stability = -0.15
+        add_war_support = -0.05
+    }
+    
+    option = {
+        name = Hearts-of-Mod_HUN_gub.4.b
+        add_offsite_building = {
+            type = arms_factory
+            level = 3
+        }
+    }
+}
+
+country_event = {
+    id = Hearts-of-Mod_HUN_gub.5
+    title = Hearts-of-Mod_HUN_gub.5.title
+    desc = Hearts-of-Mod_HUN_gub.5.desc
+    picture = GFX_Hearts-of-Mod_report_event_hun6
+    is_triggered_only = yes
+    
+    option = {
+        name = Hearts-of-Mod_HUN_gub.5.a
+        add_stability = 0.15
+        add_war_support = 0.15
+    }
+    
+    option = {
+        name = Hearts-of-Mod_HUN_gub.5.b
+        trigger = {
+            has_stability > 0.10
+        }
+        add_stability = -0.10
+        add_offsite_building = {
+            type = industrial_complex
+            level = 2
+        }
+        add_offsite_building = {
+            type = arms_factory
+            level = 2
+        }
+    }
+}

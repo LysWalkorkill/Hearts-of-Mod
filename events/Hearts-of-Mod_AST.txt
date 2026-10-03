@@ -5,7 +5,7 @@ country_event = {
     id = Hearts-of-Mod_AST_etude_animaux.1
     title = Hearts-of-Mod_AST_etude_animaux.1.title
     desc = Hearts-of-Mod_AST_etude_animaux.1.desc
-    picture = GFX_Hearts-of-Mod_report_event_ast_1
+    picture = GFX_Hearts-of-Mod_report_event_ast1
     is_triggered_only = yes
     
     immediate = {
@@ -29,7 +29,7 @@ country_event = {
     id = Hearts-of-Mod_AST_etude_animaux.2
     title = Hearts-of-Mod_AST_etude_animaux.2.title
     desc = Hearts-of-Mod_AST_etude_animaux.2.desc
-    picture = GFX_Hearts-of-Mod_report_event_ast_2
+    picture = GFX_Hearts-of-Mod_report_event_ast2
     is_triggered_only = yes
     
     immediate = {
@@ -53,7 +53,7 @@ country_event = {
     id = Hearts-of-Mod_AST_etude_animaux.3
     title = Hearts-of-Mod_AST_etude_animaux.3.title
     desc = Hearts-of-Mod_AST_etude_animaux.3.desc
-    picture = GFX_Hearts-of-Mod_report_event_ast_3
+    picture = GFX_Hearts-of-Mod_report_event_ast3
     is_triggered_only = yes
     
     immediate = {
@@ -79,7 +79,7 @@ country_event = {
     id = Hearts-of-Mod_AST_industrie.1
     title = Hearts-of-Mod_AST_industrie.1.title
     desc = Hearts-of-Mod_AST_industrie.1.desc
-    picture = GFX_Hearts-of-Mod_report_event_ast_4
+    picture = GFX_Hearts-of-Mod_report_event_ast4
     is_triggered_only = yes
     
     immediate = {
@@ -98,7 +98,7 @@ country_event = {
     id = Hearts-of-Mod_AST_annexion.1
     title = Hearts-of-Mod_AST_annexion.1.title
     desc = Hearts-of-Mod_AST_annexion.1.desc
-    picture = GFX_Hearts-of-Mod_report_event_ast_5
+    picture = GFX_Hearts-of-Mod_report_event_ast5
     is_triggered_only = yes
     
     immediate = {
@@ -115,7 +115,7 @@ country_event = {
     id = Hearts-of-Mod_AST_annexion.2
     title = Hearts-of-Mod_AST_annexion.2.title
     desc = Hearts-of-Mod_AST_annexion.2.desc
-    picture = GFX_Hearts-of-Mod_report_event_ast_6
+    picture = GFX_Hearts-of-Mod_report_event_ast6
     is_triggered_only = yes
     
     immediate = {
