@@ -1,0 +1,437 @@
+music_station = "Hearts-of-Mod_radio"
+
+music = {
+	song = "eng_peace_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = no
+		}
+		modifier = {
+			original_tag = ENG
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = ENG
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "eng_war_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = yes
+		}
+		modifier = {
+			original_tag = ENG
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = ENG
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "eng_war_two"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = yes
+		}
+		modifier = {
+			original_tag = ENG
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = ENG
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "fin_peace_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = no
+		}
+		modifier = {
+			original_tag = FIN
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = FIN
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "ita_peace_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = no
+		}
+		modifier = {
+			original_tag = ITA
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = ITA
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "ita_war_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = yes
+		}
+		modifier = {
+			original_tag = ITA
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = ITA
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "jap_peace_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = no
+		}
+		modifier = {
+			original_tag = JAP
+			factor = 4
+		}
+		modifier = {
+			original_tag = MAN
+			factor = 2
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = JAP
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "jap_peace_two"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = no
+		}
+		modifier = {
+			original_tag = JAP
+			factor = 4
+		}
+		modifier = {
+			original_tag = MAN
+			factor = 2
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = JAP
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "jap_war_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = yes
+		}
+		modifier = {
+			original_tag = JAP
+			factor = 4
+		}
+		modifier = {
+			original_tag = MAN
+			factor = 2
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = JAP
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "jap_war_two"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = yes
+		}
+		modifier = {
+			original_tag = JAP
+			factor = 4
+		}
+		modifier = {
+			original_tag = MAN
+			factor = 2
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = JAP
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "sov_peace_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = no
+		}
+		modifier = {
+			original_tag = SOV
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = SOV
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "sov_superwar_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war_with_major = yes
+			threat > 0.99
+		}
+		modifier = {
+			original_tag = SOV
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = SOV
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "sov_war_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = yes
+		}
+		modifier = {
+			original_tag = SOV
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = SOV
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "spr_war_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = yes
+		}
+		modifier = {
+			original_tag = SPR
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = SPR
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "usa_peace_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = no
+		}
+		modifier = {
+			original_tag = USA
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = USA
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "usa_peace_two"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = no
+		}
+		modifier = {
+			original_tag = USA
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = USA
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "usa_superwar_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war_with_major = yes
+			threat > 0.99
+		}
+		modifier = {
+			original_tag = USA
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = USA
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "usa_war_one"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = yes
+		}
+		modifier = {
+			original_tag = USA
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = USA
+			}
+			factor = 2
+		}
+	}
+}
+
+music = {
+	song = "usa_war_two"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_war = yes
+		}
+		modifier = {
+			original_tag = USA
+			factor = 4
+		}
+		modifier = {
+			any_other_country = {
+				is_ally_with = ROOT
+				original_tag = USA
+			}
+			factor = 2
+		}
+	}
+}
