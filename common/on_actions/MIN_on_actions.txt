@@ -12,45 +12,12 @@ on_actions = {
                 #    days = 3650  
                 #    name = vous_pas_tout_avoir
                 #}
-                every_army_leader = {
-                    if = {
-                        limit = {
-                            is_field_marshal = no
-                        }
-                    promote_leader = yes
-                    }
-                }
+                
             }
             ### EUROPE
             ## England
             ENG = {
-                annex_country = { target = PAL transfer_troops = no }
-                454 = { add_compliance = 70 }
-                annex_country = { target = JOR transfer_troops = no }
-                455 = { add_compliance = 70 }
-                annex_country = { target = KUW transfer_troops = no }
-                656 = { add_compliance = 70 }
-                annex_country = { target = OMA transfer_troops = no }
-                1013 = { add_compliance = 70 }
-                1015 = { add_compliance = 70 }
-                294 = { add_compliance = 70 }
-                1016 = { add_compliance = 70 }
-                annex_country = { target = MAL transfer_troops = no }
-                1061 = { add_compliance = 70 }
-                1065 = { add_compliance = 70 }
-                1064 = { add_compliance = 70 }
-                1062 = { add_compliance = 70 }
-                336 = { add_compliance = 70 }
-                1063 = { add_compliance = 70 }
-                1060 = { add_compliance = 70 }
-                transfer_state = 698
-                698 = { add_compliance = 70 }
-                annex_country = { target = IRQ transfer_troops = no }
-                1010 = { add_compliance = 70 }
-                676 = { add_compliance = 70 }
-                291 = { add_compliance = 70 }
-                675 = { add_compliance = 70 }
-                1011 = { add_compliance = 70 }
+
 
                 # Ideas
                 add_ideas = MIN_peacetime_training
@@ -60,9 +27,6 @@ on_actions = {
             }
              ## Canada
             CAN = {
-                transfer_state = 331
-                transfer_state = 332
-
                 # Ideas
                 add_ideas = MIN_peacetime_training
                 add_ideas = MIN_minors_buildings_slots
@@ -70,21 +34,12 @@ on_actions = {
                 add_ideas = MIN_minors_experimental_facilities_boost
 
                 add_offsite_building = {
-                    type = arms_factory level = 5
+                    type = arms_factory
+                    level = 5
                 }
             }
             ## India
             RAJ = {
-                annex_country = { target = BRM transfer_troops = no }
-                add_state_core = 998
-                add_state_core = 288
-                add_state_core = 997
-                add_state_core = 996
-                add_state_core = 640
-                add_state_core = 995
-                add_state_core = 999
-                add_state_core = 993
-                add_state_core = 994
 
                 # Ideas
                 add_ideas = MIN_peacetime_training
@@ -93,17 +48,13 @@ on_actions = {
                 add_ideas = MIN_minors_experimental_facilities_boost
 
                 add_offsite_building = {
-                    type = arms_factory level = 5
+                    type = arms_factory
+                    level = 5
                 }
             }
             ## Australia
             AST = { 
-                annex_country = { target = NZL transfer_troops = no }
-                add_state_core = 1081
-                add_state_core = 723
-                add_state_core = 1080
-                add_state_core = 284
-                add_state_core = 1079
+
 
                 # Ideas
                 add_ideas = MIN_peacetime_training
@@ -112,7 +63,8 @@ on_actions = {
                 add_ideas = MIN_minors_experimental_facilities_boost
 
                 add_offsite_building = {
-                    type = arms_factory level = 5
+                    type = arms_factory
+                    level = 5
                 }
             }
             ## South Africa
@@ -124,7 +76,8 @@ on_actions = {
                 add_ideas = MIN_minors_experimental_facilities_boost
 
                 add_offsite_building = {
-                    type = arms_factory level = 5
+                    type = arms_factory
+                    level = 5
                 }
             }
             ## France
@@ -202,8 +155,6 @@ on_actions = {
             }
             ## USA 
             USA = {
-                annex_country = { target = PAN transfer_troops = no }
-                304 = { add_compliance = 70 }
                 # Ideas
                 add_ideas = MIN_peacetime_training
             }
@@ -325,20 +276,7 @@ on_actions = {
             }
             ## Italia
             ITA = {
-                annex_country = { target = ETH transfer_troops = no }
-                842 = { add_compliance = 20 }
-                841 = { add_compliance = 20 }
-                843 = { add_compliance = 20 }
-                840 = { add_compliance = 20 }
-                839 = { add_compliance = 20 }
-                271 = { add_compliance = 20 }
-                835 = { add_compliance = 20 }
-                838 = { add_compliance = 20 }
-                839 = { add_compliance = 20 }
-                837 = { add_compliance = 20 }
-                836 = { add_compliance = 20 }
-                annex_country = { target = AFA transfer_troops = no }
-                908 = { add_compliance = 20 }
+
                 add_named_threat = { 
                     threat = 1.5
                     name = "Capitulation de l'Éthiopie"
@@ -457,14 +395,6 @@ on_actions = {
                     state = 451
                 }
                 # Pre grind
-                every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				    add_unit_leader_trait = no_grind
-				}
                 delete_unit_template_and_units = {
                     division_template = "Camicie Nere"
                 }
@@ -836,23 +766,7 @@ on_actions = {
             }
             ## China
             CHI = {
-				annex_country = { target = SND transfer_troops = no }
-				annex_country = { target = HBC transfer_troops = no }
-				annex_country = { target = SHX transfer_troops = no }
-				annex_country = { target = PRC transfer_troops = no }
-				annex_country = { target = XIC transfer_troops = no }
-				annex_country = { target = NXM transfer_troops = no }
-				annex_country = { target = GSM transfer_troops = no }
-				annex_country = { target = XSM transfer_troops = no }
-				annex_country = { target = SIC transfer_troops = no }
-				annex_country = { target = YUN transfer_troops = no }
-				annex_country = { target = GXC transfer_troops = no }
-				annex_country = { target = GDC transfer_troops = no }
-                annex_country = { target = KHM transfer_troops = no }
-                annex_country = { target = SIK transfer_troops = no }
 
-                transfer_state = 1043
-                add_state_core = 1043
                 #transfer_state = 331
                 #add_state_core = 726
 
@@ -888,24 +802,7 @@ on_actions = {
 			}
             ## Black desert
             LIB = {
-                transfer_state = 514
-                add_state_core = 514
-                transfer_state = 786
-                add_state_core = 786
-                transfer_state = 782
-                add_state_core = 782
-                transfer_state = 515
-                add_state_core = 515
-                transfer_state = 273
-                add_state_core = 273
-                transfer_state = 775
-                add_state_core = 775
-                transfer_state = 767
-                add_state_core = 767
-                transfer_state = 552
-                add_state_core = 552
-                transfer_state = 290
-                add_state_core = 290
+
             }
             ## Disabled nations
             CUB = {
@@ -969,32 +866,7 @@ on_actions = {
                 add_ideas = MIN_AI_disabled
             }
             POR = {
-                add_state_core = 171
-                add_state_core = 790
-                add_state_core = 174
-                add_state_core = 166
-                add_state_core = 172
-                add_state_core = 791
-                add_state_core = 792
-                add_state_core = 176
-                add_state_core = 794
-                add_state_core = 165
-                add_state_core = 788
-                add_state_core = 41
-                add_state_core = 793
-                add_state_core = 170
-                add_state_core = 175
-                add_state_core = 168
-                add_state_core = 167
-                add_state_core = 169
-                add_state_core = 789
-                add_state_core = 173
-                add_state_core = 290
-                add_state_core = 177
-                add_state_core = 178
-                add_state_core = 783
-                add_state_core = 699
-                add_state_core = 297
+
                 # Ideas
                 add_ideas = MIN_AI_disabled
             }
