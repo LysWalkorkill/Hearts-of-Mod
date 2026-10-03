@@ -37,9 +37,11 @@
 	NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 25				-- Command Power sent attache usage cost
 	NDefines.NDiplomacy.BASE_SEND_ATTACHE_MAINTAIN_COST = 0
 
+	NDefines.NCountry.BASE_MAX_COMMAND_POWER = 120.0
+
 	-- 72 divisions par général
-	NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 36
-	NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 72
+	NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 24
+	NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 35
 
     -- No XP for training
 	NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0015 -- 0.0015
@@ -75,7 +77,7 @@
 	-- GRIND
 	NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 0.1
 	NDefines.NMilitary.UNIT_LEADER_INITIAL_TRAIT_SLOT = {1,1,1,0}  -- gave +1 to every officers on lvl 0
-	NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP = 0.45			   -- Base xp gain for traits per hour for armies 0.45
+	NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP = 0.30			   -- Base xp gain for traits per hour for armies 0.45
 	NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0.0		   -- cost to assign a new trait to a unit leader, was 15
 	NDefines.NMilitary.MAX_NUM_TRAITS = 18						-- cant have more, -1 to disable (-1)
 	NDefines.NMilitary.UNIT_LEADER_USE_NONLINEAR_XP_GAIN = false   -- Whether unit leader XP gain is scaled by 1/<nr_of_traits>
@@ -86,13 +88,13 @@
 		0.0, -- operative
 	}
 	NDefines.NMilitary.UNIT_LEADER_TRAIT_SLOT_PER_LEVEL = { 			-- num extra traits on each level
-		1, -- field marshal
-		1, -- corps commander
-		1, -- navy general
+		0.5, -- field marshal
+		0.5, -- corps commander
+		0.5, -- navy general
 		0.0, -- operative
 	}
 
-	NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.15
+	NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.25
 	
 	NDefines.NMilitary.PIERCING_THRESHOLDS = {					-- Our piercing / their armor must be this value to deal damage fraction equal to the index in the array below [higher number = higher penetration]. If armor is 0, 1.00 will be returned.
 		1.00,

@@ -8978,6 +8978,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_tank_heavy_howitzer_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_cannon_aa_1_medium"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_aa_gun.dds"
 	}

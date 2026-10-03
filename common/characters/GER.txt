@@ -327,14 +327,13 @@ characters = {
 				small = GFX_portrait_GER_gunther_von_kluge_small
 			}
 		}
-		corps_commander = { 
-			traits = { trait_cautious brilliant_strategist }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id = 2
+		corps_commander = {
+			traits = { brilliant_strategist panzer_leader trickster trait_engineer cavalry_leader ranger urban_assault_specialist}
+			skill = 8
+			attack_skill = 6
+			defense_skill = 7
+			planning_skill = 7
+			logistics_skill = 6
 		}
 	}
 
@@ -589,7 +588,7 @@ characters = {
 		}
 		
 		corps_commander = {
-			traits = { brilliant_strategist panzer_leader trickster trait_engineer tank_pre_grind cavalry_leader ranger urban_assault_specialist}
+			traits = { brilliant_strategist panzer_leader trickster trait_engineer cavalry_leader ranger urban_assault_specialist}
 			skill = 8
 			attack_skill = 6
 			defense_skill = 7

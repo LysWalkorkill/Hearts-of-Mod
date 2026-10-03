@@ -3,7 +3,7 @@ on_actions = {
         effect = {
             every_country = {
                 add_daily_mastery = {
-                    amount = 0.27 #0.67
+                    amount = 1 #0.67
                     days = 3650
                     name = RC_auto_mastery
                 }
@@ -249,19 +249,19 @@ on_actions = {
 					id = mexico.21 # Mexico returns trotsky
 					days = 396 # Feb 37
 				}
+                SOV = {
+                    limit = {
+                        KAZ = {
+                            is_ai = yes
+                        }
+                    }
+                    annex_country = { target = KAZ }
+                }
                 # Ideas
                 add_ideas = MIN_peacetime_training
                 # Faction rule
                 set_faction_rule = goals_only_faction_leader
-                # Pre grind
-                every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				    add_unit_leader_trait = no_grind
-				}
+                
                 add_resource = {
                     type = coal
                     amount = 32
@@ -303,15 +303,8 @@ on_actions = {
                 add_ideas = MIN_peacetime_training
                 # Faction rule
                 set_faction_rule = goals_only_faction_leader
-                # Pre grind
-                every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				    add_unit_leader_trait = no_grind
-				}
+           
+                
                 add_resource = {
                     type = rubber
                     amount = 24
@@ -567,15 +560,7 @@ on_actions = {
                 add_offsite_building = {
                     type = arms_factory level = 5
                 }
-                # Pre grind
-                every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				    add_unit_leader_trait = no_grind
-				}
+                
 
                 add_resource = {
                     type = oil
@@ -684,40 +669,43 @@ on_actions = {
                     type = arms_factory level = 5
                 }
 
-                transfer_state = 732
-                add_state_core = 732
-                transfer_state = 584
-                add_state_core = 584
-                transfer_state = 742
-                add_state_core = 742
-                transfer_state = 830
-                add_state_core = 830
-                transfer_state = 585
-                add_state_core = 585
-                transfer_state = 831
-                add_state_core = 831
-                transfer_state = 823
-                add_state_core = 823
-                transfer_state = 832
-                add_state_core = 832
-                transfer_state = 405
-                add_state_core = 405
-                transfer_state = 587
-                add_state_core = 587
-                transfer_state = 402
-                add_state_core = 402
-                transfer_state = 404
-                add_state_core = 404
-                transfer_state = 881
-                add_state_core = 881
-                transfer_state = 586
-                add_state_core = 586
-                transfer_state = 589
-                add_state_core = 589
-                transfer_state = 588
-                add_state_core = 588
-                transfer_state = 618
-                add_state_core = 618
+                if = {
+                    limit = { is_ai = no }
+                    transfer_state = 732
+                    add_state_core = 732
+                    transfer_state = 584
+                    add_state_core = 584
+                    transfer_state = 742
+                    add_state_core = 742
+                    transfer_state = 830
+                    add_state_core = 830
+                    transfer_state = 585
+                    add_state_core = 585
+                    transfer_state = 831
+                    add_state_core = 831
+                    transfer_state = 823
+                    add_state_core = 823
+                    transfer_state = 832
+                    add_state_core = 832
+                    transfer_state = 405
+                    add_state_core = 405
+                    transfer_state = 587
+                    add_state_core = 587
+                    transfer_state = 402
+                    add_state_core = 402
+                    transfer_state = 404
+                    add_state_core = 404
+                    transfer_state = 881
+                    add_state_core = 881
+                    transfer_state = 586
+                    add_state_core = 586
+                    transfer_state = 589
+                    add_state_core = 589
+                    transfer_state = 588
+                    add_state_core = 588
+                    transfer_state = 618
+                    add_state_core = 618
+                }
             }
             ## East Hebei Autonomous Government
             EHA = {
@@ -853,15 +841,7 @@ on_actions = {
                     state = 1030
                 }
                 create_faction_from_template = faction_template_new_order_in_east_asia_faction
-                # Pre grind
-                every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				    add_unit_leader_trait = no_grind
-				}
+                
                 # Faction rule
                 set_faction_rule = goals_only_faction_leader
             }
@@ -1182,56 +1162,21 @@ on_actions = {
 				add_ideas = MIN_peacetime_training
 			}
             GER = {
-				every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				add_unit_leader_trait = no_grind
-				}
+				
 			}
             ITA = {
-				every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				add_unit_leader_trait = no_grind
-				}
+				
 			}
             BUL = {
-				every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				add_unit_leader_trait = no_grind
-				}
+				
 			}
             JAP = {
-				every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				add_unit_leader_trait = no_grind
-				}
+				
 			}
             SOV = {
-				every_army_leader = {
-					limit = {
-						NOT = { 
-							has_trait = no_grind
-						}
-					}
-				add_unit_leader_trait = no_grind
-				}
-			}
-		}
+				
+		    }
+        }
         # Set up right core of EHA
         effect = {
             if = {
