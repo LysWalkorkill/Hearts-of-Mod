@@ -56,14 +56,9 @@ armor_modele_decision_category = {
 		priority = 1
 
 		available = {
-			#has_tech = gwtank_chassis
 			has_tech = basic_heavy_tank_chassis
-			or = {
-				has_tech = interwar_antiair
-				has_tech = interwar_antitank
-			}
+			has_tech = cannon_lourd_1
 			has_tech = improved_radio
-			#has_tech = gw_artillery
 		}
 
 		visible = {
@@ -116,10 +111,7 @@ armor_modele_decision_category = {
 		available = {
 			#has_tech = gwtank_chassis
 			has_tech = improved_heavy_tank_chassis
-			or = {
-				has_tech = antiair3
-				has_tech = antitank2
-			}
+			has_tech = cannon_lourd_2
 			has_tech = advanced_radio
 			#has_tech = gw_artillery
 		}
@@ -128,10 +120,7 @@ armor_modele_decision_category = {
 			has_tech = gwtank_chassis
 			has_tech = basic_heavy_tank_chassis
 			has_tech = improved_radio
-			or = {
-				has_tech = antiair2
-				has_tech = antitank1
-			}
+			has_tech = cannon_lourd_1
 		}
 
 		fire_only_once = yes
@@ -176,18 +165,15 @@ armor_modele_decision_category = {
 		priority = 1
 
 		available = {
-			#has_tech = gwtank_chassis
 			has_tech = improved_light_tank_chassis
-			has_tech = interwar_antitank
+			has_tech = cannon_high_velocity_1
 			has_tech = improved_radio
-			#has_tech = gw_artillery
 			has_tech = armor_tech_2
 		}
 
 		visible = {
 			has_tech = gwtank_chassis
 			has_tech = basic_light_tank_chassis
-			has_tech = gw_artillery
 			has_tech = radio
 			has_tech = armor_tech_1
 		}
@@ -449,7 +435,7 @@ armor_modele_decision_category = {
 		available = {
 			#has_tech = gwtank_chassis
 			has_tech = basic_heavy_tank_chassis
-			has_tech = antiair5
+			has_tech = cannon_aa_3
 			#has_tech = armor_tech_1
 			has_tech = advanced_radio
 			has_tech = armor_tech_2
@@ -460,27 +446,27 @@ armor_modele_decision_category = {
 				and = {
 					has_tech = gwtank_chassis
 					has_tech = basic_heavy_tank_chassis
-					has_tech = antiair3
+					has_tech = cannon_aa_1
 					has_tech = armor_tech_1
 					has_tech = improved_radio
 				}
 				and = {
 					has_tech = gwtank_chassis
-					has_tech = antiair4
+					has_tech = cannon_aa_2
 					has_tech = armor_tech_1
 					has_tech = improved_radio
 				}
 				and = {
 					has_tech = gwtank_chassis
-					has_tech = antiair3
+					has_tech = cannon_aa_1
 					has_tech = armor_tech_1
 					has_tech = advanced_radio
 				}
 				and = {
 					has_tech = gwtank_chassis
-					has_tech = antiair3
-					has_tech = armor_tech_1
+					has_tech = cannon_aa_1
 					has_tech = armor_tech_2
+					has_tech = improved_radio
 				}
 			}
 		}
@@ -529,7 +515,7 @@ armor_modele_decision_category = {
 		available = {
 			#has_tech = gwtank_chassis
 			has_tech = basic_medium_tank_chassis
-			has_tech = artillery1
+			has_tech = cannon_howitzer_1
 			has_tech = infantry_weapons
 			has_tech = improved_radio
 		}
@@ -582,10 +568,8 @@ armor_modele_decision_category = {
 		priority = 1
 
 		available = {
-			#has_tech = gwtank_chassis
 			has_tech = improved_medium_tank_chassis
-			has_tech = artillery3
-			#has_tech = gw_artillery
+			has_tech = cannon_howitzer_2
 			has_tech = advanced_radio
 			has_tech = armor_tech_2
 		}
@@ -593,7 +577,7 @@ armor_modele_decision_category = {
 		visible = {
 			has_tech = gwtank_chassis
 			has_tech = basic_medium_tank_chassis
-			has_tech = artillery2
+			has_tech = cannon_howitzer_1
 			has_tech = improved_radio
 			has_tech = armor_tech_1
 		}
@@ -640,45 +624,18 @@ armor_modele_decision_category = {
 		priority = 1
 
 		available = {
-			#has_tech = gwtank_chassis
 			has_tech = improved_medium_tank_chassis
-			has_tech = antitank4
+			has_tech = cannon_high_velocity_2
 			has_tech = advanced_radio
-			#has_tech = gw_artillery
 			has_tech = armor_tech_2
 		}
 
 		visible = {
-			or = {
-				and = {
-					has_tech = gwtank_chassis
-					has_tech = improved_medium_tank_chassis
-					has_tech = antitank2
-					has_tech = improved_radio
-					has_tech = armor_tech_1
-				}
-				and = {
-					has_tech = gwtank_chassis
-					has_tech = basic_medium_tank_chassis
-					has_tech = antitank3
-					has_tech = improved_radio
-					has_tech = armor_tech_1
-				}
-				and = {
-					has_tech = gwtank_chassis
-					has_tech = basic_medium_tank_chassis
-					has_tech = antitank2
-					has_tech = advanced_radio
-					has_tech = armor_tech_1
-				}
-				and = {
-					has_tech = gwtank_chassis
-					has_tech = basic_medium_tank_chassis
-					has_tech = antitank2
-					has_tech = improved_radio
-					has_tech = armor_tech_2
-				}
-			}
+			has_tech = gwtank_chassis
+			has_tech = basic_medium_tank_chassis
+			has_tech = cannon_high_velocity_1
+			has_tech = improved_radio
+			has_tech = armor_tech_1
 		}
 
 		fire_only_once = yes
