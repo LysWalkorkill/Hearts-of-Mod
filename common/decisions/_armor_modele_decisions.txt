@@ -1,677 +1,677 @@
 armor_modele_decision_category = {
 
-	tank_modele_conversion_de_char_lourd = {
-
-		icon = generic_tank
-		priority = 1
-
-		available = {
-			has_tech = infantry_weapons
-			has_tech = gw_artillery
-			has_tech = gwtank_chassis
-		}
-
-		visible = {
-			has_tech = gwtank_chassis
-		}
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			limit = {
-				has_dlc = "No Step Back"
-			}
-			create_equipment_variant = {
-				name = "Conversion de Char Lourd"
-				type = heavy_tank_chassis_0
-				parent_version = 0
-				modules = {
-					main_armament_slot = tank_heavy_machine_gun
-					turret_type_slot = tank_heavy_two_man_tank_turret
-					suspension_type_slot = tank_torsion_bar_suspension
-					armor_type_slot = tank_riveted_armor
-					engine_type_slot = tank_diesel_engine
-					special_type_slot_2 = secondary_turret_small_cannon
-					special_type_slot_3 = secondary_turret_small_cannon
-					special_type_slot_4 = secondary_turret_small_cannon
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 0
-					tank_nsb_armor_upgrade = 0
-				}
-				#icon = "GFX_FRA_basic_heavy_tank_medium"
-			}
-		}
-
-		ai_will_do = {
-			base = 9999
-		}
-	}
-
-	tank_modele_char_lourd_1939 = {
-
-		icon = generic_tank
-		priority = 1
-
-		available = {
-			has_tech = basic_heavy_tank_chassis
-			has_tech = cannon_lourd_1
-			has_tech = improved_radio
-		}
-
-		visible = {
-			has_tech = gwtank_chassis
-			has_tech = gw_artillery
-			has_tech = radio
-		}
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			limit = {
-				has_dlc = "No Step Back"
-			}
-			create_equipment_variant = {
-				name = "Char Lourd 1939"
-				type = heavy_tank_destroyer_chassis_1
-				parent_version = 0
-				modules = {
-					main_armament_slot = tank_heavy_cannon
-					turret_type_slot = tank_heavy_three_man_tank_turret
-					suspension_type_slot = tank_interleaved_suspension
-					armor_type_slot = tank_riveted_armor
-					engine_type_slot = tank_diesel_engine
-					special_type_slot_1 = tank_radio_2
-					special_type_slot_2 = secondary_turret_small_cannon
-					special_type_slot_3 = secondary_turret_small_cannon
-					special_type_slot_4 = secondary_turret_small_cannon
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 14
-					tank_nsb_armor_upgrade = 14
-				}
-				#icon = "GFX_FRA_basic_heavy_tank_medium"
-			}
-		}
-
-		ai_will_do = {
-			base = 9999
-		}
-	}
-
-	tank_modele_char_lourd_1941 = {
-
-		icon = generic_tank
-		priority = 1
-
-		available = {
-			#has_tech = gwtank_chassis
-			has_tech = improved_heavy_tank_chassis
-			has_tech = cannon_lourd_2
-			has_tech = advanced_radio
-			#has_tech = gw_artillery
-		}
-
-		visible = {
-			has_tech = gwtank_chassis
-			has_tech = basic_heavy_tank_chassis
-			has_tech = improved_radio
-			has_tech = cannon_lourd_1
-		}
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			limit = {
-				has_dlc = "No Step Back"
-			}
-			create_equipment_variant = {
-				name = "Char Lourd 1941"
-				type = heavy_tank_destroyer_chassis_2
-				parent_version = 0
-				modules = {
-					main_armament_slot = tank_heavy_cannon_2
-					turret_type_slot = tank_heavy_three_man_tank_turret
-					suspension_type_slot = tank_interleaved_suspension
-					armor_type_slot = tank_riveted_armor
-					engine_type_slot = tank_diesel_engine
-					special_type_slot_1 = tank_radio_3
-					special_type_slot_2 = secondary_turret_small_cannon
-					special_type_slot_3 = secondary_turret_small_cannon
-					special_type_slot_4 = secondary_turret_small_cannon
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 14
-					tank_nsb_armor_upgrade = 14
-				}
-				#icon = "GFX_FRA_basic_heavy_tank_medium"
-			}
-		}
-
-		ai_will_do = {
-			base = 9999
-		}
-	}
-
-	tank_modele_char_reco_1939 = {
-
-		icon = generic_tank
-		priority = 1
-
-		available = {
-			has_tech = improved_light_tank_chassis
-			has_tech = cannon_high_velocity_1
-			has_tech = improved_radio
-			has_tech = armor_tech_2
-		}
-
-		visible = {
-			has_tech = gwtank_chassis
-			has_tech = basic_light_tank_chassis
-			has_tech = radio
-			has_tech = armor_tech_1
-		}
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			limit = {
-				has_dlc = "No Step Back"
-			}
-			create_equipment_variant = {
-				name = "Char Reco 1939"
-				type = light_tank_chassis_2
-				parent_version = 0
-				modules = {
-					main_armament_slot = tank_high_velocity_cannon
-					turret_type_slot = tank_light_three_man_tank_turret
-					suspension_type_slot = tank_interleaved_suspension
-					armor_type_slot = tank_riveted_armor
-					engine_type_slot = tank_petrol_electric_engine
-					special_type_slot_1 = tank_radio_2
-					special_type_slot_2 = secondary_turret_small_cannon
-					special_type_slot_3 = extra_ammo_storage
-					special_type_slot_4 = armor_skirts
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 14
-					tank_nsb_armor_upgrade = 14
-				}
-				#icon = "GFX_FRA_basic_heavy_tank_medium"
-			}
-		}
-
-		ai_will_do = {
-			base = 9999
-		}
-	}
-
-	tank_modele_char_reco_final = {
-
-		icon = generic_tank
-		priority = 1
-
-		available = {
-			#has_tech = gwtank_chassis
-			has_tech = improved_light_tank_chassis
-			has_tech = interwar_antitank
-			has_tech = advanced_radio 
-			#has_tech = gw_artillery
-			or = {
-				has_tech = artillery5
-				has_tech = antiair5
-				has_tech = antitank5
-			}
-			has_tech = armor_tech_2
-		}
-
-		visible = {
-			has_tech = gwtank_chassis
-			has_tech = basic_light_tank_chassis
-			has_tech = improved_radio 
-			or = {
-				has_tech = artillery3
-				has_tech = antiair3
-				has_tech = antitank3
-			}
-			has_tech = armor_tech_1
-		}
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			limit = {
-				has_dlc = "No Step Back"
-			}
-			create_equipment_variant = {
-				name = "Char Reco Final"
-				type = light_tank_chassis_2
-				parent_version = 0
-				modules = {
-					main_armament_slot = tank_high_velocity_cannon
-					turret_type_slot = tank_light_three_man_tank_turret
-					suspension_type_slot = tank_interleaved_suspension
-					armor_type_slot = tank_riveted_armor
-					engine_type_slot = tank_petrol_electric_engine
-					special_type_slot_1 = tank_radio_3
-					special_type_slot_2 = secondary_turret_small_cannon
-					special_type_slot_3 = auto_loader
-					special_type_slot_4 = armor_skirts
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 14
-					tank_nsb_armor_upgrade = 17
-				}
-				#icon = "GFX_FRA_basic_heavy_tank_medium"
-			}
-		}
-
-		ai_will_do = {
-			base = 9999
-		}
-	}
-
-	tank_modele_char_lance_flamme_1939 = {
-
-		icon = generic_tank
-		priority = 1
-
-		available = {
-			#has_tech = gwtank_chassis
-			has_tech = sp_armored_advanced_flamethrower_tech
-			has_tech = improved_radio
-			has_tech = armor_tech_2
-		}
-
-		visible = {
-			has_tech = gwtank_chassis
-			has_tech = sp_armored_advanced_flamethrower_tech
-			has_tech = radio
-			has_tech = armor_tech_1
-		}
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			limit = {
-				has_dlc = "No Step Back"
-			}
-			create_equipment_variant = {
-				name = "Char Lance-Flamme 1939"
-				type = medium_tank_flame_chassis_1
-				parent_version = 0
-				modules = {
-					main_armament_slot = Flamethrower
-					turret_type_slot = tank_medium_three_man_tank_turret
-					suspension_type_slot = tank_interleaved_suspension
-					armor_type_slot = tank_riveted_armor
-					engine_type_slot = tank_petrol_electric_engine
-					special_type_slot_1 = tank_radio_2
-					special_type_slot_2 = extra_ammo_storage
-					special_type_slot_3 = extra_ammo_storage
-					special_type_slot_4 = armor_skirts
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 14
-					tank_nsb_armor_upgrade = 14
-				}
-				#icon = "GFX_FRA_basic_heavy_tank_medium"
-			}
-		}
-
-		ai_will_do = {
-			base = 9999
-		}
-	}
-
-	tank_modele_char_lance_flamme_final = {
-
-		icon = generic_tank
-		priority = 1
-
-		available = {
-			#has_tech = gwtank_chassis
-			has_tech = sp_armored_advanced_flamethrower_tech
-			has_tech = advanced_radio
-			or = {
-				has_tech = artillery5
-				has_tech = antiair5
-				has_tech = antitank5
-			}
-			has_tech = armor_tech_2
-		}
-
-		visible = {
-			or = {
-				and = {
-					has_tech = gwtank_chassis
-					has_tech = sp_armored_advanced_flamethrower_tech
-					has_tech = advanced_radio
-					or = {
-						has_tech = artillery3
-						has_tech = antiair3
-						has_tech = antitank3
-					}
-					has_tech = armor_tech_1
-				}
-				and = {
-					has_tech = gwtank_chassis
-					has_tech = sp_armored_advanced_flamethrower_tech
-					has_tech = improved_radio
-					or = {
-						has_tech = artillery4
-						has_tech = antiair4
-						has_tech = antitank4
-					}
-					has_tech = armor_tech_1
-				}
-				and = {
-					has_tech = gwtank_chassis
-					has_tech = sp_armored_advanced_flamethrower_tech
-					has_tech = improved_radio
-					or = {
-						has_tech = artillery3
-						has_tech = antiair3
-						has_tech = antitank3
-					}
-					has_tech = armor_tech_2
-				}
-			}
-		}
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			limit = {
-				has_dlc = "No Step Back"
-			}
-			create_equipment_variant = {
-				name = "Char Lance-Flamme final"
-				type = medium_tank_flame_chassis_1
-				parent_version = 0
-				modules = {
-					main_armament_slot = advanced_flamethrower
-					turret_type_slot = tank_medium_three_man_tank_turret
-					suspension_type_slot = tank_interleaved_suspension
-					armor_type_slot = tank_riveted_armor
-					engine_type_slot = tank_petrol_electric_engine
-					special_type_slot_1 = tank_radio_3
-					special_type_slot_2 = extra_ammo_storage
-					special_type_slot_3 = auto_loader
-					special_type_slot_4 = armor_skirts
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 14
-					tank_nsb_armor_upgrade = 17
-				}
-				#icon = "GFX_FRA_basic_heavy_tank_medium"
-			}
-		}
-
-		ai_will_do = {
-			base = 9999
-		}
-	}
-
-	tank_modele_char_anti_air = {
-
-		icon = generic_tank
-		priority = 1
-
-		available = {
-			#has_tech = gwtank_chassis
-			has_tech = basic_heavy_tank_chassis
-			has_tech = cannon_aa_3
-			#has_tech = armor_tech_1
-			has_tech = advanced_radio
-			has_tech = armor_tech_2
-		}
-
-		visible = {
-			or = {
-				and = {
-					has_tech = gwtank_chassis
-					has_tech = basic_heavy_tank_chassis
-					has_tech = cannon_aa_1
-					has_tech = armor_tech_1
-					has_tech = improved_radio
-				}
-				and = {
-					has_tech = gwtank_chassis
-					has_tech = cannon_aa_2
-					has_tech = armor_tech_1
-					has_tech = improved_radio
-				}
-				and = {
-					has_tech = gwtank_chassis
-					has_tech = cannon_aa_1
-					has_tech = armor_tech_1
-					has_tech = advanced_radio
-				}
-				and = {
-					has_tech = gwtank_chassis
-					has_tech = cannon_aa_1
-					has_tech = armor_tech_2
-					has_tech = improved_radio
-				}
-			}
-		}
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			limit = {
-				has_dlc = "No Step Back"
-			}
-			create_equipment_variant = {
-				name = "Char Anti-Air"
-				type = heavy_tank_aa_chassis_1
-				parent_version = 0
-				modules = {
-					main_armament_slot = tank_anti_air_cannon_3
-					turret_type_slot = tank_heavy_three_man_tank_turret
-					suspension_type_slot = tank_torsion_bar_suspension
-					armor_type_slot = tank_welded_armor
-					engine_type_slot = tank_diesel_engine
-					special_type_slot_1 = tank_radio_3
-					special_type_slot_2 = secondary_turret_small_cannon
-					special_type_slot_3 = armor_skirts
-					special_type_slot_4 = sloped_armor
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 14
-					tank_nsb_armor_upgrade = 17
-				}
-				#icon = "GFX_FRA_basic_heavy_tank_medium"
-			}
-		}
-
-		ai_will_do = {
-			base = 9999
-		}
-	}
-
-	tank_modele_char_moyen_1939_spg = {
-
-		icon = generic_tank
-		priority = 1
-
-		available = {
-			#has_tech = gwtank_chassis
-			has_tech = basic_medium_tank_chassis
-			has_tech = cannon_howitzer_1
-			has_tech = infantry_weapons
-			has_tech = improved_radio
-		}
-
-		visible = {
-			has_tech = gwtank_chassis
-			has_tech = interwar_artillery
-			has_tech = radio
-		}
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			limit = {
-				has_dlc = "No Step Back"
-			}
-			create_equipment_variant = {
-				name = "Char Moyen 1939 SPG"
-				type = medium_tank_artillery_chassis_1
-				parent_version = 0
-				modules = {
-					main_armament_slot = tank_medium_howitzer
-					turret_type_slot = tank_medium_two_man_tank_turret
-					suspension_type_slot = tank_torsion_bar_suspension
-					armor_type_slot = tank_riveted_armor
-					engine_type_slot = tank_gasoline_engine
-					special_type_slot_1 = secondary_turret_hmg
-					special_type_slot_2 = secondary_turret_hmg
-					special_type_slot_3 = tank_radio_2
-					special_type_slot_4 = wet_ammo_storage
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 14
-					tank_nsb_armor_upgrade = 14
-				}
-				#icon = "GFX_FRA_basic_heavy_tank_medium"
-			}
-		}
-
-		ai_will_do = {
-			base = 9999
-		}
-	}
-
-	tank_modele_char_moyen_final_spg = {
-
-		icon = generic_tank
-		priority = 1
-
-		available = {
-			has_tech = improved_medium_tank_chassis
-			has_tech = cannon_howitzer_2
-			has_tech = advanced_radio
-			has_tech = armor_tech_2
-		}
-
-		visible = {
-			has_tech = gwtank_chassis
-			has_tech = basic_medium_tank_chassis
-			has_tech = cannon_howitzer_1
-			has_tech = improved_radio
-			has_tech = armor_tech_1
-		}
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			limit = {
-				has_dlc = "No Step Back"
-			}
-			create_equipment_variant = {
-				name = "Char Moyen Final SPG"
-				type = medium_tank_chassis_2
-				parent_version = 0
-				modules = {
-					main_armament_slot = tank_medium_howitzer_2
-					turret_type_slot = tank_medium_three_man_tank_turret
-					suspension_type_slot = tank_interleaved_suspension
-					armor_type_slot = tank_riveted_armor
-					engine_type_slot = tank_diesel_engine
-					special_type_slot_1 = tank_radio_3
-					special_type_slot_2 = secondary_turret_small_cannon
-					special_type_slot_3 = secondary_turret_small_cannon
-					special_type_slot_4 = armor_skirts
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 14
-					tank_nsb_armor_upgrade = 14
-				}
-				#icon = "GFX_FRA_basic_heavy_tank_medium"
-			}
-		}
-
-		ai_will_do = {
-			base = 9999
-		}
-	}
-
-	tank_modele_char_moyen_final_polyvalent = {
-
-		icon = generic_tank
-		priority = 1
-
-		available = {
-			has_tech = improved_medium_tank_chassis
-			has_tech = cannon_high_velocity_2
-			has_tech = advanced_radio
-			has_tech = armor_tech_2
-		}
-
-		visible = {
-			has_tech = gwtank_chassis
-			has_tech = basic_medium_tank_chassis
-			has_tech = cannon_high_velocity_1
-			has_tech = improved_radio
-			has_tech = armor_tech_1
-		}
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			limit = {
-				has_dlc = "No Step Back"
-			}
-			create_equipment_variant = {
-				name = "Char Moyen Final (Polyvalent)"
-				type = medium_tank_destroyer_chassis_2
-				parent_version = 0
-				modules = {
-					main_armament_slot = tank_high_velocity_cannon_2
-					turret_type_slot = tank_medium_three_man_tank_turret
-					suspension_type_slot = tank_interleaved_suspension
-					armor_type_slot = tank_riveted_armor
-					engine_type_slot = tank_diesel_engine
-					special_type_slot_1 = tank_radio_3
-					special_type_slot_2 = secondary_turret_small_cannon
-					special_type_slot_3 = secondary_turret_small_cannon
-					special_type_slot_4 = armor_skirts
-				}
-				upgrades = {
-					tank_nsb_engine_upgrade = 14
-					tank_nsb_armor_upgrade = 14
-				}
-				#icon = "GFX_FRA_basic_heavy_tank_medium"
-			}
-		}
-
-		ai_will_do = {
-			base = 9999
-		}
-	}
+	#	tank_modele_conversion_de_char_lourd = {
+#
+#		icon = generic_tank
+#		priority = 1
+#
+#		available = {
+#			has_tech = infantry_weapons
+#			has_tech = gw_artillery
+#			has_tech = gwtank_chassis
+#		}
+#
+#		visible = {
+#			has_tech = gwtank_chassis
+#		}
+#
+#		fire_only_once = yes
+#
+#		cost = 0
+#
+#		complete_effect = {
+#			limit = {
+#				has_dlc = "No Step Back"
+#			}
+#			create_equipment_variant = {
+#				name = "Conversion de Char Lourd"
+#				type = heavy_tank_chassis_0
+#				parent_version = 0
+#				modules = {
+#					main_armament_slot = tank_heavy_machine_gun
+#					turret_type_slot = tank_heavy_two_man_tank_turret
+#					suspension_type_slot = tank_torsion_bar_suspension
+#					armor_type_slot = tank_riveted_armor
+#					engine_type_slot = tank_diesel_engine
+#					special_type_slot_2 = secondary_turret_small_cannon
+#					special_type_slot_3 = secondary_turret_small_cannon
+#					special_type_slot_4 = secondary_turret_small_cannon
+#				}
+#				upgrades = {
+#					tank_nsb_engine_upgrade = 0
+#					tank_nsb_armor_upgrade = 0
+#				}
+#				#icon = "GFX_FRA_basic_heavy_tank_medium"
+#			}
+#		}
+#
+#		ai_will_do = {
+#			base = 9999
+#		}
+#	}
+#
+#	tank_modele_char_lourd_1939 = {
+#
+#		icon = generic_tank
+#		priority = 1
+#
+#		available = {
+#			has_tech = basic_heavy_tank_chassis
+#			has_tech = cannon_lourd_1
+#			has_tech = improved_radio
+#		}
+#
+#		visible = {
+#			has_tech = gwtank_chassis
+#			has_tech = gw_artillery
+#			has_tech = radio
+#		}
+#
+#		fire_only_once = yes
+#
+#		cost = 0
+#
+#		complete_effect = {
+#			limit = {
+#				has_dlc = "No Step Back"
+#			}
+#			create_equipment_variant = {
+#				name = "Char Lourd 1939"
+#				type = heavy_tank_destroyer_chassis_1
+#				parent_version = 0
+#				modules = {
+#					main_armament_slot = tank_heavy_cannon
+#					turret_type_slot = tank_heavy_three_man_tank_turret
+#					suspension_type_slot = tank_interleaved_suspension
+#					armor_type_slot = tank_riveted_armor
+#					engine_type_slot = tank_diesel_engine
+#					special_type_slot_1 = tank_radio_2
+#					special_type_slot_2 = secondary_turret_small_cannon
+#					special_type_slot_3 = secondary_turret_small_cannon
+#					special_type_slot_4 = secondary_turret_small_cannon
+#				}
+#				upgrades = {
+#					tank_nsb_engine_upgrade = 14
+#					tank_nsb_armor_upgrade = 14
+#				}
+#				#icon = "GFX_FRA_basic_heavy_tank_medium"
+#			}
+#		}
+#
+#		ai_will_do = {
+#			base = 9999
+#		}
+#	}
+#
+#	tank_modele_char_lourd_1941 = {
+#
+#		icon = generic_tank
+#		priority = 1
+#
+#		available = {
+#			#has_tech = gwtank_chassis
+#			has_tech = improved_heavy_tank_chassis
+#			has_tech = cannon_lourd_2
+#			has_tech = advanced_radio
+#			#has_tech = gw_artillery
+#		}
+#
+#		visible = {
+#			has_tech = gwtank_chassis
+#			has_tech = basic_heavy_tank_chassis
+#			has_tech = improved_radio
+#			has_tech = cannon_lourd_1
+#		}
+#
+#		fire_only_once = yes
+#
+#		cost = 0
+#
+#		complete_effect = {
+#			limit = {
+#				has_dlc = "No Step Back"
+#			}
+#			create_equipment_variant = {
+#				name = "Char Lourd 1941"
+#				type = heavy_tank_destroyer_chassis_2
+#				parent_version = 0
+#				modules = {
+#					main_armament_slot = tank_heavy_cannon_2
+#					turret_type_slot = tank_heavy_three_man_tank_turret
+#					suspension_type_slot = tank_interleaved_suspension
+#					armor_type_slot = tank_riveted_armor
+#					engine_type_slot = tank_diesel_engine
+#					special_type_slot_1 = tank_radio_3
+#					special_type_slot_2 = secondary_turret_small_cannon
+#					special_type_slot_3 = secondary_turret_small_cannon
+#					special_type_slot_4 = secondary_turret_small_cannon
+#				}
+#				upgrades = {
+#					tank_nsb_engine_upgrade = 14
+#					tank_nsb_armor_upgrade = 14
+#				}
+#				#icon = "GFX_FRA_basic_heavy_tank_medium"
+#			}
+#		}
+#
+#		ai_will_do = {
+#			base = 9999
+#		}
+#	}
+#
+#	tank_modele_char_reco_1939 = {
+#
+#		icon = generic_tank
+#		priority = 1
+#
+#		available = {
+#			has_tech = improved_light_tank_chassis
+#			has_tech = cannon_high_velocity_1
+#			has_tech = improved_radio
+#			has_tech = armor_tech_2
+#		}
+#
+#		visible = {
+#			has_tech = gwtank_chassis
+#			has_tech = basic_light_tank_chassis
+#			has_tech = radio
+#			has_tech = armor_tech_1
+#		}
+#
+#		fire_only_once = yes
+#
+#		cost = 0
+#
+#		complete_effect = {
+#			limit = {
+#				has_dlc = "No Step Back"
+#			}
+#			create_equipment_variant = {
+#				name = "Char Reco 1939"
+#				type = light_tank_chassis_2
+#				parent_version = 0
+#				modules = {
+#					main_armament_slot = tank_high_velocity_cannon
+#					turret_type_slot = tank_light_three_man_tank_turret
+#					suspension_type_slot = tank_interleaved_suspension
+#					armor_type_slot = tank_riveted_armor
+#					engine_type_slot = tank_petrol_electric_engine
+#					special_type_slot_1 = tank_radio_2
+#					special_type_slot_2 = secondary_turret_small_cannon
+#					special_type_slot_3 = extra_ammo_storage
+#					special_type_slot_4 = armor_skirts
+#				}
+#				upgrades = {
+#					tank_nsb_engine_upgrade = 14
+#					tank_nsb_armor_upgrade = 14
+#				}
+#				#icon = "GFX_FRA_basic_heavy_tank_medium"
+#			}
+#		}
+#
+#		ai_will_do = {
+#			base = 9999
+#		}
+#	}
+#
+#	tank_modele_char_reco_final = {
+#
+#		icon = generic_tank
+#		priority = 1
+#
+#		available = {
+#			#has_tech = gwtank_chassis
+#			has_tech = improved_light_tank_chassis
+#			has_tech = interwar_antitank
+#			has_tech = advanced_radio 
+#			#has_tech = gw_artillery
+#			or = {
+#				has_tech = artillery5
+#				has_tech = antiair5
+#				has_tech = antitank5
+#			}
+#			has_tech = armor_tech_2
+#		}
+#
+#		visible = {
+#			has_tech = gwtank_chassis
+#			has_tech = basic_light_tank_chassis
+#			has_tech = improved_radio 
+#			or = {
+#				has_tech = artillery3
+#				has_tech = antiair3
+#				has_tech = antitank3
+#			}
+#			has_tech = armor_tech_1
+#		}
+#
+#		fire_only_once = yes
+#
+#		cost = 0
+#
+#		complete_effect = {
+#			limit = {
+#				has_dlc = "No Step Back"
+#			}
+#			create_equipment_variant = {
+#				name = "Char Reco Final"
+#				type = light_tank_chassis_2
+#				parent_version = 0
+#				modules = {
+#					main_armament_slot = tank_high_velocity_cannon
+#					turret_type_slot = tank_light_three_man_tank_turret
+#					suspension_type_slot = tank_interleaved_suspension
+#					armor_type_slot = tank_riveted_armor
+#					engine_type_slot = tank_petrol_electric_engine
+#					special_type_slot_1 = tank_radio_3
+#					special_type_slot_2 = secondary_turret_small_cannon
+#					special_type_slot_3 = auto_loader
+#					special_type_slot_4 = armor_skirts
+#				}
+#				upgrades = {
+#					tank_nsb_engine_upgrade = 14
+#					tank_nsb_armor_upgrade = 17
+#				}
+#				#icon = "GFX_FRA_basic_heavy_tank_medium"
+#			}
+#		}
+#
+#		ai_will_do = {
+#			base = 9999
+#		}
+#	}
+#
+#	tank_modele_char_lance_flamme_1939 = {
+#
+#		icon = generic_tank
+#		priority = 1
+#
+#		available = {
+#			#has_tech = gwtank_chassis
+#			has_tech = sp_armored_advanced_flamethrower_tech
+#			has_tech = improved_radio
+#			has_tech = armor_tech_2
+#		}
+#
+#		visible = {
+#			has_tech = gwtank_chassis
+#			has_tech = sp_armored_advanced_flamethrower_tech
+#			has_tech = radio
+#			has_tech = armor_tech_1
+#		}
+#
+#		fire_only_once = yes
+#
+#		cost = 0
+#
+#		complete_effect = {
+#			limit = {
+#				has_dlc = "No Step Back"
+#			}
+#			create_equipment_variant = {
+#				name = "Char Lance-Flamme 1939"
+#				type = medium_tank_flame_chassis_1
+#				parent_version = 0
+#				modules = {
+#					main_armament_slot = Flamethrower
+#					turret_type_slot = tank_medium_three_man_tank_turret
+#					suspension_type_slot = tank_interleaved_suspension
+#					armor_type_slot = tank_riveted_armor
+#					engine_type_slot = tank_petrol_electric_engine
+#					special_type_slot_1 = tank_radio_2
+#					special_type_slot_2 = extra_ammo_storage
+#					special_type_slot_3 = extra_ammo_storage
+#					special_type_slot_4 = armor_skirts
+#				}
+#				upgrades = {
+#					tank_nsb_engine_upgrade = 14
+#					tank_nsb_armor_upgrade = 14
+#				}
+#				#icon = "GFX_FRA_basic_heavy_tank_medium"
+#			}
+#		}
+#
+#		ai_will_do = {
+#			base = 9999
+#		}
+#	}
+#
+#	tank_modele_char_lance_flamme_final = {
+#
+#		icon = generic_tank
+#		priority = 1
+#
+#		available = {
+#			#has_tech = gwtank_chassis
+#			has_tech = sp_armored_advanced_flamethrower_tech
+#			has_tech = advanced_radio
+#			or = {
+#				has_tech = artillery5
+#				has_tech = antiair5
+#				has_tech = antitank5
+#			}
+#			has_tech = armor_tech_2
+#		}
+#
+#		visible = {
+#			or = {
+#				and = {
+#					has_tech = gwtank_chassis
+#					has_tech = sp_armored_advanced_flamethrower_tech
+#					has_tech = advanced_radio
+#					or = {
+#						has_tech = artillery3
+#						has_tech = antiair3
+#						has_tech = antitank3
+#					}
+#					has_tech = armor_tech_1
+#				}
+#				and = {
+#					has_tech = gwtank_chassis
+#					has_tech = sp_armored_advanced_flamethrower_tech
+#					has_tech = improved_radio
+#					or = {
+#						has_tech = artillery4
+#						has_tech = antiair4
+#						has_tech = antitank4
+#					}
+#					has_tech = armor_tech_1
+#				}
+#				and = {
+#					has_tech = gwtank_chassis
+#					has_tech = sp_armored_advanced_flamethrower_tech
+#					has_tech = improved_radio
+#					or = {
+#						has_tech = artillery3
+#						has_tech = antiair3
+#						has_tech = antitank3
+#					}
+#					has_tech = armor_tech_2
+#				}
+#			}
+#		}
+#
+#		fire_only_once = yes
+#
+#		cost = 0
+#
+#		complete_effect = {
+#			limit = {
+#				has_dlc = "No Step Back"
+#			}
+#			create_equipment_variant = {
+#				name = "Char Lance-Flamme final"
+#				type = medium_tank_flame_chassis_1
+#				parent_version = 0
+#				modules = {
+#					main_armament_slot = advanced_flamethrower
+#					turret_type_slot = tank_medium_three_man_tank_turret
+#					suspension_type_slot = tank_interleaved_suspension
+#					armor_type_slot = tank_riveted_armor
+#					engine_type_slot = tank_petrol_electric_engine
+#					special_type_slot_1 = tank_radio_3
+#					special_type_slot_2 = extra_ammo_storage
+#					special_type_slot_3 = auto_loader
+#					special_type_slot_4 = armor_skirts
+#				}
+#				upgrades = {
+#					tank_nsb_engine_upgrade = 14
+#					tank_nsb_armor_upgrade = 17
+#				}
+#				#icon = "GFX_FRA_basic_heavy_tank_medium"
+#			}
+#		}
+#
+#		ai_will_do = {
+#			base = 9999
+#		}
+#	}
+#
+#	tank_modele_char_anti_air = {
+#
+#		icon = generic_tank
+#		priority = 1
+#
+#		available = {
+#			#has_tech = gwtank_chassis
+#			has_tech = basic_heavy_tank_chassis
+#			has_tech = cannon_aa_3
+#			#has_tech = armor_tech_1
+#			has_tech = advanced_radio
+#			has_tech = armor_tech_2
+#		}
+#
+#		visible = {
+#			or = {
+#				and = {
+#					has_tech = gwtank_chassis
+#					has_tech = basic_heavy_tank_chassis
+#					has_tech = cannon_aa_1
+#					has_tech = armor_tech_1
+#					has_tech = improved_radio
+#				}
+#				and = {
+#					has_tech = gwtank_chassis
+#					has_tech = cannon_aa_2
+#					has_tech = armor_tech_1
+#					has_tech = improved_radio
+#				}
+#				and = {
+#					has_tech = gwtank_chassis
+#					has_tech = cannon_aa_1
+#					has_tech = armor_tech_1
+#					has_tech = advanced_radio
+#				}
+#				and = {
+#					has_tech = gwtank_chassis
+#					has_tech = cannon_aa_1
+#					has_tech = armor_tech_2
+#					has_tech = improved_radio
+#				}
+#			}
+#		}
+#
+#		fire_only_once = yes
+#
+#		cost = 0
+#
+#		complete_effect = {
+#			limit = {
+#				has_dlc = "No Step Back"
+#			}
+#			create_equipment_variant = {
+#				name = "Char Anti-Air"
+#				type = heavy_tank_aa_chassis_1
+#				parent_version = 0
+#				modules = {
+#					main_armament_slot = tank_anti_air_cannon_3
+#					turret_type_slot = tank_heavy_three_man_tank_turret
+#					suspension_type_slot = tank_torsion_bar_suspension
+#					armor_type_slot = tank_welded_armor
+#					engine_type_slot = tank_diesel_engine
+#					special_type_slot_1 = tank_radio_3
+#					special_type_slot_2 = secondary_turret_small_cannon
+#					special_type_slot_3 = armor_skirts
+#					special_type_slot_4 = sloped_armor
+#				}
+#				upgrades = {
+#					tank_nsb_engine_upgrade = 14
+#					tank_nsb_armor_upgrade = 17
+#				}
+#				#icon = "GFX_FRA_basic_heavy_tank_medium"
+#			}
+#		}
+#
+#		ai_will_do = {
+#			base = 9999
+#		}
+#	}
+#
+#	tank_modele_char_moyen_1939_spg = {
+#
+#		icon = generic_tank
+#		priority = 1
+#
+#		available = {
+#			#has_tech = gwtank_chassis
+#			has_tech = basic_medium_tank_chassis
+#			has_tech = cannon_howitzer_1
+#			has_tech = infantry_weapons
+#			has_tech = improved_radio
+#		}
+#
+#		visible = {
+#			has_tech = gwtank_chassis
+#			has_tech = interwar_artillery
+#			has_tech = radio
+#		}
+#
+#		fire_only_once = yes
+#
+#		cost = 0
+#
+#		complete_effect = {
+#			limit = {
+#				has_dlc = "No Step Back"
+#			}
+#			create_equipment_variant = {
+#				name = "Char Moyen 1939 SPG"
+#				type = medium_tank_artillery_chassis_1
+#				parent_version = 0
+#				modules = {
+#					main_armament_slot = tank_medium_howitzer
+#					turret_type_slot = tank_medium_two_man_tank_turret
+#					suspension_type_slot = tank_torsion_bar_suspension
+#					armor_type_slot = tank_riveted_armor
+#					engine_type_slot = tank_gasoline_engine
+#					special_type_slot_1 = secondary_turret_hmg
+#					special_type_slot_2 = secondary_turret_hmg
+#					special_type_slot_3 = tank_radio_2
+#					special_type_slot_4 = wet_ammo_storage
+#				}
+#				upgrades = {
+#					tank_nsb_engine_upgrade = 14
+#					tank_nsb_armor_upgrade = 14
+#				}
+#				#icon = "GFX_FRA_basic_heavy_tank_medium"
+#			}
+#		}
+#
+#		ai_will_do = {
+#			base = 9999
+#		}
+#	}
+#
+#	tank_modele_char_moyen_final_spg = {
+#
+#		icon = generic_tank
+#		priority = 1
+#
+#		available = {
+#			has_tech = improved_medium_tank_chassis
+#			has_tech = cannon_howitzer_2
+#			has_tech = advanced_radio
+#			has_tech = armor_tech_2
+#		}
+#
+#		visible = {
+#			has_tech = gwtank_chassis
+#			has_tech = basic_medium_tank_chassis
+#			has_tech = cannon_howitzer_1
+#			has_tech = improved_radio
+#			has_tech = armor_tech_1
+#		}
+#
+#		fire_only_once = yes
+#
+#		cost = 0
+#
+#		complete_effect = {
+#			limit = {
+#				has_dlc = "No Step Back"
+#			}
+#			create_equipment_variant = {
+#				name = "Char Moyen Final SPG"
+#				type = medium_tank_chassis_2
+#				parent_version = 0
+#				modules = {
+#					main_armament_slot = tank_medium_howitzer_2
+#					turret_type_slot = tank_medium_three_man_tank_turret
+#					suspension_type_slot = tank_interleaved_suspension
+#					armor_type_slot = tank_riveted_armor
+#					engine_type_slot = tank_diesel_engine
+#					special_type_slot_1 = tank_radio_3
+#					special_type_slot_2 = secondary_turret_small_cannon
+#					special_type_slot_3 = secondary_turret_small_cannon
+#					special_type_slot_4 = armor_skirts
+#				}
+#				upgrades = {
+#					tank_nsb_engine_upgrade = 14
+#					tank_nsb_armor_upgrade = 14
+#				}
+#				#icon = "GFX_FRA_basic_heavy_tank_medium"
+#			}
+#		}
+#
+#		ai_will_do = {
+#			base = 9999
+#		}
+#	}
+#
+#	tank_modele_char_moyen_final_polyvalent = {
+#
+#		icon = generic_tank
+#		priority = 1
+#
+#		available = {
+#			has_tech = improved_medium_tank_chassis
+#			has_tech = cannon_high_velocity_2
+#			has_tech = advanced_radio
+#			has_tech = armor_tech_2
+#		}
+#
+#		visible = {
+#			has_tech = gwtank_chassis
+#			has_tech = basic_medium_tank_chassis
+#			has_tech = cannon_high_velocity_1
+#			has_tech = improved_radio
+#			has_tech = armor_tech_1
+#		}
+#
+#		fire_only_once = yes
+#
+#		cost = 0
+#
+#		complete_effect = {
+#			limit = {
+#				has_dlc = "No Step Back"
+#			}
+#			create_equipment_variant = {
+#				name = "Char Moyen Final (Polyvalent)"
+#				type = medium_tank_destroyer_chassis_2
+#				parent_version = 0
+#				modules = {
+#					main_armament_slot = tank_high_velocity_cannon_2
+#					turret_type_slot = tank_medium_three_man_tank_turret
+#					suspension_type_slot = tank_interleaved_suspension
+#					armor_type_slot = tank_riveted_armor
+#					engine_type_slot = tank_diesel_engine
+#					special_type_slot_1 = tank_radio_3
+#					special_type_slot_2 = secondary_turret_small_cannon
+#					special_type_slot_3 = secondary_turret_small_cannon
+#					special_type_slot_4 = armor_skirts
+#				}
+#				upgrades = {
+#					tank_nsb_engine_upgrade = 14
+#					tank_nsb_armor_upgrade = 14
+#				}
+#				#icon = "GFX_FRA_basic_heavy_tank_medium"
+#			}
+#		}
+#
+#		ai_will_do = {
+#			base = 9999
+#		}
+#	}
 
 }
