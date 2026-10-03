@@ -20,6 +20,10 @@ state = {
 			4302 2 # Siem Reap
 		}
 
+		victory_points = {
+			12475 2 # Kratié
+		}
+
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1 

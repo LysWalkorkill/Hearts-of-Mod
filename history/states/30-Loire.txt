@@ -14,6 +14,9 @@ state={
 		victory_points = {
 			3509 5 # Le Mans
 		}
+		victory_points = {
+			11613 3 # Saumur
+		}
 		
 		buildings = {
 			infrastructure = 4
