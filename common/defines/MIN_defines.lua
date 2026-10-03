@@ -37,6 +37,8 @@
 	NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 25				-- Command Power sent attache usage cost
 	NDefines.NDiplomacy.BASE_SEND_ATTACHE_MAINTAIN_COST = 0
 
+	NDefines.NCountry.BASE_MAX_COMMAND_POWER = 120.0
+
 	-- 72 divisions par général
 	NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 24
 	NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 35
@@ -86,9 +88,9 @@
 		0.0, -- operative
 	}
 	NDefines.NMilitary.UNIT_LEADER_TRAIT_SLOT_PER_LEVEL = { 			-- num extra traits on each level
-		1, -- field marshal
-		1, -- corps commander
-		1, -- navy general
+		0.5, -- field marshal
+		0.5, -- corps commander
+		0.5, -- navy general
 		0.0, -- operative
 	}
 
