@@ -1,5 +1,6 @@
 SOV = {
 	recruit_character = SOV_Mita
+	recruit_character = SOV_Katyusha
 }
 CAN = {
 	recruit_character = CAN_Ryan_Gosling
