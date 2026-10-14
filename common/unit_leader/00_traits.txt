@@ -1302,21 +1302,15 @@ leader_traits = {
 	}
 	skilled_staffer = { 
 		type = corps_commander
-		gain_xp_leader = {
-			if = {
-				limit = { is_leading_army_group = yes }
-				check_variable = { num_units > 99 }
-			}
-			else = {
-				check_variable = { num_units > 23 }
-			}
+		gain_xp = {
+			always = no # not gainable
 		}
 		custom_gain_xp_trigger_tooltip = fighting_with_enough_units
 		
 		cost = 2000
 		
 		corps_commander_modifier = {
-			max_commander_army_size = 6
+			max_commander_army_size = 15
 		}
 		
 		ai_will_do = {
@@ -1326,6 +1320,8 @@ leader_traits = {
 		
 		gui_row = 18
 		
+		trait_type = assignable_trait
+
 		slot = high_command
 		specialist_advisor_trait = army_logistics_1
 		expert_advisor_trait = army_logistics_2
@@ -1450,7 +1446,7 @@ leader_traits = {
 				has_combat_modifier = river_crossing
 			}
 		}
-		cost = 700
+		cost = 400
 		modifier = {
 			river = {
 				attack = 0.05
@@ -1481,7 +1477,7 @@ leader_traits = {
 			check_variable = { num_armored > temp }
 		}
 		custom_gain_xp_trigger_tooltip = armored_ratio_over_40
-		cost = 700
+		cost = 400
 		modifier = {
 			army_armor_speed_factor = 0.05 
 			army_armor_attack_factor = 0.16 
@@ -1510,7 +1506,7 @@ leader_traits = {
 				has_combat_modifier = amphibious_attack
 			}
 		}
-		cost = 700
+		cost = 400
 		modifier = {
 			out_of_supply_factor = -0.25
 		}
@@ -1531,7 +1527,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = desert
 		}
-		cost = 700
+		cost = 400
 		modifier = {
 			desert = {
 				movement = 0.05
@@ -1559,7 +1555,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = marsh
 		}
-		cost = 700
+		cost = 400
 		modifier = {
 			marsh = {
 				movement = 0.05
@@ -1580,7 +1576,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = mountain
 		}
-		cost = 700
+		cost = 400
 		modifier = {
 			mountain = {
 				movement = 0.05
@@ -1601,7 +1597,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = hills
 		}
-		cost = 700
+		cost = 400
 		modifier = {
 			hills = {
 				movement = 0.05
@@ -1622,7 +1618,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = jungle
 		}
-		cost = 700
+		cost = 400
 		modifier = {
 			jungle = {
 				movement = 0.05
@@ -1643,7 +1639,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = forest
 		}
-		cost = 700
+		cost = 400
 		modifier = {
 			forest = {
 				movement = 0.05
@@ -1819,7 +1815,7 @@ leader_traits = {
 				dig_in > 10
 			}
 		}
-		cost = 700
+		cost = 400
 		modifier = {
 			fort = {
 				attack = 0.15
@@ -2268,7 +2264,7 @@ leader_traits = {
 		gain_xp = {
 			submarine > 0.8 # at least 80% subs
 		}
-		cost = 700
+		cost = 400
 		modifier = {
 			navy_submarine_attack_factor = 0.2 # +X% stronger damage for submarines
 		}

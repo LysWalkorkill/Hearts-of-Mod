@@ -400,7 +400,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			
-			tank_heavy_howitzer
+			#tank_heavy_howitzer
 		}
 
 		research_cost = 1

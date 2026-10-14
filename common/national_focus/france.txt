@@ -1508,7 +1508,7 @@
 			add_tech_bonus = {
 				name = FRA_infantry_tanks
 				bonus = 2.0
-				uses = 2
+				uses = 1
 				category = artillery
 			}
 			add_ideas = { FRA_firepower }
@@ -1629,6 +1629,12 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_tech_bonus = {
+				name = FRA_infantry_tanks
+				bonus = 2.0
+				uses = 1
+				category = infantry_weapons
+			}
 			army_experience = 5
 			add_ideas = FRA_infantry_focus
 		}
@@ -1792,7 +1798,7 @@
 			add_tech_bonus = {
 				name = FRA_infantry_tanks
 				bonus = 2.0
-				uses = 2
+				uses = 1
 				category = armor
 			}
 			IF = {
@@ -1998,6 +2004,12 @@
 				uses = 1
 				category = cat_light_armor
 				category = cat_medium_armor
+			}
+			add_tech_bonus = {
+				name = FRA_infantry_tanks
+				bonus = 2.0
+				uses = 1
+				category = artillery
 			}
 		}
 	}

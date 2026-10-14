@@ -5721,7 +5721,7 @@ JAP_kwantung_army_decisions = {
 			}
 		}
 		
-		days_mission_timeout = 1300 # Déplacer pour que ça soit juste un peu avant la WW2 en Europe # 731
+		days_mission_timeout = 1095 # Déplacer pour que ça soit juste un peu avant la WW2 en Europe # 731
 		
 		fire_only_once = yes
 		
@@ -5898,6 +5898,10 @@ JAP_kwantung_army_decisions = {
 		is_good = yes
 		
 		timeout_effect = {
+			add_named_threat = { 
+				threat = 5 
+				name = "Nanjing is ours" 
+			}
 			every_state = {
 				limit = {
 					OWNER = {
@@ -5936,7 +5940,7 @@ JAP_kwantung_army_decisions = {
 			has_war_with = MAN
 		}
 		
-		days_mission_timeout = 547
+		days_mission_timeout = 585
 		
 		fire_only_once = yes
 		
@@ -5947,6 +5951,10 @@ JAP_kwantung_army_decisions = {
 		is_good = yes
 		
 		timeout_effect = {
+			add_named_threat = { 
+				threat = 5 
+				name = "Jinan Takeover" 
+			}
 			every_state = {
 				limit = {
 					OWNER = {

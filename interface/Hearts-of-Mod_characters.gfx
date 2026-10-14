@@ -9,6 +9,15 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_portrait_SOV_Katyusha_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_Katyusha_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_Katyusha_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_Katyusha_small.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_portrait_CAN_Ryan_Gosling_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/CAN/portrait_Ryan_Gosling_large.dds"
 	}

@@ -2519,8 +2519,6 @@ focus_tree = {
 
 		available = {
 
-			has_global_flag = LoN_disbanded_flag
-
             979 = { #New Guineas
             	is_owned_by = ROOT
 				is_controlled_by = ROOT

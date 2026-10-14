@@ -583,7 +583,12 @@ udk_Cheat_Division_Templates_via_Decisions = {
 	udk_Cheat_Division_Templates_via_Decisions_Infantry_Cost_Effective_Anty_TanK = {
 		#Infantry - Cost Effective - Infantry - Artillery - ENG - S.ART - S.AA - S.Rocket
 		available = {
-			always = yes
+			has_tech = gw_artillery
+			has_tech = tech_logistics_company
+			has_tech = tech_field_hospital
+			has_tech = tech_engineers
+			has_tech = tech_recon
+			has_tech = tech_signal_company
 		}
 		visible = {
 			has_global_flag = udk_Cheat_Division_Templates_via_Decisions_toggle_on_flag
@@ -734,7 +739,7 @@ udk_Cheat_Division_Templates_via_Decisions = {
 		cost = 0
 		complete_effect = {
 			division_template = {
-				name = "30W Amphibious Assault Marines+ART Cost Effective v1"
+				name = "36W Amphibious Assault Marines+ART Cost Effective v1"
 				priority = 2
 				regiments = {
 					marine = { x = 0 y = 0 }
@@ -765,7 +770,12 @@ udk_Cheat_Division_Templates_via_Decisions = {
 	udk_Cheat_Division_Templates_via_Decisions_Marines_Expensive_v1_a = {
 		#Amphibious Assault - Expensive - Medium Amphibious Tank (Amphibious Drive) - Motorized Infantry - MAINT - S.ART - S.AA - S.AT - LOG
 		available = {
-			always = yes
+			has_tech = gw_artillery
+			is_special_project_completed = sp:sp_land_flamethrower_tank
+			has_tech = tech_field_hospital
+			has_doctrine = marines_2
+			has_tech = tech_recon
+			has_tech = mechanised_infantry
 		}
 		visible = {
 			has_global_flag = udk_Cheat_Division_Templates_via_Decisions_toggle_on_flag
@@ -1268,7 +1278,12 @@ udk_Cheat_Division_Templates_via_Decisions = {
 	udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_a = {
 		#Armored Assault - Expensive - Medium Tank - Mechanized Infantry - MAINT - S.ART - S.AA - S.AT - LOG
 		available = {
-			always = yes
+			has_tech = gw_artillery
+			is_special_project_completed = sp:sp_land_flamethrower_tank
+			has_tech = tech_field_hospital
+			has_tech = tech_recon
+			is_special_project_completed = sp:sp_land_military_engineering_vehicles
+			has_tech = mechanised_infantry
 		}
 		visible = {
 			has_global_flag = udk_Cheat_Division_Templates_via_Decisions_toggle_on_flag
@@ -1327,7 +1342,12 @@ udk_Cheat_Division_Templates_via_Decisions = {
 	udk_Cheat_Division_Templates_via_Decisions_Armored_Expensive_v1_b = {
 		#Armored Assault - Expensive - Medium Tank - Mechanized Infantry - MAINT - S.ART - S.AA - S.Rocket - LOG
 		available = {
-			always = yes
+			has_tech = gw_artillery
+			is_special_project_completed = sp:sp_land_flamethrower_tank
+			has_tech = tech_field_hospital
+			has_tech = tech_recon
+			is_special_project_completed = sp:sp_land_military_engineering_vehicles
+			has_tech = mechanised_infantry
 		}
 		visible = {
 			has_global_flag = udk_Cheat_Division_Templates_via_Decisions_toggle_on_flag
