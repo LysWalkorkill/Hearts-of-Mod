@@ -64,7 +64,7 @@ if = {
 			gfx = "GFX_portrait_ast_jerry_lewis_large"
 			female = yes
 			traits = {
-			    linguist
+			    
 			}
 			bypass_recruitment = yes
 			available_to_spy_master = no
@@ -88,8 +88,243 @@ if = {
 			available_to_spy_master = no
 			nationalities = {
 				MEX
+				GER
+				ITA
+				JAP
+				USA
+				
+			}
+		}
+			create_operative_leader = {
+			name = MEX_michael_pena
+			gfx = "GFX_portrait_mex_michael_pena_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				MEX
+				USA
+			}
+		}
+		create_operative_leader = {
+			name = MEX_camila_mendes
+			gfx = "GFX_portrait_mex_camila_mendes_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				MEX
+			
+			}
+		}
+		create_operative_leader = {
+			name = MEX_camila_cabello
+			gfx = "GFX_portrait_mex_camila_cabello_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				MEX
+				
+			}
+		}
+		create_operative_leader = {
+			name = MEX_bad_bunny
+			gfx = "GFX_portrait_mex_bad_bunny_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				MEX
+				
+			}
+		}
+		
+		}
+		CAN = {
+		create_operative_leader = {
+			name = CAN_agent_drake
+			gfx = "GFX_portrait_can_agent_drake_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				CAN
+				USA
+				
+				
+				
+			}
+		}
+		create_operative_leader = {
+			name = CAN_celine_dion
+			gfx = "GFX_portrait_can_celine_dion_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				CAN
+				FRA
+				
+				
+				
+			}
+		}
+		create_operative_leader = {
+			name = CAN_justin_bieber
+			gfx = "GFX_portrait_can_justin_bieber_large"
+			female = no
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				CAN
+				USA
+				
+				
+				
+			}
+		}
+		create_operative_leader = {
+			name = CAN_kelly_anne
+			gfx = "GFX_portrait_can_kelly_anne_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				CAN
+			
+				
+				
+				
+			}
+		}
+		create_operative_leader = {
+			name = CAN_melissa_o_neil
+			gfx = "GFX_portrait_can_melissa_o_neil_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				CAN
+			
+				
+				
 				
 			}
 		}
 		}
+		SAF = {
+		create_operative_leader = {
+			name = SAF_agent_gims
+			gfx = "GFX_portrait_saf_agent_gims_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SAF
+				FRA
+				
+				
+				
+			}
+		}
+		create_operative_leader = {
+			name = SAF_agent_rihanna
+			gfx = "GFX_portrait_saf_agent_rihanna_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SAF
+				USA
+				
+				
+				
+			}
+		}
+		create_operative_leader = {
+			name = SAF_agent_theodora
+			gfx = "GFX_portrait_saf_agent_theodora_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SAF
+				SWI
+				
+				
+				
+			}
+		}
+		create_operative_leader = {
+			name = SAF_fabrice_eboue
+			gfx = "GFX_portrait_saf_fabrice_eboue_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SAF
+				GER
+				ITA
+				
+				
+			}
+		}
+		create_operative_leader = {
+			name = SAF_johnny_clegg
+			gfx = "GFX_portrait_saf_johnny_clegg_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SAF
+				ENG
+				
+				
+				
+			}
+		}
+}
 }

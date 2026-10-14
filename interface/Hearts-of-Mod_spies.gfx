@@ -28,7 +28,63 @@ spriteTypes = {
 		name = "GFX_portrait_mex_pablo_escobar_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/MEX/pablo_escobar.dds"
 	}
-
+SpriteType = {
+		name = "GFX_portrait_mex_michael_pena_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MEX/michael_pena.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_mex_camila_mendes_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MEX/camila_mendes.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_mex_camila_cabello_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MEX/camila_cabello.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_mex_bad_bunny_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MEX/bad_bunny.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_can_agent_drake_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/CAN/agent_drake.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_can_celine_dion_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/CAN/céline_dion.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_can_justin_bieber_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/CAN/justin_bieber.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_can_kelly_anne_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/CAN/kelly_anne.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_can_melissa_o_neil_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/CAN/melissa_o_neil.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_saf_agent_gims_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/agent_gims.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_saf_agent_rihanna_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/agent_rihanna.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_saf_agent_theodora_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/agent_theodora.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_saf_fabrice_eboue_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/fabrice_eboue.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_saf_johnny_clegg_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/johnny_clegg.dds"
+	}
 	SpriteType = {
 		name = "GFX_portrait_raj_irfan_khan_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_irfan_khan.dds"

@@ -1,4 +1,9 @@
 ﻿l_english:
+    MEX_pablo_escobar: "Pablo Escobar"
+    MEX_michael_pena: "Michael Peña"
+    MEX_camila_mendes: "Camila Mendes"
+    MEX_camila_cabello: "Camila Cabello"
+    MEX_bad_bunny: "Bad Bunny"
     # Exploration
     MEX_explorer_temple_maya:0 "Explore a Mayan Temple"
     MEX_explorer_temple_azteque:0 "Explore an Aztec Temple"

@@ -1,5 +1,10 @@
 ﻿l_french:
     MEX_pablo_escobar:0 "Pablo Escobar"
+    MEX_michael_pena:0 "Michael Peña"
+    MEX_bad_bunny:0 "Bad Bunny"
+    MEX_camila_mendes:0 "Camila Mendes"
+    MEX_camila_cabello:0 "Camila Cabello"
+
     # Exploration
     MEX_explorer_temple_maya:0 "Explorer un Temple Maya"
     MEX_explorer_temple_azteque:0 "Explorer un Temple Aztèque"
