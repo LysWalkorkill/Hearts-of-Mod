@@ -1,4 +1,9 @@
 ﻿l_french:
+    fin_agent_ragnarok:0 "Agent Ragnarok"
+    fin_cara_delevingne:0 "Cara Delevingne"
+    fin_pere_noel:0 "Père Noël"
+    fin_ragnar_breton:0 "Ragnar Breton"
+    fin_sorciere_blanche:0 "Sorcière Blanche"
     # Écosystème
     FIN_lancer_referendum_ecosysteme:0 "Lancer un référendum sur l'écosystème Finlandais"
 

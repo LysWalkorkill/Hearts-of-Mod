@@ -327,4 +327,1373 @@ if = {
 			}
 		}
 }
+ENG = {
+		create_operative_leader = {
+			name = eng_daniel_craig
+			gfx = "GFX_portrait_eng_daniel_craig_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ENG
+			}
+		}
+		create_operative_leader = {
+			name = eng_emma_watson
+			gfx = "GFX_portrait_eng_emma_watson_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ENG
+				USA
+			}
+		}
+		create_operative_leader = {
+			name = eng_lord_sarge
+			gfx = "GFX_portrait_eng_lord_sarge_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ENG
+				GER
+			}
+		}
+		create_operative_leader = {
+			name = eng_mister_bean
+			gfx = "GFX_portrait_eng_mister_bean_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ENG
+			}
+		}
+		create_operative_leader = {
+			name = eng_rose_dawson
+			gfx = "GFX_portrait_eng_rose_dawson_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ENG
+				ITA
+			}
+		}
+		create_operative_leader = {
+			name = eng_shelly_thirdvall
+			gfx = "GFX_portrait_eng_shelly_thirdvall_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ENG
+			}
+		}
+		reate_operative_leader = {
+			name = eng_jason_statham
+			gfx = "GFX_portrait_eng_jason_statham_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ENG
+			}
+		}
+}
+FRA = {
+		create_operative_leader = {
+			name = fra_jean_moulin
+			gfx = "GFX_portrait_fra_jean_moulin_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				FRA
+			}
+		}
+		create_operative_leader = {
+			name = fra_ambre_therval
+			gfx = "GFX_portrait_fra_ambre_therval_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				FRA
+				ISR
+			}
+		}
+		create_operative_leader = {
+			name = fra_francois_perrin
+			gfx = "GFX_portrait_fra_francois_perrin_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				FRA
+			}
+		}
+		create_operative_leader = {
+			name = fra_liisa_hauteville
+			gfx = "GFX_portrait_fra_liisa_hauteville_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				FRA
+				UKR
+			}
+		}
+		create_operative_leader = {
+			name = fra_oss_117
+			gfx = "GFX_portrait_fra_oss_117_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				FRA
+				ITA
+				GER
+				USA
+			}
+		}
+		create_operative_leader = {
+			name = fra_serge_gainsbourg
+			gfx = "GFX_portrait_fra_serge_gainsbourg_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				FRA
+			}
+		}
+		GER = {
+		create_operative_leader = {
+			name = ger_alex_brandt
+			gfx = "GFX_portrait_ger_alex_brandt_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				GER
+			}
+		}
+		create_operative_leader = {
+			name = ger_gilles_lambert
+			gfx = "GFX_portrait_ger_gilles_lambert_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				GER
+			}
+		}
+		create_operative_leader = {
+			name = ger_adolfo_ramirez
+			gfx = "GFX_portrait_ger_adolfo_ramirez_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				GER
+				FRA
+			}
+		}
+		create_operative_leader = {
+			name = ger_claudia_schiffer
+			gfx = "GFX_portrait_ger_claudia_schiffer_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				GER
+			}
+		}
+		create_operative_leader = {
+			name = ger_frau_engel
+			gfx = "GFX_portrait_ger_frau_engel_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				GER
+				ENG
+				USA
+			}
+		}
+		create_operative_leader = {
+			name = ger_gerhard_moeller
+			gfx = "GFX_portrait_ger_gerhard_moeller_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				GER
+			}
+		}
+		create_operative_leader = {
+			name = ger_manuel_nauer
+			gfx = "GFX_portrait_ger_manuel_nauer_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				GER
+			}
+		}
+		create_operative_leader = {
+			name = ger_romy_schneider
+			gfx = "GFX_portrait_ger_romy_schneider_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				GER
+			}
+		}
+}
+}
+JAP = {
+		create_operative_leader = {
+			name = jap_aoi_miyazaki
+			gfx = "GFX_portrait_jap_aoi_miyazaki_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				JAP
+			}
+		}
+		create_operative_leader = {
+			name = jap_erza_scarlet
+			gfx = "GFX_portrait_jap_erza_scarlet_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				JAP
+			}
+		}
+		create_operative_leader = {
+			name = jap_nico_robin
+			gfx = "GFX_portrait_jap_nico_robin_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				JAP
+			}
+		}
+		create_operative_leader = {
+			name = jap_shigeru_miyamoto
+			gfx = "GFX_portrait_jap_shigeru_miyamoto_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				JAP
+				USA
+			}
+		}
+}
+USA = {
+		create_operative_leader = {
+			name = usa_agent_alix
+			gfx = "GFX_portrait_usa_agent_alix_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				USA
+				FRA
+			}
+		}
+		create_operative_leader = {
+			name = usa_jennifer_lawrence
+			gfx = "GFX_portrait_usa_jennifer_lawrence_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				USA
+				SOV
+				FRA
+				ITA
+			}
+		}
+		create_operative_leader = {
+			name = usa_amelia_cia
+			gfx = "GFX_portrait_usa_amelia_cia_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				USA
+				FRA
+				
+			}
+		}
+		create_operative_leader = {
+			name = usa_billie_eilish
+			gfx = "GFX_portrait_usa_billie_eilish_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				USA
+				
+			}
+		}
+		create_operative_leader = {
+			name = usa_fox_mulder
+			gfx = "GFX_portrait_usa_fox_mulder_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				USA
+	
+			}
+		}
+		create_operative_leader = {
+			name = usa_jack_reacher
+			gfx = "GFX_portrait_usa_jack_reacher_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				USA
+				
+			}
+		}
+		create_operative_leader = {
+			name = usa_jason_hudson
+			gfx = "GFX_portrait_usa_jason_hudson_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				USA
+				
+			}
+		}
+		create_operative_leader = {
+			name = usa_ariana_grande
+			gfx = "GFX_portrait_usa_ariana_grande_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				USA
+				
+			}
+		}
+}
+MAN = {
+		create_operative_leader = {
+			name = man_jackie_chan
+			gfx = "GFX_portrait_man_jackie_chan_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				MAN
+			}
+		}
+		create_operative_leader = {
+			name = man_jack_ma
+			gfx = "GFX_portrait_man_jack_ma_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				MAN
+			}
+		}
+		create_operative_leader = {
+			name = man_princesse_mulan
+			gfx = "GFX_portrait_man_princesse_mulan_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				MAN
+			}
+		}
+		create_operative_leader = {
+			name = man_sou_yang
+			gfx = "GFX_portrait_man_sou_yang_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				MAN
+				USA
+			}
+		}
+		create_operative_leader = {
+			name = man_xi_jinping
+			gfx = "GFX_portrait_man_xi_jinping_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				MAN
+				CHI
+			}
+		}
+}
+HUN = {
+		create_operative_leader = {
+			name = hun_leia_organa
+			gfx = "GFX_portrait_hun_leia_organa_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				HUN
+				USA
+			}
+}
+create_operative_leader = {
+			name = hun_luke_skywalker
+			gfx = "GFX_portrait_hun_luke_skywalker_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				HUN
+			}
+}
+create_operative_leader = {
+			name = hun_mace_windu
+			gfx = "GFX_portrait_hun_mace_windu_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				HUN
+			}
+}
+reate_operative_leader = {
+			name = hun_padme_amidala
+			gfx = "GFX_portrait_hun_padme_amidala_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				HUN
+				ENG
+			}
+}
+reate_operative_leader = {
+			name = hun_seigneur_sidious
+			gfx = "GFX_portrait_hun_seigneur_sidious_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				HUN
+			    FRA
+				ENG
+				SOV
+			}
+}
+}
+FIN = {
+		create_operative_leader = {
+			name = fin_agent_ragnarok
+			gfx = "GFX_portrait_fin_agent_ragnarok_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				FIN
+				AST
+			}
+}
+create_operative_leader = {
+			name = fin_cara_delevingne
+			gfx = "GFX_portrait_fin_cara_delevingne_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				FIN
+				USA
+			}
+}
+create_operative_leader = {
+			name = fin_pere_noel
+			gfx = "GFX_portrait_fin_pere_noel_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				FIN
+				ENG
+				SOV
+			}
+}
+create_operative_leader = {
+			name = fin_ragnar_breton
+			gfx = "GFX_portrait_fin_ragnar_breton_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				FIN
+				FRA
+			}
+}
+create_operative_leader = {
+			name = fin_sorciere_blanche
+			gfx = "GFX_portrait_fin_sorciere_blanche_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				FIN
+			}
+}
+}
+ROM = {
+		create_operative_leader = {
+			name = rom_adrien_laurent
+			gfx = "GFX_portrait_rom_adrien_laurent_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ROM
+				FRA
+			}
+}
+create_operative_leader = {
+			name = rom_lea_mary
+			gfx = "GFX_portrait_rom_lea_mary_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ROM
+				USA
+			}
+}
+create_operative_leader = {
+			name = rom_lena_mahfouf
+			gfx = "GFX_portrait_rom_lena_mahfouf_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ROM
+				SOV
+			}
+}
+create_operative_leader = {
+			name = rom_nabilla_vergara
+			gfx = "GFX_portrait_rom_nabilla_vergara_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ROM
+				ENG
+			}
+}
+v
+create_operative_leader = {
+			name = rom_sebastien_dubois
+			gfx = "GFX_portrait_rom_sebastien_dubois_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ROM
+			}
+}
+create_operative_leader = {
+			name = rom_thibault_garcias
+			gfx = "GFX_portrait_rom_thibault_garcias_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ROM
+			}
+}
+}
+YUG = {
+		create_operative_leader = {
+			name = yug_ambra_sarajeva
+			gfx = "GFX_portrait_yug_ambra_sarajeva_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				YUG
+				FRA
+			
+			}
+}
+create_operative_leader = {
+			name = yug_luka_modric
+			gfx = "GFX_portrait_yug_luka_modric_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				YUG
+			
+			}
+}
+create_operative_leader = {
+			name = yug_marie_lazovic
+			gfx = "GFX_portrait_yug_marie_lazovic_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				YUG
+				ENG
+			
+			}
+}
+create_operative_leader = {
+			name = yug_melania_trump
+			gfx = "GFX_portrait_yug_melania_trump_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				YUG
+				SOV
+			
+			}
+}
+create_operative_leader = {
+			name = yug_novak_djokovic
+			gfx = "GFX_portrait_yug_novak_djokovic_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				YUG
+				USA
+			
+			}
+}
+}
+SPR = {
+		create_operative_leader = {
+			name = spr_diego_delavegas
+			gfx = "GFX_portrait_spr_diego_delavegas_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SPR
+				USA
+			
+			}
+}
+create_operative_leader = {
+			name = spr_enrique_iglesi
+			gfx = "GFX_portrait_spr_enrique_iglesi_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SPR
+				
+			
+			}
+}
+create_operative_leader = {
+			name = spr_kendji_girac
+			gfx = "GFX_portrait_spr_kendji_girac_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SPR
+				FRA
+			
+			}
+}
+create_operative_leader = {
+			name = spr_lamine_yamal
+			gfx = "GFX_portrait_spr_lamine_yamal_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SPR
+				
+			
+			}
+}
+create_operative_leader = {
+			name = spr_leonor_borbon
+			gfx = "GFX_portrait_spr_leonor_borbon_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SPR
+				
+			
+			}
+}
+create_operative_leader = {
+			name = spr_penelope_cruz
+			gfx = "GFX_portrait_spr_penelope_cruz_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SPR
+				ENG
+				USA
+			
+			}
+}
+}
+ITA = {
+		create_operative_leader = {
+			name = ita_carla_bruni
+			gfx = "GFX_portrait_ita_carla_bruni_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ITA
+				FRA
+			
+			}
+}
+		create_operative_leader = {
+			name = ita_cristina_dalida
+			gfx = "GFX_portrait_ita_cristina_dalida_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ITA
+			
+			}
+}
+		create_operative_leader = {
+			name = ita_damiano_maneskin
+			gfx = "GFX_portrait_ita_damiano_maneskin_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ITA
+				ENG
+			
+			}
+}
+		create_operative_leader = {
+			name = ita_ferruccio_lamborghini
+			gfx = "GFX_portrait_ita_ferruccio_lamborghini_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ITA
+				SOV
+			
+			}
+}
+		create_operative_leader = {
+			name = ita_khaby_lame
+			gfx = "GFX_portrait_ita_khaby_lame_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ITA
+			
+			}
+}
+		create_operative_leader = {
+			name = ita_lino_ventura
+			gfx = "GFX_portrait_ita_lino_ventura_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ITA
+			    FRA 
+			}
+}
+		create_operative_leader = {
+			name = ita_monica_bellucci
+			gfx = "GFX_portrait_ita_monica_bellucci_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ITA
+				USA
+			
+			}
+}
+		create_operative_leader = {
+			name = ita_valentina_ferragni
+			gfx = "GFX_portrait_ita_valentina_ferragni_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				ITA
+				ENG
+			
+			}
+}
+}
+SOV = {
+		create_operative_leader = {
+			name = sov_cobra_ivanova
+			gfx = "GFX_portrait_sov_cobra_ivanova_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SOV
+				FRA
+			
+			}
+}
+	create_operative_leader = {
+			name = sov_kamila_zusje
+			gfx = "GFX_portrait_sov_kamila_zusje_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SOV
+				USA
+			
+			}
+}
+	create_operative_leader = {
+			name = sov_liisa_sevrodonesk
+			gfx = "GFX_portrait_sov_liisa_sevrodonesk_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SOV
+				UKR
+			
+			}
+}
+
+	create_operative_leader = {
+			name = sov_naomia_brejnev
+			gfx = "GFX_portrait_sov_naomia_brejnev_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SOV
+				GER
+			
+			}
+}
+	create_operative_leader = {
+			name = sov_natasha_poly
+			gfx = "GFX_portrait_sov_natasha_poly_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SOV
+				ROM
+			
+			}
+}
+
+	create_operative_leader = {
+			name = sov_sasha_luss
+			gfx = "GFX_portrait_sov_sasha_luss_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SOV
+				ENG
+				USA
+			
+			}
+}
+	create_operative_leader = {
+			name = sov_sergei_cheffa
+			gfx = "GFX_portrait_sov_sergei_cheffa_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SOV
+				FRA
+			
+			}
+}
+create_operative_leader = {
+			name = sov_tatiana_kurtukova
+			gfx = "GFX_portrait_sov_tatiana_kurtukova_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SOV
+				KAZ
+			
+			}
+}
+create_operative_leader = {
+			name = sov_vladimir_poutine
+			gfx = "GFX_portrait_sov_vladimir_poutine_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				SOV
+				ITA
+				GER
+			
+			}
+}
+}
+KAZ = {
+		create_operative_leader = {
+			name = kaz_aya_shalkar
+			gfx = "GFX_portrait_kaz_aya_shalkar_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				KAZ
+				
+		
+			}
+}
+create_operative_leader = {
+			name = kaz_khloe_sergiva
+			gfx = "GFX_portrait_kaz_khloe_sergiva_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				KAZ
+				GER
+				
+		
+			}
+}
+create_operative_leader = {
+			name = kaz_ruslana_korshunova
+			gfx = "GFX_portrait_kaz_ruslana_korshunova_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				KAZ
+				ITA
+				
+		
+			}
+}
+create_operative_leader = {
+			name = kaz_turar_mynbayev
+			gfx = "GFX_portrait_kaz_turar_mynbayev_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				KAZ
+				HUN
+				ROM
+				
+		
+			}
+}
+create_operative_leader = {
+			name = kaz_zlata_ivana
+			gfx = "GFX_portrait_kaz_zlata_ivana_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				KAZ
+				SOV
+		
+			}
+}
+}
+BUL = {
+		create_operative_leader = {
+			name = bul_mads_mikkelsen
+			gfx = "GFX_portrait_bul_mads_mikkelsen_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				BUL
+				
+		
+			}
+}
+}
+RAJ = {
+		create_operative_leader = {
+			name = raj_deepika_padukone
+			gfx = "GFX_portrait_raj_deepika_padukone_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				RAJ
+				
+		
+			}
+}
+create_operative_leader = {
+			name = raj_dj_snake
+			gfx = "GFX_portrait_raj_dj_snake_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				RAJ
+				FRA
+				
+		
+			}
+}
+create_operative_leader = {
+			name = raj_ezra_bridgere
+			gfx = "GFX_portrait_raj_ezra_bridgere_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				RAJ
+				JAP
+				
+		
+			}
+}
+create_operative_leader = {
+			name = raj_irfan_khan
+			gfx = "GFX_portrait_raj_irfan_khan_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				RAJ
+				JAP
+				ENG
+				USA
+		
+			}
+}
+create_operative_leader = {
+			name = raj_priyanka_chopra
+			gfx = "GFX_portrait_raj_priyanka_chopra_large"
+			female = yes
+			traits = {
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				RAJ
+				ITA
+				
+		
+			}
+}
+}
 }
