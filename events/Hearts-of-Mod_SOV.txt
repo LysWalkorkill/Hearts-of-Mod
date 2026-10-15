@@ -1,33 +1,63 @@
-# Mita events
-add_namespace = Hearts-of-Mod_SOV_Mita
-# Mita devient cheffe
+# Chute de Moscou events
+add_namespace = Hearts-of-Mod_SOV_Chute_Moscou
+## Nouveau chef
 unit_leader_event = {
-    id = Hearts-of-Mod_SOV_Mita.1
-    title = Hearts-of-Mod_SOV_Mita.1.title
-    desc = Hearts-of-Mod_SOV_Mita.1.desc
+    id = Hearts-of-Mod_SOV_Chute_Moscou.1
+    title = Hearts-of-Mod_SOV_Chute_Moscou.1.title
+    desc = Hearts-of-Mod_SOV_Chute_Moscou.1.desc
     is_triggered_only = yes
     
     immediate = {
         hidden_effect = {
             event_target:this_character = {
-                add_country_leader_role = {
-                    country_leader = { 
-                        ideology = stalinism
-                        traits = { 
-                            ambitious_union_boss
+                if = {
+                    limit = {
+                        is_character = SOV_Mita
+                    }
+                    add_country_leader_role = {
+                        country_leader = { 
+                            ideology = stalinism
+                            traits = { 
+                                ambitious_union_boss
+                            }
+                        }
+                    }
+                }
+                else_if = {
+                    limit = {
+                        is_character = SOV_Katyusha
+                    }
+                    add_country_leader_role = {
+                        country_leader = { 
+                            ideology = stalinism
+                            traits = { 
+                                cultural_hegemony_theorist
+                            }
+                        }
+                    }
+                }
+                else = {
+                    add_country_leader_role = {
+                        country_leader = { 
+                            ideology = stalinism
+                            traits = {
+                            }
                         }
                     }
                 }
                 promote_character = stalinism
             }
             event_target:this_country = {
-                set_country_flag = Hearts-of-Mod_SOV_Mita_leader_on_action
+                set_country_flag = Hearts-of-Mod_SOV_Chute_Moscou_leader_on_action
             }
         }
     }
     
     option = {
-        name = Hearts-of-Mod_SOV_Mita.1.a
+        name = Hearts-of-Mod_SOV_Chute_Moscou.1.a
+        event_target:this_character = {
+            promote_leader = yes
+        }
         character_list_tooltip = {
             limit = {
                 is_character = event_target:this_character
