@@ -18,6 +18,14 @@ economy_decisions = {
 				is_controlled_by = ROOT
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_owned_by = ROOT
+				is_core_of = SAF
+			}
+		}
+
 		cancel_trigger = {
 			all_owned_state = {
 				NOT = {
@@ -59,6 +67,14 @@ economy_decisions = {
 				is_controlled_by = ROOT
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_owned_by = ROOT
+				is_core_of = SAF
+			}
+		}
+
 		cancel_trigger = {
 			all_owned_state = {
 				NOT = {
@@ -100,6 +116,14 @@ economy_decisions = {
 				is_controlled_by = ROOT
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_owned_by = ROOT
+				is_core_of = SAF
+			}
+		}
+
 		cancel_trigger = {
 			all_owned_state = {
 				NOT = {
@@ -141,6 +165,14 @@ economy_decisions = {
 				is_controlled_by = ROOT
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_owned_by = ROOT
+				is_core_of = SAF
+			}
+		}
+
 		cancel_trigger = {
 			all_owned_state = {
 				NOT = {
@@ -182,6 +214,14 @@ economy_decisions = {
 				is_controlled_by = ROOT
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_owned_by = ROOT
+				is_core_of = SAF
+			}
+		}
+
 		cancel_trigger = {
 			all_owned_state = {
 				NOT = {
@@ -223,6 +263,14 @@ economy_decisions = {
 				is_controlled_by = ROOT
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_owned_by = ROOT
+				is_core_of = SAF
+			}
+		}
+		
 		cancel_trigger = {
 			all_owned_state = {
 				NOT = {

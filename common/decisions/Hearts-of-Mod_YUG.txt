@@ -22,6 +22,13 @@ economy_decisions = {
 				}
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 107
+			}
+		}
+
 		cancel_trigger = {
 			107 = {
 				NOT = {
@@ -72,6 +79,13 @@ economy_decisions = {
 				}
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 104
+			}
+		}
+
 		cancel_trigger = {
 			104 = {
 				NOT = {
@@ -122,6 +136,13 @@ economy_decisions = {
 				}
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 109
+			}
+		}
+
 		cancel_trigger = {
 			109 = {
 				NOT = {
@@ -172,6 +193,13 @@ economy_decisions = {
 				}
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 802
+			}
+		}
+
 		cancel_trigger = {
 			802 = {
 				NOT = {
@@ -222,6 +250,13 @@ economy_decisions = {
 				}
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 108
+			}
+		}
+
 		cancel_trigger = {
 			108 = {
 				NOT = {

@@ -48,6 +48,12 @@ economy_decisions = {
 				}
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 46
+			}
+		}
 		
 		cancel_trigger = {
 			46 = {
@@ -131,6 +137,12 @@ economy_decisions = {
 				}
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 79
+			}
+		}
 		
 		cancel_trigger = {
 			79 = {
@@ -202,6 +214,12 @@ economy_decisions = {
 
 		ai_will_do = {
 			base = 2
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 77
+			}
 		}
 		
 		available = {
@@ -297,6 +315,12 @@ economy_decisions = {
 				}
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 81
+			}
+		}
 		
 		cancel_trigger = {
 			81 = {
@@ -380,6 +404,12 @@ economy_decisions = {
 				}
 			}
 		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 82
+			}
+		}
 		
 		cancel_trigger = {
 			82 = {
@@ -456,6 +486,12 @@ economy_decisions = {
 		available = {
 			46 = {
 				is_owned_and_controlled_by = ROOT
+			}
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 46
 			}
 		}
 		
