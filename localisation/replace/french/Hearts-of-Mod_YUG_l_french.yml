@@ -1,6 +1,11 @@
 ﻿l_french:
-  yug_ambra_sarajeva:0 "Ambra Sarajeva"
-  yug_luka_modric:0 "Luka Modrić"
-  yug_marie_lazovic:0 "Marie Lazovic"
-  yug_melania_trump:0 "Mélania Trump"
-  yug_novak_djokovic:0 "Novak Djokovic"
+    yug_ambra_sarajeva:0 "Ambra Sarajeva"
+    yug_luka_modric:0 "Luka Modrić"
+    yug_marie_lazovic:0 "Marie Lazovic"
+    yug_melania_trump:0 "Mélania Trump"
+    yug_novak_djokovic:0 "Novak Djokovic"
+
+    YUG_continuer_grande_yougoslavie_1:0 "Continuer le projet Grande Yougoslavie"
+    Hearts-of-Mod_YUG_industrie.1.title:0 "Progrès de la Grande Yougoslavie"
+    Hearts-of-Mod_YUG_industrie.1.desc:0 "Le projet ambitieux de la « Grande Yougoslavie » avance."
+    Hearts-of-Mod_YUG_industrie.1.a:0 "La Yougoslavie ne décevra pas..."

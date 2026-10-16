@@ -1,8 +1,11 @@
-﻿l_french: 
+﻿l_french:
     SAF_agent_gims:0 "Agent Gims"
     SAF_agent_rihanna:0 "Rihanna"
     SAF_agent_theodora:0 "Theodora"
     SAF_fabrice_eboue:0 "Fabrice Éboué"
     SAF_johnny_clegg:0 "Johnny Clegg"
-
-
+    
+    SAF_amenager_territoire_1:0 "Continuer d'aménager le territoire Sud-Africain"
+    Hearts-of-Mod_SAF_amenagement.1.title:0 "Aménagement du territoire"
+    Hearts-of-Mod_SAF_amenagement.1.desc:0 "Le gouvernement sud-africain poursuit activement ses projets d’aménagement du territoire."
+    Hearts-of-Mod_SAF_amenagement.1.a:0 "Le développement continue."
