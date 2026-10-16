@@ -299,7 +299,7 @@ SpriteType = {
 	}
 	SpriteType = {
 		name = "GFX_portrait_yug_ambra_sarajeva_large"
-		texturefile = "gfx/Hearts-of-Mod/characters/yug/ambra_sarajevas.dds"
+		texturefile = "gfx/Hearts-of-Mod/characters/yug/ambra_sarajeva.dds"
 	}
 	SpriteType = {
 		name = "GFX_portrait_yug_luka_modric_large"

@@ -1647,8 +1647,8 @@ create_operative_leader = {
 			}
 }
 create_operative_leader = {
-			name = raj_ezra_bridgere
-			gfx = "GFX_portrait_raj_ezra_bridgere_large"
+			name = raj_ezra_bridger
+			gfx = "GFX_portrait_raj_ezra_bridger_large"
 			female = yes
 			traits = {
 				

@@ -10,3 +10,96 @@ USA = {
 	recruit_character = USA_Taylor_Swift
 
 }
+CAN = {
+	recruit_character = CAN_ariane_lachance
+
+}
+CAN = {
+	recruit_character = CAN_john_nolan
+
+}
+CAN = {
+	recruit_character = CAN_justin_trudeau
+
+}
+CAN = {
+	recruit_character = CAN_summer_mcintosh
+}
+USA = {
+	recruit_character = USA_tom_postom
+}
+USA = {
+	recruit_character = USA_scarlett_johansson
+}
+USA = {
+	recruit_character = USA_mel_gibson
+}
+USA = {
+	recruit_character = USA_john_kennedy
+}
+USA = {
+	recruit_character = USA_clint_eastwood
+}
+USA = {
+	recruit_character = USA_brad_pitt
+}
+USA = {
+	recruit_character = USA_beyonce_knowles
+}
+USA = {
+	recruit_character = USA_angelina_jolie
+}
+USA = {
+	recruit_character = USA_alexander_superarme
+	recruit_character = USA_joe_biden
+}
+MEX = {
+	recruit_character = MEX_marisol_nichols
+	recruit_character = MEX_mark_consuelos
+	recruit_character = MEX_roberto_dringo
+	recruit_character = MEX_sara_ramirez
+	recruit_character = MEX_senorita_ambra
+	recruit_character = MEX_tiago_santiago
+}
+AST = {
+	recruit_character = AST_joel_parkinson
+	recruit_character = AST_margot_robbie
+	recruit_character = AST_shanina_shaik
+	recruit_character = AST_sydney_sarge
+	recruit_character = AST_sydney_sweeney
+	recruit_character = AST_joel_edgerton
+}
+JAP = {
+	recruit_character = JAP_chiaki_kuriyama
+	recruit_character = JAP_eren_jager
+	recruit_character = JAP_geisha_zhang
+	recruit_character = JAP_jungkook_bts
+	recruit_character = JAP_mizuki_yamashita
+	recruit_character = JAP_monkey_luffy
+}
+FRA = {
+	recruit_character = FRA_claude_francois
+	recruit_character = FRA_coeur_pirate
+	recruit_character = FRA_emmanuel_macron
+	recruit_character = FRA_jacques_bellec
+	recruit_character = FRA_johnny_hallyday
+	recruit_character = FRA_joueur_du_grenier
+	recruit_character = FRA_lilou_therval
+	recruit_character = FRA_rivenzi_france
+	recruit_character = FRA_teo_legrand
+	recruit_character = FRA_zita_hauteville
+	recruit_character = FRA_ousmane_dembele
+	
+}
+ENG = {
+	recruit_character = ENG_anna_popplewell
+	recruit_character = ENG_cutler_becket
+	recruit_character = ENG_ewan_mcgregor
+	recruit_character = ENG_hercule_poiroit
+	recruit_character = ENG_kate_middleton
+	recruit_character = ENG_mia_mckenna_bruce
+	recruit_character = ENG_roi_arthur
+	recruit_character = ENG_sir_negan
+	recruit_character = ENG_taron_egerton
+
+}

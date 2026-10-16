@@ -23,4 +23,100 @@ characters = {
 			legacy_id=0
 		}
 	}
-}
+	CAN_ariane_lachance = {
+		name = CAN_ariane_lachance
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CAN_ariane_lachance_large
+				small = GFX_idea_CAN_ariane_lachance_small
+			}
+			army = {
+				large = GFX_portrait_CAN_ariane_lachance_large
+				small = GFX_idea_CAN_ariane_lachance_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	CAN_summer_mcintosh = {
+		name = CAN_summer_mcintosh
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CAN_summer_mcintosh_large
+				small = GFX_idea_CAN_summer_mcintosh_small
+			}
+			army = {
+				large = GFX_portrait_CAN_summer_mcintosh_large
+				small = GFX_idea_CAN_summer_mcintosh_small
+			}
+		}
+		navy_leader={
+		
+			
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	CAN_john_nolan = {
+		name = CAN_john_nolan
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CAN_john_nolan_large
+				small = GFX_idea_CAN_john_nolan_small
+			}
+			army = {
+				large = GFX_portrait_CAN_john_nolan_large
+				small = GFX_idea_CAN_john_nolan_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	CAN_justin_trudeau = {
+		name = CAN_justin_trudeau
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CAN_justin_trudeau_large
+				small = GFX_idea_CAN_justin_trudeau_small
+			}
+			army = {
+				large = GFX_portrait_CAN_justin_trudeau_large
+				small = GFX_idea_CAN_justin_trudeau_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	}
