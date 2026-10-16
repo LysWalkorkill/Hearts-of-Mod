@@ -1,0 +1,11 @@
+add_namespace = Hearts-of-Mod_SAF_amenagement
+country_event = {
+    id = Hearts-of-Mod_SAF_amenagement.1
+    title = Hearts-of-Mod_SAF_amenagement.1.title
+    desc = Hearts-of-Mod_SAF_amenagement.1.desc
+    picture = GFX_Hearts-of-Mod_report_event_saf1
+    is_triggered_only = yes
+    option = {
+        name = Hearts-of-Mod_SAF_amenagement.1.a
+    }
+}
