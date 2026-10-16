@@ -1,0 +1,16 @@
+hearts_of_mod_fall_of_moscow = {
+	name = "RULE_HEARTS_OF_MOD_FALL_OF_MOSCOW"
+	group = "RULE_GROUP_HEARTS_OF_MOD"
+	option = {
+		name = ENABLED
+		text = "RULE_OPTION_ENABLED"
+		desc = "RULE_OPTION_HEARTS_OF_MOD_FALL_OF_MOSCOW_ENABLED_DESC"
+		allow_achievements = no
+	}
+	default = {
+		name = DISABLED
+		text = "RULE_OPTION_DISABLED"
+		desc = "RULE_OPTION_HEARTS_OF_MOD_FALL_OF_MOSCOW_DISABLED_DESC"
+		allow_achievements = yes
+	}
+}

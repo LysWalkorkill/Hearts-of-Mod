@@ -1,0 +1,10 @@
+﻿l_french:
+    RULE_OPTION_DISABLED:0 "Désactivé"
+    RULE_OPTION_ENABLED:0 "Activé"
+
+    RULE_GROUP_HEARTS_OF_MOD:0 "Heart of Mod Francophone"
+
+    RULE_HEARTS_OF_MOD_FALL_OF_MOSCOW:0 "Chute de Moscou"
+
+    RULE_OPTION_HEARTS_OF_MOD_FALL_OF_MOSCOW_ENABLED_DESC:0 "L'événement de la chute de Moscou peut se produire."
+    RULE_OPTION_HEARTS_OF_MOD_FALL_OF_MOSCOW_DISABLED_DESC:0 "L'événement de la chute de Moscou ne se produira jamais."

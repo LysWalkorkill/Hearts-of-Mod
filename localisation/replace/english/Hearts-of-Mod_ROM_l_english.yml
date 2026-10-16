@@ -1,0 +1,30 @@
+﻿l_english:
+    rom_adrien_laurent:0 "Adrien Laurent"
+    rom_lea_mary:0 "Léa Mary"
+    rom_lena_mahfouf:0 "Léna Situation"
+    rom_nabilla_verzane:0 "Nabilla Vergara"
+    rom_sebastien_dubois:0 "Seby Daddy"
+    rom_thibault_garcia:0 "Thibault Garcia"
+
+    # Industry
+    ROM_continuer_programme_industrie_1:0 "Continue the Romanian industry program"
+    ROM_continuer_programme_industrie_2:0 "Finish construction of the factory in Galați"
+    ROM_continuer_programme_industrie_3:0 "Finish construction of the factory in Bazargic"
+    ROM_continuer_programme_industrie_4:0 "Finish construction of the factory in Craiova"
+    ROM_continuer_programme_industrie_5:0 "Finish construction of the factory in Timișoara"
+    ROM_achever_programme_industriel:0 "Complete the Romanian industrial program"
+
+    Hearts-of-Mod_ROM_industrie.1.title:0 "Industrialization Progress"
+    Hearts-of-Mod_ROM_industrie.1.desc:0 "Romania has just taken a new significant step in its ambitious industrialization program, confirming its desire to rapidly modernize its economy.\n\n“We are moving forward with determination,” declared a government representative. “Each step we take brings us closer to a more solid and independent future.”\n\nObservers also note an improvement in production conditions and a rise in worker skills, essential elements to support this rapid growth."
+    Hearts-of-Mod_ROM_industrie.1.a:0 "This is only the beginning!"
+
+    Hearts-of-Mod_ROM_industrie.2.title:0 "Industrial Program Completed"
+    Hearts-of-Mod_ROM_industrie.2.desc:0 "In an announcement that is causing a stir across Europe, Romania has officially declared that it has completed the final phase of its industrialization program… 15 years ahead of the initial schedule.\n\n“They were the ones who carried this project, day after day,” declared a government representative. “Their courage, their endurance and their determination made it possible to achieve what seemed impossible.”\n\nAmong the public, a feeling of national pride can be felt, with many considering that Romanian workers have shown exceptional bravery in the face of the challenges encountered."
+    Hearts-of-Mod_ROM_industrie.2.a:0 "Romania rose to the occasion!!"
+
+    # Dracula
+    ROM_enqueter_affaire_dracula:0 "Investigate the Dracula affair"
+
+    Hearts-of-Mod_ROM_dracula.1.title:0 "The Dracula Affair"
+    Hearts-of-Mod_ROM_dracula.1.desc:0 "A most strange testimony is currently stirring up a small region of Transylvania. An inhabitant claims to have encountered, in the middle of the night, a figure he identifies as the legendary Dracula, in the ruins of an old castle.\n\nIn an excerpt from his interview, he recounts:\n“I swear to you… there was someone up there. Not like the rest of us. He moved without a sound, and his eyes… I saw them shining in the dark. I suddenly felt a cold, as if the air had frozen around me.”"
+    Hearts-of-Mod_ROM_dracula.1.a:0 "The investigation continues..."

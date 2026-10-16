@@ -1,7 +1,30 @@
 ﻿l_french:
-  rom_adrien_laurent:0 "Adrien Laurent"
-  rom_lea_mary:0 "Léa Mary"
-  rom_lena_mahfouf:0 "Léna Situation"
-  rom_nabilla_verzane:0 "Nabilla Vergara"
-  rom_sebastien_dubois:0 "Seby Daddy"
-  rom_thibault_garcia:0 "Thibault Garcia"
+    rom_adrien_laurent:0 "Adrien Laurent"
+    rom_lea_mary:0 "Léa Mary"
+    rom_lena_mahfouf:0 "Léna Situation"
+    rom_nabilla_verzane:0 "Nabilla Vergara"
+    rom_sebastien_dubois:0 "Seby Daddy"
+    rom_thibault_garcia:0 "Thibault Garcia"
+
+    # Industrie
+    ROM_continuer_programme_industrie_1:0 "Continuer le programme d'industrie roumain"
+    ROM_continuer_programme_industrie_2:0 "Finir la construction de l'usine à Galați"
+    ROM_continuer_programme_industrie_3:0 "Finir la construction de l'usine à Bazargic"
+    ROM_continuer_programme_industrie_4:0 "Finir la construction de l'usine à Craiova"
+    ROM_continuer_programme_industrie_5:0 "Finir la construction de l'usine à Timișoara"
+    ROM_achever_programme_industriel:0 "Achever le programme industriel Roumain"
+
+    Hearts-of-Mod_ROM_industrie.1.title:0 "Progrès de l'industrialisation"
+    Hearts-of-Mod_ROM_industrie.1.desc:0 "La Roumanie vient de franchir une nouvelle étape significative dans son ambitieux programme d’industrialisation, confirmant sa volonté de moderniser rapidement son économie.\n\n« Nous avançons avec détermination », a déclaré un représentant du gouvernement. « Chaque étape franchie nous rapproche d’un avenir plus solide et plus indépendant. »\n\nLes observateurs notent également une amélioration des conditions de production et une montée en compétence des travailleurs, éléments essentiels pour soutenir cette croissance rapide."
+    Hearts-of-Mod_ROM_industrie.1.a:0 "Ce n'est que le début !"
+
+    Hearts-of-Mod_ROM_industrie.2.title:0 "Programme industriel achevé"
+    Hearts-of-Mod_ROM_industrie.2.desc:0 "Dans une annonce qui fait grand bruit à travers l’Europe, la Roumanie a officiellement déclaré avoir achevé la phase finale de son programme d’industrialisation… avec une avance de 15 ans sur le calendrier initial.\n\n« Ce sont eux qui ont porté ce projet, jour après jour », a déclaré un représentant du gouvernement. « Leur courage, leur endurance et leur détermination ont permis de réaliser ce qui semblait impossible. »\n\nDans l’opinion publique, un sentiment de fierté nationale se fait sentir, beaucoup considérant que les ouvriers roumains ont fait preuve d’une bravoure exceptionnelle face aux défis rencontrés."
+    Hearts-of-Mod_ROM_industrie.2.a:0 "La Roumanie a été à la hauteur !!"
+
+    # Dracula
+    ROM_enqueter_affaire_dracula:0 "Enquêter sur l'affaire Dracula"
+
+    Hearts-of-Mod_ROM_dracula.1.title:0 "L'affaire Dracula"
+    Hearts-of-Mod_ROM_dracula.1.desc:0 "Un témoignage pour le moins étrange agite actuellement une petite région de Transylvanie. Un habitant affirme avoir croisé, en pleine nuit, une silhouette qu’il identifie comme étant le légendaire Dracula, dans les ruines d’un ancien château.\n\nDans un extrait de son interview, il raconte :\n« Je vous jure… y’avait quelqu’un là-haut. Pas comme nous autres. Il bougeait sans bruit, et ses yeux… j’les ai vus briller dans le noir. J’ai senti un froid d’un coup, comme si l’air s’était figé autour de moi. »"
+    Hearts-of-Mod_ROM_dracula.1.a:0 "L'enquête se poursuit..."
