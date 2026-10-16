@@ -62,7 +62,7 @@ if = {
 		create_operative_leader = {
 			name = AST_jerry_lewis
 			gfx = "GFX_portrait_ast_jerry_lewis_large"
-			female = yes
+			female = no
 			traits = {
 				
 			}
