@@ -1,0 +1,235 @@
+economy_decisions = {
+	YUG_continuer_grande_yougoslavie_1 = {
+		name = YUG_continuer_grande_yougoslavie
+		icon = GFX_decision_generic_construction
+		allowed = { original_tag = YUG }
+		visible = { 
+			NOT = { has_country_flag = YUG_continuer_grande_yougoslavie_1 } 
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 15
+		available = {
+			107 = {
+				is_owned_and_controlled_by = ROOT
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+			}
+		}
+		cancel_trigger = {
+			107 = {
+				NOT = {
+					is_owned_and_controlled_by = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+			}
+		}
+		remove_effect = {
+			107 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			hidden_effect = { set_country_flag = YUG_continuer_grande_yougoslavie_1 }
+			country_event = { id = Hearts-of-Mod_YUG_industrie.1 days = 0 }
+		}
+	}
+	
+	YUG_continuer_grande_yougoslavie_2 = {
+		name = YUG_continuer_grande_yougoslavie
+		icon = GFX_decision_generic_construction
+		allowed = { original_tag = YUG }
+		visible = { 
+			has_country_flag = YUG_continuer_grande_yougoslavie_1
+			NOT = { has_country_flag = YUG_continuer_grande_yougoslavie_2 } 
+		}
+		fire_only_once = yes
+		cost = 75
+		days_remove = 15
+		available = {
+			104 = {
+				is_owned_and_controlled_by = ROOT
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+			}
+		}
+		cancel_trigger = {
+			104 = {
+				NOT = {
+					is_owned_and_controlled_by = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+			}
+		}
+		remove_effect = {
+			104 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			hidden_effect = { set_country_flag = YUG_continuer_grande_yougoslavie_2 }
+			country_event = { id = Hearts-of-Mod_YUG_industrie.1 days = 0 }
+		}
+	}
+
+	YUG_continuer_grande_yougoslavie_3 = {
+		name = YUG_continuer_grande_yougoslavie
+		icon = GFX_decision_generic_construction
+		allowed = { original_tag = YUG }
+		visible = { 
+			has_country_flag = YUG_continuer_grande_yougoslavie_2
+			NOT = { has_country_flag = YUG_continuer_grande_yougoslavie_3 } 
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 15
+		available = {
+			109 = {
+				is_owned_and_controlled_by = ROOT
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+			}
+		}
+		cancel_trigger = {
+			109 = {
+				NOT = {
+					is_owned_and_controlled_by = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+			}
+		}
+		remove_effect = {
+			109 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			hidden_effect = { set_country_flag = YUG_continuer_grande_yougoslavie_3 }
+			country_event = { id = Hearts-of-Mod_YUG_industrie.1 days = 0 }
+		}
+	}
+
+	YUG_continuer_grande_yougoslavie_4 = {
+		name = YUG_continuer_grande_yougoslavie
+		icon = GFX_decision_generic_construction
+		allowed = { original_tag = YUG }
+		visible = { 
+			has_country_flag = YUG_continuer_grande_yougoslavie_3
+			NOT = { has_country_flag = YUG_continuer_grande_yougoslavie_4 } 
+		}
+		fire_only_once = yes
+		cost = 125
+		days_remove = 15
+		available = {
+			802 = {
+				is_owned_and_controlled_by = ROOT
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+			}
+		}
+		cancel_trigger = {
+			802 = {
+				NOT = {
+					is_owned_and_controlled_by = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+			}
+		}
+		remove_effect = {
+			802 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			hidden_effect = { set_country_flag = YUG_continuer_grande_yougoslavie_4 }
+			country_event = { id = Hearts-of-Mod_YUG_industrie.1 days = 0 }
+		}
+	}
+
+	YUG_continuer_grande_yougoslavie_5 = {
+		name = YUG_continuer_grande_yougoslavie
+		icon = GFX_decision_generic_construction
+		allowed = { original_tag = YUG }
+		visible = { 
+			has_country_flag = YUG_continuer_grande_yougoslavie_4
+			NOT = { has_country_flag = YUG_continuer_grande_yougoslavie_5 } 
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 15
+		available = {
+			108 = {
+				is_owned_and_controlled_by = ROOT
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+			}
+		}
+		cancel_trigger = {
+			108 = {
+				NOT = {
+					is_owned_and_controlled_by = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+			}
+		}
+		remove_effect = {
+			108 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			hidden_effect = { set_country_flag = YUG_continuer_grande_yougoslavie_5 }
+			country_event = { id = Hearts-of-Mod_YUG_industrie.1 days = 0 }
+		}
+	}
+}

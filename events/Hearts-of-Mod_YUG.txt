@@ -1,0 +1,11 @@
+add_namespace = Hearts-of-Mod_YUG_industrie
+country_event = {
+    id = Hearts-of-Mod_YUG_industrie.1
+    title = Hearts-of-Mod_YUG_industrie.1.title
+    desc = Hearts-of-Mod_YUG_industrie.1.desc
+    picture = GFX_Hearts-of-Mod_report_event_yug1
+    is_triggered_only = yes
+    option = {
+        name = Hearts-of-Mod_YUG_industrie.1.a
+    }
+}
