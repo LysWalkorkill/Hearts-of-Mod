@@ -1,0 +1,146 @@
+characters = {
+    MEX_marisol_nichols = {
+		name = MEX_marisol_nichols
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MEX_marisol_nichols_large
+				small = GFX_idea_MEX_marisol_nichols_small
+			}
+			army = {
+				large = GFX_portrait_MEX_marisol_nichols_large
+				small = GFX_idea_MEX_marisol_nichols_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=5
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    MEX_mark_consuelos = {
+		name = MEX_mark_consuelos
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MEX_mark_consuelos_large
+				small = GFX_idea_MEX_mark_consuelos_small
+			}
+			army = {
+				large = GFX_portrait_MEX_mark_consuelos_large
+				small = GFX_idea_MEX_mark_consuelos_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    MEX_roberto_dringo = {
+		name = MEX_roberto_dringo
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MEX_roberto_dringo_large
+				small = GFX_idea_MEX_roberto_dringo_small
+			}
+			army = {
+				large = GFX_portrait_MEX_roberto_dringo_large
+				small = GFX_idea_MEX_roberto_dringo_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=5
+			attack_skill=5
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+    MEX_sara_ramirez = {
+		name = MEX_sara_ramirez
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MEX_sara_ramirez_large
+				small = GFX_idea_MEX_sara_ramirez_small
+			}
+			army = {
+				large = GFX_portrait_MEX_sara_ramirez_large
+				small = GFX_idea_MEX_sara_ramirez_small
+			}
+		}
+		navy_leader={
+		
+			
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    MEX_senorita_ambra = {
+		name = MEX_senorita_ambra
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MEX_senorita_ambra_large
+				small = GFX_idea_MEX_senorita_ambra_small
+			}
+			army = {
+				large = GFX_portrait_MEX_senorita_ambra_large
+				small = GFX_idea_MEX_senorita_ambra_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    MEX_tiago_santiago = {
+		name = MEX_tiago_santiago
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MEX_tiago_santiago_large
+				small = GFX_idea_MEX_tiago_santiago_small
+			}
+			army = {
+				large = GFX_portrait_MEX_tiago_santiago_large
+				small = GFX_idea_MEX_tiago_santiago_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=5
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+}

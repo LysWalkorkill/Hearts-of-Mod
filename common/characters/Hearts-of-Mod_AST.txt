@@ -1,0 +1,146 @@
+characters = {
+	AST_joel_parkinson = {
+		name = AST_joel_parkinson
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AST_joel_parkinson_large
+				small = GFX_idea_AST_joel_parkinson_small
+			}
+			army = {
+				large = GFX_portrait_AST_joel_parkinson_large
+				small = GFX_idea_AST_joel_parkinson_small
+			}
+		}
+		navy_leader={
+		
+			
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+        }
+        AST_shanina_shaik = {
+		name = AST_shanina_shaik
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AST_shanina_shaik_large
+				small = GFX_idea_AST_shanina_shaik_small
+			}
+			army = {
+				large = GFX_portrait_AST_shanina_shaik_large
+				small = GFX_idea_AST_shanina_shaik_small
+			}
+		}
+		navy_leader={
+		
+			
+			skill=5
+			attack_skill=5
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=6
+			legacy_id=0
+		}
+        }
+         AST_margot_robbie = {
+		name = AST_margot_robbie
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AST_margot_robbie_large
+				small = GFX_idea_AST_margot_robbie_small
+			}
+			army = {
+				large = GFX_portrait_AST_margot_robbie_large
+				small = GFX_idea_AST_margot_robbie_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=4
+			attack_skill=5
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+        }
+        AST_sydney_sarge = {
+		name = AST_sydney_sarge
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AST_sydney_sarge_large
+				small = GFX_idea_AST_sydney_sarge_small
+			}
+			army = {
+				large = GFX_portrait_AST_sydney_sarge_large
+				small = GFX_idea_AST_sydney_sarge_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=6
+			legacy_id=0
+		}
+        }
+        AST_sydney_sweeney = {
+		name = AST_sydney_sweeney
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AST_sydney_sweeney_large
+				small = GFX_idea_AST_sydney_sweeney_small
+			}
+			army = {
+				large = GFX_portrait_AST_sydney_sweeney_large
+				small = GFX_idea_AST_sydney_sweeney_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=5
+			attack_skill=6
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=5
+			legacy_id=0
+		}
+        }
+        AST_joel_edgerton = {
+		name = AST_joel_edgerton
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AST_joel_edgerton_large
+				small = GFX_idea_AST_joel_edgerton_small
+			}
+			army = {
+				large = GFX_portrait_AST_joel_edgerton_large
+				small = GFX_idea_AST_joel_edgerton_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=0
+		}
+        }
+        }

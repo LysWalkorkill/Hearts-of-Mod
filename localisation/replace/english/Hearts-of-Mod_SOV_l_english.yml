@@ -1,7 +1,20 @@
 ﻿l_english:
-    # Mita 
+    sov_cobra_ivanova:0 "Cobra Ivanova"
+    sov_kamila_zusje:0 "Kamila Zusje"
+    sov_liisa_sevrodonesk:0 "Liisa Sevrodonesk"
+    sov_naomia_brejnev:0 "Naomia Brejnev"
+    sov_natasha_poly:0 "Natasha Polyakova"
+    sov_sasha_luss:0 "Sasha Luss"
+    sov_sergei_cheffa:0 "Sergei Cheffa"
+    sov_tatiana_kurtukova:0 "Tatiana Kurtukova"
+    sov_vladimir_poutine:0 "Vladimir Putin"
     SOV_Mita: "Mita"
+    SOV_Katyusha:0 "Katyusha"
 
-    Hearts-of-Mod_SOV_Mita.1.title: "[this_character.GetName] appointed head of state"
-    Hearts-of-Mod_SOV_Mita.1.desc: "$VICTORY_POINTS_6380$ has fallen. As the enemy advances and [this_country.GetNameDef] teeters on the brink of collapse, an unexpected figure has stepped forward to take the reins of the country. [this_character.GetName], previously unknown in the corridors of power [this_country.GetAdjMS], has been proclaimed the new leader. In the streets, one question remains: can [this_character.GetSheHe] save [this_country.GetNameDef] from its downfall?"
-    Hearts-of-Mod_SOV_Mita.1.a: "[this_character.GetSheHeCap] will lead the country until the end."
+    # Fall of Moscow
+    Hearts-of-Mod_SOV_Chute_Moscou.1.title: "[this_character.GetName] appointed head of state"
+    Hearts-of-Mod_SOV_Chute_Moscou.1.desc: "$VICTORY_POINTS_6380$ has fallen. As the enemy advances and [this_country.GetNameDef] teeters on the brink of collapse, an unexpected figure has stepped forward to take the reins of the country. [this_character.GetName], previously unknown in the corridors of power [this_country.GetAdjective], has been proclaimed the new leader. In the streets, one question remains: can [this_character.GetSheHe] save [this_country.GetNameDef] from its downfall?"
+    Hearts-of-Mod_SOV_Chute_Moscou.1.a: "[this_character.GetSheHeCap] will lead the country until the end."
+
+    
+    

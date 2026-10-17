@@ -1,0 +1,294 @@
+economy_decisions = {
+	SAF_amenager_territoire_1 = {
+		name = SAF_amenager_territoire
+		icon = GFX_decision_generic_construction
+		allowed = { original_tag = SAF }
+		visible = { 
+			NOT = { has_country_flag = SAF_amenager_territoire_1 }
+		}
+		fire_only_once = no
+		cost = 25
+		days_remove = 15
+		ai_will_do = {
+			base = 2
+		}
+		available = {
+			any_owned_state = {
+				is_core_of = SAF
+				is_controlled_by = ROOT
+			}
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_owned_by = ROOT
+				is_core_of = SAF
+			}
+		}
+
+		cancel_trigger = {
+			all_owned_state = {
+				NOT = {
+					is_core_of = SAF
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		remove_effect = {
+			random_owned_state = {
+				limit = {
+					is_core_of = SAF
+					is_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			hidden_effect = { set_country_flag = SAF_amenager_territoire_1 }
+			country_event = { id = Hearts-of-Mod_SAF_amenagement.1 days = 0 }
+		}
+	}
+	
+	SAF_amenager_territoire_2 = {
+		name = SAF_amenager_territoire
+		icon = GFX_decision_generic_construction
+		allowed = { original_tag = SAF }
+		visible = { 
+			has_country_flag = SAF_amenager_territoire_1
+			NOT = { has_country_flag = SAF_amenager_territoire_2 }
+		}
+		fire_only_once = no
+		cost = 50
+		days_remove = 15
+		ai_will_do = {
+			base = 2
+		}
+		available = {
+			any_owned_state = {
+				is_core_of = SAF
+				is_controlled_by = ROOT
+			}
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_owned_by = ROOT
+				is_core_of = SAF
+			}
+		}
+
+		cancel_trigger = {
+			all_owned_state = {
+				NOT = {
+					is_core_of = SAF
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		remove_effect = {
+			random_owned_state = {
+				limit = {
+					is_core_of = SAF
+					is_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			hidden_effect = { set_country_flag = SAF_amenager_territoire_2 }
+			country_event = { id = Hearts-of-Mod_SAF_amenagement.1 days = 0 }
+		}
+	}
+
+	SAF_amenager_territoire_3 = {
+		name = SAF_amenager_territoire
+		icon = GFX_decision_generic_construction
+		allowed = { original_tag = SAF }
+		visible = { 
+			has_country_flag = SAF_amenager_territoire_2
+			NOT = { has_country_flag = SAF_amenager_territoire_3 }
+		}
+		fire_only_once = no
+		cost = 75
+		days_remove = 15
+		ai_will_do = {
+			base = 2
+		}
+		available = {
+			any_owned_state = {
+				is_core_of = SAF
+				is_controlled_by = ROOT
+			}
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_owned_by = ROOT
+				is_core_of = SAF
+			}
+		}
+
+		cancel_trigger = {
+			all_owned_state = {
+				NOT = {
+					is_core_of = SAF
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		remove_effect = {
+			random_owned_state = {
+				limit = {
+					is_core_of = SAF
+					is_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			hidden_effect = { set_country_flag = SAF_amenager_territoire_3 }
+			country_event = { id = Hearts-of-Mod_SAF_amenagement.1 days = 0 }
+		}
+	}
+
+	SAF_amenager_territoire_4 = {
+		name = SAF_amenager_territoire
+		icon = GFX_decision_generic_construction
+		allowed = { original_tag = SAF }
+		visible = { 
+			has_country_flag = SAF_amenager_territoire_3
+			NOT = { has_country_flag = SAF_amenager_territoire_4 }
+		}
+		fire_only_once = no
+		cost = 100
+		days_remove = 15
+		ai_will_do = {
+			base = 2
+		}
+		available = {
+			any_owned_state = {
+				is_core_of = SAF
+				is_controlled_by = ROOT
+			}
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_owned_by = ROOT
+				is_core_of = SAF
+			}
+		}
+
+		cancel_trigger = {
+			all_owned_state = {
+				NOT = {
+					is_core_of = SAF
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		remove_effect = {
+			random_owned_state = {
+				limit = {
+					is_core_of = SAF
+					is_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			hidden_effect = { set_country_flag = SAF_amenager_territoire_3 }
+			country_event = { id = Hearts-of-Mod_SAF_amenagement.1 days = 0 }
+		}
+	}
+
+	SAF_amenager_territoire_5 = {
+		name = SAF_amenager_territoire
+		icon = GFX_decision_generic_construction
+		allowed = { original_tag = SAF }
+		visible = { 
+			has_country_flag = SAF_amenager_territoire_4
+			NOT = { has_country_flag = SAF_amenager_territoire_5 }
+		}
+		fire_only_once = no
+		cost = 100
+		days_remove = 15
+		ai_will_do = {
+			base = 2
+		}
+		available = {
+			any_owned_state = {
+				is_core_of = SAF
+				is_controlled_by = ROOT
+			}
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_owned_by = ROOT
+				is_core_of = SAF
+			}
+		}
+
+		cancel_trigger = {
+			all_owned_state = {
+				NOT = {
+					is_core_of = SAF
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		remove_effect = {
+			random_owned_state = {
+				limit = {
+					is_core_of = SAF
+					is_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			hidden_effect = { set_country_flag = SAF_amenager_territoire_5 }
+			country_event = { id = Hearts-of-Mod_SAF_amenagement.1 days = 0 }
+		}
+	}
+
+	SAF_amenager_territoire_6 = {
+		name = SAF_amenager_territoire
+		icon = GFX_decision_generic_construction
+		allowed = { original_tag = SAF }
+		visible = { 
+			has_country_flag = SAF_amenager_territoire_5
+			NOT = { has_country_flag = SAF_amenager_territoire_6 }
+		}
+		fire_only_once = no
+		cost = 100
+		days_remove = 15
+		ai_will_do = {
+			base = 2
+		}
+		available = {
+			any_owned_state = {
+				is_core_of = SAF
+				is_controlled_by = ROOT
+			}
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				is_owned_by = ROOT
+				is_core_of = SAF
+			}
+		}
+		
+		cancel_trigger = {
+			all_owned_state = {
+				NOT = {
+					is_core_of = SAF
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		remove_effect = {
+			random_owned_state = {
+				limit = {
+					is_core_of = SAF
+					is_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			hidden_effect = { set_country_flag = SAF_amenager_territoire_6 }
+			country_event = { id = Hearts-of-Mod_SAF_amenagement.1 days = 0 }
+		}
+	}
+}

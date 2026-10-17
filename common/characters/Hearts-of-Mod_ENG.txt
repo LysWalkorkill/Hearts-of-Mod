@@ -1,0 +1,218 @@
+characters = {
+	ENG_anna_popplewell = {
+		name = ENG_anna_popplewell
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_anna_popplewell_large
+				small = GFX_idea_ENG_anna_popplewell_small
+			}
+			army = {
+				large = GFX_portrait_ENG_anna_popplewell_large
+				small = GFX_idea_ENG_anna_popplewell_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    ENG_cutler_becket = {
+		name = ENG_cutler_becket
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_cutler_becket_large
+				small = GFX_idea_ENG_cutler_becket_small
+			}
+			army = {
+				large = GFX_portrait_ENG_cutler_becket_large
+				small = GFX_idea_ENG_cutler_becket_small
+			}
+		}
+		navy_leader={
+		
+			
+			skill=3
+			attack_skill=6
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    ENG_ewan_mcgregor = {
+		name = ENG_ewan_mcgregor
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_ewan_mcgregor_large
+				small = GFX_idea_ENG_ewan_mcgregor_small
+			}
+			army = {
+				large = GFX_portrait_ENG_ewan_mcgregor_large
+				small = GFX_idea_ENG_ewan_mcgregor_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=2
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    ENG_hercule_poiroit = {
+		name = ENG_hercule_poiroit
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_hercule_poiroit_large
+				small = GFX_idea_ENG_hercule_poiroit_small
+			}
+			army = {
+				large = GFX_portrait_ENG_hercule_poiroit_large
+				small = GFX_idea_ENG_hercule_poiroit_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=3
+			attack_skill=3
+			defense_skill=6
+			planning_skill=6
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+      ENG_kate_middleton = {
+		name = ENG_kate_middleton
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_kate_middleton_large
+				small = GFX_idea_ENG_kate_middleton_small
+			}
+			army = {
+				large = GFX_portrait_ENG_kate_middleton_large
+				small = GFX_idea_ENG_kate_middleton_small
+			}
+		}
+		navy_leader={
+		
+			
+			skill=4
+			attack_skill=3
+			defense_skill=6
+			planning_skill=5
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+    ENG_mia_mckenna_bruce = {
+		name = ENG_mia_mckenna_bruce
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_mia_mckenna_bruce_large
+				small = GFX_idea_ENG_mia_mckenna_bruce_small
+			}
+			army = {
+				large = GFX_portrait_ENG_mia_mckenna_bruce_large
+				small = GFX_idea_ENG_mia_mckenna_bruce_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=4
+			attack_skill=4
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+    ENG_roi_arthur = {
+		name = ENG_roi_arthur
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_roi_arthur_large
+				small = GFX_idea_ENG_roi_arthur_small
+			}
+			army = {
+				large = GFX_portrait_ENG_roi_arthur_large
+				small = GFX_idea_ENG_roi_arthur_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=2
+			attack_skill=5
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    ENG_sir_negan = {
+		name = ENG_sir_negan
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_sir_negan_large
+				small = GFX_idea_ENG_sir_negan_small
+			}
+			army = {
+				large = GFX_portrait_ENG_sir_negan_large
+				small = GFX_idea_ENG_sir_negan_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=3
+			attack_skill=6
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    ENG_taron_egerton = {
+		name = ENG_taron_egerton
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_taron_egerton_large
+				small = GFX_idea_ENG_taron_egerton_small
+			}
+			army = {
+				large = GFX_portrait_ENG_taron_egerton_large
+				small = GFX_idea_ENG_taron_egerton_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=2
+			attack_skill=3
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=6
+			legacy_id=0
+		}
+	}
+    }

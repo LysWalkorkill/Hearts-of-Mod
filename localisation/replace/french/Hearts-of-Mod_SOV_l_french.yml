@@ -1,7 +1,18 @@
 ﻿l_french:
-    # Mita
+    sov_cobra_ivanova:0 "Cobra Ivanova"
+    sov_kamila_zusje:0 "Kamila Zusje"
+    sov_liisa_sevrodonesk:0 "Liisa Sevrodonesk"
+    sov_naomia_brejnev:0 "Naomia Brejnev"
+    sov_natasha_poly:0 "Natasha Polyakova"
+    sov_sasha_luss:0 "Sasha Luss"
+    sov_sergei_cheffa:0 "Sergei Cheffa"
+    sov_tatiana_kurtukova:0 "Tatiana Kurtukova"
+    sov_vladimir_poutine:0 "Vladimir Poutine"
     SOV_Mita:0 "Mita"
+    SOV_Katyusha:0 "Katyusha"
 
-    Hearts-of-Mod_SOV_Mita.1.title:0 "[this_character.GetName] promue cheffe du pays"
-    Hearts-of-Mod_SOV_Mita.1.desc:0 "$VICTORY_POINTS_6380$ est tombée. Alors que l'ennemi avance et que [this_country.GetNameDef] vacille au bord de l'effondrement, une figure inattendue s'est dressée pour prendre les rênes du pays. [this_character.GetName], jusqu'alors inconnue du pouvoir [this_country.GetAdjMS], a été proclamée nouvelle dirigeante. Dans les rues, une question demeure : peut-[this_character.GetSheHe] sauver [this_country.GetNameDef] de sa chute ?"
-    Hearts-of-Mod_SOV_Mita.1.a:0 "[this_character.GetSheHeCap] dirigera le pays jusqu'au bout."
+    # Chute de Moscou
+    Hearts-of-Mod_SOV_Chute_Moscou.1.title:0 "[this_character.GetName] promue cheffe du pays"
+    Hearts-of-Mod_SOV_Chute_Moscou.1.desc:0 "$VICTORY_POINTS_6380$ est tombée. Alors que l'ennemi avance et que [this_country.GetNameDef] vacille au bord de l'effondrement, une figure inattendue s'est dressée pour prendre les rênes du pays. [this_character.GetName], jusqu'alors inconnue du pouvoir [this_country.GetAdjMS], a été proclamée nouvelle dirigeante. Dans les rues, une question demeure : peut-[this_character.GetSheHe] sauver [this_country.GetNameDef] de sa chute ?"
+    Hearts-of-Mod_SOV_Chute_Moscou.1.a:0 "[this_character.GetSheHeCap] dirigera le pays jusqu'au bout."
+    

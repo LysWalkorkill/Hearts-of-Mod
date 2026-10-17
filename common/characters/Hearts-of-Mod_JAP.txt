@@ -1,0 +1,146 @@
+characters = {
+	JAP_chiaki_kuriyama = {
+		name = JAP_chiaki_kuriyama
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_chiaki_kuriyama_large
+				small = GFX_idea_JAP_chiaki_kuriyama_small
+			}
+			army = {
+				large = GFX_portrait_JAP_chiaki_kuriyama_large
+				small = GFX_idea_JAP_chiaki_kuriyama_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=4
+			attack_skill=4
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=5
+			legacy_id=0
+		}
+        }
+        JAP_eren_jager = {
+		name = JAP_eren_jager
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_eren_jager_large
+				small = GFX_idea_JAP_eren_jager_small
+			}
+			army = {
+				large = GFX_portrait_JAP_eren_jager_large
+				small = GFX_idea_JAP_eren_jager_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=6
+			attack_skill=7
+			defense_skill=4
+			planning_skill=6
+			logistics_skill=5
+			legacy_id=0
+		}
+        }
+        JAP_geisha_zhang = {
+		name = JAP_geisha_zhang
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_geisha_zhang_large
+				small = GFX_idea_JAP_geisha_zhang_small
+			}
+			army = {
+				large = GFX_portrait_JAP_geisha_zhang_large
+				small = GFX_idea_JAP_geisha_zhang_small
+			}
+		}
+		navy_leader={
+		
+			
+			skill=5
+			attack_skill=6
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=5
+			legacy_id=0
+		}
+        }
+        JAP_jungkook_bts = {
+		name = JAP_jungkook_bts
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_jungkook_bts_large
+				small = GFX_idea_JAP_jungkook_bts_small
+			}
+			army = {
+				large = GFX_portrait_JAP_jungkook_bts_large
+				small = GFX_idea_JAP_jungkook_bts_small
+			}
+		}
+		navy_leader={
+		
+			
+			skill=4
+			attack_skill=5
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+        }
+        JAP_mizuki_yamashita = {
+		name = JAP_mizuki_yamashita
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_mizuki_yamashita_large
+				small = GFX_idea_JAP_mizuki_yamashita_small
+			}
+			army = {
+				large = GFX_portrait_JAP_mizuki_yamashita_large
+				small = GFX_idea_JAP_mizuki_yamashita_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=3
+			attack_skill=5
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+        }
+        JAP_monkey_luffy = {
+		name = JAP_monkey_luffy
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_monkey_luffy_large
+				small = GFX_idea_JAP_monkey_luffy_small
+			}
+			army = {
+				large = GFX_portrait_JAP_monkey_luffy_large
+				small = GFX_idea_JAP_monkey_luffy_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=5
+			legacy_id=0
+		}
+        }
+        }

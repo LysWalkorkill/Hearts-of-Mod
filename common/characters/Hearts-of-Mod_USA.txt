@@ -1,0 +1,266 @@
+characters = {
+	USA_Taylor_Swift = {
+		name = USA_Taylor_Swift
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_Taylor_Swift_large
+				small = GFX_idea_USA_Taylor_Swift_small
+			}
+			army = {
+				large = GFX_portrait_USA_Taylor_Swift_large
+				small = GFX_idea_USA_Taylor_Swift_small
+			}
+		}
+		corps_commander={
+		
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+	USA_tom_postom = {
+		name = USA_tom_postom
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_tom_postom_large
+				small = GFX_idea_USA_tom_postom_small
+			}
+			army = {
+				large = GFX_portrait_USA_tom_postom_large
+				small = GFX_idea_USA_tom_postom_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=5
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	USA_scarlett_johansson = {
+		name = USA_scarlett_johansson
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_scarlett_johansson_large
+				small = GFX_idea_USA_scarlett_johansson_small
+			}
+			army = {
+				large = GFX_portrait_USA_scarlett_johansson_large
+				small = GFX_idea_USA_scarlett_johansson_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=3
+			attack_skill=2
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	USA_mel_gibson = {
+		name = USA_mel_gibson
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_mel_gibson_large
+				small = GFX_idea_USA_mel_gibson_small
+			}
+			army = {
+				large = GFX_portrait_USA_mel_gibson_large
+				small = GFX_idea_USA_mel_gibson_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	USA_john_kennedy = {
+		name = USA_john_kennedy
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_john_kennedy_large
+				small = GFX_idea_USA_john_kennedy_small
+			}
+			army = {
+				large = GFX_portrait_USA_john_kennedy_large
+				small = GFX_idea_USA_john_kennedy_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	USA_clint_eastwood = {
+		name = USA_clint_eastwood
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_clint_eastwood_large
+				small = GFX_idea_USA_clint_eastwood_small
+			}
+			army = {
+				large = GFX_portrait_USA_clint_eastwood_large
+				small = GFX_idea_USA_clint_eastwood_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	USA_brad_pitt = {
+		name = USA_brad_pitt
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_brad_pitt_large
+				small = GFX_idea_USA_brad_pitt_small
+			}
+			army = {
+				large = GFX_portrait_USA_brad_pitt_large
+				small = GFX_idea_USA_brad_pitt_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=4
+			attack_skill=6
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	USA_beyonce_knowles = {
+		name = USA_beyonce_knowles
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_beyonce_knowles_large
+				small = GFX_idea_USA_beyonce_knowles_small
+			}
+			army = {
+				large = GFX_portrait_USA_beyonce_knowles_large
+				small = GFX_idea_USA_beyonce_knowles_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=4
+			attack_skill=3
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	USA_angelina_jolie = {
+		name = USA_angelina_jolie
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_angelina_jolie_large
+				small = GFX_idea_USA_angelina_jolie_small
+			}
+			army = {
+				large = GFX_portrait_USA_angelina_jolie_large
+				small = GFX_idea_USA_angelina_jolie_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+	USA_alexander_superarme = {
+		name = USA_alexander_superarme
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_alexander_superarme_large
+				small = GFX_idea_USA_alexander_superarme_small
+			}
+			army = {
+				large = GFX_portrait_USA_alexander_superarme_large
+				small = GFX_idea_USA_alexander_superarme_small
+			}
+		}
+		navy_leader={
+		
+			
+			skill=4
+			attack_skill=5
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	USA_joe_biden = {
+		name = USA_joe_biden
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_joe_biden_large
+				small = GFX_idea_USA_joe_biden_small
+			}
+			army = {
+				large = GFX_portrait_USA_joe_biden_large
+				small = GFX_idea_USA_joe_biden_small
+			}
+		}
+		navy_leader={
+		
+			
+			skill=4
+			attack_skill=3
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+}

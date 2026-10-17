@@ -33,4 +33,35 @@ characters = {
 			legacy_id=0
 		}
 	}
+	
+	SOV_Katyusha = {
+		name = SOV_Katyusha
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_Katyusha_large
+				small = GFX_idea_SOV_Katyusha_small
+			}
+			army = {
+				large = GFX_portrait_SOV_Katyusha_large
+				small = GFX_idea_SOV_Katyusha_small
+			}
+		}
+		corps_commander={
+			visible = {
+				NOT = {
+					has_character_flag = is_fired
+					has_character_flag = is_arrested
+					has_character_flag = is_killed
+				}
+			}
+			traits={ panzer_leader }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
 }

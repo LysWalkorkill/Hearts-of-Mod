@@ -1,4 +1,17 @@
 ﻿l_french:
+    MEX_pablo_escobar:0 "Pablo Escobar"
+    MEX_michael_pena:0 "Michael Peña"
+    MEX_bad_bunny:0 "Bad Bunny"
+    MEX_camila_mendes:0 "Camila Mendes"
+    MEX_camila_cabello:0 "Camila Cabello"
+    MEX_marisol_nichols:0 "Marisol Nichols"
+    MEX_mark_consuelos:0 "Mark Consuelos"
+    MEX_roberto_dringo:0 "Roberto Dringo"
+    MEX_sara_ramirez:0 "Sara Ramirez"
+    MEX_senorita_ambra:0 "Señorita Ambra"
+    MEX_tiago_santiago:0 "Tiago Santigo"
+
+
     # Exploration
     MEX_explorer_temple_maya:0 "Explorer un Temple Maya"
     MEX_explorer_temple_azteque:0 "Explorer un Temple Aztèque"
