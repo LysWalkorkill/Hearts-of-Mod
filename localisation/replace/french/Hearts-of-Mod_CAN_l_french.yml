@@ -11,6 +11,7 @@
     CAN_summer_mcintosh:0 "Summer McIntosh"
 
     # Grizzly Géant Québec
+l_french:
     CAN_chasser_grizzly_geant_quebec:0 "Chasser le Grizzly Géant du Québec"
 
     Hearts-of-Mod_CAN_grizzly_geant_quebec.1.title:0 "Nous l'avons enfin eu !"
@@ -22,6 +23,7 @@
     Hearts-of-Mod_CAN_grizzly_geant_quebec.2.a:0 "Ce n'est qu'une LÉGENDE !"
     
     # INDUSTRIE
+l_french:
     CAN_ouvrir_mine_or_quebec:0 "Ouvrir les mines d'or du Québec"
     CAN_ouvrir_mine_or_ontario:0 "Ouvrir les mines d'or d'Ontario"
     CAN_ouvrir_mine_or_alberta:0 "Ouvrir les mines d'or d'Alberta"
@@ -37,7 +39,8 @@
     Hearts-of-Mod_CAN_industrie.2.desc:0 "Contre toute attente, le Canada vient de boucler son programme d’expansion minière plus tôt que prévu. Un vrai tour de force pour l’industrie, qui a su accélérer les chantiers sans trop ralentir la production. « On a livré la marchandise en avance, pis solide », a lancé un responsable, visiblement pas peu fier.\n\nMais c’est pas tout le monde qui trouve ça ben correct. Depuis quelques jours, une contestation écologique commence à lever, surtout dans certaines communautés inquiètes des impacts sur les forêts pis les cours d’eau."
     Hearts-of-Mod_CAN_industrie.2.a:0 "Ils auront de la misère à protester..."
     
-    # RECONNAÎTRE 
+    # RECONNAÎTRE
+l_french:
     CAN_reconnaitre_heros_quebecois_ww1:0 "Reconnaitre l'héroïsme des Québécois Durant la Grande Guerre"
 
     Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1.title:0 "Reconnaissance des héros Québécois"

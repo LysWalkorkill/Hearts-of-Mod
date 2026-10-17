@@ -374,7 +374,7 @@ if = {
 				ENG
 			}
 		}
-		reate_operative_leader = {
+		create_operative_leader = {
 			name = eng_jason_statham
 			gfx = "GFX_portrait_eng_jason_statham_large"
 			female = no
@@ -858,7 +858,7 @@ if = {
 				HUN
 			}
 		}
-		reate_operative_leader = {
+		create_operative_leader = {
 			name = hun_padme_amidala
 			gfx = "GFX_portrait_hun_padme_amidala_large"
 			female = yes
@@ -872,7 +872,7 @@ if = {
 				ENG
 			}
 		}
-		reate_operative_leader = {
+		create_operative_leader = {
 			name = hun_seigneur_sidious
 			gfx = "GFX_portrait_hun_seigneur_sidious_large"
 			female = no
@@ -1018,7 +1018,6 @@ if = {
 				ENG
 			}
 		}
-		v
 		create_operative_leader = {
 			name = rom_sebastien_dubois
 			gfx = "GFX_portrait_rom_sebastien_dubois_large"
@@ -1564,19 +1563,11 @@ if = {
 				RAJ
 				FRA
 			}
-<<<<<<< HEAD
-}
-create_operative_leader = {
+		}
+		create_operative_leader = {
 			name = raj_ezra_bridger
 			gfx = "GFX_portrait_raj_ezra_bridger_large"
 			female = yes
-=======
-		}
-		create_operative_leader = {
-			name = raj_ezra_bridgere
-			gfx = "GFX_portrait_raj_ezra_bridgere_large"
-			female = no
->>>>>>> 90c0c1af3d2b37e9e365f1422fac69d695f75f70
 			traits = {
 				
 			}

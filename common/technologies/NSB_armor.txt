@@ -231,7 +231,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1.25
 		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
@@ -305,7 +305,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.75
+		research_cost = 1.5
 		start_year = 1936
 
 		folder = {
@@ -673,7 +673,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.75
+		research_cost = 1.5
 		start_year = 1938
 
 		folder = {
@@ -1198,7 +1198,7 @@ technologies = {
 		}
 
 
-		research_cost = 2.25
+		research_cost = 2.00
 		start_year = 1934
 
 		folder = {
@@ -1276,7 +1276,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 2.25
 		start_year = 1940
 
 		folder = {
@@ -1376,7 +1376,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.75
+		research_cost = 2.5
 		start_year = 1943
 
 		folder = {

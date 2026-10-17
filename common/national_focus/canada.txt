@@ -559,7 +559,7 @@ focus_tree = {
 		}
 
 		available = {
-			threat > 0.2
+			#threat > 0.2
 		}
 		
 		bypass = {
@@ -2175,7 +2175,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = CAN_royal_regiment_of_canadian_artillery
-				bonus = 1.0
+				bonus = 2.0
 				uses = 1
 				category = artillery
 			}
@@ -2434,7 +2434,7 @@ focus_tree = {
 				ahead_reduction = 2
 				bonus = 1.0
 				uses = 1
-				category = cat_light_armor
+				category = armor
 			}
 
 		}

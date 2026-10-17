@@ -13,12 +13,11 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			
-			skill=5
+			traits={ cavalry_leader commando }
+			skill=4
 			attack_skill=4
-			defense_skill=4
-			planning_skill=2
+			defense_skill=1
+			planning_skill=4
 			logistics_skill=3
 			legacy_id=0
 		}
@@ -37,13 +36,12 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			
-			skill=3
-			attack_skill=2
-			defense_skill=3
+			traits={ inflexible_strategist organizer }
+			skill=4
+			attack_skill=3
+			defense_skill=4
 			planning_skill=2
-			logistics_skill=3
+			logistics_skill=4
 			legacy_id=0
 		}
 	}
@@ -61,13 +59,12 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			
-			skill=5
-			attack_skill=5
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=4
+			traits={ infantry_leader brilliant_strategist }
+			skill=4
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=0
 		}
 	}
@@ -109,13 +106,12 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			
-			skill=3
-			attack_skill=3
-			defense_skill=4
+			traits={ fortress_buster naval_invader }
+			skill=4
+			attack_skill=4
+			defense_skill=2
 			planning_skill=4
-			logistics_skill=3
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -133,13 +129,12 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=5
-			logistics_skill=5
+			traits={ trait_engineer panzer_leader}
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
 			legacy_id=0
 		}
 	}

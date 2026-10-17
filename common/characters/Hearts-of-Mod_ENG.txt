@@ -13,13 +13,12 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			
-			skill=3
-			attack_skill=4
-			defense_skill=3
+			traits={ infantry_leader brilliant_strategist }
+			skill=4
+			attack_skill=3
+			defense_skill=1
 			planning_skill=3
-			logistics_skill=2
+			logistics_skill=3
 			legacy_id=0
 		}
 	}
@@ -61,13 +60,12 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			
-			skill=2
+			traits={ infantry_leader brilliant_strategist desert_fox }
+			skill=4
 			attack_skill=3
-			defense_skill=4
+			defense_skill=1
 			planning_skill=3
-			logistics_skill=2
+			logistics_skill=3
 			legacy_id=0
 		}
 	}

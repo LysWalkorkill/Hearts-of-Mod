@@ -202,14 +202,14 @@ characters = {
 				small = GFX_portrait_BUL_nikola_mihov_small
 			}
 		}
-		field_marshal = {
-			traits = { career_officer politically_connected trait_BUL_tsar_loyalist fortress_buster }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id = 1201
+		corps_commander={
+			traits={ fortress_buster naval_invader }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
 		}
 	}
 
@@ -225,15 +225,15 @@ characters = {
 					small = GFX_portrait_BUL_georgi_popov_small
 				}
 			}
-			corps_commander = {
-				traits = { infantry_officer war_hero }
-				skill = 4
-				attack_skill = 3
-				defense_skill = 3
-				planning_skill = 3
-				logistics_skill = 4
-				legacy_id = 1202
-			}
+			corps_commander={
+			traits={ inflexible_strategist organizer }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=1202
+		}
 		}
 		instance = {
 			allowed = {
@@ -285,14 +285,14 @@ characters = {
 				small = GFX_portrait_BUL_georgi_markov_small
 			}
 		}
-		corps_commander = {
-			traits = { old_guard infantry_leader organizer trickster}
-			skill = 8
-			attack_skill = 6
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id = 1206
+		corps_commander={
+			traits={ infantry_leader brilliant_strategist }
+			skill=4
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=1206
 		}
 	}
 
@@ -375,14 +375,14 @@ characters = {
 				small = GFX_portrait_BUL_damian_velchev_small
 			}
 		}
-		corps_commander = {
-			traits = { trait_reckless harsh_leader trait_BUL_zveno_member organizer panzer_leader cavalry_leader infantry_leader commando trickster}
-			skill = 8
-			attack_skill = 6
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 5
-			legacy_id = 1210
+		corps_commander={
+			traits={ cavalry_leader commando }
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
 		}
 	}
 	
@@ -394,14 +394,14 @@ characters = {
 				small = GFX_portrait_BUL_angel_dotsev_small
 			}
 		}
-		corps_commander = {
-			traits = { organizer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 3
-			legacy_id = 1211
+		corps_commander={
+			traits={ trait_engineer panzer_leader}
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=1211
 		}
 	}
 
