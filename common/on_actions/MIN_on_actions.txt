@@ -12,14 +12,7 @@ on_actions = {
                 #    days = 3650  
                 #    name = vous_pas_tout_avoir
                 #}
-                every_army_leader = {
-                    if = {
-                        limit = {
-                            is_field_marshal = no
-                        }
-                    promote_leader = yes
-                    }
-                }
+
             }
             ### EUROPE
             ## England
