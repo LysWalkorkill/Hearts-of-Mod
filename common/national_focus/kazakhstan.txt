@@ -11,7 +11,6 @@ focus_tree = {
 			tag = KAZ
 		}
 	}
-	
 	default = no
 
 	continuous_focus_position = { x = 0 y = 0 }
@@ -52,33 +51,1121 @@ focus_tree = {
 #		}
 #	}
 
-	focus = {
-		id = KAZ_AI_disabled_focus
-		icon = GFX_GER_panzerfausts_for_all
-		#prerequisite = { focus = }
-		#mutually_exclusive = { focus =  }
-		x = -4
-		y = 0
-		#relative_position_id = 
+#	focus = {
+#		id = KAZ_AI_disabled_focus
+#		icon = GFX_GER_panzerfausts_for_all
+#		#prerequisite = { focus = }
+#		#mutually_exclusive = { focus =  }
+#		x = 18
+#		y = 0
+#		#relative_position_id = 
+#
+#		cost = 999
+#
+#		ai_will_do = {
+#			factor = 1000
+#		}
+#
+#		available = {
+#			is_ai = yes
+#			has_war = no
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = yes
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+	#Indutrie
 
-		cost = 999
+	focus = {
+		id = KAZ_grande_industrialisation
+		icon = GFX_goal_generic_construct_infrastructure #GFX_SOV_architect_of_communism_ccp_2d_sov_compatibility GFX_focus_CHL_expand_the_forestry 
+		#mutually_exclusive = { focus =  }
+		x = 10
+		y = 0
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 150
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = POL_four_year_plan_idea
+				days = 1460
+			}
+			add_timed_idea = {
+				idea = HUN_urbanization_efforts
+				days = 365
+			}
+			every_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = infrastructure 
+						size > 3
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = {832}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			}
+		}
+	}
+	
+	focus = {
+		id = KAZ_rapide_industrialisation
+		icon = GFX_SOV_architect_of_communism_ccp_2d_sov_compatibility 
+		mutually_exclusive = { focus = KAZ_societe_agriere }
+		prerequisite = { focus = KAZ_grande_industrialisation}
+		x = -5
+		y = 1
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 75
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		swap_ideas = {
+			    remove_idea = KAZ_agriculture1
+			    add_idea = KAZ_rapide_industrialisation_ideas1
+			}
+		random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			}
+
+		}
+	}
+	focus = {
+		id = KAZ_grande_extension
+		icon = GFX_focus_PRC_urbanization
+		prerequisite = { focus = KAZ_rapide_industrialisation}
+		x = -1
+		y = 1
+		relative_position_id = KAZ_rapide_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		custom_effect_tooltip = chaque_infra_sup_a_trois_tt
+		every_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = infrastructure 
+						size < 3
+					}
+				}
+				increase_state_category = yes
+				}
+				random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 404 }
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+					}
+				}
+			}
+			
+		}
+		focus = {
+		id = KAZ_exploiter_les_ressources_naturel
+		icon = GFX_focus_PRC_bolshevik_urbanization_1
+		prerequisite = { focus = KAZ_grande_extension}
+		x = -1
+		y = 2
+		relative_position_id = KAZ_rapide_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY 
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				swap_ideas = {
+			    remove_idea = KAZ_rapide_industrialisation_ideas1
+			    add_idea = KAZ_rapide_industrialisation_ideas2
+			}
+			}
+			
+		}
+	
+	
+	focus = {
+		id = KAZ_societe_agriere
+		icon = GFX_focus_CHL_expand_the_forestry
+		mutually_exclusive = { focus = KAZ_rapide_industrialisation }
+		prerequisite = { focus = KAZ_grande_industrialisation}
+		x = 5
+		y = 1
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = KAZ_agriculture1
+			    add_idea = KAZ_agriculture2
+			}
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			}
+
+		}
+	}
+	
+	focus = {
+		id = KAZ_renover_nos_plaines
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = KAZ_societe_agriere}
+		x = 1
+		y = 1
+		relative_position_id = KAZ_societe_agriere
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH FOCUS_FILTER_MANPOWER
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = construction_tech
+			}
+		every_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					
+				}
+				add_extra_state_shared_building_slots = 1
+				
+			}
+			swap_ideas = {
+			    remove_idea = KAZ_agriculture2
+			    add_idea = KAZ_agriculture3
+			}
+
+		}
+	}
+	focus = {
+		id = KAZ_demander_le_rapatriment_de_nos_troupeaux
+		icon = GFX_focus_generic_sheep
+		prerequisite = { focus = KAZ_renover_nos_plaines}
+		x = 1
+		y = 2
+		relative_position_id = KAZ_societe_agriere
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY 
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = KAZ_agriculture3
+			    add_idea = KAZ_agriculture4
+			}
+			
+			587 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				}
+			584 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				}
+			823 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				}
+			402 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				}
+			831 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				}
+			832 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				}
+			830 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				}
+			585 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				}
+			404 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				}
+			881 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				}
+			589 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				}
+			
+				
+				
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			}
+			
+
+		}
+	}
+	focus = {
+		id = KAZ_alocation_d_urgence
+		icon = GFX_focus_BRA_end_the_state_of_emergency
+		prerequisite = { focus = KAZ_rapide_industrialisation focus = KAZ_societe_agriere }
+		x = 0
+		y = 2
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+				threat > 0.25
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		add_timed_idea = {
+			    idea = KAZ_Alocation_durgence
+			    days = 720
+			}
+		add_tech_bonus = {
+							
+							bonus = 0.75
+							uses = 2
+							category = industry
+						}
+		}
+	}
+	
+	focus = {
+		id = KAZ_notre_politique_dechange
+		icon = GFX_focus_generic_arms_trade
+		prerequisite = { focus = KAZ_alocation_d_urgence }
+		x = 1
+		y = 1
+		relative_position_id = KAZ_alocation_d_urgence
+		search_filters = { FOCUS_FILTER_INTERNATIONAL_TRADE }
+		cost = 5
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				add_ideas = KAZ_notre_politique_commercial
+		}
+	}
+	focus = {
+		id = KAZ_reveiller_les_industrielle
+		icon = GFX_focus_CHI_planned_economy
+		prerequisite = { focus = KAZ_notre_politique_dechange focus = KAZ_reponse_a_la_destabilisation_mondial}
+		x = 0
+		y = 2
+		relative_position_id = KAZ_alocation_d_urgence
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY 
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 405 586}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+			}
+			
+		}
+		}
+	}
+	focus = {
+		id = KAZ_Develloper_nos_villes
+		icon = GFX_focus_PRC_urbanization_two
+		prerequisite = { focus = KAZ_rapide_industrialisation focus = KAZ_societe_agriere }
+		x = -3
+		y = 2
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY 
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 75
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 405 586}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+			
+		}
+	}
+}
+		
+	
+	focus = {
+		id = KAZ_reponse_a_la_destabilisation_mondial
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = KAZ_alocation_d_urgence }
+		prerequisite = { focus = KAZ_Develloper_nos_villes }
+		x = -1
+		y = 3
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY 
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 742 732}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+			}
+			
+		}
+		random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 618 588}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+			
+		}
+	}
+}
+
+focus = {
+		id = KAZ_recherche_kazak
+		icon = GFX_focus_research
+		prerequisite = { focus = KAZ_Develloper_nos_villes }
+		x = -2
+		y = 2
+		relative_position_id = KAZ_alocation_d_urgence
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		cost = 10
 
 		ai_will_do = {
 			factor = 100
 		}
 
 		available = {
-			is_ai = yes
-			has_war = no
 		}
 		
 		bypass = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				add_research_slot = 1
+		}
+	}
+focus = {
+		id = KAZ_finir_les_routes_de_ravitaillement
+		icon = GFX_focus_generic_railroad
+		prerequisite = { focus = KAZ_Develloper_nos_villes }
+		x = -4
+		y = 3
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY 
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		
+		
+		586 = {
+			add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		831 = {
+			add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		402 = {
+			add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_ideas = KAZ_ravitaillement_accrue
+	}
+}
+focus = {
+		id = KAZ_ouvrir_des_usine_de_metalurgie_specialise
+		icon = GFX_focus_NORDIC_com_civilian
+		prerequisite = { focus = KAZ_finir_les_routes_de_ravitaillement focus = KAZ_exploiter_les_ressources_naturel}
+		x = -5
+		y = 4
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY 
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			if = {
+				num_of_owned_factories > 30
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 405}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			
+		}
+		random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 586}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			
+			
+		}
+	}
+}
+focus = {
+		id = KAZ_Remplir_nos_quotas
+		icon = GFX_focus_GER_factories_for_resources
+		prerequisite = { focus = KAZ_rapide_industrialisation focus = KAZ_societe_agriere }
+		x = 3
+		y = 2
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY 
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 30
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 586}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			add_resource = {
+			type = steel
+			amount = 12
+			state = 586
+			}
+			add_resource = {
+			type = oil
+			amount = 12
+			state = 587
+			}
+			add_resource = {
+			type = coal
+			amount = 8
+			state = 881
+			}			
+			
+			
+		}
+	}
+}
+
+focus = {
+		id = KAZ_Ouvrir_de_nouvelle_usine_de_metalurgie
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = KAZ_Remplir_nos_quotas }
+		x = 4
+		y = 3
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 30
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 732}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			add_resource = {
+			type = tungsten
+			amount = 18
+			state = 732
+			}
+			add_resource = {
+			type = chromium
+			amount = 12
+			state = 732
+			}
+			add_resource = {
+			type = aluminium
+			amount = 6
+			state = 586
+				}			
+			
+		}
+		add_tech_bonus = {
+			    			bonus = 1
+			   				uses = 1
+			    			category = excavation_tech
+							}
+	}
+}
+
+focus = {
+		id = KAZ_exploiter_le_bassin_karaganda
+		icon = GFX_focus_generic_coal_mining
+		 prerequisite = { focus = KAZ_installer_notre_industrie_sur_les_mines_dalu_russe focus = KAZ_Satisfaire_les_demandes_en_matiere_premiere }
+		x = 4
+		y = 5
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY 
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+			has_tech = excavation3
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
 
 		complete_tooltip = {
 
@@ -86,23 +1173,285 @@ focus_tree = {
 
 		completion_reward = {
 
+			add_resource = {
+			type = coal
+			amount = 12
+			state = 881
+			}
+			881 = { 
+			increase_state_category = yes		
+			}
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 881}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			
+		}
+
+		}
+		
+	}
+
+focus = {
+		id = KAZ_Satisfaire_les_demandes_en_matiere_premiere
+		icon = GFX_focus_generic_resource_extraction
+		prerequisite = { focus = KAZ_Ouvrir_de_nouvelle_usine_de_metalurgie }
+		x = 3
+		y = 4
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY 
+		}
+		cost = 10
+		mutually_exclusive = { focus = KAZ_installer_notre_industrie_sur_les_mines_dalu_russe }
+		ai_will_do = {
+			factor = 35
+		}
+
+		available = {
+			has_tech = construction3
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_resource = {
+			type = steel
+			amount = 12
+			state = 586
+			}
+			add_resource = {
+			type = steel
+			amount = 10
+			state = 732
+			}
+			add_resource = {
+			type = tungsten
+			amount = 24
+			state = 732
+			}
+			add_resource = {
+			type = chromium
+			amount = 6
+			state = 732
+			}
+			add_resource = {
+			type = oil
+			amount = 8
+			state = 584
+			}
+			
+		}
+	}
+	
+	focus = {
+		id = KAZ_installer_notre_industrie_sur_les_mines_dalu_russe
+		icon = GFX_focus_generic_aluminum
+		prerequisite = { focus = KAZ_Ouvrir_de_nouvelle_usine_de_metalurgie focus = KAZ_demander_le_rapatriment_de_nos_troupeaux }
+		x = 5
+		y = 4
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY 
+		}
+		cost = 10
+		mutually_exclusive = { focus = KAZ_Satisfaire_les_demandes_en_matiere_premiere }
+		ai_will_do = {
+			factor = 20
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			SOV = {
+					country_event = {
+			    id = Hearts-of-Mod_KAZ.11
+			
+			}
+			}
+				custom_effect_tooltip = if_they_accept_tt
+				custom_effect_tooltip = generic_skip_one_line_tt
+				effect_tooltip = {
+					give_resource_rights = {
+						receiver = KAZ          
+						state = 400         
+						}
+					give_resource_rights = {
+						receiver = KAZ          
+						state = 398   
+						}
+					586 = {
+								if = {
+				limit = { industrial_complex > 0 }
+				remove_building = { type = industrial_complex  level = 1 }
+						
+							400 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+								}
+							}
+						
+				}
+				}
+					405 = {
+								if = {
+				limit = { industrial_complex > 0 }
+				remove_building = { type = industrial_complex  level = 1 }
+						
+							398 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+								}
+							}
+						
+				}
+					}
+				}
+			
+			
 		}
 	}
 
+focus = {
+		id = KAZ_faire_sortir_du_sol_les_mines_duranium
+		icon = GFX_focus_wonderweapons
+		prerequisite = { focus =  KAZ_reveiller_les_industrielle }
+		x = 1
+		y = 5
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 1.25
+			}
+
+			add_tech_bonus = {
+				name = POL_atomic_physics_institute
+				bonus = 1
+				uses = 1
+				category = nuclear
+			}
+			
+		}
+	}
+focus = {
+		id = KAZ_investir_dans_des_nouveaux_chemin_de_fer
+		icon = GFX_focus_SOV_south_manchuria_railway
+		prerequisite = { focus =  KAZ_reveiller_les_industrielle }
+		x = -1
+		y = 5
+		relative_position_id = KAZ_grande_industrialisation
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY 
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+			add_timed_idea = {
+				idea = KAZ_investissement_dans_nos_chemin_de_fer
+				days = 365
+			}
+		}
+	}
+#armée
 	focus = {
-		id = KAZ_politic_1
-		icon = GFX_focus_SOV_the_supreme_soviet
-		#prerequisite = { focus = }
-		#mutually_exclusive = { focus =  }
-		x = 0
+		id = KAZ_se_preparer_a_lavenir
+		icon = GFX_focus_PRC_raid_weapon_depots
+		x = 30
 		y = 0
-		#relative_position_id = 
-
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_AIR_XP FOCUS_FILTER_ARMY_XP FOCUS_FILTER_NAVY_XP
+		}
 		cost = 5
 
-		#ai_will_do = {
-		#	factor = 1
-		#}
+		ai_will_do = {
+			factor = 50
+		}
 
 		available = {
 
@@ -121,24 +1470,1680 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 742 732}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+			
+			}
+		}
+			air_experience = 15
+			army_experience = 15
+			navy_experience = 15
+		}
+	}
+#branche terrestre	
+	focus = {
+		id = KAZ_concentrer_nos_effort_sur_la_terre
+		icon = GFX_focus_SWE_let_fly_all_guns
+		prerequisite = { focus = KAZ_se_preparer_a_lavenir}
+		relative_position_id = KAZ_se_preparer_a_lavenir
+		x = -5
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MANPOWER FOCUS_FILTER_WAR_SUPPORT
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_manpower = 30000
+			army_experience = 15
+			add_war_support = 0.05
+
+	}
+}
+	
+	
+	focus = {
+		id = KAZ_rendre_le_service_de_quatre_ans_obligatoire
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		prerequisite = { focus = KAZ_concentrer_nos_effort_sur_la_terre}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		x = 0
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MANPOWER 
+		}
+		cost = 10
+		
+		
+		ai_will_do = {
+			factor = 30
+		}
+		bypass = { 
+				has_idea =  extensive_conscription
+		}
+		
+		
+		available = {
+				OR = {
+					threat > 0.15 
+					has_war = yes
+				}
+				has_war_support > 0.6
+				
+		}
+		
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			if = {
+							limit = {
+								 has_idea = disarmed_nation 
+							}
+							add_ideas = extensive_conscription
+						}
+			if = {
+							limit = {
+								has_idea = volunteer_only 
+							}
+							add_ideas = extensive_conscription
+						}
+			if = {
+							limit = {
+								has_idea = limited_conscription
+							}
+							add_ideas = extensive_conscription
+						}
+		}
+	}
+	
+	focus = {
+		id = KAZ_la_qualite_sur_la_quantite
+		icon = GFX_focus_CZE_army_reform
+		prerequisite = { focus = KAZ_concentrer_nos_effort_sur_la_terre}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		mutually_exclusive = { focus = KAZ_recruter_en_masse }
+		x = 4
+		y = 2
+
+		cost = 10
+		
+		search_filters = {
+			 FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+				has_war_support > 0.5
+				
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KAZ_entrainement_qualitatif
+		}
+	}
+	
+	focus = {
+		id = KAZ_demander_la_license_de_okmo
+		icon = GFX_focus_generic_mass_production
+		prerequisite = { focus = KAZ_la_qualite_sur_la_quantite}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		x = 5
+		y = 3
+
+		cost = 10
+		
+		search_filters = {
+			FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+				if = {
+				num_of_owned_factories > 35
+			}
+				
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				unlock_military_industrial_organization_tooltip = mio:KAZ_okmo_organization
+				mio:KAZ_okmo_organization = {
+					add_mio_size = 3
+					add_mio_funds_gain_factor = 0.25
+				}
+
+				
+
+			}
+			add_tech_bonus = {
+							bonus = 1.25
+							uses = 1
+							category = armor
+						}
+		}
+	}
+	
+		focus = {
+		id = KAZ_specialise_nos_usines
+		icon = GFX_focus_generic_mechanized
+		prerequisite = { focus = KAZ_la_qualite_sur_la_quantite focus = KAZ_recruter_en_masse}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		x = 1
+		y = 3
+
+		cost = 10
+		
+		search_filters = {
+			 FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+				
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KAZ_specialisation_dans_les_motorise
+		}
+	}
+	focus = {
+		id = KAZ_ameliorer_le_caburant_des_chars
+		icon = GFX_focus_generic_stockpile_fuel
+		prerequisite = { focus = KAZ_demander_la_license_de_okmo}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		x = 4
+		y = 4
+
+		cost = 5
+		
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+				
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			if = {
+                limit = {
+                    has_dlc = "Arms Against Tyranny"
+                }
+                mio:KAZ_okmo_organization = {
+                    add_mio_size = 1
+                    unlock_mio_trait_tooltip = {
+                        trait = SOV_mio_trait_merge_plant_no_174
+                    }
+                }
+            }
+            
+
+				
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+		}
+		}
+	}
+	
+	focus = {
+		id = KAZ_reduire_la_surchauffe_des_mitrailleuse
+		icon = GFX_focus_AST_owen_gun
+		prerequisite = { focus = KAZ_demander_la_license_de_okmo}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		x = 6
+		y = 4
+
+		cost = 5
+		
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+				
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			if = {
+                limit = {
+                    has_dlc = "Arms Against Tyranny"
+                }
+                mio:KAZ_okmo_organization = {
+                    add_mio_size = 1
+                    unlock_mio_trait_tooltip = {
+                        trait = SOV_mio_trait_merge_ural_heavy_machine_building_plant
+                    }
+                }
+            }
+            
+
+				
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+		}
+		}
+	}
+	
+	focus = {
+		id = KAZ_refaire_la_conception
+		icon = GFX_focus_generic_tank_assembly
+		prerequisite = { focus = KAZ_reduire_la_surchauffe_des_mitrailleuse}
+		prerequisite = { focus = KAZ_ameliorer_le_caburant_des_chars}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		x = 5
+		y = 5
+
+		cost = 5
+		
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+				
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			if = {
+                limit = {
+                    has_dlc = "Arms Against Tyranny"
+                }
+                mio:KAZ_okmo_organization = {
+                    add_mio_size = 1
+                    unlock_mio_trait_tooltip = {
+                        trait = SOV_mio_trait_merge_plant_no_112
+                    }
+                }
+            }
+            
+
+				
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+		}
+		}
+	}
+	
+	focus = {
+		id = KAZ_recruter_en_masse
+		icon = GFX_focus_PRC_revolutionary_war_of_the_masses
+		prerequisite = { focus = KAZ_concentrer_nos_effort_sur_la_terre}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		mutually_exclusive = { focus =  KAZ_la_qualite_sur_la_quantite }
+		x = -4
+		y = 2
+
+		cost = 10
+		
+		search_filters = {
+		 FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MANPOWER
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+				has_war_support > 0.5
+				
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KAZ_mobilisation_de_masse
+		}
+	}
+	
+	
+	focus = {
+		id = KAZ_effort_sur_les_anti_char
+		icon = GFX_focus_ICE_the_armed_forces_of_iceland
+		prerequisite = { focus = KAZ_recruter_en_masse}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		x = -5
+		y = 3
+
+		cost = 5
+		
+		search_filters = {
+			FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+				
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+						add_tech_bonus = {
+							bonus = 1
+							uses = 1
+							technology = antitank1
+							technology = antitank2
+							technology = antitank3
+							technology = antitank4
+							technology = antitank5
+			
+						}
+		}
+	}
+	
+	
+focus = {
+		id = KAZ_arme_anti_blitz
+		icon = GFX_focus_generic_anti_tank_guns
+		prerequisite = { focus = KAZ_effort_sur_les_anti_char}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		x = -4
+		y = 4
+
+		cost = 5
+		
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+				
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KAZ_materielle_anti_blitz
+		}
+	}
+	focus = {
+		id = KAZ_offrir_un_bouclier_de_dca
+		icon = GFX_focus_PRC_anti_air_effort
+		prerequisite = { focus = KAZ_effort_sur_les_anti_char}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		x = -6
+		y = 4
+
+		cost = 5
+		
+		search_filters = {
+			 FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+				
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KAZ_materielle_anti_cas
+		}
+	}
+	
+	focus = {
+		id = KAZ_avancer_nos_doctrine
+		icon = GFX_focus_generic_army_doctrines_2
+		prerequisite = { focus = KAZ_recruter_en_masse focus = KAZ_la_qualite_sur_la_quantite}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		x = -1
+		y = 3
+
+		cost = 5
+		
+		search_filters = {
+		 FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		add_doctrine_cost_reduction = {
+						category = land_doctrine
+						uses = 2
+						cost_reduction = 0.25
+					}
+		}
+	}
+	
+	focus = {
+		id = KAZ_la_PPSH_kazak
+		icon = GFX_focus_CAN_rifle_association
+		prerequisite = { focus = KAZ_avancer_nos_doctrine focus = KAZ_recruter_en_masse focus = KAZ_specialise_nos_usines}
+		relative_position_id = KAZ_avancer_nos_doctrine
+		x = -1
+		y = 1
+
+		cost = 5
+		
+		search_filters = {
+			FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				add_tech_bonus = {
+						bonus = 0.75
+						uses = 1
+						category = infantry_weapons
+					}
+		}
+	}
+	
+	focus = {
+		id = KAZ_adopter_la_doctrine_sovietique
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		prerequisite = { focus = KAZ_la_PPSH_kazak}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		mutually_exclusive = { focus =  KAZ_reorganiser_nos_etats_major }
+		x = -1
+		y = 5
+		cost = 5
+		
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+				
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KAZ_doctrine_sovietique
+		}
+	}
+	
+	focus = {
+		id = KAZ_reorganiser_nos_etats_major
+		icon = GFX_focus_INS_commander_oerip
+		prerequisite = { focus = KAZ_effort_sur_lartillerie}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_la_terre
+		mutually_exclusive = { focus =  KAZ_adopter_la_doctrine_sovietique }
+		x = 1
+		y = 5
+
+		cost = 5
+		
+		search_filters = {
+			 FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+				
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = KAZ_nouvelle_etats_major
+		}
+	}
+	
+		focus = {
+		id = KAZ_effort_sur_lartillerie
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = KAZ_avancer_nos_doctrine focus = KAZ_la_qualite_sur_la_quantite focus = KAZ_specialise_nos_usines}
+		relative_position_id = KAZ_avancer_nos_doctrine
+		x = 3
+		y = 1
+
+		cost = 5
+		
+		search_filters = {
+			FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				add_tech_bonus = {
+							bonus = 0.5
+							uses = 2
+							category = artillery
+						}
+		}
+	}
+	
+#branche aérienne
+	focus = {
+		id = KAZ_concentrer_nos_effort_sur_lair
+		icon = GFX_focus_PHI_philippine_air_force
+		prerequisite = { focus = KAZ_se_preparer_a_lavenir}
+		relative_position_id = KAZ_se_preparer_a_lavenir
+		x = 5
+		y = 1
+
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIR_XP
+		}
+		bypass = {
+			AND = {
+			has_tech = basic_medium_airframe
+			has_tech = basic_large_airframe
+			has_tech = basic_small_airframe
+			}
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+					if = {
+							limit = {
+								NOT = { has_tech = 
+										basic_medium_airframe
+								}
+							}
+							set_technology = {
+								basic_medium_airframe = 1
+								}
+							}
+					if = {
+							limit = {
+								NOT = { has_tech = basic_large_airframe 
+								}
+							}
+							set_technology = {
+								basic_large_airframe = 1
+								}
+							}
+					if = {
+							limit = {
+								NOT = { has_tech = basic_small_airframe 
+								}
+							}
+							set_technology = {
+								basic_small_airframe = 1
+								}
+							}
+					259 = {
+						add_building_construction = {
+							type = air_base
+							level = 5
+							instant_build = yes
+						}
+					}
+						air_experience = 15
+		}
+	}
+	
+	focus = {
+		id = KAZ_devancer_nos_allier_le_plus_tot
+		icon = GFX_focus_generic_aircraft_production
+		prerequisite = { focus = KAZ_concentrer_nos_effort_sur_lair}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_lair
+		x = -2
+		y = 1
+
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_AIR_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+				if = {
+				num_of_owned_factories > 15
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				242 = {
+								add_building_construction = {
+						                            type = air_facility
+						                            level = 1
+						                            instant_build = yes
+						                            province = 1554
+						                        }
+												
+								add_building_construction = {
+									type = air_base
+									level = 5
+								instant_build = yes
+									}
+									}
+		}
+	}
+	
+	focus = {
+		id = KAZ_revoir_nos_composant_davionique
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = KAZ_concentrer_nos_effort_sur_lair }
+		relative_position_id = KAZ_concentrer_nos_effort_sur_lair
+		x = 0
+		y = 1
+
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIR_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+							if = {
+							limit = {
+								NOT = { has_dlc = "By Blood Alone" }
+							}
+							
+							add_tech_bonus = {
+								name = fighter_command_focus
+								bonus = 1.5
+								uses = 1
+								category = light_fighter
+								category = cat_heavy_fighter
+							}
+							custom_effect_tooltip = generic_skip_one_line_tt
+							
+							add_doctrine_cost_reduction = {
+								name = fighter_command_focus #land_doc_bonus
+								cost_reduction = 0.5
+								uses = 1
+								category = air_doctrine
+							}
+						}
+						else_if = {
+							limit = {
+								has_dlc = "By Blood Alone"
+							}
+							
+							add_tech_bonus = {
+								bonus = 0.5
+								uses = 2
+								category = air_equipment
+							}
+							custom_effect_tooltip = generic_skip_one_line_tt
+							
+							add_doctrine_cost_reduction = {
+								name = fighter_command_focus #land_doc_bonus
+								cost_reduction = 0.5
+								uses = 1
+								category = air_doctrine
+							}
+			
+			
+						}
+		}
+	}
+	
+	focus = {
+		id = KAZ_innovation_aerienne
+		icon = GFX_goal_expand_the_luftwaffe
+		prerequisite = { focus = KAZ_revoir_nos_composant_davionique}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_lair
+		x = -1
+		y = 2
+
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIR_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+							if = {
+							limit = {
+								NOT = { has_dlc = "By Blood Alone" }
+							}
+							
+							add_tech_bonus = {
+								name = fighter_command_focus
+								bonus = 0.5
+								uses = 2
+								category = light_fighter
+								category = cat_heavy_fighter
+							}
+						}
+						else_if = {
+							limit = {
+								has_dlc = "By Blood Alone"
+							}
+							
+							add_tech_bonus = {
+								name = fighter_command_focus
+								bonus = 0.5
+								uses = 2
+								category = light_fighter
+								category = cat_heavy_fighter
+							}
+			
+			custom_effect_tooltip = generic_skip_one_line_tt
+			
+						}
+						402 = {
+				add_building_construction = {
+					type = air_base
+					level = 6
+					instant_build = yes
+				}
+		}
+	}
+}
+	
+	focus = {
+		id = KAZ_recherche_sur_les_bombardier
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = KAZ_innovation_aerienne}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_lair
+		x = -2
+		y = 3
+
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIR_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+							add_tech_bonus = {
+							bonus = 1.0
+							uses = 1
+							category = cat_strategic_bomber
+						}
+							add_mastery_bonus = {
+							name = KAZ_uralbomber_program
+							bonus = 0.05
+							days = 180
+							grand_doctrine = new_strategic_destruction
+						}
+						add_mastery = {
+						amount = 75
+						track = heavy_aircraft
+						}
+		}
+	}
+	
+	
+	
+	focus = {
+		id = KAZ_creer_nos_doctrine_de_cas
+		icon = GFX_focus_generic_cas_aircraft
+		prerequisite = { focus = KAZ_innovation_aerienne}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_lair
+		x = 0
+		y = 3
+
+		cost = 5
+		search_filters = {
+			 FOCUS_FILTER_AIR_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+						add_mastery_bonus = {
+						name = KAZ_dive_bombers
+						bonus = 0.075
+						days = 365
+						grand_doctrine = new_battlefield_support
+					}
+						add_mastery = {
+						amount = 150
+						track = strike_aircraft
+					}
+		}
+	}
+	
+	focus = {
+		id = KAZ_entraine_nos_pilote_corectement
+		icon = GFX_focus_generic_pilot_training
+		prerequisite = { focus = KAZ_creer_nos_doctrine_de_cas focus = KAZ_revoir_nos_coupe_des_helices }
+		relative_position_id = KAZ_concentrer_nos_effort_sur_lair
+		x = 1
+		y = 4
+
+		cost = 5
+		search_filters = {
+			 FOCUS_FILTER_AIR_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+					add_ideas = KAZ_pilote_delite
+		}
+	}
+	
+		focus = {
+		id = KAZ_allonger_la_distance_de_combat
+		icon = GFX_focus_usa_escort_fighters
+		prerequisite = { focus = KAZ_recherche_sur_les_bombardier focus = KAZ_creer_nos_doctrine_de_cas }
+		relative_position_id = KAZ_concentrer_nos_effort_sur_lair
+		x = -1
+		y = 4
+
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIR_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				add_mastery_bonus = {
+				name = KAZ_tactical_bombers
+				bonus = 0.15
+				days = 365
+				grand_doctrine = new_operational_integrity
+			}
+			add_mastery = {
+				amount = 175
+				track = medium_aircraft
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_tech_bonus = {
+							bonus = 1.0
+							uses = 1
+							category = cat_heavy_fighter
+						}
+		}
+	}
+	
+	focus = {
+		id = KAZ_acheter_la_licence_de_Mikoyan_Gourevitch_mig
+		icon = GFX_focus_PER_perfect_iranian_airforce
+		prerequisite = { focus = KAZ_concentrer_nos_effort_sur_lair}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_lair
+		x = 2
+		y = 1
+
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_AIR_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			if = {
+				num_of_owned_factories > 35
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+							if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				unlock_military_industrial_organization_tooltip = mio:KAZ_mig_design_bureau_organization
+				mio:KAZ_mig_design_bureau_organization = {
+					add_mio_size = 1
+					add_mio_funds_gain_factor = 0.3
+				}
+
+				
+
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+		}
+		}
+	}
+	
+	focus = {
+		id = KAZ_faire_profiter_mig_de_nos_nouvelle_technologie
+		icon = GFX_focus_CZE_the_air_is_our_sea
+		prerequisite = { focus = KAZ_acheter_la_licence_de_Mikoyan_Gourevitch_mig}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_lair
+		x = 3
+		y = 2
+
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_AIR_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			is_special_project_completed = sp:sp_air_radar
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+							if = {
+                limit = {
+                    has_dlc = "Arms Against Tyranny"
+                }
+                mio:KAZ_mig_design_bureau_organization = {
+                    add_mio_size = 1
+                    unlock_mio_trait_tooltip = {
+                        trait = SOV_mio_trait_merge_vef_plant
+                    }
+                }
+            }
+            
+
+				
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+		}
+		}
+	}
+	focus = {
+		id = KAZ_importer_un_nouveaux_type_de_bois
+		icon = GFX_focus_generic_air_partners
+		prerequisite = { focus = KAZ_acheter_la_licence_de_Mikoyan_Gourevitch_mig}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_lair
+		x = 1
+		y = 2
+
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_AIR_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+							if = {
+                limit = {
+                    has_dlc = "Arms Against Tyranny"
+                }
+                mio:KAZ_mig_design_bureau_organization = {
+                    add_mio_size = 1
+                    unlock_mio_trait_tooltip = {
+                        trait = SOV_mio_trait_merge_plant_no_150
+                    }
+                }
+            }
+            
+
+				
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+		}
+		}
+	}
+
+focus = {
+		id = KAZ_revoir_nos_coupe_des_helices
+		icon = GFX_focus_PER_the_peoples_airforce
+		prerequisite = { focus = KAZ_importer_un_nouveaux_type_de_bois}
+		prerequisite = { focus = KAZ_faire_profiter_mig_de_nos_nouvelle_technologie}
+		relative_position_id = KAZ_concentrer_nos_effort_sur_lair
+		x = 2
+		y = 3
+
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_AIR_XP
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+							if = {
+                limit = {
+                    has_dlc = "Arms Against Tyranny"
+                }
+                mio:KAZ_mig_design_bureau_organization = {
+                    add_mio_size = 1
+                    unlock_mio_trait_tooltip = {
+                        trait = SOV_mio_trait_merge_plant_no_28
+                    }
+                }
+            }
+            
+
+				
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+		}
+		}
+	}
+
+#politique
+
+	focus = {
+		id = KAZ_SRR_kaz
+		icon = GFX_focus_SOV_the_supreme_soviet
+		x = 45
+		y = 0
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_RESEARCH
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 500
+		}
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = SRR_kaz1
+			    add_idea = SRR_kaz2
+			}
+			IF = {
+				limit = {
+					NOT = { has_tech = basic_train }
+				}
+				set_technology = { 
+					basic_train = 1
+					popup = yes
+				}
+			}
+			add_equipment_to_stockpile = { 
+				type = train_equipment_1
+				amount = 20 
+				producer = SOV
+			}
 
 		}
 	}
 
 	focus = {
-		id = KAZ_politic_2
+		id = KAZ_un_partenariat_avec_le_diable
 		icon = GFX_focus_AUS_danubian_socialist_communes
-		prerequisite = { focus = KAZ_politic_1 }
-		#mutually_exclusive = { focus =  }
+		prerequisite = { focus = KAZ_SRR_kaz }
 		x = 0
 		y = 1
-		relative_position_id = KAZ_politic_1
-
+		relative_position_id = KAZ_SRR_kaz
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY
+		}
 		cost = 5
 
-		#ai_will_do = {
-		#	factor = 1
-		#}
+		ai_will_do = {
+			factor = 50
+		}
 
 		available = {
 
@@ -157,96 +3162,50 @@ focus_tree = {
 		}
 
 		completion_reward = {
-
+				add_stability = 0.1
+				SOV= {
+			diplomatic_relation = { 
+									country = KAZ 
+									relation = guarantee
+									active = yes
+								}
+								}
+				KAZ= {
+			diplomatic_relation = { 
+									country = SOV 
+									relation = guarantee
+									active = yes
+								}
+								}
+			add_opinion_modifier = {
+				target = SOV
+				modifier = medium_increase
+				}
+			SOV = {
+					add_opinion_modifier = {
+						target = KAZ
+						modifier = medium_increase
+					}
+				}
 		}
 	}
-
+	
 	focus = {
-		id = KAZ_spy_1
-		icon = GFX_focus_RAJ_circuvment_demobilization_restrictions
-		prerequisite = { focus = KAZ_politic_2 }
-		#mutually_exclusive = { focus =  }
-		x = 0
-		y = 1
-		relative_position_id = KAZ_politic_2
-
-		cost = 5
-
-		#ai_will_do = {
-		#	factor = 1
-		#}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = KAZ_spy_2
-		icon = GFX_focus_AFG_work_with_german_inteligence
-		prerequisite = { focus = KAZ_spy_1 }
-		#mutually_exclusive = { focus =  }
-		x = 0
-		y = 1
-		relative_position_id = KAZ_spy_1
-
-		cost = 5
-
-		#ai_will_do = {
-		#	factor = 1
-		#}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = KAZ_industrial_1
-		icon = GFX_SOV_architect_of_communism_ccp_2d_sov_compatibility #GFX_focus_CHL_expand_the_forestry GFX_focus_CHL_expand_the_forestry
-		prerequisite = { focus = KAZ_politic_2 }
+		id = KAZ_le_defenseur_de_nos_droit
+		icon = GFX_focus_PHI_bill_of_rights_for_veterans
+		prerequisite = { focus = KAZ_un_partenariat_avec_le_diable }
 		#mutually_exclusive = { focus =  }
 		x = -4
 		y = 1
-		relative_position_id = KAZ_politic_2
-
+		relative_position_id = KAZ_un_partenariat_avec_le_diable
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY
+		}
 		cost = 5
 
-		#ai_will_do = {
-		#	factor = 1
-		#}
+		ai_will_do = {
+			factor = 50
+		}
 
 		available = {
 
@@ -265,24 +3224,428 @@ focus_tree = {
 		}
 
 		completion_reward = {
-
+				custom_effect_tooltip = available_political_advisor
+				show_ideas_tooltip = kaz_Serik_Daniyarev
+		
+				add_stability = 0.02
+				add_political_power = 25
+				
 		}
 	}
+	
 
+	
 	focus = {
-		id = KAZ_politics_left_1
-		icon = GFX_focus_GER_liberate_exploited_colonial_workers
-		prerequisite = { focus = KAZ_politic_2 }
-		mutually_exclusive = { focus = KAZ_politics_right_1 }
+		id = KAZ_instaurer_les_ecole_kazak
+		icon = GFX_focus_NORDIC_com_capstone_research
+		prerequisite = { focus = KAZ_un_partenariat_avec_le_diable }
+		#mutually_exclusive = { focus =  }
+		x = 2
+		y = 2
+		relative_position_id = KAZ_un_partenariat_avec_le_diable
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				add_ideas = KAZ_ecole_kazak
+				
+		}
+	}
+	
+	focus = {
+		id = KAZ_le_komintern
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = KAZ_un_partenariat_avec_le_diable }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = KAZ_un_partenariat_avec_le_diable
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 75
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		
+				add_stability = 0.05
+				add_political_power = 75
+				add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+				
+		}
+	}
+	focus = {
+		id = KAZ_publier_la_propagande_sov
+		icon = GFX_SOV_expand_the_agitprop_ccp_2d_sov_compatibility
+		prerequisite = { focus = KAZ_un_partenariat_avec_le_diable }
+		#mutually_exclusive = { focus =  }
+		x = 6
+		y = 1
+		relative_position_id = KAZ_un_partenariat_avec_le_diable
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_MANPOWER
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = { 
+		date > 1937.01.01
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		
+				add_ideas = SOV_collectivist_propaganda_ns
+				SOV = { add_political_power = 50 }
+				
+		}
+	}
+	focus = {
+		id = KAZ_ouvrir_notre_propre_consul
+		icon = GFX_focus_INS_expand_batavia_med_school
+		prerequisite = { focus = KAZ_un_partenariat_avec_le_diable }
+		#mutually_exclusive = { focus =  }
 		x = 4
 		y = 1
-		relative_position_id = KAZ_politic_2
+		relative_position_id = KAZ_un_partenariat_avec_le_diable
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY
+		}
+		cost = 10
 
+		ai_will_do = {
+			factor = 75
+		}
+
+		available = { 
+		SOV = {
+				has_completed_focus = SOV_the_centre
+				}
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				custom_effect_tooltip = available_political_advisor
+				show_ideas_tooltip = kaz_Daniyar_Fomenkoev
+				
+				custom_effect_tooltip = generic_skip_one_line_tt
+
+				
+				SOV = { add_political_power = 25 }
+		}
+	}
+	focus = {
+		id = KAZ_Aider_notre_partenaire_dans_sa_lutte
+		icon = GFX_focus_generic_winter_warfare
+		prerequisite = { focus = KAZ_ouvrir_notre_propre_consul focus = KAZ_publier_la_propagande_sov}
+		#mutually_exclusive = { focus =  }
+		x = 5
+		y = 2
+		relative_position_id = KAZ_un_partenariat_avec_le_diable
+		search_filters = {
+			FOCUS_FILTER_POLITICAL 
+		}
 		cost = 5
 
-		#ai_will_do = {
-		#	factor = 1
-		#}
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = { 
+		
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				add_ideas = KAZ_partager_notre_savoir_des_temps_difficile
+				SOV = {
+				add_ideas = KAZ_partager_notre_savoir_des_temps_difficile
+				add_political_power = 25
+				}
+				
+		}
+	}
+	
+	focus = {
+		id = KAZ_Offrir_un_cadeaux_a_staline
+		icon = GFX_focus_generic_sheep
+		prerequisite = { focus = KAZ_Aider_notre_partenaire_dans_sa_lutte}
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 2
+		relative_position_id = KAZ_Aider_notre_partenaire_dans_sa_lutte
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = { 
+		
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				SOV = {
+					country_event = {
+			    id = Hearts-of-Mod_KAZ.7
+			
+			}
+				effect_tooltip = {
+				add_country_leader_trait = KAZ_chevre_kazak
+				}
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = KAZ_effectuer_un_investissement_mutuelle
+		icon = GFX_focus_INS_economic_integration
+		prerequisite = { focus = KAZ_ouvrir_notre_propre_consul focus = KAZ_Aider_notre_partenaire_dans_sa_lutte}
+		#mutually_exclusive = { focus =  }
+		x = 3
+		y = 3
+		relative_position_id = KAZ_un_partenariat_avec_le_diable
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = { 
+		
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		SOV = { 
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 582}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			
+		}
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 583}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			
+			}
+			add_political_power = -25
+		}
+			random_core_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			prioritize = { 742 732}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+		}
+		add_political_power = 25
+		
+	}
+}
+	
+	focus = {
+		id = KAZ_faire_concurence_au_NKVD
+		icon = GFX_focus_generic_secret_agent_operative
+		prerequisite = { focus = KAZ_Aider_notre_partenaire_dans_sa_lutte focus = KAZ_publier_la_propagande_sov}
+		#mutually_exclusive = { focus =  }
+		x = 7
+		y = 3
+		relative_position_id = KAZ_un_partenariat_avec_le_diable
+		search_filters = {
+			FOCUS_FILTER_POLITICAL 
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = { 
+		
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				add_ideas = KAZ_centre_de_commandement
+				
+		}
+	}
+	focus = {
+		id = KAZ_publier_notre_constitution
+		icon = GFX_focus_POL_complete_april_constitution
+		prerequisite = { focus = KAZ_le_komintern }
+		prerequisite = { focus = KAZ_le_defenseur_de_nos_droit }
+		#mutually_exclusive = { focus =  }
+		x = -2
+		y = 1
+		relative_position_id = KAZ_le_komintern
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 75
+		}
 
 		available = {
 
@@ -301,24 +3664,101 @@ focus_tree = {
 		}
 
 		completion_reward = {
+				SOV = { add_political_power = 20 }
+				
+				custom_effect_tooltip = generic_skip_one_line_tt
+				
+				add_stability = 0.05
+				add_political_power = 25
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+					}
+					
+				custom_effect_tooltip = generic_skip_one_line_tt
+					
+				add_ideas = KAZ_constitution
+		}
+	}
+	
+focus = {
+		id = KAZ_demander_laccee_au_caoutchouc
+		icon = GFX_focus_BRA_rubber_war
+		prerequisite = { focus = KAZ_publier_notre_constitution }
+		prerequisite = { focus = KAZ_acheter_la_licence_de_Mikoyan_Gourevitch_mig }
+		#mutually_exclusive = { focus =  }
+		x = -5
+		y = 2
+		relative_position_id = KAZ_le_komintern
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY
+		}
+		cost = 5
 
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				SOV = { 
+				country_event = {
+			    id = Hearts-of-Mod_KAZ.8
+			
+			}
+			}
+			custom_effect_tooltip = if_they_accept_tt
+			custom_effect_tooltip = generic_skip_one_line_tt
+			KAZ = {
+			effect_tooltip = {
+			give_resource_rights = {
+						receiver = KAZ          
+						state = 195         
+						}
+			add_political_power = -50
+			
+			SOV = {
+				add_political_power = 50
+				}
+			}
+		}
+				
+				
+				
 		}
 	}
 
 	focus = {
-		id = KAZ_politics_right_1
-		icon = GFX_focus_CZE_german_puppet
-		prerequisite = { focus = KAZ_politic_2 }
-		mutually_exclusive = { focus = KAZ_politics_left_1 }
-		x = 12
-		y = 1
-		relative_position_id = KAZ_politic_2
-
+		id = KAZ_accepter_les_travailleurs_de_lextreme_orient
+		icon = GFX_focus_LAT_suspend_constitution_of_latvia
+		prerequisite = { focus = KAZ_le_komintern }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 2
+		relative_position_id = KAZ_le_komintern
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER
+		}
 		cost = 5
 
-		#ai_will_do = {
-		#	factor = 1
-		#}
+		ai_will_do = {
+			factor = 20
+		}
 
 		available = {
 
@@ -337,7 +3777,557 @@ focus_tree = {
 		}
 
 		completion_reward = {
+				
+				add_political_power = 25
+				add_popularity = {
+					ideology = communism
+					popularity = 0.02
+					}
+				408 = {
+					set_temp_variable = { state_pop = state_population }
+					multiply_temp_variable = { state_pop = 0.2 }
+					multiply_temp_variable = { state_pop = -1 }
+                    add_manpower = state_pop
+					}
+				881 = {
+					set_temp_variable = { state_pop = state_population }
+					multiply_temp_variable = { state_pop = 0.3 }
+					multiply_temp_variable = { state_pop = 1 }
+                    add_manpower = state_pop
+				}
+				586 = {
+					set_temp_variable = { state_pop = state_population }
+					multiply_temp_variable = { state_pop = 0.02 }
+					multiply_temp_variable = { state_pop = 1 }
+                    add_manpower = state_pop
+				}
+				405 = {
+					set_temp_variable = { state_pop = state_population }
+					multiply_temp_variable = { state_pop = 0.01 }
+					multiply_temp_variable = { state_pop = 1 }
+                    add_manpower = state_pop
+				}
+				add_victory_points = {
+					province = 1459
+					value = 2
+					}
+				add_victory_points = {
+					province = 1591
+					value = 2
+					}
+		}
+	}
+	
+	focus = {
+		id = KAZ_faire_valoir_notre_droit_de_seconde_puissance_economique_sovietique
+		icon = GFX_focus_generic_economic_recovery
+		prerequisite = { focus = KAZ_accepter_les_travailleurs_de_lextreme_orient }
+		prerequisite = { focus = KAZ_publier_notre_constitution }
+		#mutually_exclusive = { focus =  }
+		x = -1
+		y = 3
+		relative_position_id = KAZ_le_komintern
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT
+		}
+		cost = 10
 
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				swap_ideas = {
+			    remove_idea = SRR_kaz2
+			    add_idea = SRR_kaz3
+			}
+			
+		}
+	}
+	
+	
+	focus = {
+		id = KAZ_Rapatrier_notre_population
+		icon = GFX_focus_generic_population_growth
+		prerequisite = { focus = KAZ_accepter_les_travailleurs_de_lextreme_orient }
+		prerequisite = { focus = KAZ_instaurer_les_ecole_kazak }
+		#mutually_exclusive = { focus =  }
+		x = 1
+		y = 3
+		relative_position_id = KAZ_le_komintern
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_MANPOWER
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+				881 = {
+					set_temp_variable = { state_pop = state_population }
+					multiply_temp_variable = { state_pop = 0.25 }
+					multiply_temp_variable = { state_pop = 1 }
+                    add_manpower = state_pop
+				}
+				586 = {
+					set_temp_variable = { state_pop = state_population }
+					multiply_temp_variable = { state_pop = 0.01 }
+					multiply_temp_variable = { state_pop = 1 }
+                    add_manpower = state_pop
+				}
+				405 = {
+					set_temp_variable = { state_pop = state_population }
+					multiply_temp_variable = { state_pop = 0.015 }
+					multiply_temp_variable = { state_pop = 1 }
+                    add_manpower = state_pop
+				}
+				404 = {
+					set_temp_variable = { state_pop = state_population }
+					multiply_temp_variable = { state_pop = 0.4 }
+					multiply_temp_variable = { state_pop = 1 }
+                    add_manpower = state_pop
+				}
+				random_core_state = {
+				limit = {
+				free_building_slots = {
+				building = industrial_complex
+				size > 0
+				include_locked = yes
+				}
+				}
+				prioritize = {881}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+				}
+				}
+			
+		}
+	}
+	
+	focus = {
+		id = KAZ_affirmer_notre_alegeance
+		icon = GFX_focus_GER_integration_of_puppet_economies
+		prerequisite = { focus = KAZ_Rapatrier_notre_population }
+		prerequisite = { focus = KAZ_faire_valoir_notre_droit_de_seconde_puissance_economique_sovietique }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 4
+		relative_position_id = KAZ_le_komintern
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT
+		}
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_country_leader_trait = patriotic_socialist
+			
+		}
+	}
+	
+	focus = {
+		id = KAZ_demander_le_retour_des_terres_de_nos_ancetre
+		icon = GFX_focus_GER_expand_gestapo
+		prerequisite = { focus = KAZ_affirmer_notre_alegeance }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 5
+		relative_position_id = KAZ_le_komintern
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_MANPOWER FOCUS_FILTER_ANNEXATION
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = { 
+			OR = {has_army_manpower = {
+			    size > 250000
+			}
+			date > 1940.01.01
+			}
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		SOV = { 
+				country_event = {
+			    id = Hearts-of-Mod_KAZ.1
+			
+			}
+		}
+		custom_effect_tooltip = if_they_accept_tt
+			custom_effect_tooltip = generic_skip_one_line_tt
+			KAZ = {
+			effect_tooltip = {
+			transfer_state = 406
+            transfer_state = 407
+            transfer_state = 583
+            transfer_state = 590
+			transfer_state = 882
+			add_stability = 0.05
+			
+			SOV = {
+				add_stability = 0.05
+				add_political_power = 50
+						406 = {
+				if = {
+				limit = { industrial_complex > 0 }
+				remove_building = { type = industrial_complex  level = 1 }
+						
+							580 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+								}
+								
+							}
+						
+				}
+				if = {
+				limit = { arms_factory > 0 }
+				remove_building = { type = arms_factory  level = 1 }
+						
+							580 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+								}
+							}
+						
+				}
+				
+			}
+			407 = {
+								if = {
+				limit = { industrial_complex > 0 }
+				remove_building = { type = industrial_complex  level = 1 }
+						
+							577 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+								}
+							}
+						
+				}
+				if = {
+				limit = { arms_factory > 0 }
+				remove_building = { type = arms_factory  level = 1 }
+						
+							577 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+								}
+							}
+						
+				}
+						
+			}
+				
+			583 = {
+								if = {
+				limit = { industrial_complex > 0 }
+				
+							remove_building = { type = industrial_complex  level = 1 }
+							578 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+								}
+							}
+						
+				}
+				if = {
+				limit = { arms_factory > 0 }
+				remove_building = { type = arms_factory  level = 1 }
+						
+							578 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+								}
+							}
+						
+				}
+						
+				}
+				
+			590 = {
+								if = {
+				limit = { industrial_complex > 0 }
+				remove_building = { type = industrial_complex  level = 1 }
+						
+							576 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+								}
+							}
+						
+				}
+				if = {
+				limit = { arms_factory > 0 }
+				remove_building = { type = arms_factory  level = 1 }
+						
+							576 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+								}
+							}
+						
+				}
+			}
+			882 = {
+								if = {
+				limit = { industrial_complex > 0 }
+				remove_building = { type = industrial_complex  level = 1 }
+						
+							571 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+								}
+							}
+						
+				}
+				if = {
+				limit = { arms_factory > 0 }
+				remove_building = { type = arms_factory  level = 1 }
+						
+							571 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+								}
+							}
+						
+				}
+				}
+			580 = {increase_state_category = yes}
+			577 = {increase_state_category = yes}
+			578 = {increase_state_category = yes}
+			576 = {increase_state_category = yes}
+			571 = {increase_state_category = yes}
+			}
+					}
+			}
+			
+		}
+	}
+	focus = {
+		id = KAZ_abuser_de_leurs_confiance
+		icon = GFX_focus_SOV_socialism_in_one_country
+		prerequisite = { focus = KAZ_demander_le_retour_des_terres_de_nos_ancetre }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 6
+		relative_position_id = KAZ_le_komintern
+		search_filters = {
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER FOCUS_FILTER_ANNEXATION
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			num_of_controlled_states > 17
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		SOV = { 
+				country_event = {
+			    id = Hearts-of-Mod_KAZ.4
+			
+			}
+		}
+		add_political_power = -75
+		custom_effect_tooltip = if_they_accept_tt
+			custom_effect_tooltip = generic_skip_one_line_tt
+			KAZ = {
+			effect_tooltip = {
+			transfer_state = 40
+            transfer_state = 654
+            transfer_state = 329
+			
+			SOV = {
+			654 = {
+				if = {
+				limit = { industrial_complex > 0 }
+				remove_building = { type = industrial_complex  level = 1 }
+						
+							580 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+								}
+								
+							}
+						
+				}
+				if = {
+				limit = { arms_factory > 0 }
+				remove_building = { type = arms_factory  level = 1 }
+						
+							580 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+								}
+							}
+						
+				}
+				
+			}
+			40 = {
+				if = {
+				limit = { industrial_complex > 0 }
+				remove_building = { type = industrial_complex  level = 1 }
+						
+							572 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+								}
+								
+							}
+						
+				}
+				if = {
+				limit = { arms_factory > 0 }
+				remove_building = { type = arms_factory  level = 1 }
+						
+							572 = {
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+								}
+							}
+						
+				}
+				
+			}
+			580 = {increase_state_category = yes}
+			572 = {increase_state_category = yes}
+			
+			}
+			
+					}
+			}
 		}
 	}
 }
