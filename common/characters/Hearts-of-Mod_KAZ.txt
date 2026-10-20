@@ -1,0 +1,191 @@
+characters = {	
+	kaz_Sultan_Dauletev = {
+		name = kaz_Sultan_Dauletev
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/idea_ETH_wehib_pasha.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			ledger = army
+			idea_token = kaz_Sultan_Dauletev
+			ledger = army
+			traits = {
+				 kautskyian_socialist
+			}
+			cost = 150
+			allowed = {
+				original_tag = KAZ
+			}
+		}
+	}
+	kaz_Aniyar_Sakenov = {
+		name = kaz_Aniyar_Sakenov
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/portrait_JAP_chiune_sugihara_small.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			ledger = army
+			idea_token = kaz_Aniyar_Sakenov
+			ledger = army
+			traits = {
+				 SWE_minister_of_defense
+			}
+			cost = 150
+			allowed = {
+				original_tag = KAZ
+			}
+		}
+	}
+	kaz_Serik_Daniyarev = {
+		name = kaz_Serik_Daniyarev
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/portrait_JAP_chikuhei_nakajima_small.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			ledger = army
+			idea_token = kaz_Serik_Daniyarev
+			ledger = army
+			traits = {
+				 defender_of_the_peasantry
+			}
+			cost = 150
+			allowed = {
+				original_tag = KAZ
+			}
+			available = { has_completed_focus = KAZ_le_defenseur_de_nos_droit }
+		}
+	}
+	kaz_Daniyar_Fomenkoev = {
+		name = kaz_Daniyar_Fomenkoev
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/idea_SOV_nikandr_yevlampyevich_chibisov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			ledger = army
+			idea_token = kaz_Daniyar_Fomenkoev
+			ledger = army
+			traits = {
+				 SIK_soviet_consul_general_trait
+			}
+			cost = 150
+			allowed = {
+				original_tag = KAZ
+			}
+			available = { has_completed_focus = KAZ_ouvrir_notre_propre_consul }
+		}
+	}
+	kaz_Marat_Yedilev = {
+		name = kaz_Marat_Yedilev
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/idea_PER_constitutional_shah.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = kaz_Marat_Yedilev
+			ledger = army
+			traits = {
+				 army_cavalry_2
+			}
+			cost = 100
+			allowed = {
+				original_tag = KAZ
+			}
+		}
+	}
+		kaz_Bolat_Yerbolatev = {
+		name = kaz_Bolat_Yerbolatev
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/idea_CHI_weng_wenhao.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = air
+			idea_token = kaz_Bolat_Yerbolatev
+			ledger = air
+			traits = {
+				 famous_aviator
+			}
+			cost = 100
+			allowed = {
+				original_tag = KAZ
+			}
+		}
+	}
+	kaz_Alibi_Amanetev = {
+		name = kaz_Alibi_Amanetev
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_China_Chiang_Kai_Shek
+			}
+			army = {
+				large = GFX_Portrait_China_Chiang_Kai_Shek_large
+				small = GFX_Portrait_China_Chiang_Kai_Shek_small
+			}
+		}
+		field_marshal = {
+			traits = {  politically_connected }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	kaz_Ruslan_Madiev = {
+		name = kaz_Ruslan_Madiev
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Soviet_Generic_land_4
+			}
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_4_large
+				small = GFX_Portrait_Soviet_Generic_land_4_small
+			}
+		}
+		field_marshal = {
+			traits = {  politically_connected armor_officer  }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	kaz_Medet_Jeanev = {
+		name = kaz_Medet_Jeanev
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Soviet_Generic_land_7
+			}
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_7_large
+				small = GFX_Portrait_Soviet_Generic_land_7_small
+			}
+		}
+		field_marshal = {
+			traits = {  ambusher infantry_leader  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	
+}
