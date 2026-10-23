@@ -2,6 +2,9 @@ on_actions = {
     on_startup = {
         effect = {
             every_country = {
+                every_army_leader = {
+                    add_unit_leader_trait = no_grind
+                }
                 add_daily_mastery = {
                     amount = 1 #0.67
                     days = 3650
@@ -1300,4 +1303,19 @@ on_actions = {
             }
         }
     }
+    on_daily = {
+		effect = {
+			if = {
+				limit = {
+					FRA = { has_capitulated = yes }
+					POL = { has_capitulated = yes }
+				}
+				every_country = {
+                    every_army_leader = {
+                        remove_unit_leader_trait = no_grind
+                    }
+                }
+			}
+		}
+	}
 }
