@@ -15,7 +15,7 @@ state={
 		}
 
 		victory_points = {
-			10070 1 
+			10070 2 # Rabat
 		}
 	}
 
