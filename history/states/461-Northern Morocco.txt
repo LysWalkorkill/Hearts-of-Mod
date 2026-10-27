@@ -15,10 +15,6 @@ state = {
 			7069 10 # Casablanca
 		}
 
-		victory_points = {
-			10070 2 # Rabat
-		}
-
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
