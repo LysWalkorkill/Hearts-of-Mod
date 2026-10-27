@@ -1,4 +1,15 @@
 ﻿l_english:
+    fin_agent_ragnarok: "Agent Ragnarok"
+    fin_cara_delevingne: "Cara Delevingne"
+    fin_pere_noel: "Père Noël"
+    fin_ragnar_breton: "Ragnar Breton"
+    fin_sorciere_blanche: "Sorcière Blanche"
+    FIN_howard_langston: "Howard Langston"
+    FIN_kimi_raikkonen: "Kimi Räikkönen"
+    FIN_liisa_sevsonn: "Liisa Sevsonn"
+    FIN_lotta_hintsa: "Lotta Hintsa"
+    FIN_peter_franzen: "Peter Franzén"
+    FIN_saint_nicolas: "Saint Nicolas"
     # Ecosystem
     FIN_lancer_referendum_ecosysteme:0 "Hold a Referendum on the Finnish Ecosystem"
 

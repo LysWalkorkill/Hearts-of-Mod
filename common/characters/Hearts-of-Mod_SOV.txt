@@ -55,12 +55,276 @@ characters = {
 					has_character_flag = is_killed
 				}
 			}
-			traits={ panzer_leader }
+			traits={ panzer_leader brilliant_strategist panzer_leader panzer_expert hill_fighter}
 			skill=3
 			attack_skill=4
 			defense_skill=3
 			planning_skill=3
 			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	SOV_amelia_moskova = {
+		name = SOV_amelia_moskova
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_amelia_moskova_large
+				small = GFX_idea_SOV_amelia_moskova_small
+			}
+			army = {
+				large = GFX_portrait_SOV_amelia_moskova_large
+				small = GFX_idea_SOV_amelia_moskova_small
+			}
+		}
+		corps_commander={
+		
+			traits = {politically_connected trait_cautious cavalry_officer cavalry_leader cavalry_expert}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	SOV_anastasia_kirpichnikova = {
+		name = SOV_anastasia_kirpichnikova
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_anastasia_kirpichnikova_large
+				small = GFX_idea_SOV_anastasia_kirpichnikova_small
+			}
+			army = {
+				large = GFX_portrait_SOV_anastasia_kirpichnikova_large
+				small = GFX_idea_SOV_anastasia_kirpichnikova_small
+			}
+		}
+		navy_leader={
+		
+			traits = {torpedo_expert loading_drill_master silent_hunter seawolf}
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	SOV_marko_ramius = {
+		name = SOV_marko_ramius
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_marko_ramius_large
+				small = GFX_idea_SOV_marko_ramius_small
+			}
+			army = {
+				large = GFX_portrait_SOV_marko_ramius_large
+				small = GFX_idea_SOV_marko_ramius_small
+			}
+		}
+		navy_leader={
+		
+			traits = {arctic_water_expert blue_water_expert big_guns_expert ironside superior_tactician old_guard gentlemanly bold}
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			planning_skill=6
+			logistics_skill=6
+			legacy_id=0
+		}
+	}
+	SOV_vasili_borodin = {
+		name = SOV_vasili_borodin
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_vasili_borodin_large
+				small = GFX_idea_SOV_vasili_borodin_small
+			}
+			army = {
+				large = GFX_portrait_SOV_vasili_borodin_large
+				small = GFX_idea_SOV_vasili_borodin_small
+			}
+		}
+		navy_leader={
+		
+			traits = {green_water_expert cruiser_captain destroyer_leader bold spotter}
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	SOV_nikita_khrouchtchev = {
+		name = SOV_nikita_khrouchtchev
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_nikita_khrouchtchev_large
+				small = GFX_idea_SOV_nikita_khrouchtchev_small
+			}
+			army = {
+				large = GFX_portrait_SOV_nikita_khrouchtchev_large
+				small = GFX_idea_SOV_nikita_khrouchtchev_small
+			}
+		}
+		corps_commander={
+		
+			traits = {harsh_leader bearer_of_artillery infantry_leader infantry_expert politically_connected}
+			skill=2
+			attack_skill=5
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	SOV_piotr_fiodorov = {
+		name = SOV_piotr_fiodorov
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_piotr_fiodorov_large
+				small = GFX_idea_SOV_piotr_fiodorov_small
+			}
+			army = {
+				large = GFX_portrait_SOV_piotr_fiodorov_large
+				small = GFX_idea_SOV_piotr_fiodorov_small
+			}
+		}
+		corps_commander={
+		
+			traits = {brilliant_strategist trait_engineer organizer}
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	SOV_roza_shanina = {
+		name = SOV_roza_shanina
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_roza_shanina_large
+				small = GFX_idea_SOV_roza_shanina_small
+			}
+			army = {
+				large = GFX_portrait_SOV_roza_shanina_large
+				small = GFX_idea_SOV_roza_shanina_small
+			}
+		}
+		corps_commander={
+		
+			traits = {war_hero media_personality urban_assault_specialist ambusher infantry_leader}
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=6
+			logistics_skill=7
+			legacy_id=0
+		}
+	}
+	SOV_viktor_reznov = {
+		name = SOV_viktor_reznov
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_viktor_reznov_large
+				small = GFX_idea_SOV_viktor_reznov_small
+			}
+			army = {
+				large = GFX_portrait_SOV_viktor_reznov_large
+				small = GFX_idea_SOV_viktor_reznov_small
+			}
+		}
+		corps_commander={
+		
+			traits = {harsh_leader infantry_leader infantry_expert guerilla_fighter skilled_staffer}
+			skill=3
+			attack_skill=5
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	SOV_vitali_makarov = {
+		name = SOV_vitali_makarov
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_vitali_makarov_large
+				small = GFX_idea_SOV_vitali_makarov_small
+			}
+			army = {
+				large = GFX_portrait_SOV_vitali_makarov_large
+				small = GFX_idea_SOV_vitali_makarov_small
+			}
+		}
+		corps_commander={
+		
+			traits = {commando camouflage_expert brilliant_strategist}
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+	SOV_yuliya_snigir = {
+		name = SOV_yuliya_snigir
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_yuliya_snigir_large
+				small = GFX_idea_SOV_yuliya_snigir_small
+			}
+			army = {
+				large = GFX_portrait_SOV_yuliya_snigir_large
+				small = GFX_idea_SOV_yuliya_snigir_small
+			}
+		}
+		corps_commander={
+		
+			traits = {winter_specialist trait_reckless winter_expert brilliant_strategist}
+			skill=3
+			attack_skill=2
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+	SOV_nikolai_malinkov = {
+		name = SOV_nikolai_malinkov
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_nikolai_malinkov_large
+				small = GFX_idea_SOV_nikolai_malinkov_small
+			}
+			army = {
+				large = GFX_portrait_SOV_nikolai_malinkov_large
+				small = GFX_idea_SOV_nikolai_malinkov_small
+			}
+		}
+		corps_commander={
+		
+			traits = {organizer brilliant_strategist trait_engineer hill_fighter}
+			skill=2
+			attack_skill=3
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=0
 		}
 	}

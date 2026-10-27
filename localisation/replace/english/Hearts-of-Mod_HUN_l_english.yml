@@ -1,4 +1,17 @@
 ﻿l_english:
+    hun_leia_organa: "Leia Organa"
+    hun_luke_skywalker: "Luke Skywalker"
+    hun_mace_windu: "Mace Windu"
+    hun_padme_amidala: "Padmé Amidala"
+    hun_seigneur_sidious: "Seigneur Sidious"
+    HUN_anakin_skywalker: "Anakin Skywalker"
+    HUN_commandant_cody: "Commandant Cody"
+    HUN_comte_dooku: "Comte Dooku"
+    HUN_daenerys_targaryen: "Daenerys Targaryen"
+    HUN_han_solo: "Hans Solo"
+    HUN_john_snow: "John Snow"
+    HUN_jyn_erso: "Jyn Erso"
+    HUN_shin_hati: "Shin Hati"
     # Highway
     HUN_poursuivre_travaux_autoroute_horthy:0 "Continue Construction of the \"Horthy\" Highway"
 

@@ -14,12 +14,12 @@ characters = {
 		}
 		corps_commander={
 		
-			
-			skill=5
+			traits = {desert_fox guerilla_fighter harsh_leader media_personality}
+			skill=2
 			attack_skill=3
-			defense_skill=4
+			defense_skill=2
 			planning_skill=5
-			logistics_skill=7
+			logistics_skill=6
 			legacy_id=0
 		}
 	}
@@ -38,7 +38,7 @@ characters = {
 		}
 		navy_leader={
 		
-			
+			traits = {seawolf torpedo_expert}
 			skill=2
 			attack_skill=3
 			defense_skill=2
@@ -62,7 +62,7 @@ characters = {
 		}
 		corps_commander={
 		
-			
+			traits = {trait_cautious media_personality organizer trickster}
 			skill=3
 			attack_skill=3
 			defense_skill=2
@@ -86,8 +86,8 @@ characters = {
 		}
 		corps_commander={
 		
-			
-			skill=4
+			traits = {career_officer harsh_leader infantry_leader infantry_expert}
+			skill=3
 			attack_skill=3
 			defense_skill=4
 			planning_skill=4
@@ -110,12 +110,12 @@ characters = {
 		}
 		navy_leader={
 		
-			
+			traits = {bold ironside big_guns_expert}
 			skill=5
-			attack_skill=5
+			attack_skill=4
 			defense_skill=4
-			planning_skill=6
-			logistics_skill=7
+			planning_skill=3
+			logistics_skill=5
 			legacy_id=0
 		}
 	}
@@ -134,9 +134,9 @@ characters = {
 		}
 		corps_commander={
 		
-			
-			skill=4
-			attack_skill=5
+			traits = {organizer ranger trait_engineer trait_cautious}
+			skill=3
+			attack_skill=2
 			defense_skill=4
 			planning_skill=5
 			logistics_skill=6
@@ -158,11 +158,11 @@ characters = {
 		}
 		corps_commander={
 		
-			
+			traits = {trait_reckless cavalry_leader cavalry_expert expert_improviser}
 			skill=3
 			attack_skill=3
-			defense_skill=5
-			planning_skill=4
+			defense_skill=4
+			planning_skill=3
 			logistics_skill=3
 			legacy_id=0
 		}
@@ -182,7 +182,7 @@ characters = {
 		}
 		corps_commander={
 		
-			
+			traits = {commando skirmisher camouflage_expert trait_cautious}
 			skill=3
 			attack_skill=3
 			defense_skill=4
@@ -206,7 +206,7 @@ characters = {
 		}
 		corps_commander={
 		
-			
+			traits = {brilliant_strategist trickster hill_fighter}
 			skill=2
 			attack_skill=4
 			defense_skill=4
@@ -230,12 +230,12 @@ characters = {
 		}
 		corps_commander={
 		
-			
-			skill=4
-			attack_skill=6
-			defense_skill=4
-			planning_skill=5
-			logistics_skill=6
+			traits = {adaptable}
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=0
 		}
 	}
@@ -254,13 +254,61 @@ characters = {
 		}
 		corps_commander={
 		
-			
+			traits = {media_personality panzer_leader armor_officer trait_reckless organizer}
 			skill=3
-			attack_skill=8
+			attack_skill=5
 			defense_skill=3
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
 		}
 	}
-    }
+	FRA_jeanne_dorleans = {
+		name = FRA_jeanne_dorleans
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FRA_jeanne_dorleans_large
+				small = GFX_idea_FRA_jeanne_dorleans_small
+			}
+			army = {
+				large = GFX_portrait_FRA_jeanne_dorleans_large
+				small = GFX_idea_FRA_jeanne_dorleans_small
+			}
+		}
+		corps_commander={
+		
+			traits = { brilliant_strategist infantry_officer infantry_leader infantry_expert }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	FRA_lucien_dalsace = {
+		name = FRA_lucien_dalsace
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FRA_lucien_dalsace_large
+				small = GFX_idea_FRA_lucien_dalsace_small
+			}
+			army = {
+				large = GFX_portrait_FRA_lucien_dalsace_large
+				small = GFX_idea_FRA_lucien_dalsace_small
+			}
+		}
+		corps_commander={
+		
+			traits = {infantry_officer trait_mountaineer organizer naval_invader}
+			skill=3
+			attack_skill=2
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+	}

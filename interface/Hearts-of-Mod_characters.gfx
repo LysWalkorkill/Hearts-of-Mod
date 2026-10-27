@@ -69,6 +69,14 @@ spriteTypes = {
 		texturefile = "gfx/Hearts-of-Mod/characters/CAN/portrait_summer_mcintosh_small.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_USA_alexander_superarme_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/USA/portrait_alexander_superarme_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_alexander_superarme_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/USA/portrait_alexander_superarme_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_USA_tom_postom_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/USA/portrait_tom_postom_large.dds"
 	}
@@ -397,7 +405,7 @@ spriteTypes = {
 		texturefile = "gfx/Hearts-of-Mod/characters/ENG/portrait_ewan_mcgregor_small.dds"
 	}
 	SpriteType = {
-		name = "GFX_portrait_ENG_hercule_poiroitl_large"
+		name = "GFX_portrait_ENG_hercule_poiroit_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/ENG/portrait_hercule_poiroit_large.dds"
 	}
 	SpriteType = {
@@ -444,5 +452,1020 @@ spriteTypes = {
 		name = "GFX_idea_ENG_taron_egerton_small"
 		texturefile = "gfx/Hearts-of-Mod/characters/ENG/portrait_taron_egerton_small.dds"
 	}
+	SpriteType = {
+		name = "GFX_portrait_SOV_amelia_moskova_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_amelia_moskova_large.dds"
 	}
-	
+	SpriteType = {
+		name = "GFX_idea_SOV_amelia_moskova_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_amelia_moskova_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_SOV_anastasia_kirpichnikova_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_anastasia_kirpichnikova_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_anastasia_kirpichnikova_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_anastasia_kirpichnikova_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_SOV_nikita_khrouchtchev_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_nikita_khrouchtchev_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_nikita_khrouchtchev_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_nikita_khrouchtchev_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_SOV_piotr_fiodorov_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_piotr_fiodorov_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_piotr_fiodorov_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_piotr_fiodorov_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_SOV_roza_shanina_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_roza_shanina_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_roza_shanina_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_roza_shanina_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_SOV_vasili_borodin_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_vasili_borodin_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_vasili_borodin_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_vasili_borodin_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_SOV_viktor_reznov_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_viktor_reznov_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_viktor_reznov_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_viktor_reznov_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_SOV_vitali_makarov_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_vitali_makarov_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_vitali_makarov_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_vitali_makarov_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_SOV_yuliya_snigir_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_yuliya_snigir_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_yuliya_snigir_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_yuliya_snigir_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_SOV_marko_ramius_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_marko_ramius_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_marko_ramius_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_marko_ramius_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_BUL_alexandre_astier_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_alexandre_astier_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BUL_alexandre_astier_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_alexandre_astier_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_BUL_cate_blanchett_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_cate_blanchett_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BUL_cate_blanchett_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_cate_blanchett_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_BUL_jason_momoa_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_jason_momoa_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BUL_jason_momoa_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_jason_momoa_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_BUL_merlin_prime_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_merlin_prime_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BUL_merlin_prime_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_merlin_prime_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_BUL_morgane_berry_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_morgane_berry_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BUL_morgane_berry_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_morgane_berry_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_BUL_rhaegar_targaryen_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_rhaegar_targaryen_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BUL_rhaegar_targaryen_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_rhaegar_targaryen_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_BUL_robin_des_bois_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_robin_des_bois_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BUL_robin_des_bois_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_robin_des_bois_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_BUL_sansa_stark_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_sansa_stark_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BUL_sansa_stark_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_sansa_stark_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_BUL_vassil_levski_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_vassil_levski_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BUL_vassil_levski_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BUL/portrait_vassil_levski_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_FIN_howard_langston_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/FIN/portrait_howard_langston_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_FIN_howard_langston_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/FIN/portrait_howard_langston_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_FIN_kimi_raikkonen_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/FIN/portrait_kimi_raikkonen_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_FIN_kimi_raikkonen_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/FIN/portrait_kimi_raikkonen_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_FIN_liisa_sevsonn_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/FIN/portrait_liisa_sevsonn_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_FIN_liisa_sevsonn_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/FIN/portrait_liisa_sevsonn_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_FIN_lotta_hintsa_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/FIN/portrait_lotta_hintsa_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_FIN_lotta_hintsa_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/FIN/portrait_lotta_hintsa_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_FIN_peter_franzen_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/FIN/portrait_peter_franzen_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_FIN_peter_franzen_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/FIN/portrait_peter_franzen_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_FIN_saint_nicolas_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/FIN/portrait_saint_nicolas_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_FIN_saint_nicolas_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/FIN/portrait_saint_nicolas_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_FRA_jeanne_dorleans_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/FRA/portrait_jeanne_dorleans_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_FRA_jeanne_dorleans_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/FRA/portrait_jeanne_dorleans_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_GER_angela_krieg_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_angela_krieg_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_angela_krieg_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_angela_krieg_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_GER_claus_von_stauffenberg_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_claus_von_stauffenberg_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_claus_von_stauffenberg_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_claus_von_stauffenberg_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_GER_daniel_bruhl_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_daniel_bruhl_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_daniel_bruhl_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_daniel_bruhl_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_GER_der_volkssturm_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_der_volkssturm_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_der_volkssturm_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_der_volkssturm_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_GER_general_krebs_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_general_krebs_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_general_krebs_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_general_krebs_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_GER_hans_landa_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_hans_landa_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_hans_landa_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_hans_landa_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_GER_heinrich_amsel_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_heinrich_amsel_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_heinrich_amsel_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_heinrich_amsel_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_GER_henry_gibson_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_henry_gibson_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_henry_gibson_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_henry_gibson_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_GER_herr_schulz_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_herr_schulz_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_herr_schulz_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_herr_schulz_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_GER_traudl_junge_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_traudl_junge_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_traudl_junge_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/GER/portrait_traudl_junge_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_HUN_anakin_skywalker_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_anakin_skywalker_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HUN_anakin_skywalker_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_anakin_skywalker_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_HUN_commandant_cody_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_commandant_cody_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HUN_commandant_cody_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_commandant_cody_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_HUN_comte_dooku_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_comte_dooku_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HUN_comte_dooku_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_comte_dooku_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_HUN_daenerys_targaryen_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_daenerys_targaryen_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HUN_daenerys_targaryen_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_daenerys_targaryen_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_HUN_han_solo_large_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_han_solo_large_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HUN_han_solo_large_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_han_solo_large_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_HUN_john_snow_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_john_snow_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HUN_john_snow_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_john_snow_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_HUN_jyn_erso_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_jyn_erso_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HUN_jyn_erso_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_jyn_erso_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_HUN_shin_hati_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_shin_hati_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HUN_shin_hati_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/HUN/portrait_shin_hati_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_ITA_abou_clement_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_abou_clement_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_abou_clement_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_abou_clement_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_ITA_caius_bonus_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_caius_bonus_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_caius_bonus_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_caius_bonus_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_ITA_giorgio_armani_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_giorgio_armani_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_giorgio_armani_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_giorgio_armani_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_ITA_jules_cesar_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_jules_cesar_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_jules_cesar_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_jules_cesar_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_ITA_leonardo_dicaprio_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_leonardo_dicaprio_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_leonardo_dicapriot_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_leonardo_dicaprio_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_ITA_ornella_muti_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_ornella_muti_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_ornella_muti_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_aornella_muti_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_ITA_roberto_benigni_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_roberto_benigni_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_roberto_benigni_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_roberto_benigni_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_ITA_zendaya_coleman_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_zendaya_coleman_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_zendaya_coleman_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_zendaya_coleman_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_ITA_abou_clement_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_abou_clement_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_abou_clement_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ITA/portrait_abou_clement_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_KAZ_aruzhan_jazilbekova_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_aruzhan_jazilbekova_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_KAZ_aruzhan_jazilbekova_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_aruzhan_jazilbekova_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_KAZ_diana_saifullinai_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_diana_saifullinai_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_KAZ_diana_saifullinai_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_diana_saifullinai_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_KAZ_dmitry_balandin_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_dmitry_balandin_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_KAZ_dmitry_balandin_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_dmitry_balandin_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_KAZ_gennady_golovkin_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_gennady_golovkin_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_KAZ_gennady_golovkin_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_gennady_golovkin_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_KAZ_irina_aniri_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_irina_aniri_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_KAZ_irina_aniri_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_irina_aniri_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_KAZ_marina_devyatova_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_marina_devyatova_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_KAZ_marina_devyatova_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_marina_devyatova_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_KAZ_noursoultan_nazarbaiev_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_noursoultan_nazarbaiev_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_KAZ_noursoultan_nazarbaiev_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_noursoultan_nazarbaiev_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_KAZ_viktor_tsoi_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_viktor_tsoi_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_KAZ_viktor_tsoi_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_viktor_tsoi_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_KAZ_volodymyr_zelensky_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_volodymyr_zelensky_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_KAZ_volodymyr_zelensky_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/KAZ/portrait_volodymyr_zelensky_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_MAN_bd_wong_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_bd_wong_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_MAN_bd_wong_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_bd_wong_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_MAN_frederic_chau_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_frederic_chau_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_MAN_frederic_chau_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_frederic_chau_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_MAN_jane_zhang_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_jane_zhang_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_MAN_jane_zhang_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_jane_zhang_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_MAN_kubo_sensei_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_kubo_sensei_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_MAN_kubo_sensei_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_kubo_sensei_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_MAN_leiong_leang_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_leiong_leang_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_MAN_leiong_leang_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_leiong_leang_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_MAN_tsing_shi_tao_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_tsing_shi_tao_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_MAN_tsing_shi_tao_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_tsing_shi_tao_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_MAN_wang_chuqin_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_wang_chuqin_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_MAN_wang_chuqin_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_wang_chuqin_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_MAN_wu_qian_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_wu_qian_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_MAN_wu_qian_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/MAN/portrait_wu_qian_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_RAJ_amita_saahva_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_amita_saahva_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RAJ_amita_saahva_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_amita_saahva_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_RAJ_grand_vizir_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_grand_vizir_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RAJ_grand_vizir_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_grand_vizir_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_RAJ_harman_baweja_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_harman_baweja_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RAJ_harman_baweja_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_harman_baweja_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_RAJ_naema_sindoula_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_naema_sindoula_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RAJ_naema_sindoula_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_naema_sindoula_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_RAJ_prince_de_bombay_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_prince_de_bombay_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RAJ_prince_de_bombay_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_prince_de_bombay_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_RAJ_shah_rukh_khan_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_shah_rukh_khan_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RAJ_shah_rukh_khan_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_shah_rukh_khan_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_RAJ_shruti_haasan_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_shruti_haasan_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RAJ_shruti_haasan_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/RAJ/portrait_shruti_haasan_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_ROM_albus_dumbledore_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_albus_dumbledore_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ROM_albus_dumbledore_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_albus_dumbledore_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_ROM_anna_de_noailles_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_anna_de_noailles_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ROM_anna_de_noailles_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_anna_de_noailles_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_ROM_compte_dracula_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_compte_dracula_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ROM_compte_dracula_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_compte_dracula_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_ROM_cyprien_iov_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_cyprien_iov_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ROM_cyprien_iov_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_cyprien_iov_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_ROM_mercredi_addams_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_mercredi_addams_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ROM_mercredi_addams_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_mercredi_addams_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_ROM_severu_rogue_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_severu_rogue_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ROM_severu_rogue_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_severu_rogue_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SAF_candice_swanepoel_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_candice_swanepoel_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SAF_candice_swanepoel_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_candice_swanepoel_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SAF_cheslin_kolbe_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_cheslin_kolbe_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SAF_cheslin_kolbe_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_cheslin_kolbe_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SAF_elon_musk_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_elon_musk_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SAF_elon_musk_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_elon_musk_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SAF_gary_player_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_gary_player_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SAF_gary_player_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_gary_player_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SAF_minnie_dlamini_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_minnie_dlamini_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SAF_minnie_dlamini_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_minnie_dlamini_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SAF_thibault_bambini_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_thibault_bambini_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SAF_thibault_bambini_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_thibault_bambini_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SPR_aitana_morales_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_aitana_morales_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_aitana_morales_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_aitana_morales_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SPR_sofia_de_borbon_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_sofia_de_borbon_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_sofia_de_borbon_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_sofia_de_borbon_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SPR_general_mobutu_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_general_mobutu_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_general_mobutu_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_general_mobutu_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SPR_felipe_vi_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_felipe_vi_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_felipe_vi_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_felipe_vi_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SPR_hernan_cortes_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_hernan_cortes_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_hernan_cortes_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_hernan_cortes_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SPR_pedro_gonzalez_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_pedro_gonzalez_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_pedro_gonzalez_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_pedro_gonzalez_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SPR_rosalia_playa_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_rosalia_playa_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_rosalia_playa_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_rosalia_playa_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SPR_sergent_garcia_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_sergent_garcia_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SPR_sergent_garcia_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SPR/portrait_sergent_garcia_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_USA_sabrina_carpenter_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/USA/portrait_sabrina_carpenter_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_sabrina_carpenter_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/USA/portrait_sabrina_carpenter_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_YUG_aragon_ripenest_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_aragon_ripenest_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_YUG_aragon_ripenest_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_aragon_ripenest_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_YUG_arwen_liv_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_arwen_liv_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_YUG_arwen_liv_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_arwen_liv_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_YUG_arya_guillory_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_arya_guillory_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_YUG_arya_guillory_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_arya_guillory_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_YUG_eragon_speleers_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_eragon_speleers_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_YUG_eragon_speleers_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_eragon_speleers_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_YUG_frodon_sacquet_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_frodon_sacquet_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_YUG_frodon_sacquet_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_frodon_sacquet_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_YUG_madame_fierpied_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_madame_fierpied_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_YUG_madame_fierpied_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_madame_fierpied_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_YUG_samsagace_gamegie_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_samsagace_gamegie_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_YUG_samsagace_gamegie_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/YUG/portrait_samsagace_gamegie_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SOV_nikolai_malinkov_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_nikolai_malinkov_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_nikolai_malinkov_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SOV/portrait_nikolai_malinkov_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_SIA_makayuth_prudyawatt_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SIA/portrait_makayuth_prudyawatt_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SIA_makayuth_prudyawatt_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SIA/portrait_makayuth_prudyawatt_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_AST_denis_brogniart_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/AST/portrait_denis_brogniart_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_AST_denis_brogniart_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/AST/portrait_denis_brogniart_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_AST_herr_magniez_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/AST/portrait_herr_magniez_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_AST_herr_magniez_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/AST/portrait_herr_magniez_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_CAN_james_cameron_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/CAN/portrait_james_cameron_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_CAN_james_cameron_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/CAN/portrait_james_cameron_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_CAN_emily_vancamp_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/CAN/portrait_emily_vancamp_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_CAN_emily_vancamp_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/CAN/portrait_emily_vancamp_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_BRA_alice_braga_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_alice_braga_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRA_alice_braga_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_alice_braga_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_BRA_angelina_lopez_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_angelina_lopez_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRA_angelina_lopez_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_angelina_lopez_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_BRA_fernand_de_magellan_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_fernand_de_magellan_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRA_fernand_de_magellan_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_fernand_de_magellan_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_BRA_jose_mourinho_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_jose_mourinho_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRA_jose_mourinho_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_jose_mourinho_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_BRA_morena_baccarin_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_morena_baccarin_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRA_morena_baccarin_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_morena_baccarin_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_BRA_neymar_jr_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_neymar_jr_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRA_neymar_jr_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_neymar_jr_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_BRA_roi_pele_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_roi_pele_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRA_roi_pele_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/BRA/portrait_roi_pele_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_MEX_zhanna_bark_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/MEX/portrait_zhanna_bark_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_MEX_zhanna_bark_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/MEX/portrait_zhanna_bark_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_FRA_lucien_dalsace_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/FRA/portrait_lucien_dalsace_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_FRA_lucien_dalsace_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/FRA/portrait_lucien_dalsace_small.dds"
+    }
+	SpriteType = {
+		name = "GFX_portrait_JAP_akira_toriyama_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/JAP/portrait_akira_toriyama_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_akira_toriyama_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/JAP/portrait_akira_toriyama_small.dds"
+}
+SpriteType = {
+		name = "GFX_portrait_JAP_uop_shisho_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/JAP/portrait_uop_shisho_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_uop_shisho_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/JAP/portrait_uop_shisho_small.dds"
+}
+SpriteType = {
+		name = "GFX_portrait_ROM_mike_schmidt_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_mike_schmidt_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ROM_mike_schmidt_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_mike_schmidt_small.dds"
+}
+SpriteType = {
+		name = "GFX_portrait_ROM_vanessa_shelly_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_vanessa_shelly_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ROM_vanessa_shelly_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/ROM/portrait_vanessa_shelly_small.dds"
+}
+SpriteType = {
+		name = "GFX_portrait_SAF_nelson_mandela_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_nelson_mandela_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SAF_nelson_mandela_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_nelson_mandela_small.dds"
+}
+SpriteType = {
+		name = "GFX_portrait_SAF_zongo_le_dozo_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_zongo_le_dozo_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SAF_zongo_le_dozo_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_zongo_le_dozo_small.dds"
+}
+SpriteType = {
+		name = "GFX_portrait_SAF_le_bachelor_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_le_bachelor_large.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SAF_le_bachelor_small"
+		texturefile = "gfx/Hearts-of-Mod/characters/SAF/portrait_le_bachelor_small.dds"
+}
+}

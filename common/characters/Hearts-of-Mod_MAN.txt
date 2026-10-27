@@ -1,0 +1,194 @@
+characters = {
+	MAN_bd_wong = {
+		name = MAN_bd_wong
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MAN_bd_wong_large
+				small = GFX_idea_MAN_bd_wong_small
+			}
+			army = {
+				large = GFX_portrait_MAN_bd_wong_large
+				small = GFX_idea_MAN_bd_wong_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+    MAN_frederic_chau = {
+		name = MAN_frederic_chau
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MAN_frederic_chau_large
+				small = GFX_idea_MAN_frederic_chau_small
+			}
+			army = {
+				large = GFX_portrait_MAN_frederic_chau_large
+				small = GFX_idea_MAN_frederic_chau_small
+			}
+		}
+		corps_commander={
+		
+			
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+    MAN_jane_zhang = {
+		name = MAN_jane_zhang
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MAN_jane_zhang_large
+				small = GFX_idea_MAN_jane_zhang_small
+			}
+			army = {
+				large = GFX_portrait_MAN_jane_zhang_large
+				small = GFX_idea_MAN_jane_zhang_small
+			}
+		}
+		navy_leader={
+		
+			traits = {big_guns_expert ironside superior_tactician bold blue_water_expert}
+			skill=3
+			attack_skill=6
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    MAN_kubo_sensei = {
+		name = MAN_kubo_sensei
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MAN_kubo_sensei_large
+				small = GFX_idea_MAN_kubo_sensei_small
+			}
+			army = {
+				large = GFX_portrait_MAN_kubo_sensei_large
+				small = GFX_idea_MAN_kubo_sensei_small
+			}
+		}
+		corps_commander={
+		
+			traits = {trait_engineer organizer brilliant_strategist old_guard trait_reckless}
+			skill=4
+			attack_skill=5
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+    MAN_leiong_leang = {
+		name = MAN_leiong_leang
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MAN_leiong_leang_large
+				small = GFX_idea_MAN_leiong_leang_small
+			}
+			army = {
+				large = GFX_portrait_MAN_leiong_leang_large
+				small = GFX_idea_MAN_leiong_leang_small
+			}
+		}
+		corps_commander={
+		
+			traits = { brilliant_strategist panzer_expert panzer_leader armor_officer hill_fighter organizer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+     MAN_tsing_shi_tao = {
+		name = MAN_tsing_shi_tao
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MAN_tsing_shi_tao_large
+				small = GFX_idea_MAN_tsing_shi_tao_small
+			}
+			army = {
+				large = GFX_portrait_MAN_tsing_shi_tao_large
+				small = GFX_idea_MAN_tsing_shi_tao_small
+			}
+		}
+		corps_commander={
+		
+			traits = {trait_reckless infantry_leader infantry_expert media_personality}
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    MAN_wang_chuqin = {
+		name = MAN_wang_chuqin
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MAN_wang_chuqin_large
+				small = GFX_idea_MAN_wang_chuqin_small
+			}
+			army = {
+				large = GFX_portrait_MAN_wang_chuqin_large
+				small = GFX_idea_MAN_wang_chuqin_small
+			}
+		}
+		corps_commander={
+		
+			traits = {urban_assault_specialist commando camouflage_expert}
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    MAN_wu_qian = {
+		name = MAN_wu_qian
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MAN_wu_qian_large
+				small = GFX_idea_MAN_wu_qian_small
+			}
+			army = {
+				large = GFX_portrait_MAN_wu_qian_large
+				small = GFX_idea_MAN_wu_qian_small
+			}
+		}
+		corps_commander={
+		
+			traits = {urban_assault_specialist guerilla_fighter harsh_leader trait_reckless}
+			skill=3
+			attack_skill=3
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    }

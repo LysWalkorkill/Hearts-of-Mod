@@ -1,0 +1,242 @@
+characters = {
+	GER_angela_krieg = {
+		name = GER_angela_krieg
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_angela_krieg_large
+				small = GFX_idea_GER_angela_krieg_small
+			}
+			army = {
+				large = GFX_portrait_GER_angela_krieg_large
+				small = GFX_idea_GER_angela_krieg_small
+			}
+		}
+		navy_leader={
+		
+			traits = {seawolf blue_water_expert}
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    GER_claus_von_stauffenberg = {
+		name = GER_claus_von_stauffenberg
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_claus_von_stauffenberg_large
+				small = GFX_idea_GER_claus_von_stauffenberg_small
+			}
+			army = {
+				large = GFX_portrait_GER_claus_von_stauffenberg_large
+				small = GFX_idea_GER_claus_von_stauffenberg_small
+			}
+		}
+		corps_commander={
+		
+			traits = {brilliant_strategist adaptable}
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+    GER_daniel_bruhl = {
+		name = GER_daniel_bruhl
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_daniel_bruhl_large
+				small = GFX_idea_GER_daniel_bruhl_small
+			}
+			army = {
+				large = GFX_portrait_GER_daniel_bruhl_large
+				small = GFX_idea_GER_daniel_bruhl_small
+			}
+		}
+		corps_commander={
+		
+			traits = {infantry_officer infantry_leader war_hero}
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    GER_der_volkssturm = {
+		name = GER_der_volkssturm
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_der_volkssturm_large
+				small = GFX_idea_GER_der_volkssturm_small
+			}
+			army = {
+				large = GFX_portrait_GER_der_volkssturm_large
+				small = GFX_idea_GER_der_volkssturm_small
+			}
+		}
+		corps_commander={
+		
+			traits = {commando camouflage_expert guerilla_fighter trait_reckless}
+			skill=2
+			attack_skill=1
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    GER_general_krebs = {
+		name = GER_general_krebs
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_general_krebs_large
+				small = GFX_idea_GER_general_krebs_small
+			}
+			army = {
+				large = GFX_portrait_GER_general_krebs_large
+				small = GFX_idea_GER_general_krebs_small
+			}
+		}
+		corps_commander={
+		
+			traits = {politically_connected brilliant_strategist panzer_leader panzer_expert armor_officer organizer}
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    GER_hans_landa = {
+		name = GER_hans_landa
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_hans_landa_large
+				small = GFX_idea_GER_hans_landa_small
+			}
+			army = {
+				large = GFX_portrait_GER_hans_landa_large
+				small = GFX_idea_GER_hans_landa_small
+			}
+		}
+		corps_commander={
+		
+			traits = {urban_assault_specialist old_guard harsh_leader trait_engineer}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    GER_heinrich_amsel = {
+		name = GER_heinrich_amsel
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_heinrich_amsel_large
+				small = GFX_idea_GER_heinrich_amsel_small
+			}
+			army = {
+				large = GFX_portrait_GER_heinrich_amsel_large
+				small = GFX_idea_GER_heinrich_amsel_small
+			}
+		}
+		corps_commander={
+		
+			traits = {hill_fighter harsh_leader organizer brilliant_strategist armor_officer}
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    GER_henry_gibson = {
+		name = GER_henry_gibson
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_henry_gibson_large
+				small = GFX_idea_GER_henry_gibson_small
+			}
+			army = {
+				large = GFX_portrait_GER_henry_gibson_large
+				small = GFX_idea_GER_henry_gibson_small
+			}
+		}
+		corps_commander={
+		
+			traits = {trait_engineer scavenger}
+			skill=1
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    GER_traudl_junge = {
+		name = GER_traudl_junge
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_traudl_junge_large
+				small = GFX_idea_GER_traudl_junge_small
+			}
+			army = {
+				large = GFX_portrait_GER_traudl_junge_large
+				small = GFX_idea_GER_traudl_junge_small
+			}
+		}
+		corps_commander={
+		
+			traits = {cavalry_leader ranger}
+			skill=2
+			attack_skill=4
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+    GER_herr_schulz = {
+		name = GER_herr_schulz
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_herr_schulz_large
+				small = GFX_idea_GER_herr_schulz_small
+			}
+			army = {
+				large = GFX_portrait_GER_herr_schulz_large
+				small = GFX_idea_GER_herr_schulz_small
+			}
+		}
+		navy_leader={
+		
+			traits = {inshore_fighter big_guns_expert superior_tactician}
+			skill=1
+			attack_skill=2
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+    }

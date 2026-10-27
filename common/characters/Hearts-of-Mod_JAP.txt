@@ -14,7 +14,7 @@ characters = {
 		}
 		corps_commander={
 		
-			
+			traits = {brilliant_strategist trait_reckless harsh_leader infantry_leader infantry_expert media_personality}
 			skill=4
 			attack_skill=4
 			defense_skill=5
@@ -38,9 +38,9 @@ characters = {
 		}
 		corps_commander={
 		
-			
-			skill=6
-			attack_skill=7
+			traits = {brilliant_strategist ranger jungle_rat adaptable}
+			skill=5
+			attack_skill=3
 			defense_skill=4
 			planning_skill=6
 			logistics_skill=5
@@ -62,9 +62,9 @@ characters = {
 		}
 		navy_leader={
 		
-			
+			traits = {superior_tactician ironside battleship_adherent blue_water_expert}
 			skill=5
-			attack_skill=6
+			attack_skill=3
 			defense_skill=5
 			planning_skill=4
 			logistics_skill=5
@@ -86,9 +86,9 @@ characters = {
 		}
 		navy_leader={
 		
-			
+			traits = {seawolf bold blue_water_expert silent_hunter}
 			skill=4
-			attack_skill=5
+			attack_skill=4
 			defense_skill=4
 			planning_skill=4
 			logistics_skill=4
@@ -110,9 +110,9 @@ characters = {
 		}
 		corps_commander={
 		
-			
+			traits = {panzer_expert panzer_leader armor_officer trait_reckless organizer guerilla_fighter}
 			skill=3
-			attack_skill=5
+			attack_skill=4
 			defense_skill=3
 			planning_skill=4
 			logistics_skill=3
@@ -134,12 +134,60 @@ characters = {
 		}
 		corps_commander={
 		
-			
+			traits = {trait_mountaineer brilliant_strategist trait_reckless trickster trait_engineer organizer}
 			skill=3
 			attack_skill=3
 			defense_skill=3
-			planning_skill=5
-			logistics_skill=5
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=0
+		}
+        }
+		JAP_akira_toriyama = {
+		name = JAP_akira_toriyama
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_akira_toriyama_large
+				small = GFX_idea_JAP_akira_toriyama_small
+			}
+			army = {
+				large = GFX_portrait_JAP_akira_toriyama_large
+				small = GFX_idea_JAP_akira_toriyama_small
+			}
+		}
+		corps_commander={
+		
+			traits = {commando skirmisher camouflage_expert trait_cautious hill_fighter brilliant_strategist}
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+        }
+		JAP_uop_shisho = {
+		name = JAP_uop_shisho
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_uop_shisho_large
+				small = GFX_idea_JAP_uop_shisho_small
+			}
+			army = {
+				large = GFX_portrait_JAP_uop_shisho_large
+				small = GFX_idea_JAP_uop_shisho_small
+			}
+		}
+		corps_commander={
+		
+			traits = {trait_reckless cavalry_leader cavalry_expert expert_improviser hill_fighter trait_engineer}
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
 			legacy_id=0
 		}
         }

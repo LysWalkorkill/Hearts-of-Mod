@@ -10,6 +10,17 @@
     sov_vladimir_poutine:0 "Vladimir Poutine"
     SOV_Mita:0 "Mita"
     SOV_Katyusha:0 "Katyusha"
+    SOV_amelia_moskova:0 "Amélia Moskova"
+    SOV_anastasia_kirpichnikova:0 "Anastasia Kirpichnikova"
+    SOV_marko_ramius:0 "Marko Ramius"
+    SOV_nikita_khrouchtchev:0 "Nikita Khrouchtchev"
+    SOV_piotr_fiodorov:0 "Piotr Fiodorov"
+    SOV_roza_shanina:0 "Roza Shanina"
+    SOV_vasili_borodin:0 "Vasili Borodin"
+    SOV_viktor_reznov:0 "Viktor Reznov"
+    SOV_vitali_makarov:0 "Vitali Makarov"
+    SOV_yuliya_snigir:0 "Yuliya Snigir"
+    SOV_nikolai_malinkov:0 "Nikolai Malinkov"
 
     # Chute de Moscou
     Hearts-of-Mod_SOV_Chute_Moscou.1.title:0 "[this_character.GetName] promue cheffe du pays"
