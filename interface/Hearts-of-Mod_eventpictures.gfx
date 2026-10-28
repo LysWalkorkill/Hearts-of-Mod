@@ -284,4 +284,9 @@ spriteTypes = {
 		name = "GFX_Hearts-of-Mod_report_event_saf11"
 		texturefile = "gfx/Hearts-of-Mod/event_pictures/saf11.dds"
 	}
+	#KAZ
+	SpriteType = {
+		name = "GFX_Hearts-of-Mod_report_event_kaz1"
+		texturefile = "gfx/Hearts-of-Mod/event_pictures/kaz1.dds"
+	}
 }

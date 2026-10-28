@@ -13,17 +13,16 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			traits = {brilliant_strategist trait_reckless harsh_leader infantry_leader infantry_expert media_personality}
+			traits={ cavalry_leader commando }
 			skill=4
 			attack_skill=4
-			defense_skill=5
+			defense_skill=1
 			planning_skill=4
-			logistics_skill=5
+			logistics_skill=3
 			legacy_id=0
 		}
-        }
-        JAP_eren_jager = {
+	}
+	JAP_eren_jager = {
 		name = JAP_eren_jager
 		gender = female
 		portraits = {
@@ -37,17 +36,16 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			traits = {brilliant_strategist ranger jungle_rat adaptable}
-			skill=5
+			traits={ inflexible_strategist organizer }
+			skill=4
 			attack_skill=3
 			defense_skill=4
-			planning_skill=6
-			logistics_skill=5
+			planning_skill=2
+			logistics_skill=4
 			legacy_id=0
 		}
-        }
-        JAP_geisha_zhang = {
+	}
+	JAP_geisha_zhang = {
 		name = JAP_geisha_zhang
 		gender = female
 		portraits = {
@@ -61,7 +59,7 @@ characters = {
 			}
 		}
 		navy_leader={
-		
+			
 			traits = {superior_tactician ironside battleship_adherent blue_water_expert}
 			skill=5
 			attack_skill=3
@@ -70,8 +68,8 @@ characters = {
 			logistics_skill=5
 			legacy_id=0
 		}
-        }
-        JAP_jungkook_bts = {
+	}
+	JAP_jungkook_bts = {
 		name = JAP_jungkook_bts
 		gender = male
 		portraits = {
@@ -85,7 +83,7 @@ characters = {
 			}
 		}
 		navy_leader={
-		
+			
 			traits = {seawolf bold blue_water_expert silent_hunter}
 			skill=4
 			attack_skill=4
@@ -94,8 +92,8 @@ characters = {
 			logistics_skill=4
 			legacy_id=0
 		}
-        }
-        JAP_mizuki_yamashita = {
+	}
+	JAP_mizuki_yamashita = {
 		name = JAP_mizuki_yamashita
 		gender = female
 		portraits = {
@@ -109,17 +107,16 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			traits = {panzer_expert panzer_leader armor_officer trait_reckless organizer guerilla_fighter}
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=4
+			traits={ infantry_leader brilliant_strategist }
+			skill=4
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
 			logistics_skill=3
 			legacy_id=0
 		}
-        }
-        JAP_monkey_luffy = {
+	}
+	JAP_monkey_luffy = {
 		name = JAP_monkey_luffy
 		gender = female
 		portraits = {
@@ -133,62 +130,13 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			traits = {trait_mountaineer brilliant_strategist trait_reckless trickster trait_engineer organizer}
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=3
-			legacy_id=0
-		}
-        }
-		JAP_akira_toriyama = {
-		name = JAP_akira_toriyama
-		gender = female
-		portraits = {
-			civilian = {
-				large = GFX_portrait_JAP_akira_toriyama_large
-				small = GFX_idea_JAP_akira_toriyama_small
-			}
-			army = {
-				large = GFX_portrait_JAP_akira_toriyama_large
-				small = GFX_idea_JAP_akira_toriyama_small
-			}
-		}
-		corps_commander={
-		
-			traits = {commando skirmisher camouflage_expert trait_cautious hill_fighter brilliant_strategist}
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
-			legacy_id=0
-		}
-        }
-		JAP_uop_shisho = {
-		name = JAP_uop_shisho
-		gender = female
-		portraits = {
-			civilian = {
-				large = GFX_portrait_JAP_uop_shisho_large
-				small = GFX_idea_JAP_uop_shisho_small
-			}
-			army = {
-				large = GFX_portrait_JAP_uop_shisho_large
-				small = GFX_idea_JAP_uop_shisho_small
-			}
-		}
-		corps_commander={
-		
-			traits = {trait_reckless cavalry_leader cavalry_expert expert_improviser hill_fighter trait_engineer}
-			skill=2
-			attack_skill=3
-			defense_skill=3
+			traits={ fortress_buster naval_invader }
+			skill=4
+			attack_skill=4
+			defense_skill=2
 			planning_skill=4
-			logistics_skill=3
+			logistics_skill=2
 			legacy_id=0
 		}
-        }
-        }
+	}
+}

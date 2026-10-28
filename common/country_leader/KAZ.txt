@@ -1,0 +1,8 @@
+leader_traits = {
+
+	KAZ_chevre_kazak = {
+		communism_drift = 0.02
+		consumer_goods_expected_value = -0.05
+		political_power_gain = 0.05
+	}
+}

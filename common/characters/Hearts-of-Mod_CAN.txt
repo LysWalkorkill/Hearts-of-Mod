@@ -13,13 +13,12 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			traits = {media_personality organizer unyielding_defender}
-			skill=1
-			attack_skill=1
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+			traits={ fortress_buster naval_invader }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -85,13 +84,12 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			traits = {panzer_leader panzer_expert armor_officer trait_cautious}
-			skill=3
+			traits={ infantry_leader brilliant_strategist }
+			skill=4
 			attack_skill=3
-			defense_skill=3
+			defense_skill=1
 			planning_skill=3
-			logistics_skill=2
+			logistics_skill=3
 			legacy_id=0
 		}
 	}
@@ -110,10 +108,10 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {naval_invader urban_assault_specialist brilliant_strategis bearer_of_artillery}
+			
 			skill=3
-			attack_skill=4
-			defense_skill=1
+			attack_skill=3
+			defense_skill=3
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=0

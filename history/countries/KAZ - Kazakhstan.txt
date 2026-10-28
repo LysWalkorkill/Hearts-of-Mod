@@ -1,4 +1,4 @@
-﻿capital = 586 #Almaty
+﻿capital = 405 #Almaty
 
 oob = "KAZ_1936"
 
@@ -17,6 +17,7 @@ set_technology = {
 	tech_engineers = 1
 	tech_military_police = 1
 	tech_mountaineers = 1
+	tech_trucks = 1
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
@@ -28,15 +29,22 @@ set_grand_doctrine = new_fleet_in_being
 create_intelligence_agency = { }
 
 if = {
-	limit = {
-		NOT = { has_dlc = "By Blood Alone" }
-	}
-	set_technology = {
-		early_fighter = 1
-		fighter1 = 1
-		early_bomber = 1
-		strategic_bomber1 = 1
-		naval_bomber1 = 1
+	limit = { has_dlc = "By Blood Alone" }
+		set_technology = {
+			engines_1 = 1
+			early_bombs = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			aa_lmg = 1
+		}
+	else = {
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+
+		}
 	}
 }
 if = {
@@ -146,8 +154,19 @@ recruit_character = KAZ_ai2
 recruit_character = KAZ_democratic_guy
 recruit_character = KAZ_ar
 recruit_character = KAZ_acgs
+#new
+recruit_character = kaz_Sultan_Dauletev
+recruit_character = kaz_Aniyar_Sakenov
+recruit_character = kaz_Serik_Daniyarev
+recruit_character = kaz_Daniyar_Fomenkoev
+recruit_character = kaz_Bolat_Yerbolatev
+recruit_character = kaz_Marat_Yedilev
+recruit_character = kaz_Alibi_Amanetev
+recruit_character = kaz_Ruslan_Madiev
+recruit_character = kaz_Medet_Jeanev
 
-
+add_ideas = {SRR_kaz1}
+add_ideas = {KAZ_agriculture1}
 
 
 

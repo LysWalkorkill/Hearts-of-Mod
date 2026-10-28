@@ -200,14 +200,14 @@ characters={
 				}
 			}
 			corps_commander={
-				traits={ brilliant_strategist }
-				skill=3
-				attack_skill=3
-				defense_skill=2
-				planning_skill=2
-				logistics_skill=3
-				legacy_id=1102
-			}
+			traits={ inflexible_strategist organizer }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=0
+		}
 		}
 		instance = {
 			allowed = {
@@ -409,13 +409,13 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ harsh_leader }
-			skill=3
-			attack_skill=2
-			defense_skill=2
+			traits={ infantry_leader brilliant_strategist }
+			skill=4
+			attack_skill=3
+			defense_skill=1
 			planning_skill=3
 			logistics_skill=3
-			legacy_id=1104
+			legacy_id=0
 		}
 	}
 
@@ -428,13 +428,13 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ politically_connected infantry_leader trickster }
-			skill=3
-			attack_skill=2
-			defense_skill=4
-			planning_skill=2
+			traits={ fortress_buster naval_invader }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
 			logistics_skill=2
-			legacy_id=1119
+			legacy_id=0
 		}
 	}
 
@@ -648,13 +648,13 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ brilliant_strategist cavalry_leader organizer war_hero }
-			skill=6
-			attack_skill=6
-			defense_skill=5
+			traits={ cavalry_leader commando }
+			skill=4
+			attack_skill=4
+			defense_skill=1
 			planning_skill=4
-			logistics_skill=5
-			legacy_id=1109
+			logistics_skill=3
+			legacy_id=0
 		}
 	}
 
@@ -1250,13 +1250,13 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ trait_reckless war_hero trait_SPA_nationalist_sympathies }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=1116
+			traits={ trait_engineer panzer_leader}
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
 		}
 	}
 

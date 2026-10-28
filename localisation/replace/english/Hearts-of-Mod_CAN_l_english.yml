@@ -12,6 +12,7 @@
     CAN_james_cameron: "James Cameron"
     CAN_emily_vancamp: "Emily_VanCamp"
     # Quebec Giant Grizzly
+l_english:
     CAN_chasser_grizzly_geant_quebec:0 "Hunt the Quebec Giant Grizzly"
 
     Hearts-of-Mod_CAN_grizzly_geant_quebec.1.title:0 "We Finally Got It!"
@@ -23,6 +24,7 @@
     Hearts-of-Mod_CAN_grizzly_geant_quebec.2.a:0 "It's just a LEGEND!"
 
     # INDUSTRY
+l_english:
     CAN_ouvrir_mine_or_quebec:0 "Open Quebec's Gold Mines"
     CAN_ouvrir_mine_or_ontario:0 "Open Ontario's Gold Mines"
     CAN_ouvrir_mine_or_alberta:0 "Open Alberta's Gold Mines"
@@ -39,6 +41,7 @@
     Hearts-of-Mod_CAN_industrie.2.a:0 "They'll have a hard time protesting..."
 
     # RECOGNIZE
+l_english:
     CAN_reconnaitre_heros_quebecois_ww1:0 "Recognize the Heroism of Quebecers During the Great War"
 
     Hearts-of-Mod_CAN_reconnaitre_heros_quebecois_ww1.1.title:0 "Recognition of Quebec's Heroes"

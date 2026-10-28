@@ -1,0 +1,274 @@
+ideas = {
+	country = {
+#politique
+				SRR_kaz1 = {
+			picture = SOV_scientist_defect
+			modifier = {
+				political_power_gain = -0.2
+				stability_factor = -0.15
+				war_support_factor = -0.1
+				communism_drift = 0.05
+					}
+				}
+				SRR_kaz2 = {
+					picture = SOV_scientist_defect
+					modifier = {
+						political_power_gain = -0.1
+						stability_factor = -0.075
+						war_support_factor = -0.05
+						communism_drift = 0.05
+						party_popularity_stability_factor = 0.05
+						resource_trade_cost_bonus_per_factory = 1
+					}
+				}
+				SRR_kaz3 = {
+					picture = SOV_scientist_defect
+					modifier = {
+						political_power_gain = 0.1
+						stability_factor = 0.05
+						war_support_factor = 0.05
+						communism_drift = 0.1
+						party_popularity_stability_factor = 0.1
+						resource_trade_cost_bonus_per_factory = 2
+						trade_opinion_factor = 0.1
+					}
+				}
+				KAZ_constitution = {
+					picture = BEL_legacy_of_the_great_war
+					modifier = {
+						political_advisor_cost_factor = -0.15
+						economy_cost_factor = -0.15
+						trade_laws_cost_factor = -0.15
+						mobilization_laws_cost_factor = -0.15
+						industrial_concern_cost_factor = -0.15
+					}
+				}
+				KAZ_ecole_kazak = {
+					picture = jap_duplicate_research
+					modifier = {
+						political_power_factor = -0.02
+						research_speed_factor = 0.05
+					}
+				}
+				KAZ_partager_notre_savoir_des_temps_difficile = {
+					picture = AUS_women_in_academia
+					modifier = {
+						winter_attrition = -0.1
+					}
+				}
+				KAZ_centre_de_commandement = {
+					picture = generic_spy_political
+					modifier = {
+					operative_slot = 2
+					civilian_intel_to_others = -5
+					army_intel_to_others = -5
+					enemy_operative_detection_chance = 0.05
+					enemy_operative_capture_chance_factor = 0.05
+						}
+				}
+#industrie ideas				
+				KAZ_agriculture1 = {
+					picture = CHI_neglected_countryside
+					modifier = {
+						monthly_population = -0.35
+						consumer_goods_factor = -0.05
+						production_factory_start_efficiency_factor = -0.05
+						production_factory_max_efficiency_factor = -0.1
+						production_factory_efficiency_gain_factor = 0.05
+						production_lack_of_resource_penalty_factor = -0.05
+						line_change_production_efficiency_factor = 0.025
+					}
+				}
+				KAZ_agriculture2 = {
+					picture = CHI_neglected_countryside
+					modifier = {
+						monthly_population = -0.10
+						consumer_goods_factor = -0.1
+						production_factory_start_efficiency_factor = -0.05
+						production_factory_max_efficiency_factor = -0.1
+						production_factory_efficiency_gain_factor = 0.05
+						production_lack_of_resource_penalty_factor = -0.05
+						line_change_production_efficiency_factor = 0.025
+					}
+				}
+				KAZ_agriculture3 = {
+					picture = CHI_neglected_countryside
+					modifier = {
+						monthly_population = 0.05
+						consumer_goods_factor = -0.1
+						production_factory_start_efficiency_factor = -0.025
+						production_factory_max_efficiency_factor = -0.05
+						production_factory_efficiency_gain_factor = 0.05
+						production_lack_of_resource_penalty_factor = -0.025
+						line_change_production_efficiency_factor = 0.025
+						local_resources_factor = 0.1
+						production_speed_buildings_factor = 0.05
+					}
+				}
+				KAZ_agriculture4 = {
+					picture = eng_spirit_of_the_industrial_revolution
+					modifier = {
+						conscription_factor = 0.15
+						monthly_population = 0.2
+						consumer_goods_factor = -0.1
+						production_factory_start_efficiency_factor = -0.025
+						production_factory_efficiency_gain_factor = 0.05
+						line_change_production_efficiency_factor = 0.025
+						local_resources_factor = 0.1
+						production_speed_buildings_factor = 0.05
+					}
+				}
+				
+				KAZ_rapide_industrialisation_ideas1 = {
+					picture = CZE_industrialists_veto
+					modifier = {
+						monthly_population = -0.25
+						production_factory_start_efficiency_factor = -0.05
+						production_factory_max_efficiency_factor = -0.05
+						production_factory_efficiency_gain_factor = 0.05
+						production_lack_of_resource_penalty_factor = -0.05
+						line_change_production_efficiency_factor = 0.025
+					}
+				}
+				KAZ_rapide_industrialisation_ideas2 = {
+					picture = CZE_industrialists_veto
+					modifier = {
+						monthly_population = -0.1
+						production_factory_max_efficiency_factor = 0.025
+						production_factory_efficiency_gain_factor = 0.05
+						production_lack_of_resource_penalty_factor = -0.05
+						line_change_production_efficiency_factor = 0.05
+						base_fuel_gain_factor = 0.1
+						local_resources_factor = 0.1
+						production_speed_industrial_complex_factor = 0.1
+					}
+				}
+				
+				KAZ_Alocation_durgence = {
+					picture = CHI_lend_lease_soviet
+					modifier = {
+						consumer_goods_factor = -0.15
+						production_factory_max_efficiency_factor = 0.05
+					}
+				}
+				KAZ_ravitaillement_accrue = {
+					picture = CHI_lend_lease_soviet
+					modifier = {
+						supply_consumption_factor = -0.05
+					}
+				}
+				KAZ_notre_politique_commercial = {
+					picture = can_wartime_prices_and_trade_board
+					modifier = {
+					trade_opinion_factor = 0.25
+					trade_laws_cost_factor = -0.1
+					min_export = -0.15
+					}
+				}
+				KAZ_investissement_dans_nos_chemin_de_fer = {
+					picture = PRC_china_railway_construction_corporation
+					modifier = {
+					production_speed_rail_way_factor = 0.2
+					}
+				}
+#armée 
+
+				KAZ_mobilisation_de_masse = {
+					picture = generic_manpower_bonus
+					modifier = {
+					conscription = 0.01
+					mobilization_speed = 0.1
+						
+					}
+				}
+				KAZ_entrainement_qualitatif = {
+					picture = tur_sub_zero_survival_training
+					modifier = {
+					terrain_penalty_reduction = 0.025
+					special_forces_cap = 0.05
+					pocket_penalty = -0.1
+					river_crossing_factor = -0.05
+					training_time_army_factor = 0.1
+						
+					}
+				}
+				KAZ_nouvelle_etats_major = {
+					picture = ETH_conservative_high_command
+					modifier = {
+					command_power_gain = 0.15
+					max_command_power = 30
+						
+					}
+				}
+				KAZ_doctrine_sovietique = {
+					picture = generic_attack_soviet_union
+					modifier = {
+						army_defence_factor = 0.05
+						training_time_army_factor = 0.15
+						army_infantry_attack_factor = 0.05
+						army_strength_factor = 0.05
+					}
+				}
+				KAZ_pilote_delite = {
+					picture = generic_women_in_the_army
+					modifier = {
+						air_range_factor = 0.02
+						air_training_xp_gain_factor = -0.1
+						air_ace_bonuses_factor = 0.05
+						air_superiority_efficiency = 0.02
+						air_intercept_efficiency = 0.02
+						air_mission_efficiency = 0.025
+						air_ace_generation_chance_factor = 0.025
+						air_accidents_factor = -0.05
+						air_interception_detect_factor = 0.025
+						air_wing_xp_loss_when_killed_factor = 0.05
+					}
+				}
+				KAZ_materielle_anti_blitz = {
+					picture = FRA_motorized_focus
+					
+					equipment_bonus = {
+							anti_tank_equipment = {
+								build_cost_ic = -0.125
+								instant = yes
+							}
+					}
+						
+					
+				}
+				KAZ_materielle_anti_cas = {
+					picture = generic_anti_air
+					
+					equipment_bonus = {
+							anti_air_equipment = {
+								build_cost_ic = -0.1
+								instant = yes
+							}
+					}
+						
+					
+				}
+				KAZ_specialisation_dans_les_motorise = {
+					picture = AST_nuffield_mechanizations_and_aero
+					
+					equipment_bonus = {
+							motorized = {
+								build_cost_ic = -0.1
+								instant = yes
+								}
+							mechanized = {
+								build_cost_ic = -0.075
+								breakthrough = 0.05
+								instant = yes
+						}
+							infantry_equipment = {
+								build_cost_ic = 0.15
+								instant = yes
+						}
+					}
+						
+					
+				}
+	}
+}
+

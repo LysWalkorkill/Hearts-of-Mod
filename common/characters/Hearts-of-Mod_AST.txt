@@ -85,13 +85,12 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			traits = {hill_fighter}
-			skill=2
-			attack_skill=3
-			defense_skill=3
-			planning_skill=5
-			logistics_skill=6
+			traits={ fortress_buster naval_invader }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
 			legacy_id=0
 		}
         }
@@ -109,13 +108,12 @@ characters = {
 			}
 		}
 		corps_commander={
-		
-			traits = {media_personality naval_invader guerilla_fighter}
-			skill=3
-			attack_skill=3
-			defense_skill=5
-			planning_skill=5
-			logistics_skill=4
+			traits={ cavalry_leader commando }
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
 			legacy_id=0
 		}
         }
