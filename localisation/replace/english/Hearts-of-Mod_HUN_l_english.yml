@@ -54,3 +54,22 @@
     Hearts-of-Mod_HUN_gub.5.desc:0 "After months of rumors, suspicions, and troubling revelations, Hungarian authorities have confirmed the arrest of an individual identified as “Gub,” whose presumed real name is Vicktor Keketh. He was reportedly intercepted while attempting to flee the country, carrying a large sum of money with him.\n\nAuthorities acknowledge that the operation came at a heavy cost: several law enforcement officers were injured, and casualties were reported. “It was a complex and dangerous operation,” stated one official, without providing further details.\n\nA mysterious and controversial figure, Gub was at the center of numerous accusations, ranging from political manipulation to clandestine projects related to the country's rearmament. His arrest could mark a major turning point in an affair that had long been shrouded in mystery."
     Hearts-of-Mod_HUN_gub.5.a:0 "It's over for him. Good riddance!"
     Hearts-of-Mod_HUN_gub.5.b:0 "His assets in exchange for freedom..."
+    
+    # Military
+    HUN_filmer_entrainement_soldats_hongrois:0 "Film the training of Hungarian soldiers"
+
+    Hearts-of-Mod_HUN_militaire.1.title:0 "Filming of Hungarian Soldiers' Training"
+    Hearts-of-Mod_HUN_militaire.1.desc:0 "Despite the restrictions imposed in recent years, the Hungarian army now seems to display renewed strength, sparking both national pride and foreign scrutiny.\n\nOn the ground, the soldiers themselves bear witness to this transformation. One of them, requesting anonymity, describes an army quite different from the one he knew before:\n“You can feel it has changed. We are better prepared, better led. There is a clear will to make us a real force. A lot is asked of us, but we are ready.”\n\nThe government, for its part, insists on the defensive nature of this evolution, affirming its desire to guarantee the country's security without violating international commitments."
+    Hearts-of-Mod_HUN_militaire.1.a:0 "We are on the right track!"
+    
+    HUN_fusion_entrainement_militaire_science:0 "Merge military training and science"
+
+    Hearts-of-Mod_HUN_militaire.2.title:0 "Fusion of Military Training and Science"
+    Hearts-of-Mod_HUN_militaire.2.desc:0 "An unexpected development is drawing the attention of observers: the training of Hungarian troops would not only serve military objectives but also contribute to scientific advances.\n\nAccording to several sources, certain recently implemented training methods would allow the study of the physical and mental capacities of soldiers under extreme conditions. Endurance, resistance, coordination — so many areas that would now be the subject of systematic observation.\n\n“What we learn here goes beyond the military framework,” confides a contributor close to the project. “It is about better understanding the limits of the human body and how to push them.”"
+    Hearts-of-Mod_HUN_militaire.2.a:0 "Science is a priority!"
+    
+    HUN_fusion_genie_militaire_genie_civile:0 "Merge military and civil engineering"
+    
+    Hearts-of-Mod_HUN_militaire.3.title:0 "Fusion of Military and Civil Engineering"
+    Hearts-of-Mod_HUN_militaire.3.desc:0 "Recent developments within the Hungarian army continue to produce unexpected effects. After sparking the interest of the scientific world, military training and organization now seem to directly benefit civil engineering, particularly in the field of electrical installations.\n\nAccording to several sources, the methods developed for military logistics — speed of execution, team coordination, and resource management — are now being adapted to civilian construction sites. This transposition would accelerate the construction of buildings equipped with modern electrical grids, a major issue for the country's industrialization.\n\nThis collaboration is said to have already allowed the faster installation of electrical infrastructure in several areas, facilitating access to energy for industries and populations alike."
+    Hearts-of-Mod_HUN_militaire.3.a:0 "No one will be able to say they didn't know!"

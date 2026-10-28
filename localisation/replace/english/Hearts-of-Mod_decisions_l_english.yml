@@ -78,3 +78,5 @@
     decision_cost_CP_200: "£command_power  §Y200§!"
     decision_cost_CP_200_blocked: "£command_power  §R200§!"
     decision_cost_CP_200_tooltip: "It costs £command_power  §Y200§! to take the decision"
+
+    military_actions_category: "Military actions"
