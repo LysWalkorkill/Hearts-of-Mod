@@ -534,7 +534,7 @@ technologies = {
 	
 	dispersed_industry = {
 
-		industrial_capacity_factory = 0.075
+		industrial_capacity_factory = 0.07
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.05 
 		#industrial_capacity_dockyard_powered = 0.05 
@@ -610,7 +610,7 @@ technologies = {
 	
 	dispersed_industry2 = {
 
-		industrial_capacity_factory = 0.075
+		industrial_capacity_factory = 0.07
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.075 
 		#industrial_capacity_dockyard_powered = 0.075 
@@ -653,7 +653,7 @@ technologies = {
 	
 	dispersed_industry3 = {
 
-		industrial_capacity_factory = 0.075
+		industrial_capacity_factory = 0.07
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.075 #TODO SEA set value
 		#industrial_capacity_dockyard_powered = 0.075 #TODO SEA set value
@@ -696,7 +696,7 @@ technologies = {
 	
 	dispersed_industry4 = {
 
-		industrial_capacity_factory = 0.075
+		industrial_capacity_factory = 0.07
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.1 
 		#industrial_capacity_dockyard_powered = 0.1 
@@ -739,7 +739,7 @@ technologies = {
 	
 	dispersed_industry5 = {
 
-		industrial_capacity_factory = 0.075
+		industrial_capacity_factory = 0.07
 		industrial_capacity_dockyard = 0.1
 		#industrial_capacity_factory_powered = 0.1 
 		#industrial_capacity_dockyard_powered = 0.1 

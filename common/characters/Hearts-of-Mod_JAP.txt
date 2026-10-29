@@ -21,8 +21,8 @@ characters = {
 			logistics_skill=3
 			legacy_id=0
 		}
-        }
-        JAP_eren_jager = {
+	}
+	JAP_eren_jager = {
 		name = JAP_eren_jager
 		gender = female
 		portraits = {
@@ -44,8 +44,8 @@ characters = {
 			logistics_skill=4
 			legacy_id=0
 		}
-        }
-        JAP_geisha_zhang = {
+	}
+	JAP_geisha_zhang = {
 		name = JAP_geisha_zhang
 		gender = female
 		portraits = {
@@ -59,17 +59,17 @@ characters = {
 			}
 		}
 		navy_leader={
-		
 			
+			traits = {superior_tactician ironside battleship_adherent blue_water_expert}
 			skill=5
-			attack_skill=6
+			attack_skill=3
 			defense_skill=5
 			planning_skill=4
 			logistics_skill=5
 			legacy_id=0
 		}
-        }
-        JAP_jungkook_bts = {
+	}
+	JAP_jungkook_bts = {
 		name = JAP_jungkook_bts
 		gender = male
 		portraits = {
@@ -83,17 +83,17 @@ characters = {
 			}
 		}
 		navy_leader={
-		
 			
+			traits = {seawolf bold blue_water_expert silent_hunter}
 			skill=4
-			attack_skill=5
+			attack_skill=4
 			defense_skill=4
 			planning_skill=4
 			logistics_skill=4
 			legacy_id=0
 		}
-        }
-        JAP_mizuki_yamashita = {
+	}
+	JAP_mizuki_yamashita = {
 		name = JAP_mizuki_yamashita
 		gender = female
 		portraits = {
@@ -115,8 +115,8 @@ characters = {
 			logistics_skill=3
 			legacy_id=0
 		}
-        }
-        JAP_monkey_luffy = {
+	}
+	JAP_monkey_luffy = {
 		name = JAP_monkey_luffy
 		gender = female
 		portraits = {
@@ -138,5 +138,5 @@ characters = {
 			logistics_skill=2
 			legacy_id=0
 		}
-        }
-        }
+	}
+}

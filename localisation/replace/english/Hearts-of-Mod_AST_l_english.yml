@@ -1,9 +1,17 @@
 ﻿l_english:
- AST_alexandra_casoy: "Alexandra Casoy"
- AST_clover_ewing: "Clover Ewing"
- AST_samantha_simpson: "Samantha Simpson"
- AST_mandy: "Mandy"
- AST_jerry_lewis: "Jerry Lewis"
+    AST_alexandra_casoy: "Alexandra Casoy"
+    AST_clover_ewing: "Clover Ewing"
+    AST_samantha_simpson: "Samantha Simpson"
+    AST_mandy: "Mandy"
+    AST_jerry_lewis: "Jerry Lewis"
+    AST_joel_parkinson: "Joel Parkinson"
+    AST_margot_robbie: "Margot Robbie"
+    AST_shanina_shaik: "Shanina Shaik"
+    AST_sydney_sarge: "Sarge Ranger"
+    AST_sydney_sweeney: "Sydney Sweeney"
+    AST_joel_edgerton: "Joel Edgerton"
+    AST_herr_magniez: "Herr Magniez"
+    AST_denis_brogniart: "Denis Brogniart"
   
      # Étude d'animaux 
  AST_etudier_kangouroux: "Study kangaroos in their natural environment"

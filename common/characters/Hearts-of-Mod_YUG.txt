@@ -1,0 +1,170 @@
+characters = {
+	YUG_aragon_ripenest = {
+		name = YUG_aragon_ripenest
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_YUG_aragon_ripenest_large
+				small = GFX_idea_YUG_aragon_ripenest_small
+			}
+			army = {
+				large = GFX_portrait_YUG_aragon_ripenest_large
+				small = GFX_idea_YUG_aragon_ripenest_small
+			}
+		}
+		corps_commander={
+		
+			traits = {brilliant_strategist trickster harsh_leader trait_mountaineer expert_improviser} 
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    YUG_arwen_liv = {
+		name = YUG_arwen_liv
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_YUG_arwen_liv_large
+				small = GFX_idea_YUG_arwen_liv_small
+			}
+			army = {
+				large = GFX_portrait_YUG_arwen_liv_large
+				small = GFX_idea_YUG_arwen_liv_small
+			}
+		}
+		corps_commander={
+		
+			traits = {trait_cautious guerilla_fighter trait_engineer scavenger brilliant_strategist}
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    YUG_arya_guillory = {
+		name = YUG_arya_guillory
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_YUG_arya_guillory_large
+				small = GFX_idea_YUG_arya_guillory_small
+			}
+			army = {
+				large = GFX_portrait_YUG_arya_guillory_large
+				small = GFX_idea_YUG_arya_guillory_small
+			}
+		}
+		corps_commander={
+		
+			traits = {career_officer trait_reckless panzer_leader panzer_expert armor_officer organizer}
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    YUG_frodon_sacquet = {
+		name = YUG_frodon_sacquet
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_YUG_frodon_sacquet_large
+				small = GFX_idea_YUG_frodon_sacquet_small
+			}
+			army = {
+				large = GFX_portrait_YUG_frodon_sacquet_large
+				small = GFX_idea_YUG_frodon_sacquet_small
+			}
+		}
+		corps_commander={
+		
+			traits = {brilliant_strategist hill_fighter trait_mountaineer trait_engineer adaptable}
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+    YUG_madame_fierpied = {
+		name = YUG_madame_fierpied
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_YUG_madame_fierpied_large
+				small = GFX_idea_YUG_madame_fierpied_small
+			}
+			army = {
+				large = GFX_portrait_YUG_madame_fierpied_large
+				small = GFX_idea_YUG_madame_fierpied_small
+			}
+		}
+		corps_commander={
+		
+			traits = {infantry_officer infantry_leader hill_fighter harsh_leader brilliant_strategist}
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=6
+			legacy_id=0
+		}
+	}
+    YUG_samsagace_gamegie = {
+		name = YUG_samsagace_gamegie
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_YUG_samsagace_gamegie_large
+				small = GFX_idea_YUG_samsagace_gamegie_small
+			}
+			army = {
+				large = GFX_portrait_YUG_samsagace_gamegie_large
+				small = GFX_idea_YUG_samsagace_gamegie_small
+			}
+		}
+		corps_commander={
+		
+			traits = {commando camouflage_expert guerilla_fighter trait_reckless organizer}
+			skill=3
+			attack_skill=2
+			defense_skill=7
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+     YUG_eragon_speleers = {
+		name = YUG_eragon_speleers
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_YUG_eragon_speleers_large
+				small = GFX_idea_YUG_eragon_speleers_small
+			}
+			army = {
+				large = GFX_portrait_YUG_eragon_speleers_large
+				small = GFX_idea_YUG_eragon_speleers_small
+			}
+		}
+		navy_leader={
+		
+			traits = {seawolf spotter bold torpedo_expert green_water_expert}
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    }

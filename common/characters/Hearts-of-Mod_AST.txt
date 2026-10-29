@@ -14,7 +14,7 @@ characters = {
 		}
 		navy_leader={
 		
-			
+			traits = { screening_master lancer blockade_runner ironside}
 			skill=3
 			attack_skill=3
 			defense_skill=2
@@ -36,11 +36,11 @@ characters = {
 				small = GFX_idea_AST_shanina_shaik_small
 			}
 		}
-		navy_leader={
+		navy_leader={ 
 		
-			
+			traits = { blue_water_expert }
 			skill=5
-			attack_skill=5
+			attack_skill=1
 			defense_skill=4
 			planning_skill=5
 			logistics_skill=6
@@ -62,10 +62,10 @@ characters = {
 		}
 		corps_commander={
 		
-			
-			skill=4
-			attack_skill=5
-			defense_skill=4
+			traits = {desert_fox brilliant_strategist infantry_leader}
+			skill=3
+			attack_skill=4
+			defense_skill=3
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
@@ -132,12 +132,60 @@ characters = {
 		}
 		corps_commander={
 		
-			
+			traits = {adaptable}
 			skill=3
-			attack_skill=3
-			defense_skill=3
+			attack_skill=2
+			defense_skill=1
 			planning_skill=2
-			logistics_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+        }
+		AST_herr_magniez = {
+		name = AST_herr_magniez
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AST_herr_magniez_large
+				small = GFX_idea_AST_herr_magniez_small
+			}
+			army = {
+				large = GFX_portrait_AST_herr_magniez_large
+				small = GFX_idea_AST_herr_magniez_small
+			}
+		}
+		corps_commander={
+		
+			traits = {trait_engineer panzer_leader panzer_expert armor_officer}
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+        }
+		AST_denis_brogniart = {
+		name = AST_denis_brogniart
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AST_denis_brogniart_large
+				small = GFX_idea_AST_denis_brogniart_small
+			}
+			army = {
+				large = GFX_portrait_AST_denis_brogniart_large
+				small = GFX_idea_AST_denis_brogniart_small
+			}
+		}
+		corps_commander={
+		
+			traits = {cavalry_leader cavalry_expert trait_engineer media_personality}
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=5
 			legacy_id=0
 		}
         }

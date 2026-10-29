@@ -2,9 +2,17 @@
     rom_adrien_laurent:0 "Adrien Laurent"
     rom_lea_mary:0 "Léa Mary"
     rom_lena_mahfouf:0 "Léna Situation"
-    rom_nabilla_verzane:0 "Nabilla Vergara"
+    rom_nabilla_vergara:0 "Nabilla Vergara"
     rom_sebastien_dubois:0 "Seby Daddy"
     rom_thibault_garcia:0 "Thibault Garcia"
+    ROM_albus_dumbledore:0 "Albus Dumbledore"
+    ROM_anna_de_noailles:0 "Anna de Noailles"
+    ROM_compte_dracula:0 "Compte Dracula"
+    ROM_cyprien_iov:0 "Cyprien Iov"
+    ROM_mercredi_addams:0 "Mercredi Addams"
+    ROM_severu_rogue:0 "Severus Rogue"
+    ROM_mike_schmidt:0 "Mike Schmidt"
+    ROM_vanessa_shelly:0 "Vanessa Shelly"
 
     # Industrie
     ROM_continuer_programme_industrie_1:0 "Continuer le programme d'industrie roumain"

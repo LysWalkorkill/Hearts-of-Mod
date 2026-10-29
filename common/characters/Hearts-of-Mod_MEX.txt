@@ -83,7 +83,7 @@ characters = {
 		}
 		navy_leader={
 		
-			
+			traits = {search_pattern_expert destroyer_leader loading_drill_master spotter bold}
 			skill=3
 			attack_skill=3
 			defense_skill=3
@@ -129,12 +129,37 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={ trait_engineer panzer_leader}
-			skill=4
-			attack_skill=4
-			defense_skill=1
+		
+			traits = {ranger jungle_rat adaptable}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	MEX_zhanna_bark = {
+		name = MEX_zhanna_bark
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MEX_zhanna_bark_large
+				small = GFX_idea_MEX_zhanna_bark_small
+			}
+			army = {
+				large = GFX_portrait_MEX_zhanna_bark_large
+				small = GFX_idea_MEX_zhanna_bark_small
+			}
+		}
+		corps_commander={
+		
+			traits = {brilliant_strategist bearer_of_artillery trait_reckless trait_mountaineer guerilla_fighter}
+			skill=2
+			attack_skill=3
+			defense_skill=4
 			planning_skill=4
-			logistics_skill=3
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
