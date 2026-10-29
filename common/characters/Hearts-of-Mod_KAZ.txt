@@ -1,9 +1,226 @@
-characters = {	
+characters = {
+	KAZ_aruzhan_jazilbekova = {
+		name = KAZ_aruzhan_jazilbekova
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KAZ_aruzhan_jazilbekova_large
+				small = GFX_idea_KAZ_aruzhan_jazilbekova_small
+			}
+			army = {
+				large = GFX_portrait_KAZ_aruzhan_jazilbekova_large
+				small = GFX_idea_KAZ_aruzhan_jazilbekova_small
+			}
+		}
+		corps_commander={
+			
+			traits = {brilliant_strategist trait_engineer organizer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	KAZ_diana_saifullinai = {
+		name = KAZ_diana_saifullinai
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KAZ_diana_saifullinai_large
+				small = GFX_idea_KAZ_diana_saifullinai_small
+			}
+			army = {
+				large = GFX_portrait_KAZ_diana_saifullinai_large
+				small = GFX_idea_KAZ_diana_saifullinai_small
+			}
+		}
+		corps_commander={
+			
+			traits = {winter_specialist winter_expert infantry_leader trait_cautious}
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	KAZ_dmitry_balandin = {
+		name = KAZ_dmitry_balandin
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KAZ_dmitry_balandin_large
+				small = GFX_idea_KAZ_dmitry_balandin_small
+			}
+			army = {
+				large = GFX_portrait_KAZ_dmitry_balandin_large
+				small = GFX_idea_KAZ_dmitry_balandin_small
+			}
+		}
+		corps_commander={
+			
+			traits = {panzer_expert panzer_leader armor_officer trait_reckless organizer guerilla_fighter}
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	KAZ_gennady_golovkin = {
+		name = KAZ_gennady_golovkin
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KAZ_gennady_golovkin_large
+				small = GFX_idea_KAZ_gennady_golovkin_small
+			}
+			army = {
+				large = GFX_portrait_KAZ_gennady_golovkin_large
+				small = GFX_idea_KAZ_gennady_golovkin_small
+			}
+		}
+		corps_commander={
+			
+			traits = {urban_assault_specialist commando camouflage_expert}
+			skill=2
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	KAZ_irina_aniri = {
+		name = KAZ_irina_aniri
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KAZ_irina_aniri_large
+				small = GFX_idea_KAZ_irina_aniri_small
+			}
+			army = {
+				large = GFX_portrait_KAZ_irina_aniri_large
+				small = GFX_idea_KAZ_irina_aniri_small
+			}
+		}
+		corps_commander={
+			
+			traits = {organizer ranger trait_engineer trait_cautious}
+			skill=4
+			attack_skill=4
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	KAZ_marina_devyatova = {
+		name = KAZ_marina_devyatova
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KAZ_marina_devyatova_large
+				small = GFX_idea_KAZ_marina_devyatova_small
+			}
+			army = {
+				large = GFX_portrait_KAZ_marina_devyatova_large
+				small = GFX_idea_KAZ_marina_devyatova_small
+			}
+		}
+		corps_commander={
+			
+			traits = {winter_specialist winter_expert harsh_leader brilliant_strategist}
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=6
+			legacy_id=0
+		}
+	}
+	KAZ_noursoultan_nazarbaiev = {
+		name = KAZ_noursoultan_nazarbaiev
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KAZ_noursoultan_nazarbaiev_large
+				small = GFX_idea_KAZ_noursoultan_nazarbaiev_small
+			}
+			army = {
+				large = GFX_portrait_KAZ_noursoultan_nazarbaiev_large
+				small = GFX_idea_KAZ_noursoultan_nazarbaiev_small
+			}
+		}
+		corps_commander={
+			
+			traits = {hill_fighter trait_mountaineer adaptable}
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+	KAZ_viktor_tsoi = {
+		name = KAZ_viktor_tsoi
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KAZ_viktor_tsoi_large
+				small = GFX_idea_KAZ_viktor_tsoi_small
+			}
+			army = {
+				large = GFX_portrait_KAZ_viktor_tsoi_large
+				small = GFX_idea_KAZ_viktor_tsoi_small
+			}
+		}
+		corps_commander={
+			
+			traits = {trait_reckless infantry_leader infantry_expert media_personality}
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	KAZ_volodymyr_zelensky = {
+		name = KAZ_volodymyr_zelensky
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KAZ_volodymyr_zelensky_large
+				small = GFX_idea_KAZ_volodymyr_zelensky_small
+			}
+			army = {
+				large = GFX_portrait_KAZ_volodymyr_zelensky_large
+				small = GFX_idea_KAZ_volodymyr_zelensky_small
+			}
+		}
+		navy_leader={
+			
+			traits = {big_guns_expert ironside superior_tactician bold blue_water_expert green_water_expert cruiser_captain}
+			skill=6
+			attack_skill=8
+			defense_skill=7
+			planning_skill=6
+			logistics_skill=6
+			legacy_id=0
+		}
+	}
+
 	kaz_Sultan_Dauletev = {
 		name = kaz_Sultan_Dauletev
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/idea_ETH_wehib_pasha.dds"
+				small = "gfx/interface/ideas/idea_ETH_wehib_pasha.dds"
 			}
 		}
 		advisor = {
@@ -12,7 +229,7 @@ characters = {
 			idea_token = kaz_Sultan_Dauletev
 			ledger = army
 			traits = {
-				 kautskyian_socialist
+				kautskyian_socialist
 			}
 			cost = 151
 			allowed = {
@@ -24,7 +241,7 @@ characters = {
 		name = kaz_Aniyar_Sakenov
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/portrait_JAP_chiune_sugihara_small.dds"
+				small = "gfx/interface/ideas/portrait_JAP_chiune_sugihara_small.dds"
 			}
 		}
 		advisor = {
@@ -33,7 +250,7 @@ characters = {
 			idea_token = kaz_Aniyar_Sakenov
 			ledger = army
 			traits = {
-				 SWE_minister_of_defense
+				SWE_minister_of_defense
 			}
 			cost = 150
 			allowed = {
@@ -45,7 +262,7 @@ characters = {
 		name = kaz_Serik_Daniyarev
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/portrait_JAP_chikuhei_nakajima_small.dds"
+				small = "gfx/interface/ideas/portrait_JAP_chikuhei_nakajima_small.dds"
 			}
 		}
 		advisor = {
@@ -54,7 +271,7 @@ characters = {
 			idea_token = kaz_Serik_Daniyarev
 			ledger = army
 			traits = {
-				 defender_of_the_peasantry
+				defender_of_the_peasantry
 			}
 			cost = 150
 			allowed = {
@@ -67,7 +284,7 @@ characters = {
 		name = kaz_Daniyar_Fomenkoev
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/idea_SOV_nikandr_yevlampyevich_chibisov.dds"
+				small = "gfx/interface/ideas/idea_SOV_nikandr_yevlampyevich_chibisov.dds"
 			}
 		}
 		advisor = {
@@ -76,7 +293,7 @@ characters = {
 			idea_token = kaz_Daniyar_Fomenkoev
 			ledger = army
 			traits = {
-				 SIK_soviet_consul_general_trait
+				SIK_soviet_consul_general_trait
 			}
 			cost = 150
 			allowed = {
@@ -89,7 +306,7 @@ characters = {
 		name = kaz_Marat_Yedilev
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/idea_PER_constitutional_shah.dds"
+				small = "gfx/interface/ideas/idea_PER_constitutional_shah.dds"
 			}
 		}
 		advisor = {
@@ -98,7 +315,7 @@ characters = {
 			idea_token = kaz_Marat_Yedilev
 			ledger = army
 			traits = {
-				 army_cavalry_2
+				army_cavalry_2
 			}
 			cost = 100
 			allowed = {
@@ -106,11 +323,11 @@ characters = {
 			}
 		}
 	}
-		kaz_Bolat_Yerbolatev = {
+	kaz_Bolat_Yerbolatev = {
 		name = kaz_Bolat_Yerbolatev
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/idea_CHI_weng_wenhao.dds"
+				small = "gfx/interface/ideas/idea_CHI_weng_wenhao.dds"
 			}
 		}
 		advisor = {
@@ -119,7 +336,7 @@ characters = {
 			idea_token = kaz_Bolat_Yerbolatev
 			ledger = air
 			traits = {
-				 famous_aviator
+				famous_aviator
 			}
 			cost = 100
 			allowed = {
