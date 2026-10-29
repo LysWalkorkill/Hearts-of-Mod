@@ -1,10 +1,16 @@
 ﻿l_english:
-    CAN_Ryan_Gosling:0 "Ryan Gosling"
-    CAN_agent_drake:0 "Agent Drake"
-    CAN_céline_dion:0 "Céline Dion"
-    CAN_justin_bieber:0 "Justin Bieber"
-    CAN_kelly_anne:0 "Kelly Anne"
-    CAN_melissa_o'neil:0 "Melissa O'Neill"
+    CAN_Ryan_Gosling: "Ryan Gosling"
+    CAN_agent_drake: "Agent Drake"
+    CAN_celine_dion: "Céline Dion"
+    CAN_justin_bieber: "Justin Bieber"
+    CAN_kelly_anne: "Kelly-Anne"
+    CAN_melissa_o_neil: "Melissa O'Neill"
+    CAN_ariane_lachance: "Ariane Lachance"
+    CAN_john_nolan: "John Nolan"
+    CAN_justin_trudeau: "Justin Trudeau"
+    CAN_summer_mcintosh: "Summer McIntosh"
+    CAN_james_cameron: "James Cameron"
+    CAN_emily_vancamp: "Emily_VanCamp"
     # Quebec Giant Grizzly
 l_english:
     CAN_chasser_grizzly_geant_quebec:0 "Hunt the Quebec Giant Grizzly"

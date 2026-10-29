@@ -81,7 +81,8 @@ if = {
 			name = MEX_pablo_escobar
 			gfx = "GFX_portrait_mex_pablo_escobar_large"
 			female = yes
-			traits = {
+			traits = { operative_tough operative_natural_orator
+		
 				
 			}
 			bypass_recruitment = yes
@@ -112,7 +113,7 @@ if = {
 			name = MEX_camila_mendes
 			gfx = "GFX_portrait_mex_camila_mendes_large"
 			female = yes
-			traits = {
+			traits = { operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -125,7 +126,7 @@ if = {
 			name = MEX_camila_cabello
 			gfx = "GFX_portrait_mex_camila_cabello_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer
 				
 			}
 			bypass_recruitment = yes
@@ -138,7 +139,7 @@ if = {
 			name = MEX_bad_bunny
 			gfx = "GFX_portrait_mex_bad_bunny_large"
 			female = yes
-			traits = {
+			traits = { operative_natural_orator
 				
 			}
 			bypass_recruitment = yes
@@ -154,7 +155,7 @@ if = {
 			name = CAN_agent_drake
 			gfx = "GFX_portrait_can_agent_drake_large"
 			female = no
-			traits = {
+			traits = { operative_seducer
 				
 			}
 			bypass_recruitment = yes
@@ -168,7 +169,7 @@ if = {
 			name = CAN_celine_dion
 			gfx = "GFX_portrait_can_celine_dion_large"
 			female = yes
-			traits = {
+			traits = { operative_commando operative_safe_cracker
 				
 			}
 			bypass_recruitment = yes
@@ -182,7 +183,7 @@ if = {
 			name = CAN_justin_bieber
 			gfx = "GFX_portrait_can_justin_bieber_large"
 			female = no
-			traits = {
+			traits = { operative_seducer
 				
 			}
 			bypass_recruitment = yes
@@ -196,12 +197,12 @@ if = {
 			name = CAN_kelly_anne
 			gfx = "GFX_portrait_can_kelly_anne_large"
 			female = yes
-			traits = {
+			traits = { operative_safe_cracker
 				
 			}
 			bypass_recruitment = yes
 			available_to_spy_master = no
-			nationalities = {
+			nationalities = { 
 				CAN
 			}
 		}
@@ -209,7 +210,7 @@ if = {
 			name = CAN_melissa_o_neil
 			gfx = "GFX_portrait_can_melissa_o_neil_large"
 			female = yes
-			traits = {
+			traits = { operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -224,7 +225,7 @@ if = {
 			name = SAF_agent_gims
 			gfx = "GFX_portrait_saf_agent_gims_large"
 			female = no
-			traits = {
+			traits = { operative_double_agent
 				
 			}
 			bypass_recruitment = yes
@@ -238,7 +239,7 @@ if = {
 			name = SAF_agent_rihanna
 			gfx = "GFX_portrait_saf_agent_rihanna_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -266,7 +267,7 @@ if = {
 			name = SAF_fabrice_eboue
 			gfx = "GFX_portrait_saf_fabrice_eboue_large"
 			female = no
-			traits = {
+			traits = { operative_demolition_expert operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -281,7 +282,7 @@ if = {
 			name = SAF_johnny_clegg
 			gfx = "GFX_portrait_saf_johnny_clegg_large"
 			female = no
-			traits = {
+			traits = { operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -297,7 +298,7 @@ if = {
 			name = eng_daniel_craig
 			gfx = "GFX_portrait_eng_daniel_craig_large"
 			female = no
-			traits = {
+			traits = { operative_commando operative_safe_cracker operative_seducer
 				
 			}
 			bypass_recruitment = yes
@@ -310,7 +311,7 @@ if = {
 			name = eng_emma_watson
 			gfx = "GFX_portrait_eng_emma_watson_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -324,7 +325,7 @@ if = {
 			name = eng_lord_sarge
 			gfx = "GFX_portrait_eng_lord_sarge_large"
 			female = no
-			traits = {
+			traits = { operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -338,7 +339,7 @@ if = {
 			name = eng_mister_bean
 			gfx = "GFX_portrait_eng_mister_bean_large"
 			female = no
-			traits = {
+			traits = { operative_demolition_expert operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -351,7 +352,7 @@ if = {
 			name = eng_rose_dawson
 			gfx = "GFX_portrait_eng_rose_dawson_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -365,7 +366,7 @@ if = {
 			name = eng_shelly_thirdvall
 			gfx = "GFX_portrait_eng_shelly_thirdvall_large"
 			female = yes
-			traits = {
+			traits = { operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -378,7 +379,7 @@ if = {
 			name = eng_jason_statham
 			gfx = "GFX_portrait_eng_jason_statham_large"
 			female = no
-			traits = {
+			traits = { operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -393,7 +394,7 @@ if = {
 			name = fra_jean_moulin
 			gfx = "GFX_portrait_fra_jean_moulin_large"
 			female = no
-			traits = {
+			traits = { operative_demolition_expert operative_double_agent operative_natural_orator operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -406,7 +407,7 @@ if = {
 			name = fra_ambre_therval
 			gfx = "GFX_portrait_fra_ambre_therval_large"
 			female = yes
-			traits = {
+			traits = { operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -420,7 +421,7 @@ if = {
 			name = fra_francois_perrin
 			gfx = "GFX_portrait_fra_francois_perrin_large"
 			female = no
-			traits = {
+			traits = { 
 				
 			}
 			bypass_recruitment = yes
@@ -433,7 +434,7 @@ if = {
 			name = fra_liisa_hauteville
 			gfx = "GFX_portrait_fra_liisa_hauteville_large"
 			female = yes
-			traits = {
+			traits = { operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -447,7 +448,7 @@ if = {
 			name = fra_oss_117
 			gfx = "GFX_portrait_fra_oss_117_large"
 			female = no
-			traits = {
+			traits = { operative_commando operative_safe_cracker operative_seducer
 				
 			}
 			bypass_recruitment = yes
@@ -463,7 +464,7 @@ if = {
 			name = fra_serge_gainsbourg
 			gfx = "GFX_portrait_fra_serge_gainsbourg_large"
 			female = no
-			traits = {
+			traits = { operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -472,12 +473,27 @@ if = {
 				FRA
 			}
 		}
+		create_operative_leader = {
+			name = fra_jean_reno
+			gfx = "GFX_portrait_fra_jean_reno_large"
+			female = no
+			traits = { operative_commando operative_double_agent
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				FRA
+				GER
+				ITA
+			}
+		}
 		GER = {
 			create_operative_leader = {
 				name = ger_alex_brandt
 				gfx = "GFX_portrait_ger_alex_brandt_large"
 				female = no
-				traits = {
+				traits = { operative_commando
 					
 				}
 				bypass_recruitment = yes
@@ -490,7 +506,7 @@ if = {
 				name = ger_gilles_lambert
 				gfx = "GFX_portrait_ger_gilles_lambert_large"
 				female = no
-				traits = {
+				traits = { operative_tough operative_safe_cracker
 					
 				}
 				bypass_recruitment = yes
@@ -503,7 +519,7 @@ if = {
 				name = ger_adolfo_ramirez
 				gfx = "GFX_portrait_ger_adolfo_ramirez_large"
 				female = no
-				traits = {
+				traits = { operative_master_interrogator
 					
 				}
 				bypass_recruitment = yes
@@ -517,7 +533,7 @@ if = {
 				name = ger_claudia_schiffer
 				gfx = "GFX_portrait_ger_claudia_schiffer_large"
 				female = yes
-				traits = {
+				traits = { operative_seducer operative_linguist
 					
 				}
 				bypass_recruitment = yes
@@ -530,7 +546,7 @@ if = {
 				name = ger_frau_engel
 				gfx = "GFX_portrait_ger_frau_engel_large"
 				female = yes
-				traits = {
+				traits = { operative_tough operative_master_interrogator
 					
 				}
 				bypass_recruitment = yes
@@ -545,7 +561,7 @@ if = {
 				name = ger_gerhard_moeller
 				gfx = "GFX_portrait_ger_gerhard_moeller_large"
 				female = no
-				traits = {
+				traits = { operative_linguist
 					
 				}
 				bypass_recruitment = yes
@@ -558,7 +574,7 @@ if = {
 				name = ger_manuel_nauer
 				gfx = "GFX_portrait_ger_manuel_nauer_large"
 				female = no
-				traits = {
+				traits = { operative_commando
 					
 				}
 				bypass_recruitment = yes
@@ -571,7 +587,7 @@ if = {
 				name = ger_romy_schneider
 				gfx = "GFX_portrait_ger_romy_schneider_large"
 				female = yes
-				traits = {
+				traits = { operative_seducer operative_linguist
 					
 				}
 				bypass_recruitment = yes
@@ -587,7 +603,7 @@ if = {
 			name = jap_aoi_miyazaki
 			gfx = "GFX_portrait_jap_aoi_miyazaki_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -600,7 +616,7 @@ if = {
 			name = jap_erza_scarlet
 			gfx = "GFX_portrait_jap_erza_scarlet_large"
 			female = yes
-			traits = {
+			traits = { operative_demolition_expert operative_commando operative_natural_orator
 				
 			}
 			bypass_recruitment = yes
@@ -613,7 +629,7 @@ if = {
 			name = jap_nico_robin
 			gfx = "GFX_portrait_jap_nico_robin_large"
 			female = yes
-			traits = {
+			traits = { operative_safe_cracker operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -626,7 +642,7 @@ if = {
 			name = jap_shigeru_miyamoto
 			gfx = "GFX_portrait_jap_shigeru_miyamoto_large"
 			female = no
-			traits = {
+			traits = { operative_natural_orator
 				
 			}
 			bypass_recruitment = yes
@@ -642,7 +658,7 @@ if = {
 			name = usa_agent_alix
 			gfx = "GFX_portrait_usa_agent_alix_large"
 			female = no
-			traits = {
+			traits = { operative_linguist operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -656,7 +672,7 @@ if = {
 			name = usa_jennifer_lawrence
 			gfx = "GFX_portrait_usa_jennifer_lawrence_large"
 			female = yes
-			traits = {
+			traits = { operative_commando operative_seducer operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -672,7 +688,7 @@ if = {
 			name = usa_amelia_cia
 			gfx = "GFX_portrait_usa_amelia_cia_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer
 				
 			}
 			bypass_recruitment = yes
@@ -686,7 +702,7 @@ if = {
 			name = usa_billie_eilish
 			gfx = "GFX_portrait_usa_billie_eilish_large"
 			female = yes
-			traits = {
+			traits = { operative_safe_cracker operative_tough
 				
 			}
 			bypass_recruitment = yes
@@ -699,7 +715,7 @@ if = {
 			name = usa_fox_mulder
 			gfx = "GFX_portrait_usa_fox_mulder_large"
 			female = yes
-			traits = {
+			traits = { operative_master_interrogator operative_natural_orator
 				
 			}
 			bypass_recruitment = yes
@@ -712,7 +728,7 @@ if = {
 			name = usa_jack_reacher
 			gfx = "GFX_portrait_usa_jack_reacher_large"
 			female = yes
-			traits = {
+			traits = { operative_linguist operative_double_agent
 				
 			}
 			bypass_recruitment = yes
@@ -725,7 +741,7 @@ if = {
 			name = usa_jason_hudson
 			gfx = "GFX_portrait_usa_jason_hudson_large"
 			female = yes
-			traits = {
+			traits = { operative_demolition_expert operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -738,7 +754,7 @@ if = {
 			name = usa_ariana_grande
 			gfx = "GFX_portrait_usa_ariana_grande_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer
 				
 			}
 			bypass_recruitment = yes
@@ -753,7 +769,7 @@ if = {
 			name = man_jackie_chan
 			gfx = "GFX_portrait_man_jackie_chan_large"
 			female = no
-			traits = {
+			traits = { operative_commando operative_tough
 				
 			}
 			bypass_recruitment = yes
@@ -766,7 +782,7 @@ if = {
 			name = man_jack_ma
 			gfx = "GFX_portrait_man_jack_ma_large"
 			female = no
-			traits = {
+			traits = { 
 				
 			}
 			bypass_recruitment = yes
@@ -779,7 +795,7 @@ if = {
 			name = man_princesse_mulan
 			gfx = "GFX_portrait_man_princesse_mulan_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_linguist operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -792,7 +808,7 @@ if = {
 			name = man_sou_yang
 			gfx = "GFX_portrait_man_sou_yang_large"
 			female = yes
-			traits = {
+			traits = { operative_double_agent
 				
 			}
 			bypass_recruitment = yes
@@ -806,7 +822,7 @@ if = {
 			name = man_xi_jinping
 			gfx = "GFX_portrait_man_xi_jinping_large"
 			female = no
-			traits = {
+			traits = { operative_linguist operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -822,7 +838,7 @@ if = {
 			name = hun_leia_organa
 			gfx = "GFX_portrait_hun_leia_organa_large"
 			female = yes
-			traits = {
+			traits = { operative_double_agent operative_natural_orator
 				
 			}
 			bypass_recruitment = yes
@@ -836,7 +852,7 @@ if = {
 			name = hun_luke_skywalker
 			gfx = "GFX_portrait_hun_luke_skywalker_large"
 			female = no
-			traits = {
+			traits = { operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -849,7 +865,7 @@ if = {
 			name = hun_mace_windu
 			gfx = "GFX_portrait_hun_mace_windu_large"
 			female = no
-			traits = {
+			traits = { operative_commando operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -862,7 +878,7 @@ if = {
 			name = hun_padme_amidala
 			gfx = "GFX_portrait_hun_padme_amidala_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -876,7 +892,7 @@ if = {
 			name = hun_seigneur_sidious
 			gfx = "GFX_portrait_hun_seigneur_sidious_large"
 			female = no
-			traits = {
+			traits = { operative_double_agent operative_tough operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -894,7 +910,7 @@ if = {
 			name = fin_agent_ragnarok
 			gfx = "GFX_portrait_fin_agent_ragnarok_large"
 			female = no
-			traits = {
+			traits = { operative_tough
 				
 			}
 			bypass_recruitment = yes
@@ -908,7 +924,7 @@ if = {
 			name = fin_cara_delevingne
 			gfx = "GFX_portrait_fin_cara_delevingne_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_double_agent
 				
 			}
 			bypass_recruitment = yes
@@ -922,7 +938,7 @@ if = {
 			name = fin_pere_noel
 			gfx = "GFX_portrait_fin_pere_noel_large"
 			female = no
-			traits = {
+			traits = { operative_linguist operative_commando operative_linguist operative_demolition_expert
 				
 			}
 			bypass_recruitment = yes
@@ -937,7 +953,7 @@ if = {
 			name = fin_ragnar_breton
 			gfx = "GFX_portrait_fin_ragnar_breton_large"
 			female = no
-			traits = {
+			traits = { operative_demolition_expert
 				
 			}
 			bypass_recruitment = yes
@@ -951,7 +967,7 @@ if = {
 			name = fin_sorciere_blanche
 			gfx = "GFX_portrait_fin_sorciere_blanche_large"
 			female = yes
-			traits = {
+			traits = { operative_safe_cracker operative_commando operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -966,7 +982,7 @@ if = {
 			name = rom_adrien_laurent
 			gfx = "GFX_portrait_rom_adrien_laurent_large"
 			female = no
-			traits = {
+			traits = { operative_seducer
 				
 			}
 			bypass_recruitment = yes
@@ -980,7 +996,7 @@ if = {
 			name = rom_lea_mary
 			gfx = "GFX_portrait_rom_lea_mary_large"
 			female = yes
-			traits = {
+			traits = { operative_double_agent operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -994,7 +1010,7 @@ if = {
 			name = rom_lena_mahfouf
 			gfx = "GFX_portrait_rom_lena_mahfouf_large"
 			female = yes
-			traits = {
+			traits = { operative_natural_orator
 				
 			}
 			bypass_recruitment = yes
@@ -1008,7 +1024,7 @@ if = {
 			name = rom_nabilla_vergara
 			gfx = "GFX_portrait_rom_nabilla_vergara_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -1022,7 +1038,7 @@ if = {
 			name = rom_sebastien_dubois
 			gfx = "GFX_portrait_rom_sebastien_dubois_large"
 			female = no
-			traits = {
+			traits = { operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -1032,10 +1048,10 @@ if = {
 			}
 		}
 		create_operative_leader = {
-			name = rom_thibault_garcias
-			gfx = "GFX_portrait_rom_thibault_garcias_large"
+			name = rom_thibault_garcia
+			gfx = "GFX_portrait_rom_thibault_garcia_large"
 			female = no
-			traits = {
+			traits = { operative_seducer operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -1050,7 +1066,7 @@ if = {
 			name = yug_ambra_sarajeva
 			gfx = "GFX_portrait_yug_ambra_sarajeva_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -1065,7 +1081,7 @@ if = {
 			name = yug_luka_modric
 			gfx = "GFX_portrait_yug_luka_modric_large"
 			female = no
-			traits = {
+			traits = { operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -1079,7 +1095,7 @@ if = {
 			name = yug_marie_lazovic
 			gfx = "GFX_portrait_yug_marie_lazovic_large"
 			female = yes
-			traits = {
+			traits = { operative_safe_cracker
 				
 			}
 			bypass_recruitment = yes
@@ -1094,7 +1110,7 @@ if = {
 			name = yug_melania_trump
 			gfx = "GFX_portrait_yug_melania_trump_large"
 			female = yes
-			traits = {
+			traits = { operative_double_agent operative_seducer operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -1109,7 +1125,7 @@ if = {
 			name = yug_novak_djokovic
 			gfx = "GFX_portrait_yug_novak_djokovic_large"
 			female = no
-			traits = {
+			traits = { operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -1126,7 +1142,7 @@ if = {
 			name = spr_diego_delavegas
 			gfx = "GFX_portrait_spr_diego_delavegas_large"
 			female = no
-			traits = {
+			traits = { operative_commando operative_double_agent
 				
 			}
 			bypass_recruitment = yes
@@ -1140,7 +1156,7 @@ if = {
 			name = spr_enrique_iglesi
 			gfx = "GFX_portrait_spr_enrique_iglesi_large"
 			female = no
-			traits = {
+			traits = { operative_natural_orator
 				
 			}
 			bypass_recruitment = yes
@@ -1153,7 +1169,7 @@ if = {
 			name = spr_kendji_girac
 			gfx = "GFX_portrait_spr_kendji_girac_large"
 			female = no
-			traits = {
+			traits = { operative_natural_orator operative_seducer
 				
 			}
 			bypass_recruitment = yes
@@ -1167,7 +1183,7 @@ if = {
 			name = spr_lamine_yamal
 			gfx = "GFX_portrait_spr_lamine_yamal_large"
 			female = no
-			traits = {
+			traits = { operative_commando operative_safe_cracker
 				
 			}
 			bypass_recruitment = yes
@@ -1180,7 +1196,7 @@ if = {
 			name = spr_leonor_borbon
 			gfx = "GFX_portrait_spr_leonor_borbon_large"
 			female = yes
-			traits = {
+			traits = { operative_linguist operative_natural_orator operative_seducer
 				
 			}
 			bypass_recruitment = yes
@@ -1193,7 +1209,7 @@ if = {
 			name = spr_penelope_cruz
 			gfx = "GFX_portrait_spr_penelope_cruz_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -1210,7 +1226,7 @@ if = {
 			name = ita_carla_bruni
 			gfx = "GFX_portrait_ita_carla_bruni_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_natural_orator
 				
 			}
 			bypass_recruitment = yes
@@ -1224,7 +1240,7 @@ if = {
 			name = ita_cristina_dalida
 			gfx = "GFX_portrait_ita_cristina_dalida_large"
 			female = yes
-			traits = {
+			traits = { operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -1237,7 +1253,7 @@ if = {
 			name = ita_damiano_maneskin
 			gfx = "GFX_portrait_ita_damiano_maneskin_large"
 			female = no
-			traits = {
+			traits = { operative_commando operative_safe_cracker
 				
 			}
 			bypass_recruitment = yes
@@ -1251,7 +1267,7 @@ if = {
 			name = ita_ferruccio_lamborghini
 			gfx = "GFX_portrait_ita_ferruccio_lamborghini_large"
 			female = no
-			traits = {
+			traits = { operative_natural_orator operative_double_agent
 				
 			}
 			bypass_recruitment = yes
@@ -1265,7 +1281,7 @@ if = {
 			name = ita_khaby_lame
 			gfx = "GFX_portrait_ita_khaby_lame_large"
 			female = no
-			traits = {
+			traits = { operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -1278,7 +1294,7 @@ if = {
 			name = ita_lino_ventura
 			gfx = "GFX_portrait_ita_lino_ventura_large"
 			female = no
-			traits = {
+			traits = { operative_commando operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -1292,7 +1308,7 @@ if = {
 			name = ita_monica_bellucci
 			gfx = "GFX_portrait_ita_monica_bellucci_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_double_agent
 				
 			}
 			bypass_recruitment = yes
@@ -1322,7 +1338,7 @@ if = {
 			name = sov_cobra_ivanova
 			gfx = "GFX_portrait_sov_cobra_ivanova_large"
 			female = no
-			traits = {
+			traits = { operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -1336,7 +1352,7 @@ if = {
 			name = sov_kamila_zusje
 			gfx = "GFX_portrait_sov_kamila_zusje_large"
 			female = yes
-			traits = {
+			traits = { operative_commando operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -1350,7 +1366,7 @@ if = {
 			name = sov_liisa_sevrodonesk
 			gfx = "GFX_portrait_sov_liisa_sevrodonesk_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -1365,7 +1381,7 @@ if = {
 			name = sov_naomia_brejnev
 			gfx = "GFX_portrait_sov_naomia_brejnev_large"
 			female = yes
-			traits = {
+			traits = { operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -1379,7 +1395,7 @@ if = {
 			name = sov_natasha_poly
 			gfx = "GFX_portrait_sov_natasha_poly_large"
 			female = yes
-			traits = {
+			traits = { operative_safe_cracker
 				
 			}
 			bypass_recruitment = yes
@@ -1394,7 +1410,7 @@ if = {
 			name = sov_sasha_luss
 			gfx = "GFX_portrait_sov_sasha_luss_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_double_agent
 				
 			}
 			bypass_recruitment = yes
@@ -1409,7 +1425,7 @@ if = {
 			name = sov_sergei_cheffa
 			gfx = "GFX_portrait_sov_sergei_cheffa_large"
 			female = no
-			traits = {
+			traits = { operative_demolition_expert operative_natural_orator
 				
 			}
 			bypass_recruitment = yes
@@ -1423,7 +1439,7 @@ if = {
 			name = sov_tatiana_kurtukova
 			gfx = "GFX_portrait_sov_tatiana_kurtukova_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -1437,7 +1453,7 @@ if = {
 			name = sov_vladimir_poutine
 			gfx = "GFX_portrait_sov_vladimir_poutine_large"
 			female = no
-			traits = {
+			traits = { operative_commando
 				
 			}
 			bypass_recruitment = yes
@@ -1454,7 +1470,7 @@ if = {
 			name = kaz_aya_shalkar
 			gfx = "GFX_portrait_kaz_aya_shalkar_large"
 			female = yes
-			traits = {
+			traits = { operative_commando operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -1467,7 +1483,7 @@ if = {
 			name = kaz_khloe_sergiva
 			gfx = "GFX_portrait_kaz_khloe_sergiva_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_double_agent
 				
 			}
 			bypass_recruitment = yes
@@ -1481,7 +1497,7 @@ if = {
 			name = kaz_ruslana_korshunova
 			gfx = "GFX_portrait_kaz_ruslana_korshunova_large"
 			female = yes
-			traits = {
+			traits = { operative_demolition_expert operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -1495,7 +1511,7 @@ if = {
 			name = kaz_turar_mynbayev
 			gfx = "GFX_portrait_kaz_turar_mynbayev_large"
 			female = no
-			traits = {
+			traits = { operative_seducer operative_master_interrogator
 				
 			}
 			bypass_recruitment = yes
@@ -1510,7 +1526,7 @@ if = {
 			name = kaz_zlata_ivana
 			gfx = "GFX_portrait_kaz_zlata_ivana_large"
 			female = yes
-			traits = {
+			traits = { operative_seducer operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -1523,10 +1539,75 @@ if = {
 	}
 	BUL = {
 		create_operative_leader = {
+			name = bul_cersei_lannister
+			gfx = "GFX_portrait_bul_cersei_lannister_large"
+			female = yes
+			traits = {operative_master_interrogator operative_linguist operative_seducer
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				BUL
+			}
+		}
+		create_operative_leader = {
+			name = bul_jaime_lannister
+			gfx = "GFX_portrait_bul_jaime_lannister_large"
+			female = no
+			traits = {operative_commando operative_seducer
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				BUL
+			}
+		}
+		create_operative_leader = {
+			name = bul_lord_varys
+			gfx = "GFX_portrait_bul_lord_varys_large"
+			female = no
+			traits = { operative_natural_orator
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				BUL
+			}
+		}
+		create_operative_leader = {
+			name = bul_robert_baratheon
+			gfx = "GFX_portrait_bul_robert_baratheon_large"
+			female = no
+			traits = { operative_commando operative_master_interrogator
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				BUL
+			}
+		}
+		create_operative_leader = {
+			name = bul_tyrion_lannister
+			gfx = "GFX_portrait_bul_tyrion_lannister_large"
+			female = no
+			traits = { operative_double_agent operative_natural_orator operative_linguist
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				BUL
+			}
+		}
+		create_operative_leader = {
 			name = bul_mads_mikkelsen
 			gfx = "GFX_portrait_bul_mads_mikkelsen_large"
 			female = no
-			traits = {
+			traits = { operative_double_agent
 				
 			}
 			bypass_recruitment = yes
@@ -1541,7 +1622,7 @@ if = {
 			name = raj_deepika_padukone
 			gfx = "GFX_portrait_raj_deepika_padukone_large"
 			female = yes
-			traits = {
+			traits = { operative_double_agent operative_seducer operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -1554,7 +1635,7 @@ if = {
 			name = raj_dj_snake
 			gfx = "GFX_portrait_raj_dj_snake_large"
 			female = no
-			traits = {
+			traits = { operative_commando operative_natural_orator
 				
 			}
 			bypass_recruitment = yes
@@ -1567,8 +1648,8 @@ if = {
 		create_operative_leader = {
 			name = raj_ezra_bridger
 			gfx = "GFX_portrait_raj_ezra_bridger_large"
-			female = yes
-			traits = {
+			female = no
+			traits = { operative_commando operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -1582,7 +1663,7 @@ if = {
 			name = raj_irfan_khan
 			gfx = "GFX_portrait_raj_irfan_khan_large"
 			female = no
-			traits = {
+			traits = { operative_seducer operative_natural_orator operative_linguist
 				
 			}
 			bypass_recruitment = yes
@@ -1598,7 +1679,7 @@ if = {
 			name = raj_priyanka_chopra
 			gfx = "GFX_portrait_raj_priyanka_chopra_large"
 			female = yes
-			traits = {
+			traits = { operative_demolition_expert operative_safe_cracker
 				
 			}
 			bypass_recruitment = yes
@@ -1609,4 +1690,77 @@ if = {
 			}
 		}
 	}
+	BRA = {
+		create_operative_leader = {
+			name = bra_marquinhos_correa
+			gfx = "GFX_portrait_bra_marquinhos_correa_large"
+			female = yes
+			traits = { operative_commando operative_linguist
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = { 
+				BRA
+				FRA
+			}
+		}
+		create_operative_leader = {
+			name = bra_rebeca_andrade
+			gfx = "GFX_portrait_bra_rebeca_andrade_large"
+			female = yes
+			traits = { operative_seducer operative_safe_cracker
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				BRA
+			}
+		}
+		create_operative_leader = {
+			name = bra_tiago_silva
+			gfx = "GFX_portrait_bra_tiago_silva_large"
+			female = yes
+			traits = { operative_natural_orator operative_master_interrogator
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				BRA
+			}
+		}
+		create_operative_leader = {
+			name = bra_yann_hawke
+			gfx = "GFX_portrait_bra_yann_hawke_large"
+			female = yes
+			traits = { operative_linguist operative_commando
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				BRA
+				USA
+				JAP
+				GER
+				ITA
+			}
+		}
+		create_operative_leader = {
+			name = bra_elena_neves
+			gfx = "GFX_portrait_bra_elena_neves_large"
+			female = yes
+			traits = { operative_double_agent operative_seducer operative_linguist
+				
+			}
+			bypass_recruitment = yes
+			available_to_spy_master = no
+			nationalities = {
+				BRA
+				USA
+			}
+		}
+		}
 }

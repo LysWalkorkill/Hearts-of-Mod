@@ -2,6 +2,9 @@ on_actions = {
     on_startup = {
         effect = {
             every_country = {
+                every_army_leader = {
+                    add_unit_leader_trait = no_grind
+                }
                 add_daily_mastery = {
                     amount = 1 #0.67
                     days = 3650
@@ -891,24 +894,19 @@ on_actions = {
                 
                 add_ideas = MIN_AI_disabled
             }
-            ## Black desert
-            POR = {
-                transfer_state = 514
-                add_state_core = 514
-                transfer_state = 786
-                add_state_core = 786
-                transfer_state = 782
-                add_state_core = 782
-                transfer_state = 515
-                add_state_core = 515
-                transfer_state = 273
-                add_state_core = 273
-                transfer_state = 775
-                add_state_core = 775
-                transfer_state = 767
-                add_state_core = 767
-                transfer_state = 552
-                add_state_core = 552
+            ## Black area
+            ZZZ = {
+                every_state = {
+                    limit = {
+                        OR = {
+                            region = 127
+                        }
+                    }
+                    transfer_state_to = PREV
+                    add_core_of = PREV
+                }
+            }
+            LIB = {
                 transfer_state = 290
                 add_state_core = 290
             }
@@ -1300,4 +1298,19 @@ on_actions = {
             }
         }
     }
+    on_daily = {
+		effect = {
+			if = {
+				limit = {
+					FRA = { has_capitulated = yes }
+					POL = { has_capitulated = yes }
+				}
+				every_country = {
+                    every_army_leader = {
+                        remove_unit_leader_trait = no_grind
+                    }
+                }
+			}
+		}
+	}
 }

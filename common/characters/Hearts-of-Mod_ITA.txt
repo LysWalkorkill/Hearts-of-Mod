@@ -1,0 +1,194 @@
+characters = {
+	ITA_abou_clement = {
+		name = ITA_abou_clement
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_abou_clement_large
+				small = GFX_idea_ITA_abou_clement_small
+			}
+			army = {
+				large = GFX_portrait_ITA_abou_clement_large
+				small = GFX_idea_ITA_abou_clement_small
+			}
+		}
+		corps_commander={
+		
+			traits = {desert_fox cavalry_officer cavalry_leader brilliant_strategist}
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+    ITA_caius_bonus = {
+		name = ITA_caius_bonus
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_caius_bonus_large
+				small = GFX_idea_ITA_caius_bonus_small
+			}
+			army = {
+				large = GFX_portrait_ITA_caius_bonus_large
+				small = GFX_idea_ITA_caius_bonus_small
+			}
+		}
+		corps_commander={
+		
+			traits = {infantry_leader infantry_expert trait_cautious}
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    ITA_giorgio_armani = {
+		name = ITA_giorgio_armani
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_giorgio_armani_large
+				small = GFX_idea_ITA_giorgio_armani_small
+			}
+			army = {
+				large = GFX_portrait_giorgio_armani_large
+				small = GFX_idea_ITA_giorgio_armani_small
+			}
+		}
+		navy_leader={
+		
+			traits = {spotter superior_tactician ironside green_water_expert}
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    ITA_jules_cesar = {
+		name = ITA_jules_cesar
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_jules_cesar_large
+				small = GFX_idea_ITA_jules_cesar_small
+			}
+			army = {
+				large = GFX_portrait_ITA_jules_cesar_large
+				small = GFX_idea_ITA_jules_cesar_small
+			}
+		}
+		corps_commander={
+		
+			traits = {brilliant_strategist war_hero old_guard organizer}
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+    ITA_leonardo_dicaprio = {
+		name = ITA_leonardo_dicaprio
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_leonardo_dicaprio_large
+				small = GFX_idea_ITA_leonardo_dicaprio_small
+			}
+			army = {
+				large = GFX_portrait_ITA_leonardo_dicaprio_large
+				small = GFX_idea_ITA_leonardo_dicaprio_small
+			}
+		}
+		corps_commander={
+		
+            traits = {trait_mountaineer hill_fighter adaptable}
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+    ITA_ornella_muti = {
+		name = ITA_ornella_muti
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_ornella_muti_large
+				small = GFX_idea_ITA_ornella_muti_small
+			}
+			army = {
+				large = GFX_portrait_ITA_ornella_muti_large
+				small = GFX_idea_ITA_ornella_muti_small
+			}
+		}
+		corps_commander={
+		
+			traits = {media_personality brilliant_strategist trickster trait_reckless trait_engineer}
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    ITA_roberto_benigni = {
+		name = ITA_roberto_benigni
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_roberto_benigni_large
+				small = GFX_idea_ITA_roberto_benigni_small
+			}
+			army = {
+				large = GFX_portrait_ITA_roberto_benigni_large
+				small = GFX_idea_ITA_roberto_benigni_small
+			}
+		}
+		corps_commander={
+		
+			traits = {bearer_of_artillery urban_assault_specialist commando camouflage_expert}
+			skill=3
+			attack_skill=5
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    ITA_zendaya_coleman = {
+		name = ITA_zendaya_coleman
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_zendaya_coleman_large
+				small = GFX_idea_ITA_zendaya_coleman_small
+			}
+			army = {
+				large = GFX_portrait_ITA_zendaya_coleman_large
+				small = GFX_idea_ITA_zendaya_coleman_small
+			}
+		}
+		corps_commander={
+		
+			traits = {panzer_expert panzer_leader armor_officer trait_reckless organizer guerilla_fighter}
+			skill=3
+			attack_skill=4
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+    }

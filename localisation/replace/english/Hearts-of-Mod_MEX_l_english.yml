@@ -1,9 +1,17 @@
 ﻿l_english:
     MEX_pablo_escobar: "Pablo Escobar"
     MEX_michael_pena: "Michael Peña"
+    MEX_bad_bunny: "Bad Bunny"
     MEX_camila_mendes: "Camila Mendes"
     MEX_camila_cabello: "Camila Cabello"
-    MEX_bad_bunny: "Bad Bunny"
+    MEX_marisol_nichols: "Marisol Nichols"
+    MEX_mark_consuelos: "Mark Consuelos"
+    MEX_roberto_dringo: "Roberto Dringo"
+    MEX_sara_ramirez: "Sara Ramirez"
+    MEX_senorita_ambra: "Señorita Ambra"
+    MEX_tiago_santiago: "Tiago Santigo"
+    MEX_zhanna_bark: "Zhanna Bark"
+
     # Exploration
     MEX_explorer_temple_maya:0 "Explore a Mayan Temple"
     MEX_explorer_temple_azteque:0 "Explore an Aztec Temple"

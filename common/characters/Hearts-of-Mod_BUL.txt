@@ -1,0 +1,218 @@
+characters = {
+	BUL_alexandre_astier = {
+		name = BUL_alexandre_astier
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_alexandre_astier_large
+				small = GFX_idea_BUL_alexandre_astier_small
+			}
+			army = {
+				large = GFX_portrait_BUL_alexandre_astier_large
+				small = GFX_idea_BUL_alexandre_astier_small
+			}
+		}
+		corps_commander={
+		
+			traits = {infantry_leader}
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+        }
+        BUL_cate_blanchett = {
+		name = BUL_cate_blanchett
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_cate_blanchett_large
+				small = GFX_idea_BUL_cate_blanchett_small
+			}
+			army = {
+				large = GFX_portrait_BUL_cate_blanchett_large
+				small = GFX_idea_BUL_cate_blanchett_small
+			}
+		}
+		corps_commander={
+		
+			traits = {brilliant_strategist hill_fighter}
+			skill=1
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+        }
+        BUL_jason_momoa = {
+		name = BUL_jason_momoa
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_jason_momoa_large
+				small = GFX_idea_BUL_jason_momoa_small
+			}
+			army = {
+				large = GFX_portrait_BUL_jason_momoa_large
+				small = GFX_idea_BUL_jason_momoa_small
+			}
+		}
+		corps_commander={
+		
+			traits = { harsh_leader adaptable }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+        }
+        BUL_merlin_prime = {
+		name = BUL_merlin_prime
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_merlin_prime_large
+				small = GFX_idea_BUL_merlin_prime_small
+			}
+			army = {
+				large = GFX_portrait_BUL_merlin_prime_large
+				small = GFX_idea_BUL_merlin_prime_small
+			}
+		}
+		corps_commander={
+		
+			traits = {old_guard organizer }
+			skill=2
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+        }
+        BUL_morgane_berry = {
+		name = BUL_morgane_berry
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_morgane_berry_large
+				small = GFX_idea_BUL_morgane_berry_small
+			}
+			army = {
+				large = GFX_portrait_BUL_morgane_berry_large
+				small = GFX_idea_BUL_morgane_berry_small
+			}
+		}
+		corps_commander={
+		
+			traits = {unyielding_defender trickster }
+			skill=2
+			attack_skill=1
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=0
+		}
+        }
+        BUL_rhaegar_targaryen = {
+		name = BUL_rhaegar_targaryen
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_rhaegar_targaryen_large
+				small = GFX_idea_BUL_rhaegar_targaryen_small
+			}
+			army = {
+				large = GFX_portrait_BUL_rhaegar_targaryen_large
+				small = GFX_idea_BUL_rhaegar_targaryen_small
+			}
+		}
+		navy_leader={
+		
+			traits = {bold cruiser_captain green_water_expert }
+			skill=1
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+        }
+        BUL_robin_des_bois = {
+		name = BUL_robin_des_bois
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_robin_des_bois_large
+				small = GFX_idea_BUL_robin_des_bois_small
+			}
+			army = {
+				large = GFX_portrait_BUL_robin_des_bois_large
+				small = GFX_idea_BUL_robin_des_bois_small
+			}
+		}
+		corps_commander={
+		
+			traits = {panzer_leader armor_officer brilliant_strategist }
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+        }
+        BUL_sansa_stark = {
+		name = BUL_sansa_stark
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_sansa_stark_large
+				small = GFX_idea_BUL_sansa_stark_small
+			}
+			army = {
+				large = GFX_portrait_BUL_sansa_stark_large
+				small = GFX_idea_BUL_sansa_stark_small
+			}
+		}
+		corps_commander={
+		
+			traits = {infantry_leader infantry_expert}
+			skill=1
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+        }
+        BUL_vassil_levski = {
+		name = BUL_vassil_levski
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_vassil_levski_large
+				small = GFX_idea_BUL_vassil_levski_small
+			}
+			army = {
+				large = GFX_portrait_BUL_vassil_levski_large
+				small = GFX_idea_BUL_vassil_levski_small
+			}
+		}
+		corps_commander={
+		
+			traits = {commando camouflage_expert}
+			skill=1
+			attack_skill=1
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+        }
+        }

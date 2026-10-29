@@ -1,6 +1,6 @@
 	-- Speed in game
 	--	VANILLA GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.1, 0.0 }, -- game speeds for each level. Must be 5 entries with last one 0 for unbound
-	NDefines.NGame.GAME_SPEED_SECONDS = { 0.5, 0.3, 0.2, 0.1, 0.0 }
+	NDefines.NGame.GAME_SPEED_SECONDS = { 2.0, 0.5, 0.15, 0.125, 0.10 }
 	NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 720
 	NDefines.NGame.LAG_DAYS_FOR_PAUSE = 30
 	NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 14 							    -- WAS 48 | drastically cuts down on save file sizes after WW2 starts and well into barbarossa

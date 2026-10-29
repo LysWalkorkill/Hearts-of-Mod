@@ -1,0 +1,24 @@
+﻿capital = 1
+
+add_ideas = MIN_AI_disabled
+
+set_rule = {
+	can_access_market = no
+	can_join_factions = no
+	can_create_factions = no
+	can_not_declare_war = yes
+	can_create_collaboration_government = no
+	can_be_spymaster = no
+	can_puppet = no
+	can_boost_other_ideologies = no
+	can_boost_own_ideology = no
+}
+
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}

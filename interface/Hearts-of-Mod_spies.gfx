@@ -138,6 +138,10 @@ SpriteType = {
 		texturefile = "gfx/Hearts-of-Mod/characters/fra/serge_gainsbourg.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_fra_jean_reno_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/fra/jean_reno.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_ger_alex_brandt_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/ger/alex_brandt.dds"
 	}
@@ -460,5 +464,45 @@ SpriteType = {
 	SpriteType = {
 		name = "GFX_portrait_raj_priyanka_chopra_large"
 		texturefile = "gfx/Hearts-of-Mod/characters/raj/priyanka_chopra.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_bul_cersei_lannister_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/bul/cersei_lannister.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_bul_jaime_lannister_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/bul/jaime_lannister.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_bul_lord_varys_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/bul/lord_varys.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_bul_robert_baratheon_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/bul/robert_baratheon.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_bul_tyrion_lannister_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/bul/tyrion_lannister.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_bra_marquinhos_correa_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/bra/marquinhos_correa.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_bra_rebeca_andrade_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/bra/rebeca_andrade.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_bra_tiago_silva_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/bra/tiago_silva.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_bra_elena_neves_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/bra/elena_neves.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_bra_yann_hawke_large"
+		texturefile = "gfx/Hearts-of-Mod/characters/bra/yann_hawke.dds"
 	}
 }

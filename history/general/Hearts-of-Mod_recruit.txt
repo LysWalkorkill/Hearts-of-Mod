@@ -1,6 +1,17 @@
 SOV = {
 	recruit_character = SOV_Mita
 	recruit_character = SOV_Katyusha
+	recruit_character = SOV_amelia_moskova
+	recruit_character = SOV_anastasia_kirpichnikova
+	recruit_character = SOV_marko_ramius
+	recruit_character = SOV_nikita_khrouchtchev
+	recruit_character = SOV_piotr_fiodorov
+	recruit_character = SOV_roza_shanina
+	recruit_character = SOV_vasili_borodin
+	recruit_character = SOV_viktor_reznov
+	recruit_character = SOV_vitali_makarov
+	recruit_character = SOV_yuliya_snigir
+	recruit_character = SOV_nikolai_malinkov
 }
 CAN = {
 	recruit_character = CAN_Ryan_Gosling
@@ -16,6 +27,8 @@ CAN = {
 }
 CAN = {
 	recruit_character = CAN_john_nolan
+	recruit_character = CAN_james_cameron
+	recruit_character = CAN_emily_vancamp
 
 }
 CAN = {
@@ -52,6 +65,7 @@ USA = {
 USA = {
 	recruit_character = USA_alexander_superarme
 	recruit_character = USA_joe_biden
+	recruit_character = USA_sabrina_carpenter
 }
 MEX = {
 	recruit_character = MEX_marisol_nichols
@@ -60,6 +74,7 @@ MEX = {
 	recruit_character = MEX_sara_ramirez
 	recruit_character = MEX_senorita_ambra
 	recruit_character = MEX_tiago_santiago
+	recruit_character = MEX_zhanna_bark
 }
 AST = {
 	recruit_character = AST_joel_parkinson
@@ -68,6 +83,8 @@ AST = {
 	recruit_character = AST_sydney_sarge
 	recruit_character = AST_sydney_sweeney
 	recruit_character = AST_joel_edgerton
+	recruit_character = AST_denis_brogniart
+	recruit_character = AST_herr_magniez
 }
 JAP = {
 	recruit_character = JAP_chiaki_kuriyama
@@ -76,6 +93,8 @@ JAP = {
 	recruit_character = JAP_jungkook_bts
 	recruit_character = JAP_mizuki_yamashita
 	recruit_character = JAP_monkey_luffy
+	#recruit_character = JAP_akira_toriyama
+	#recruit_character = JAP_uop_shisho
 }
 FRA = {
 	recruit_character = FRA_claude_francois
@@ -89,6 +108,8 @@ FRA = {
 	recruit_character = FRA_teo_legrand
 	recruit_character = FRA_zita_hauteville
 	recruit_character = FRA_ousmane_dembele
+	recruit_character = FRA_jeanne_dorleans
+	recruit_character = FRA_lucien_dalsace
 	
 }
 ENG = {
@@ -103,3 +124,139 @@ ENG = {
 	recruit_character = ENG_taron_egerton
 
 }
+
+BUL = { 
+	recruit_character = BUL_alexandre_astier
+	recruit_character = BUL_cate_blanchett
+	recruit_character = BUL_jason_momoa
+	recruit_character = BUL_merlin_prime
+	recruit_character = BUL_morgane_berry
+	recruit_character = BUL_rhaegar_targaryen
+	recruit_character = BUL_robin_des_bois
+	recruit_character = BUL_sansa_stark
+	recruit_character = BUL_vassil_levski
+	}
+	FIN = { 
+		recruit_character = FIN_howard_langston
+		recruit_character = FIN_kimi_raikkonen
+		recruit_character = FIN_liisa_sevsonn
+		recruit_character = FIN_lotta_hintsa
+		recruit_character = FIN_peter_franzen
+		recruit_character = FIN_saint_nicolas
+		}
+		GER = {
+			recruit_character = GER_angela_krieg
+			recruit_character = GER_claus_von_stauffenberg
+			recruit_character = GER_daniel_bruhl
+			recruit_character = GER_der_volkssturm
+			recruit_character = GER_general_krebs
+			recruit_character = GER_hans_landa
+			recruit_character = GER_heinrich_amsel
+			recruit_character = GER_henry_gibson
+			recruit_character = GER_herr_schulz
+			recruit_character = GER_traudl_junge
+			}
+			HUN = {
+				recruit_character = HUN_anakin_skywalker
+				recruit_character = HUN_commandant_cody
+				recruit_character = HUN_comte_dooku
+				recruit_character = HUN_daenerys_targaryen
+				recruit_character = HUN_han_solo
+				recruit_character = HUN_john_snow
+				recruit_character = HUN_jyn_erso
+				recruit_character = HUN_shin_hati
+				}
+			ITA = {
+				recruit_character = ITA_abou_clement
+				recruit_character = ITA_caius_bonus
+				recruit_character = ITA_giorgio_armani
+				recruit_character = ITA_jules_cesar
+				recruit_character = ITA_leonardo_dicaprio
+				recruit_character = ITA_ornella_muti
+				recruit_character = ITA_roberto_benigni
+				recruit_character = ITA_zendaya_coleman
+				}
+			KAZ = {
+				recruit_character = KAZ_aruzhan_jazilbekova
+				recruit_character = KAZ_diana_saifullinai
+				recruit_character = KAZ_dmitry_balandin
+				recruit_character = KAZ_gennady_golovkin
+				recruit_character = KAZ_irina_aniri
+				recruit_character = KAZ_marina_devyatova
+				recruit_character = KAZ_noursoultan_nazarbaiev
+				recruit_character = KAZ_viktor_tsoi
+				recruit_character = KAZ_volodymyr_zelensky
+				}
+				MAN = {
+					recruit_character = MAN_bd_wong
+					recruit_character = MAN_frederic_chau
+					recruit_character = MAN_jane_zhang
+					recruit_character = MAN_kubo_sensei
+					recruit_character = MAN_leiong_leang
+					recruit_character = MAN_tsing_shi_tao
+					recruit_character = MAN_wang_chuqin
+					recruit_character = MAN_wu_qian
+					}
+				RAJ = {
+					recruit_character = RAJ_amita_saahva
+					recruit_character = RAJ_grand_vizir
+					recruit_character = RAJ_harman_baweja
+					recruit_character = RAJ_naema_sindoula
+					recruit_character = RAJ_prince_de_bombay
+					recruit_character = RAJ_shah_rukh_khan
+					recruit_character = RAJ_shruti_haasan
+					}
+				ROM = {
+					recruit_character = ROM_albus_dumbledore
+					recruit_character = ROM_anna_de_noailles
+					recruit_character = ROM_compte_dracula
+					recruit_character = ROM_cyprien_iov
+					recruit_character = ROM_mercredi_addams
+					recruit_character = ROM_severu_rogue
+					recruit_character = ROM_vanessa_shelly
+					recruit_character = ROM_mike_schmidt
+					}
+				SAF = {
+					recruit_character = SAF_candice_swanepoel
+					recruit_character = SAF_cheslin_kolbe
+					recruit_character = SAF_elon_musk
+					recruit_character = SAF_gary_player
+					recruit_character = SAF_minnie_dlamini
+					recruit_character = SAF_thibault_bambini
+					recruit_character = SAF_le_bachelor
+					recruit_character = SAF_nelson_mandela
+					recruit_character = SAF_zongo_le_dozo
+					}
+				SPR = {
+					recruit_character = SPR_aitana_morales
+					recruit_character = SPR_felipe_vi
+					recruit_character = SPR_general_mobutu
+					recruit_character = SPR_hernan_cortes
+					recruit_character = SPR_pedro_gonzalez
+					recruit_character = SPR_rosalia_playa
+					recruit_character = SPR_sergent_garcia
+					recruit_character = SPR_sofia_de_borbon
+					}
+				YUG = {
+					recruit_character = YUG_aragon_ripenest
+					recruit_character = YUG_arwen_liv
+					recruit_character = YUG_arya_guillory
+					recruit_character = YUG_eragon_speleers
+					recruit_character = YUG_frodon_sacquet
+					recruit_character = YUG_madame_fierpied
+					recruit_character = YUG_samsagace_gamegie
+					}
+				SIA = {
+					recruit_character = SIA_makayuth_prudyawatt
+					}
+				BRA = {
+					recruit_character = BRA_alice_braga
+					recruit_character = BRA_angelina_lopez
+					recruit_character = BRA_fernand_de_magellan
+					recruit_character = BRA_jose_mourinho
+					recruit_character = BRA_morena_baccarin
+					recruit_character = BRA_neymar_jr
+					recruit_character = BRA_roi_pele
+					}
+					
+
