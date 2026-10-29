@@ -155,15 +155,15 @@ recruit_character = KAZ_democratic_guy
 recruit_character = KAZ_ar
 recruit_character = KAZ_acgs
 #new
-recruit_character = kaz_Sultan_Dauletev
-recruit_character = kaz_Aniyar_Sakenov
-recruit_character = kaz_Serik_Daniyarev
-recruit_character = kaz_Daniyar_Fomenkoev
-recruit_character = kaz_Bolat_Yerbolatev
-recruit_character = kaz_Marat_Yedilev
-recruit_character = kaz_Alibi_Amanetev
-recruit_character = kaz_Ruslan_Madiev
-recruit_character = kaz_Medet_Jeanev
+#recruit_character = kaz_Sultan_Dauletev
+#recruit_character = kaz_Aniyar_Sakenov
+#recruit_character = kaz_Serik_Daniyarev
+#recruit_character = kaz_Daniyar_Fomenkoev
+#recruit_character = kaz_Bolat_Yerbolatev
+#recruit_character = kaz_Marat_Yedilev
+#recruit_character = kaz_Alibi_Amanetev
+#recruit_character = kaz_Ruslan_Madiev
+#recruit_character = kaz_Medet_Jeanev
 
 add_ideas = {SRR_kaz1}
 add_ideas = {KAZ_agriculture1}
