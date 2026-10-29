@@ -1,12 +1,21 @@
 ﻿l_french:
   kaz_aya_shalkar:0 "Aya Shalkar"
-  kaz_kloe_sergiva:0 "Kloé Sergiva"
+  kaz_khloe_sergiva:0 "Kloé Sergiva"
   kaz_ruslana_korshunova:0 "Ruslana Korshunova"
   kaz_turar_mynbayev:0 "Turar Mynbayev"
   kaz_zlata_ivana:0 "Zlata Ivana"
+  KAZ_aruzhan_jazilbekova:0 "Aruzhan Jazilbekova"
+  KAZ_diana_saifullinai:0 "Diana Saifullinai"
+  KAZ_dmitry_balandin:0 "Dmitry Balandin"
+  KAZ_gennady_golovkin:0 "Gennady Golovkin"
+  KAZ_irina_aniri:0 "Irina Aniri"
+  KAZ_marina_devyatova:0 "Marina Devyatova"
+  KAZ_noursoultan_nazarbaiev:0 "Noursoultan Nazarbaïev"
+  KAZ_viktor_tsoi:0 "Viktor Tsoï"
+  KAZ_volodymyr_zelensky:0 "Volodymyr Zelensky"
   
   #texte
-  chaque_infra_sup_a_trois_tt:0 "Chaque Yinfrastructure supérieure ou égale au niveau 3! permet à l'État d'augmenter son niveau d'urbanisation grâce à ce focus"
+  chaque_infra_sup_a_trois_tt:0 "Chaque §Yinfrastructure supérieure ou égale au niveau 3§! permet à l'État d'augmenter son niveau d'urbanisation grâce à ce focus"
 
   #ideas
   SRR_kaz1:0 "RSS kazakhe"

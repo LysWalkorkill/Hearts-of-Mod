@@ -1,0 +1,194 @@
+characters = {
+	SPR_aitana_morales = {
+		name = SPR_aitana_morales
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPR_aitana_morales_large
+				small = GFX_idea_SPR_aitana_morales_small
+			}
+			army = {
+				large = GFX_portrait_SPR_aitana_morales_large
+				small = GFX_idea_SPR_aitana_morales_small
+			}
+		}
+		corps_commander={
+		
+			traits = {trait_engineer organizer hill_fighter}
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    SPR_felipe_vi = {
+		name = SPR_felipe_vi
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPR_felipe_vi_large
+				small = GFX_idea_SPR_felipe_vi_small
+			}
+			army = {
+				large = GFX_portrait_SPR_felipe_vi_large
+				small = GFX_idea_SPR_felipe_vi_small
+			}
+		}
+		corps_commander={
+		
+			traits = {brilliant_strategist adaptable}
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+    SPR_general_mobutu = {
+		name = SPR_general_mobutu
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPR_general_mobutu_large
+				small = GFX_idea_SPR_general_mobutu_small
+			}
+			army = {
+				large = GFX_portrait_SPR_general_mobutu_large
+				small = GFX_idea_SPR_general_mobutu_small
+			}
+		}
+		corps_commander={
+		
+			traits={ panzer_leader brilliant_strategist panzer_leader panzer_expert media_personality}
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+    SPR_hernan_cortes = {
+		name = SPR_hernan_cortes
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPR_hernan_cortes_large
+				small = GFX_idea_SPR_hernan_cortes_small
+			}
+			army = {
+				large = GFX_portrait_SPR_hernan_cortes_large
+				small = GFX_idea_SPR_hernan_cortes_small
+			}
+		}
+		corps_commander={
+		
+			traits = {naval_invader trait_amphibious invader_ii urban_assault_specialist harsh_leader}
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+    SPR_pedro_gonzalez = {
+		name = SPR_pedro_gonzalez
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPR_pedro_gonzalez_large
+				small = GFX_idea_SPR_pedro_gonzalez_small
+			}
+			army = {
+				large = GFX_portrait_SPR_pedro_gonzalez_large
+				small = GFX_idea_SPR_pedro_gonzalez_small
+			}
+		}
+		corps_commander={
+		
+			traits = {organizer hill_fighter trickster trait_engineer media_personality} 
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    SPR_sergent_garcia = {
+		name = SPR_sergent_garcia
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPR_sergent_garcia_large
+				small = GFX_idea_SPR_sergent_garcia_small
+			}
+			army = {
+				large = GFX_portrait_SPR_sergent_garcia_large
+				small = GFX_idea_SPR_sergent_garcia_small
+			}
+		}
+		corps_commander={
+		
+			traits = {war_hero trait_cautious cavalry_officer cavalry_leader cavalry_expert desert_fox}
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+     SPR_sofia_de_borbon = {
+		name = SPR_sofia_de_borbon
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPR_sofia_de_borbon_large
+				small = GFX_idea_SPR_sofia_de_borbon_small
+			}
+			army = {
+				large = GFX_portrait_SPR_sofia_de_borbon_large
+				small = GFX_idea_SPR_sofia_de_borbon_small
+			}
+		}
+		corps_commander={
+		
+			traits = {war_hero media_personality urban_assault_specialist ambusher commando infantry_leader}
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+    SPR_rosalia_playa = {
+		name = SPR_rosalia_playa
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPR_rosalia_playa_large
+				small = GFX_idea_SPR_rosalia_playa_small
+			}
+			army = {
+				large = GFX_portrait_SPR_rosalia_playa_large
+				small = GFX_idea_SPR_rosalia_playa_small
+			}
+		}
+		navy_leader={
+		
+			traits = {superior_tactician ironside battleship_adherent blue_water_expert bold seawolf}
+			skill=2
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+    }

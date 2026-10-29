@@ -1,0 +1,170 @@
+characters = {
+	RAJ_grand_vizir = {
+		name = RAJ_grand_vizir
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RAJ_grand_vizir_large
+				small = GFX_idea_RAJ_grand_vizir_small
+			}
+			army = {
+				large = GFX_portrait_RAJ_grand_vizir_large
+				small = GFX_idea_RAJ_grand_vizir_small
+			}
+		}
+		corps_commander={
+		
+			traits = {ranger jungle_rat adaptable}
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    RAJ_harman_baweja = {
+		name = RAJ_harman_baweja
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RAJ_harman_baweja_large
+				small = GFX_idea_RAJ_harman_baweja_small
+			}
+			army = {
+				large = GFX_portrait_RAJ_harman_baweja_large
+				small = GFX_idea_RAJ_harman_baweja_small
+			}
+		}
+		corps_commander={
+		
+			traits = {trait_engineer organizer brilliant_strategist}
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+      RAJ_naema_sindoula = {
+		name = RAJ_naema_sindoula
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RAJ_naema_sindoula_large
+				small = GFX_idea_RAJ_naema_sindoula_small
+			}
+			army = {
+				large = GFX_portrait_RAJ_naema_sindoula_large
+				small = GFX_idea_RAJ_naema_sindoula_small
+			}
+		}
+		corps_commander={
+		
+			traits = {commando camouflage_expert guerilla_fighter trait_reckless}
+			skill=3
+			attack_skill=3
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+     RAJ_amita_saahva = {
+		name = RAJ_amita_saahva
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RAJ_amita_saahva_large
+				small = GFX_idea_RAJ_amita_saahva_small
+			}
+			army = {
+				large = GFX_portrait_RAJ_amita_saahva_large
+				small = GFX_idea_RAJ_amita_saahva_small
+			}
+		}
+		navy_leader={
+		
+			traits = {superior_tactician ironside battleship_adherent blue_water_expert}
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    RAJ_prince_de_bombay = {
+		name = RAJ_prince_de_bombay
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RAJ_prince_de_bombay_large
+				small = GFX_idea_RAJ_prince_de_bombay_small
+			}
+			army = {
+				large = GFX_portrait_RAJ_prince_de_bombay_large
+				small = GFX_idea_RAJ_prince_de_bombay_small
+			}
+		}
+		navy_leader={
+		
+			traits = {big_guns_expert ironside superior_tactician bold blue_water_expert}
+			skill=5
+			attack_skill=4
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+    RAJ_shah_rukh_khan = {
+		name = RAJ_shah_rukh_khan
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RAJ_shah_rukh_khan_large
+				small = GFX_idea_RAJ_shah_rukh_khan_small
+			}
+			army = {
+				large = GFX_portrait_RAJ_shah_rukh_khan_large
+				small = GFX_idea_RAJ_shah_rukh_khan_small
+			}
+		}
+		corps_commander={
+		
+			traits = {brilliant_strategist trait_engineer scavenger harsh_leader}
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    RAJ_shruti_haasan = {
+		name = RAJ_shruti_haasan
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RAJ_shruti_haasan_large
+				small = GFX_idea_RAJ_shruti_haasan_small
+			}
+			army = {
+				large = GFX_portrait_RAJ_shruti_haasan_large
+				small = GFX_idea_RAJ_shruti_haasan_small
+			}
+		}
+		corps_commander={
+		
+			traits = {organizer hill_fighter trickster trait_engineer brilliant_strategist}
+			skill=4
+			attack_skill=3
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+    }

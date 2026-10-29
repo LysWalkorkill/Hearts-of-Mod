@@ -1,0 +1,194 @@
+characters = {
+	ROM_albus_dumbledore = {
+		name = ROM_albus_dumbledore
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ROM_albus_dumbledore_large
+				small = GFX_idea_ROM_albus_dumbledore_small
+			}
+			army = {
+				large = GFX_portrait_ROM_albus_dumbledore_large
+				small = GFX_idea_ROM_albus_dumbledore_small
+			}
+		}
+		corps_commander={
+		
+			traits = {trait_engineer organizer brilliant_strategist}
+			skill=3
+			attack_skill=5
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+    ROM_anna_de_noailles = {
+		name = ROM_anna_de_noailles
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ROM_anna_de_noailles_large
+				small = GFX_idea_ROM_anna_de_noailles_small
+			}
+			army = {
+				large = GFX_portrait_ROM_anna_de_noailles_large
+				small = GFX_idea_ROM_anna_de_noailles_small
+			}
+		}
+		corps_commander={
+		
+			traits = {media_personality panzer_leader armor_officer trait_reckless organizer}
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    ROM_compte_dracula = {
+		name = ROM_compte_dracula
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ROM_compte_dracula_large
+				small = GFX_idea_ROM_compte_dracula_small
+			}
+			army = {
+				large = GFX_portrait_ROM_compte_dracula_large
+				small = GFX_idea_ROM_compte_dracula_small
+			}
+		}
+		corps_commander={
+		
+			traits = {war_hero urban_assault_specialist trait_reckless infantry_leader organizer}
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    ROM_cyprien_iov = {
+		name = ROM_cyprien_iov
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ROM_cyprien_iov_large
+				small = GFX_idea_ROM_cyprien_iov_small
+			}
+			army = {
+				large = GFX_portrait_ROM_cyprien_iov_large
+				small = GFX_idea_ROM_cyprien_iov_small
+			}
+		}
+		corps_commander={
+		
+			traits = {ranger trait_engineer trait_cautious politically_connected}
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+    ROM_severu_rogue = {
+		name = ROM_severu_rogue
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ROM_severu_rogue_large
+				small = GFX_idea_ROM_severu_rogue_small
+			}
+			army = {
+				large = GFX_portrait_ROM_severu_rogue_large
+				small = GFX_idea_ROM_severu_rogue_small
+			}
+		}
+		corps_commander={
+		
+			traits = {harsh_leader brilliant_strategist hill_fighter infantry_leader}
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    ROM_mercredi_addams = {
+		name = ROM_mercredi_addams
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ROM_mercredi_addams_large
+				small = GFX_idea_ROM_mercredi_addams_small
+			}
+			army = {
+				large = GFX_portrait_ROM_mercredi_addams_large
+				small = GFX_idea_ROM_mercredi_addams_small
+			}
+		}
+		navy_leader={
+		
+			traits = {seawolf torpedo_expert green_water_expert spotter}
+			skill=4
+			attack_skill=5
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	ROM_mike_schmidt = {
+		name = ROM_mike_schmidt
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ROM_mike_schmidt_large
+				small = GFX_idea_ROM_mike_schmidt_small
+			}
+			army = {
+				large = GFX_portrait_ROM_mike_schmidt_large
+				small = GFX_idea_ROM_mike_schmidt_small
+			}
+		}
+		corps_commander={
+		
+			traits = {ranger trait_mountaineer adaptable}
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+	ROM_vanessa_shelly = {
+		name = ROM_vanessa_shelly
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ROM_vanessa_shelly_large
+				small = GFX_idea_ROM_vanessa_shelly_small
+			}
+			army = {
+				large = GFX_portrait_ROM_vanessa_shelly_large
+				small = GFX_idea_ROM_vanessa_shelly_small
+			}
+		}
+		corps_commander={
+		
+			traits = {guerilla_fighter trait_cautious brilliant_strategist commando camouflage_expert}
+			skill=3
+			attack_skill=4
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+    }

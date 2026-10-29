@@ -4,9 +4,18 @@
   kaz_ruslana_korshunova:0 "Ruslana Korshunova"
   kaz_turar_mynbayev:0 "Turar Mynbayev"
   kaz_zlata_ivana:0 "Zlata Ivana"
+  KAZ_aruzhan_jazilbekova: "Aruzhan Jazilbekova"
+  KAZ_diana_saifullinai: "Diana Saifullinai"
+  KAZ_dmitry_balandin: "Dmitry Balandin"
+  KAZ_gennady_golovkin: "Gennady Golovkin"
+  KAZ_irina_aniri: "Irina Aniri"
+  KAZ_marina_devyatova: "Marina Devyatova"
+  KAZ_noursoultan_nazarbaiev: "Noursoultan Nazarbaïev"
+  KAZ_viktor_tsoi: "Viktor Tsoï"
+  KAZ_volodymyr_zelensky: "Volodymyr Zelensky"
   
   #texte
-  chaque_infra_sup_a_trois_tt:0 "Each Yinfrastructure level 3 or higher! allows the state to increase its urbanization level through this focus"
+  chaque_infra_sup_a_trois_tt:0 "Each §Yinfrastructure level 3 or higher§! allows the state to increase its urbanization level through this focus"
 
   #ideas
   SRR_kaz1:0 "Kazakh SSR"
@@ -268,4 +277,4 @@
   Hearts-of-Mod_KAZ.13.t: "[From.GetName] Refuses to Hand Over Aluminum"
   Hearts-of-Mod_KAZ.13.title:0 "[From.GetName] Refuses to Hand Over Aluminum"
   Hearts-of-Mod_KAZ.13.d: "In an act of cowardice, [From.GetName] refuses to let us benefit from the resources of the Urals."
-  Hearts-of-Mod_KAZ.13.a: "What a shame"
+  Hearts-of-Mod_KAZ.13.a: "What a shame"l_english:

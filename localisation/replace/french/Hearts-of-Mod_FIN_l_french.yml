@@ -4,6 +4,12 @@
     fin_pere_noel:0 "Père Noël"
     fin_ragnar_breton:0 "Ragnar Breton"
     fin_sorciere_blanche:0 "Sorcière Blanche"
+    FIN_howard_langston:0 "Howard Langston"
+    FIN_kimi_raikkonen:0 "Kimi Räikkönen"
+    FIN_liisa_sevsonn:0 "Liisa Sevsonn"
+    FIN_lotta_hintsa:0 "Lotta Hintsa"
+    FIN_peter_franzen:0 "Peter Franzén"
+    FIN_saint_nicolas:0 "Saint Nicolas"
     # Écosystème
     FIN_lancer_referendum_ecosysteme:0 "Lancer un référendum sur l'écosystème Finlandais"
 

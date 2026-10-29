@@ -1,0 +1,194 @@
+characters = {
+	HUN_anakin_skywalker = {
+		name = HUN_anakin_skywalker
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HUN_anakin_skywalker_large
+				small = GFX_idea_HUN_anakin_skywalker_small
+			}
+			army = {
+				large = GFX_portrait_HUN_anakin_skywalker_large
+				small = GFX_idea_HUN_anakin_skywalker_small
+			}
+		}
+		corps_commander={
+		
+			traits = {harsh_leader media_personality brilliant_strategist infantry_leader}
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    HUN_commandant_cody = {
+		name = HUN_commandant_cody
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HUN_commandant_cody_large
+				small = GFX_idea_HUN_commandant_cody_small
+			}
+			army = {
+				large = GFX_portrait_HUN_commandant_cody_large
+				small = GFX_idea_HUN_commandant_cody_small
+			}
+		}
+		corps_commander={
+		
+			traits = {organizer war_hero trickster}
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+    HUN_comte_dooku = {
+		name = HUN_comte_dooku
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HUN_comte_dooku_large
+				small = GFX_idea_HUN_comte_dooku_small
+			}
+			army = {
+				large = GFX_portrait_HUN_comte_dooku_large
+				small = GFX_idea_HUN_comte_dooku_small
+			}
+		}
+		corps_commander={
+		
+			traits = {trait_cautious brilliant_strategist organizer}
+			skill=2
+			attack_skill=2
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+    HUN_daenerys_targaryen = {
+		name = HUN_daenerys_targaryen
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HUN_daenerys_targaryen_large
+				small = GFX_idea_HUN_daenerys_targaryen_small
+			}
+			army = {
+				large = GFX_portrait_HUN_daenerys_targaryen_large
+				small = GFX_idea_HUN_daenerys_targaryen_small
+			}
+		}
+		corps_commander={
+		
+			traits = {urban_assault_specialist guerilla_fighter harsh_leader trait_reckless}
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+    HUN_han_solo = {
+		name = HUN_han_solo
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HUN_han_solo_large
+				small = GFX_idea_HUN_han_solo_small
+			}
+			army = {
+				large = GFX_portrait_HUN_han_solo_large
+				small = GFX_idea_HUN_han_solo_small
+			}
+		}
+		navy_leader={
+		
+			traits = {big_guns_expert ironside superior_tactician bold blue_water_expert green_water_expert cruiser_captain}
+			skill=6
+			attack_skill=7
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+    HUN_john_snow = {
+		name = HUN_john_snow
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HUN_john_snow_large
+				small = GFX_idea_HUN_john_snow_small
+			}
+			army = {
+				large = GFX_portrait_HUN_john_snow_large
+				small = GFX_idea_HUN_john_snow_small
+			}
+		}
+		corps_commander={
+		
+			traits = {winter_specialist winter_expert brilliant_strategist infantry_leader infantry_expert}
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    HUN_jyn_erso = {
+		name = HUN_jyn_erso
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HUN_jyn_erso_large
+				small = GFX_idea_HUN_jyn_erso_small
+			}
+			army = {
+				large = GFX_portrait_HUN_jyn_erso_large
+				small = GFX_idea_HUN_jyn_erso_small
+			}
+		}
+		corps_commander={
+		
+			traits = {panzer_expert panzer_leader armor_officer trait_reckless organizer}
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+    HUN_shin_hati = {
+		name = HUN_shin_hati
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HUN_shin_hati_large
+				small = GFX_idea_HUN_shin_hati_small
+			}
+			army = {
+				large = GFX_portrait_HUN_shin_hati_large
+				small = GFX_idea_HUN_shin_hati_small
+			}
+		}
+		corps_commander={
+		
+			traits = {ranger hill_fighter adaptable}
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+    }

@@ -1,0 +1,170 @@
+characters = {
+	BRA_alice_braga = {
+		name = BRA_alice_braga
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BRA_alice_braga_large
+				small = GFX_idea_BRA_alice_braga_small
+			}
+			army = {
+				large = GFX_portrait_BRA_alice_braga_large
+				small = GFX_idea_BRA_alice_braga_small
+			}
+            }
+            corps_commander={
+		
+			traits = {trait_engineer organizer}
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+		}
+		}
+        BRA_angelina_lopez = {
+		name = BRA_angelina_lopez
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BRA_angelina_lopez_large
+				small = GFX_idea_BRA_angelina_lopez_small
+			}
+			army = {
+				large = GFX_portrait_BRA_angelina_lopez_large
+				small = GFX_idea_BRA_angelina_lopez_small
+			}
+            }
+            corps_commander={
+		
+			traits = {harsh_leader brilliant_strategist hill_fighter infantry_leader}
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=0
+		}
+		}
+        BRA_fernand_de_magellan = {
+		name = BRA_fernand_de_magellan
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BRA_fernand_de_magellan_large
+				small = GFX_idea_BRA_fernand_de_magellan_small
+			}
+			army = {
+				large = GFX_portrait_BRA_fernand_de_magellan_large
+				small = GFX_idea_BRA_fernand_de_magellan_small
+			}
+            }
+            navy_leader={
+		
+			traits = {big_guns_expert ironside superior_tactician bold blue_water_expert}
+			skill=2
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+		}
+        BRA_jose_mourinho = {
+		name = BRA_jose_mourinho
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BRA_jose_mourinho_large
+				small = GFX_idea_BRA_jose_mourinho_small
+			}
+			army = {
+				large = GFX_portrait_BRA_jose_mourinho_large
+				small = GFX_idea_BRA_jose_mourinho_small
+			}
+            }
+            corps_commander={
+		
+			traits = {ranger jungle_rat adaptable}
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+		}
+        BRA_morena_baccarin = {
+		name = BRA_morena_baccarin
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BRA_morena_baccarin_large
+				small = GFX_idea_BRA_morena_baccarin_small
+			}
+			army = {
+				large = GFX_portrait_BRA_morena_baccarin_large
+				small = GFX_idea_BRA_morena_baccarin_small
+			}
+            }
+            corps_commander={
+		
+			traits = {trickster infantry_officer}
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+		}
+        BRA_neymar_jr = {
+		name = BRA_neymar_jr
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BRA_neymar_jr_large
+				small = GFX_idea_BRA_neymar_jr_small
+			}
+			army = {
+				large = GFX_portrait_BRA_neymar_jr_large
+				small = GFX_idea_BRA_neymar_jr_small
+			}
+            }
+            corps_commander={
+		
+			traits = {media_personality brilliant_strategist panzer_leader armor_officer trait_reckless}
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+		}
+        BRA_roi_pele = {
+		name = BRA_roi_pele
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BRA_roi_pele_large
+				small = GFX_idea_BRA_roi_pele_small
+			}
+			army = {
+				large = GFX_portrait_BRA_roi_pele_large
+				small = GFX_idea_BRA_roi_pele_small
+			}
+            }
+            corps_commander={
+		
+			traits = {old_guard infantry_officer infantry_leader infantry_expert}
+			skill=2
+			attack_skill=5
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+		}
+        }

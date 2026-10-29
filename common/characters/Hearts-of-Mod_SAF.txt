@@ -1,0 +1,218 @@
+characters = {
+	SAF_candice_swanepoel = {
+		name = SAF_candice_swanepoel
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SAF_candice_swanepoel_large
+				small = GFX_idea_SAF_candice_swanepoel_small
+			}
+			army = {
+				large = GFX_portrait_SAF_candice_swanepoel_large
+				small = GFX_idea_SAF_candice_swanepoel_small
+			}
+		}
+        corps_commander={
+		
+			traits = {trait_engineer organizer infantry_leader infantry_officer}
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+        }
+        }
+        SAF_cheslin_kolbe = {
+		name = SAF_cheslin_kolbe
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SAF_cheslin_kolbe_large
+				small = GFX_idea_SAF_cheslin_kolbe_small
+			}
+			army = {
+				large = GFX_portrait_SAF_cheslin_kolbe_large
+				small = GFX_idea_SAF_cheslin_kolbe_small
+			}
+		}
+        corps_commander={
+		
+			traits = {armor_officer desert_fox panzer_leader panzer_expert brilliant_strategist}
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+        }
+        }
+        SAF_elon_musk = {
+		name = SAF_elon_musk
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SAF_elon_musk_large
+				small = GFX_idea_SAF_elon_musk_small
+			}
+			army = {
+				large = GFX_portrait_SAF_elon_musk_large
+				small = GFX_idea_SAF_elon_musk_small
+			}
+		}
+        corps_commander={
+		
+			traits = {trait_mountaineer brilliant_strategist trait_reckless trickster organizer}
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=0
+        }
+        }
+        SAF_minnie_dlamini = {
+		name = SAF_minnie_dlamini
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SAF_minnie_dlamini_large
+				small = GFX_idea_SAF_minnie_dlamini_small
+			}
+			army = {
+				large = GFX_portrait_SAF_minnie_dlamini_large
+				small = GFX_idea_SAF_minnie_dlamini_small
+			}
+		}
+        corps_commander={
+		
+			traits = {commando camouflage_expert guerilla_fighter trait_reckless}
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+        }
+        }
+        SAF_thibault_bambini = {
+		name = SAF_thibault_bambini
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SAF_thibault_bambini_large
+				small = GFX_idea_SAF_thibault_bambini_small
+			}
+			army = {
+				large = GFX_portrait_SAF_thibault_bambini_large
+				small = GFX_idea_SAF_thibault_bambini_small
+			}
+		}
+        corps_commander={
+		
+			traits = {brilliant_strategist politically_connected desert_fox hill_fighter adaptable}
+			skill=4
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=0
+        }
+        }
+        SAF_gary_player = {
+		name = SAF_gary_player
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SAF_gary_player_large
+				small = GFX_idea_SAF_gary_player_small
+			}
+			army = {
+				large = GFX_portrait_SAF_gary_player_large
+				small = GFX_idea_SAF_gary_player_small
+			}
+		}
+        navy_leader={
+		
+			traits = {superior_tactician ironside bold battleship_adherent green_water_expert spotter}
+			skill=3
+			attack_skill=3
+			defense_skill=6
+			planning_skill=5
+			logistics_skill=5
+			legacy_id=0
+        }
+        }
+		SAF_le_bachelor = {
+		name = SAF_le_bachelor
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SAF_le_bachelor_large
+				small = GFX_idea_SAF_le_bachelor_small
+			}
+			army = {
+				large = GFX_portrait_SAF_le_bachelor_large
+				small = GFX_idea_SAF_le_bachelor_small
+			}
+		}
+        corps_commander={
+		
+			traits = {organizer hill_fighter trickster trait_engineer brilliant_strategist}
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=0
+        }
+        }
+		SAF_zongo_le_dozo = {
+		name = SAF_zongo_le_dozo
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SAF_zongo_le_dozo_large
+				small = GFX_idea_SAF_zongo_le_dozo_small
+			}
+			army = {
+				large = GFX_portrait_SAF_zongo_le_dozo_large
+				small = GFX_idea_SAF_zongo_le_dozo_small
+			}
+		}
+        corps_commander={
+		
+			traits = {trait_reckless trait_mountaineer trickster guerilla_fighter expert_improviser commando}
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=0
+        }
+        }
+		SAF_nelson_mandela = {
+		name = SAF_nelson_mandela
+		gender = male
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SAF_nelson_mandela_large
+				small = GFX_idea_SAF_nelson_mandela_small
+			}
+			army = {
+				large = GFX_portrait_SAF_nelson_mandela_large
+				small = GFX_idea_SAF_nelson_mandela_small
+			}
+		}
+        corps_commander={
+		
+			traits = {war_hero trait_cautious cavalry_officer cavalry_leader cavalry_expert desert_fox}
+			skill=2
+			attack_skill=3
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+        }
+        }
+        }
