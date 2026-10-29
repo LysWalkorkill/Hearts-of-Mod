@@ -93,8 +93,8 @@ JAP = {
 	recruit_character = JAP_jungkook_bts
 	recruit_character = JAP_mizuki_yamashita
 	recruit_character = JAP_monkey_luffy
-	recruit_character = JAP_akira_toriyama
-	recruit_character = JAP_uop_shisho
+	#recruit_character = JAP_akira_toriyama
+	#recruit_character = JAP_uop_shisho
 }
 FRA = {
 	recruit_character = FRA_claude_francois
