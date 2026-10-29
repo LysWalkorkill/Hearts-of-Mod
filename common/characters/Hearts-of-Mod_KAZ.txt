@@ -14,7 +14,7 @@ characters = {
 			traits = {
 				 kautskyian_socialist
 			}
-			cost = 150
+			cost = 151
 			allowed = {
 				original_tag = KAZ
 			}
