@@ -134,7 +134,7 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {war_hero trait_cautious cavalry_officer cavalry_leader cavalry_expert desert_fox}
+			traits = {war_hero cavalry_leader desert_fox}
 			skill=3
 			attack_skill=2
 			defense_skill=4

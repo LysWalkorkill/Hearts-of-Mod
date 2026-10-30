@@ -2836,7 +2836,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = SAF_expand_the_south_african_artillery
-				bonus = 2.0
+				bonus = 1.0
 				uses = 2
 				category = artillery
 			}
@@ -3032,7 +3032,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = SAF_armor_effort
-				bonus = 2.0
+				bonus = 1.0
 				uses = 2
 				category = armor
 			}
