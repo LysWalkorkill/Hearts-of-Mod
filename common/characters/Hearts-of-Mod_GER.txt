@@ -160,10 +160,10 @@ characters = {
 		
 			traits = {hill_fighter harsh_leader organizer brilliant_strategist armor_officer}
 			skill=3
-			attack_skill=4
-			defense_skill=4
-			planning_skill=5
-			logistics_skill=3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
 			legacy_id=0
 		}
 	}

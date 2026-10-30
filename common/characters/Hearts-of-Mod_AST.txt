@@ -64,7 +64,7 @@ characters = {
 		
 			traits = {desert_fox brilliant_strategist infantry_leader}
 			skill=3
-			attack_skill=4
+			attack_skill=2
 			defense_skill=3
 			planning_skill=2
 			logistics_skill=2
@@ -156,7 +156,7 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {trait_engineer panzer_leader panzer_expert armor_officer}
+			traits = {trait_engineer panzer_leader}
 			skill=2
 			attack_skill=3
 			defense_skill=1
