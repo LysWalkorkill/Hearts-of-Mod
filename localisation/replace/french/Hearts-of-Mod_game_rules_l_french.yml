@@ -8,3 +8,83 @@
 
     RULE_OPTION_HEARTS_OF_MOD_FALL_OF_MOSCOW_ENABLED_DESC:0 "L'événement de la chute de Moscou peut se produire."
     RULE_OPTION_HEARTS_OF_MOD_FALL_OF_MOSCOW_DISABLED_DESC:0 "L'événement de la chute de Moscou ne se produira jamais."
+
+    # CUSTOM DIFFICULTIES
+    # Base Options
+    RULE_OPTION_HOM_CIV:0 "Civils"
+    RULE_OPTION_HOM_MIL:0 "Militaires"
+    RULE_OPTION_HOM_DOCK:0 "Chantiers navals"
+    RULE_OPTION_HOM_OFFENSIVE:0 "Offensive"
+    RULE_OPTION_HOM_DEFENSIVE:0 "Défensive"
+    RULE_OPTION_HOM_AIR:0 "Aérien"
+    RULE_OPTION_HOM_SEA:0 "Maritime"
+    RULE_OPTION_HOM_LAND:0 "Terrestre"
+    RULE_OPTION_HOM_RANDOM_ENABLED:0 "Aléatoire, activé"
+
+    # Base Descriptions
+    RULE_OPTION_HOM_FACTORY_DISABLED_DESC:0 "Aucun bonus d'usines au départ."
+    RULE_OPTION_HOM_FACTORY_CIV_DESC:0 "Octroie des usines civiles en bonus."
+    RULE_OPTION_HOM_FACTORY_MIL_DESC:0 "Octroie des usines militaires en bonus."
+    RULE_OPTION_HOM_FACTORY_DOCK_DESC:0 "Octroie des chantiers navals en bonus."
+    RULE_OPTION_HOM_RESEARCH_DISABLED_DESC:0 "Aucun bonus de recherche au départ."
+    RULE_OPTION_HOM_RESEARCH_ENABLED_DESC:0 "Octroie des bonus de recherche."
+    RULE_OPTION_HOM_TEMPLATE_DISABLED_DESC:0 "L'IA utilisera les modèles de division (templates) par défaut du jeu de base."
+    RULE_OPTION_HOM_TEMPLATE_ENABLED_DESC:0 "L'IA utilisera des modèles de division (templates) optimisés et prédéfinis par le mod."
+    RULE_OPTION_HOM_COUNTRY_PRIO_DISABLED_DESC:0 "Aucune priorité de pays spécifique."
+    RULE_OPTION_HOM_COUNTRY_PRIO_OFFENSIVE_DESC:0 "Le pays se concentre sur des stratégies offensives."
+    RULE_OPTION_HOM_COUNTRY_PRIO_DEFENSIVE_DESC:0 "Le pays se concentre sur des stratégies défensives."
+    RULE_OPTION_HOM_ARMY_PRIO_DISABLED_DESC:0 "Aucune priorité militaire spécifique."
+    RULE_OPTION_HOM_ARMY_PRIO_AIR_DESC:0 "L'armée se concentre sur la supériorité aérienne."
+    RULE_OPTION_HOM_ARMY_PRIO_SEA_DESC:0 "L'armée se concentre sur la domination navale."
+    RULE_OPTION_HOM_ARMY_PRIO_LAND_DESC:0 "L'armée se concentre sur la guerre terrestre."
+    RULE_OPTION_HOM_RANDOM_ENABLED_DESC:0 "Sélectionné aléatoirement au début de la partie, sauf désactivé."
+
+    # Germany
+    RULE_HOM_GER_FACTORY:0 "@GER Allemagne - Usines bonus"
+    RULE_HOM_GER_RESEARCH:0 "@GER Allemagne - Recherches bonus"
+    RULE_HOM_GER_TEMPLATE:0 "@GER Allemagne - Templates optimisés de l'IA"
+    RULE_HOM_GER_COUNTRY_PRIO:0 "@GER Allemagne - Priorité du pays"
+    RULE_HOM_GER_ARMY_PRIO:0 "@GER Allemagne - Priorité de l'armée"
+
+    # Soviet Union
+    RULE_HOM_SOV_FACTORY:0 "@SOV URSS - Usines bonus"
+    RULE_HOM_SOV_RESEARCH:0 "@SOV URSS - Recherches bonus"
+    RULE_HOM_SOV_TEMPLATE:0 "@SOV URSS - Templates optimisés de l'IA"
+    RULE_HOM_SOV_COUNTRY_PRIO:0 "@SOV URSS - Priorité du pays"
+    RULE_HOM_SOV_ARMY_PRIO:0 "@SOV URSS - Priorité de l'armée"
+
+    # United Kingdom
+    RULE_HOM_ENG_FACTORY:0 "@ENG Royaume-Uni - Usines bonus"
+    RULE_HOM_ENG_RESEARCH:0 "@ENG Royaume-Uni - Recherches bonus"
+    RULE_HOM_ENG_TEMPLATE:0 "@ENG Royaume-Uni - Templates optimisés de l'IA"
+    RULE_HOM_ENG_COUNTRY_PRIO:0 "@ENG Royaume-Uni - Priorité du pays"
+    RULE_HOM_ENG_ARMY_PRIO:0 "@ENG Royaume-Uni - Priorité de l'armée"
+
+    # France
+    RULE_HOM_FRA_FACTORY:0 "@FRA France - Usines bonus"
+    RULE_HOM_FRA_RESEARCH:0 "@FRA France - Recherches bonus"
+    RULE_HOM_FRA_TEMPLATE:0 "@FRA France - Templates optimisés de l'IA"
+    RULE_HOM_FRA_COUNTRY_PRIO:0 "@FRA France - Priorité du pays"
+    RULE_HOM_FRA_ARMY_PRIO:0 "@FRA France - Priorité de l'armée"
+
+    # Italy
+    RULE_HOM_ITA_FACTORY:0 "@ITA Italie - Usines bonus"
+    RULE_HOM_ITA_RESEARCH:0 "@ITA Italie - Recherches bonus"
+    RULE_HOM_ITA_TEMPLATE:0 "@ITA Italie - Templates optimisés de l'IA"
+    RULE_HOM_ITA_COUNTRY_PRIO:0 "@ITA Italie - Priorité du pays"
+    RULE_HOM_ITA_ARMY_PRIO:0 "@ITA Italie - Priorité de l'armée"
+
+    # Japan
+    RULE_HOM_JAP_FACTORY:0 "@JAP Japon - Usines bonus"
+    RULE_HOM_JAP_RESEARCH:0 "@JAP Japon - Recherches bonus"
+    RULE_HOM_JAP_TEMPLATE:0 "@JAP Japon - Templates optimisés de l'IA"
+    RULE_HOM_JAP_COUNTRY_PRIO:0 "@JAP Japon - Priorité du pays"
+    RULE_HOM_JAP_ARMY_PRIO:0 "@JAP Japon - Priorité de l'armée"
+
+    # USA
+    RULE_HOM_USA_FACTORY:0 "@USA USA - Usines bonus"
+    RULE_HOM_USA_RESEARCH:0 "@USA USA - Recherches bonus"
+    RULE_HOM_USA_TEMPLATE:0 "@USA USA - Templates optimisés de l'IA"
+    RULE_HOM_USA_COUNTRY_PRIO:0 "@USA USA - Priorité du pays"
+    RULE_HOM_USA_ARMY_PRIO:0 "@USA USA - Priorité de l'armée"
+    
