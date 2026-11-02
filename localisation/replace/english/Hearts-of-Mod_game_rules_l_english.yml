@@ -11,80 +11,32 @@
 
     # CUSTOM DIFFICULTIES
     # Base Options
-    RULE_OPTION_HOM_CIV:0 "Civilian"
-    RULE_OPTION_HOM_MIL:0 "Military"
-    RULE_OPTION_HOM_DOCK:0 "Dockyards"
-    RULE_OPTION_HOM_OFFENSIVE:0 "Offensive"
-    RULE_OPTION_HOM_DEFENSIVE:0 "Defensive"
-    RULE_OPTION_HOM_AIR:0 "Air Force"
-    RULE_OPTION_HOM_SEA:0 "Navy"
-    RULE_OPTION_HOM_LAND:0 "Land Force"
-    RULE_OPTION_HOM_RANDOM_ENABLED:0 "Random, enabled"
-
-    # Base Descriptions
-    RULE_OPTION_HOM_FACTORY_DISABLED_DESC:0 "No starting factory bonuses."
-    RULE_OPTION_HOM_FACTORY_CIV_DESC:0 "Gain bonus civilian factories."
-    RULE_OPTION_HOM_FACTORY_MIL_DESC:0 "Gain bonus military factories."
-    RULE_OPTION_HOM_FACTORY_DOCK_DESC:0 "Gain bonus dockyards."
-    RULE_OPTION_HOM_RESEARCH_DISABLED_DESC:0 "No starting research bonuses."
-    RULE_OPTION_HOM_TEMPLATE_DISABLED_DESC:0 "The AI will use the default vanilla division templates."
-    RULE_OPTION_HOM_TEMPLATE_ENABLED_DESC:0 "The AI will use optimized division templates pre-scripted by the mod."
-    RULE_OPTION_HOM_TEMPLATE_ENABLED_DESC:0 "Gain bonus starting templates."
-    RULE_OPTION_HOM_COUNTRY_PRIO_DISABLED_DESC:0 "No specific country priority."
-    RULE_OPTION_HOM_COUNTRY_PRIO_OFFENSIVE_DESC:0 "Country focuses on offensive strategies."
-    RULE_OPTION_HOM_COUNTRY_PRIO_DEFENSIVE_DESC:0 "Country focuses on defensive strategies."
-    RULE_OPTION_HOM_ARMY_PRIO_DISABLED_DESC:0 "No specific army priority."
-    RULE_OPTION_HOM_ARMY_PRIO_AIR_DESC:0 "Army focuses on air superiority."
-    RULE_OPTION_HOM_ARMY_PRIO_SEA_DESC:0 "Army focuses on naval dominance."
-    RULE_OPTION_HOM_ARMY_PRIO_LAND_DESC:0 "Army focuses on land warfare."
-    RULE_OPTION_HOM_RANDOM_ENABLED_DESC:0 "Randomly selected at game start, except disabled."
-
-    # Germany
-    RULE_HOM_GER_FACTORY:0 "@GER Germany - Bonus Factories"
-    RULE_HOM_GER_RESEARCH:0 "@GER Germany - Bonus Research"
-    RULE_HOM_GER_TEMPLATE:0 "@GER Germany - Optimized AI Templates"
-    RULE_HOM_GER_COUNTRY_PRIO:0 "@GER Germany - Country Priority"
-    RULE_HOM_GER_ARMY_PRIO:0 "@GER Germany - Army Priority"
-
-    # Soviet Union
-    RULE_HOM_SOV_FACTORY:0 "@SOV Soviet Union - Bonus Factories"
-    RULE_HOM_SOV_RESEARCH:0 "@SOV Soviet Union - Bonus Research"
-    RULE_HOM_SOV_TEMPLATE:0 "@SOV Soviet Union - Optimized AI Templates"
-    RULE_HOM_SOV_COUNTRY_PRIO:0 "@SOV Soviet Union - Country Priority"
-    RULE_HOM_SOV_ARMY_PRIO:0 "@SOV Soviet Union - Army Priority"
-
-    # United Kingdom
-    RULE_HOM_ENG_FACTORY:0 "@ENG United Kingdom - Bonus Factories"
-    RULE_HOM_ENG_RESEARCH:0 "@ENG United Kingdom - Bonus Research"
-    RULE_HOM_ENG_TEMPLATE:0 "@ENG United Kingdom - Optimized AI Templates"
-    RULE_HOM_ENG_COUNTRY_PRIO:0 "@ENG United Kingdom - Country Priority"
-    RULE_HOM_ENG_ARMY_PRIO:0 "@ENG United Kingdom - Army Priority"
-
-    # France
-    RULE_HOM_FRA_FACTORY:0 "@FRA France - Bonus Factories"
-    RULE_HOM_FRA_RESEARCH:0 "@FRA France - Bonus Research"
-    RULE_HOM_FRA_TEMPLATE:0 "@FRA France - Optimized AI Templates"
-    RULE_HOM_FRA_COUNTRY_PRIO:0 "@FRA France - Country Priority"
-    RULE_HOM_FRA_ARMY_PRIO:0 "@FRA France - Army Priority"
-
-    # Italy
-    RULE_HOM_ITA_FACTORY:0 "@ITA Italy - Bonus Factories"
-    RULE_HOM_ITA_RESEARCH:0 "@ITA Italy - Bonus Research"
-    RULE_HOM_ITA_TEMPLATE:0 "@ITA Italy - Optimized AI Templates"
-    RULE_HOM_ITA_COUNTRY_PRIO:0 "@ITA Italy - Country Priority"
-    RULE_HOM_ITA_ARMY_PRIO:0 "@ITA Italy - Army Priority"
-
-    # Japan
-    RULE_HOM_JAP_FACTORY:0 "@JAP Japan - Bonus Factories"
-    RULE_HOM_JAP_RESEARCH:0 "@JAP Japan - Bonus Research"
-    RULE_HOM_JAP_TEMPLATE:0 "@JAP Japan - Optimized AI Templates"
-    RULE_HOM_JAP_COUNTRY_PRIO:0 "@JAP Japan - Country Priority"
-    RULE_HOM_JAP_ARMY_PRIO:0 "@JAP Japan - Army Priority"
-
-    # USA
-    RULE_HOM_USA_FACTORY:0 "@USA USA - Bonus Factories"
-    RULE_HOM_USA_RESEARCH:0 "@USA USA - Bonus Research"
-    RULE_HOM_USA_TEMPLATE:0 "@USA USA - Optimized AI Templates"
-    RULE_HOM_USA_COUNTRY_PRIO:0 "@USA USA - Country Priority"
-    RULE_HOM_USA_ARMY_PRIO:0 "@USA USA - Army Priority"
+    RULE_OPTION_HOM_RANDOM_ENABLED:0 "Random (enabled)"
     
+    # Option Names
+    RULE_OPTION_HOM_ARMORED:0 "Armored"
+    RULE_OPTION_HOM_ECONOMIC:0 "Economic"
+    RULE_OPTION_HOM_MASSMOB:0 "Massmob"
+    RULE_OPTION_HOM_PROTOTYPE:0 "Prototype"
+    RULE_OPTION_HOM_NAVAL:0 "Naval"
+    RULE_OPTION_HOM_AIR:0 "Air Force"
+
+    # Option Descriptions
+    RULE_OPTION_HOM_BONUS_AI_DISABLED_DESC:0 "No bonuses granted. AI uses vanilla templates and default behavior."
+    RULE_OPTION_HOM_BONUS_AI_RANDOM_ENABLED_DESC:0 "Randomly selects one of the bonus and AI behavior options at the start of the game."
+    
+    RULE_OPTION_HOM_BONUS_AI_ARMORED_DESC:0 "Research, factory, PP, and XP bonuses focused on armor. AI prioritizes tank production and adapts templates accordingly."
+    RULE_OPTION_HOM_BONUS_AI_ECONOMIC_DESC:0 "Bonuses focused on industry (civil/military factories, PP). AI prioritizes construction, standard infantry, and defensive templates."
+    RULE_OPTION_HOM_BONUS_AI_MASSMOB_DESC:0 "Bonuses focused on quantity (manpower, military factories). AI prioritizes mass infantry (Mass Assault) and low-cost templates."
+    RULE_OPTION_HOM_BONUS_AI_PROTOTYPE_DESC:0 "Bonuses focused on advanced research and XP. AI prioritizes elite units, prototypes, and new technologies."
+    RULE_OPTION_HOM_BONUS_AI_NAVAL_DESC:0 "Bonuses focused on dockyards and navy. AI prioritizes fleets, convoys, and coastal defense templates."
+    RULE_OPTION_HOM_BONUS_AI_AIR_DESC:0 "Bonuses focused on aircraft factories and air force. AI prioritizes planes and paratrooper templates."
+
+    # Rule Names
+    RULE_HOM_GER_BONUS_AI:0 "@GER Germany - Bonuses & AI"
+    RULE_HOM_SOV_BONUS_AI:0 "@SOV Soviet Union - Bonuses & AI"
+    RULE_HOM_ENG_BONUS_AI:0 "@ENG United Kingdom - Bonuses & AI"
+    RULE_HOM_FRA_BONUS_AI:0 "@FRA France - Bonuses & AI"
+    RULE_HOM_ITA_BONUS_AI:0 "@ITA Italy - Bonuses & AI"
+    RULE_HOM_JAP_BONUS_AI:0 "@JAP Japan - Bonuses & AI"
+    RULE_HOM_USA_BONUS_AI:0 "@USA USA - Bonuses & AI"

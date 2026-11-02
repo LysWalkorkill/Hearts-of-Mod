@@ -11,80 +11,32 @@
 
     # CUSTOM DIFFICULTIES
     # Base Options
-    RULE_OPTION_HOM_CIV:0 "民用"
-    RULE_OPTION_HOM_MIL:0 "军用"
-    RULE_OPTION_HOM_DOCK:0 "造船厂"
-    RULE_OPTION_HOM_OFFENSIVE:0 "进攻"
-    RULE_OPTION_HOM_DEFENSIVE:0 "防守"
-    RULE_OPTION_HOM_AIR:0 "空军"
-    RULE_OPTION_HOM_SEA:0 "海军"
-    RULE_OPTION_HOM_LAND:0 "陆军"
-    RULE_OPTION_HOM_RANDOM_ENABLED:0 "随机，已启用"
-
-    # Base Descriptions
-    RULE_OPTION_HOM_FACTORY_DISABLED_DESC:0 "无额外工厂加成。"
-    RULE_OPTION_HOM_FACTORY_CIV_DESC:0 "获得额外民用工厂。"
-    RULE_OPTION_HOM_FACTORY_MIL_DESC:0 "获得额外军用工厂。"
-    RULE_OPTION_HOM_FACTORY_DOCK_DESC:0 "获得额外造船厂。"
-    RULE_OPTION_HOM_RESEARCH_DISABLED_DESC:0 "无额外搜索加成。"
-    RULE_OPTION_HOM_RESEARCH_ENABLED_DESC:0 "获得额外额外搜索。"
-    RULE_OPTION_HOM_TEMPLATE_DISABLED_DESC:0 "AI将使用原版默认师级编制（模板）。"
-    RULE_OPTION_HOM_TEMPLATE_ENABLED_DESC:0 "AI将使用由模组预设的、经过优化的师级编制（模板）。"
-    RULE_OPTION_HOM_COUNTRY_PRIO_DISABLED_DESC:0 "无特定国家优先级。"
-    RULE_OPTION_HOM_COUNTRY_PRIO_OFFENSIVE_DESC:0 "国家侧重于进攻战略。"
-    RULE_OPTION_HOM_COUNTRY_PRIO_DEFENSIVE_DESC:0 "国家侧重于防守战略。"
-    RULE_OPTION_HOM_ARMY_PRIO_DISABLED_DESC:0 "无特定军队优先级。"
-    RULE_OPTION_HOM_ARMY_PRIO_AIR_DESC:0 "军队侧重于空中优势。"
-    RULE_OPTION_HOM_ARMY_PRIO_SEA_DESC:0 "军队侧重于海上霸权。"
-    RULE_OPTION_HOM_ARMY_PRIO_LAND_DESC:0 "军队侧重于陆战。"
-    RULE_OPTION_HOM_RANDOM_ENABLED_DESC:0 "游戏开始时随机选择，除非已禁用。"
-
-    # Germany
-    RULE_HOM_GER_FACTORY:0 "@GER 德国 - 额外工厂"
-    RULE_HOM_GER_RESEARCH:0 "@GER 德国 - 额外搜索"
-    RULE_HOM_GER_TEMPLATE:0 "@GER 德国 - AI优化模板"
-    RULE_HOM_GER_COUNTRY_PRIO:0 "@GER 德国 - 国家优先级"
-    RULE_HOM_GER_ARMY_PRIO:0 "@GER 德国 - 军队优先级"
-
-    # Soviet Union
-    RULE_HOM_SOV_FACTORY:0 "@SOV 苏联 - 额外工厂"
-    RULE_HOM_SOV_RESEARCH:0 "@SOV 苏联 - 额外搜索"
-    RULE_HOM_SOV_TEMPLATE:0 "@SOV 苏联 - AI优化模板"
-    RULE_HOM_SOV_COUNTRY_PRIO:0 "@SOV 苏联 - 国家优先级"
-    RULE_HOM_SOV_ARMY_PRIO:0 "@SOV 苏联 - 军队优先级"
-
-    # United Kingdom
-    RULE_HOM_ENG_FACTORY:0 "@ENG 英国 - 额外工厂"
-    RULE_HOM_ENG_RESEARCH:0 "@ENG 英国 - 额外搜索"
-    RULE_HOM_ENG_TEMPLATE:0 "@ENG 英国 - AI优化模板"
-    RULE_HOM_ENG_COUNTRY_PRIO:0 "@ENG 英国 - 国家优先级"
-    RULE_HOM_ENG_ARMY_PRIO:0 "@ENG 英国 - 军队优先级"
-
-    # France
-    RULE_HOM_FRA_FACTORY:0 "@FRA 法国 - 额外工厂"
-    RULE_HOM_FRA_RESEARCH:0 "@FRA 法国 - 额外搜索"
-    RULE_HOM_FRA_TEMPLATE:0 "@FRA 法国 - AI优化模板"
-    RULE_HOM_FRA_COUNTRY_PRIO:0 "@FRA 法国 - 国家优先级"
-    RULE_HOM_FRA_ARMY_PRIO:0 "@FRA 法国 - 军队优先级"
-
-    # Italy
-    RULE_HOM_ITA_FACTORY:0 "@ITA 意大利 - 额外工厂"
-    RULE_HOM_ITA_RESEARCH:0 "@ITA 意大利 - 额外搜索"
-    RULE_HOM_ITA_TEMPLATE:0 "@ITA 意大利 - AI优化模板"
-    RULE_HOM_ITA_COUNTRY_PRIO:0 "@ITA 意大利 - 国家优先级"
-    RULE_HOM_ITA_ARMY_PRIO:0 "@ITA 意大利 - 军队优先级"
-
-    # Japan
-    RULE_HOM_JAP_FACTORY:0 "@JAP 日本 - 额外工厂"
-    RULE_HOM_JAP_RESEARCH:0 "@JAP 日本 - 额外搜索"
-    RULE_HOM_JAP_TEMPLATE:0 "@JAP 日本 - AI优化模板"
-    RULE_HOM_JAP_COUNTRY_PRIO:0 "@JAP 日本 - 国家优先级"
-    RULE_HOM_JAP_ARMY_PRIO:0 "@JAP 日本 - 军队优先级"
-
-    # USA
-    RULE_HOM_USA_FACTORY:0 "@USA 美国 - 额外工厂"
-    RULE_HOM_USA_RESEARCH:0 "@USA 美国 - 额外搜索"
-    RULE_HOM_USA_TEMPLATE:0 "@USA 美国 - AI优化模板"
-    RULE_HOM_USA_COUNTRY_PRIO:0 "@USA 美国 - 国家优先级"
-    RULE_HOM_USA_ARMY_PRIO:0 "@USA 美国 - 军队优先级"
+    RULE_OPTION_HOM_RANDOM_ENABLED:0 "随机 (启用)"
     
+    # Option Names
+    RULE_OPTION_HOM_ARMORED:0 "装甲"
+    RULE_OPTION_HOM_ECONOMIC:0 "经济"
+    RULE_OPTION_HOM_MASSMOB:0 "大规模突击"
+    RULE_OPTION_HOM_PROTOTYPE:0 "原型"
+    RULE_OPTION_HOM_NAVAL:0 "海军"
+    RULE_OPTION_HOM_AIR:0 "空军"
+
+    # Option Descriptions
+    RULE_OPTION_HOM_BONUS_AI_DISABLED_DESC:0 "无奖励。AI使用原版模板与默认行为。"
+    RULE_OPTION_HOM_BONUS_AI_RANDOM_ENABLED_DESC:0 "游戏开始时随机选择一种奖励与AI行为选项。"
+    
+    RULE_OPTION_HOM_BONUS_AI_ARMORED_DESC:0 "侧重于装甲的研究、工厂、政治点数与经验奖励。AI优先生产坦克并相应调整模板。"
+    RULE_OPTION_HOM_BONUS_AI_ECONOMIC_DESC:0 "侧重于工业（民用/军用工厂、政治点数）的奖励。AI优先建设、标准步兵与防御模板。"
+    RULE_OPTION_HOM_BONUS_AI_MASSMOB_DESC:0 "侧重于数量（人力、军用工厂）的奖励。AI优先大规模步兵（大规模突击）与低成本模板。"
+    RULE_OPTION_HOM_BONUS_AI_PROTOTYPE_DESC:0 "侧重于高级研究与经验的奖励。AI优先发展精锐部队、原型与新科技。"
+    RULE_OPTION_HOM_BONUS_AI_NAVAL_DESC:0 "侧重于造船厂与海军的奖励。AI优先发展舰队、运输船与海岸防御模板。"
+    RULE_OPTION_HOM_BONUS_AI_AIR_DESC:0 "侧重于飞机制造厂与空军的奖励。AI优先发展飞机与伞兵模板。"
+
+    # Rule Names
+    RULE_HOM_GER_BONUS_AI:0 "@GER 德国 - 奖励与AI"
+    RULE_HOM_SOV_BONUS_AI:0 "@SOV 苏联 - 奖励与AI"
+    RULE_HOM_ENG_BONUS_AI:0 "@ENG 英国 - 奖励与AI"
+    RULE_HOM_FRA_BONUS_AI:0 "@FRA 法国 - 奖励与AI"
+    RULE_HOM_ITA_BONUS_AI:0 "@ITA 意大利 - 奖励与AI"
+    RULE_HOM_JAP_BONUS_AI:0 "@JAP 日本 - 奖励与AI"
+    RULE_HOM_USA_BONUS_AI:0 "@USA 美国 - 奖励与AI"
