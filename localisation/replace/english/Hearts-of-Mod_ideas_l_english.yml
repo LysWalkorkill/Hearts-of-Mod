@@ -43,3 +43,10 @@
     VIC_construction_speed_2: "Construction Speed"
     VIC_construction_speed_2_desc: "The Vichy government has been able to increase the speed of construction projects, which has allowed it to improve infrastructure and support the war effort."
     ## VICHY END
+
+    hom_bonus_ia_blindee:0 "Bonuses & AI - Armored"
+    hom_bonus_ia_economique:0 "Bonuses & AI - Economic"
+    hom_bonus_ia_massmob:0 "Bonuses & AI - Massmob"
+    hom_bonus_ia_prototype:0 "Bonuses & AI - Prototype"
+    hom_bonus_ia_naval:0 "Bonuses & AI - Naval"
+    hom_bonus_ia_armee_de_lair:0 "Bonuses & AI - Air Force"

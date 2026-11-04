@@ -1,0 +1,8 @@
+hom_has_facility_building = {
+	OR = {
+		air_facility > 0
+		land_facility > 0
+		naval_facility > 0
+		nuclear_facility > 0
+	}
+}

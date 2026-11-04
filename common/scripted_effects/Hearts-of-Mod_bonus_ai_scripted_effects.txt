@@ -1,0 +1,524 @@
+# Scripted effects for common bonuses in bonus ai ideas
+# Used in on_add of the national ideas
+
+# Common resources on capital
+hom_add_resources_on_capital_effect = {
+	capital_scope = {
+		add_resource = {
+			type = steel
+			amount = 30
+		}
+		add_resource = {
+			type = aluminium
+			amount = 30
+		}
+		add_resource = {
+			type = tungsten
+			amount = 30
+		}
+		add_resource = {
+			type = chromium
+			amount = 30
+		}
+		add_resource = {
+			type = rubber
+			amount = 30
+		}
+		add_resource = {
+			type = oil
+			amount = 30
+		}
+		add_resource = {
+			type = coal
+			amount = 30
+		}
+	}
+}
+
+# Air specific resources
+hom_add_air_resources_effect = {
+	capital_scope = {
+		add_resource = {
+			type = aluminium
+			amount = 40
+		}
+	}
+}
+
+# Armored specific
+hom_add_armored_resources_effect = {
+	capital_scope = {
+		add_resource = {
+			type = steel
+			amount = 35
+		}
+		add_resource = {
+			type = tungsten
+			amount = 35
+		}
+	}
+}
+
+# Massmob specific
+hom_add_massmob_resources_effect = {
+	capital_scope = {
+		add_resource = {
+			type = steel
+			amount = 40
+		}
+	}
+}
+
+# Naval specific
+hom_add_naval_resources_effect = {
+	capital_scope = {
+		add_resource = {
+			type = steel
+			amount = 25
+		}
+		add_resource = {
+			type = chromium
+			amount = 20
+		}
+	}
+}
+
+# Prototype resources
+hom_add_prototype_resources = {
+	capital_scope = {
+		add_resource = {
+			type = steel
+			amount = 20
+		}
+		add_resource = {
+			type = tungsten
+			amount = 20
+		}
+		add_resource = {
+			type = aluminium
+			amount = 20
+		}
+	}
+}
+
+# Common offsite buildings
+hom_add_common_offsite_effect = {
+	add_offsite_building = { type = synthetic_refinery level = 10 }
+}
+
+# Air offsite
+hom_add_air_offsite_effect = {
+	add_offsite_building = { type = industrial_complex level = 15 }
+	add_offsite_building = { type = arms_factory level = 15 }
+	add_offsite_building = { type = synthetic_refinery level = 10 }
+	
+	set_temp_variable = {
+		max_iteration = 3
+	}
+	while_loop_effect = {
+		limit = {
+			check_variable = {
+				var = max_iteration
+				value = 0
+				compare = greater_than
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				hom_has_facility_building = no
+			}
+			construct_building_in_random_province = {
+				air_facility = 1
+			}
+		}
+		subtract_from_temp_variable = {
+			max_iteration = 1
+		}
+	}
+}
+
+# Armored offsite
+hom_add_armored_offsite_effect = {
+	add_offsite_building = { type = industrial_complex level = 20 }
+	add_offsite_building = { type = arms_factory level = 30 }
+	add_offsite_building = { type = synthetic_refinery level = 10 }
+	
+	set_temp_variable = {
+		max_iteration = 3
+	}
+	while_loop_effect = {
+		limit = {
+			check_variable = {
+				var = max_iteration
+				value = 0
+				compare = greater_than
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				hom_has_facility_building = no
+			}
+			construct_building_in_random_province = {
+				land_facility = 1
+			}
+		}
+		subtract_from_temp_variable = {
+			max_iteration = 1
+		}
+	}
+}
+
+# Economic offsite
+hom_add_economic_offsite_effect = {
+	add_offsite_building = { type = industrial_complex level = 75 }
+	add_offsite_building = { type = synthetic_refinery level = 10 }
+}
+
+# Massmob offsite
+hom_add_massmob_offsite_effect = {
+	add_offsite_building = { type = industrial_complex level = 25 }
+	add_offsite_building = { type = arms_factory level = 50 }
+	add_offsite_building = { type = synthetic_refinery level = 10 }
+}
+
+# Prototype offsite
+hom_add_prototype_offsite_effect = {
+	add_offsite_building = { type = industrial_complex level = 25 }
+	add_offsite_building = { type = arms_factory level = 25 }
+	add_offsite_building = { type = dockyard level = 10 }  # port hors map approx as dockyards
+	add_offsite_building = { type = synthetic_refinery level = 10 }
+	
+	set_temp_variable = {
+		max_iteration = 5
+	}
+	while_loop_effect = {
+		limit = {
+			check_variable = {
+				var = max_iteration
+				value = 0
+				compare = greater_than
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				hom_has_facility_building = no
+			}
+			construct_building_in_random_province = {
+				land_facility = 1
+			}
+		}
+		subtract_from_temp_variable = {
+			max_iteration = 1
+		}
+	}
+	set_temp_variable = {
+		max_iteration = 5
+	}
+	while_loop_effect = {
+		limit = {
+			check_variable = {
+				var = max_iteration
+				value = 0
+				compare = greater_than
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_coastal = yes
+				is_core_of = ROOT
+				hom_has_facility_building = no
+			}
+			construct_building_in_random_province = {
+				naval_facility = 1
+			}
+		}
+		subtract_from_temp_variable = {
+			max_iteration = 1
+		}
+	}
+}
+
+# Naval offsite
+hom_add_naval_offsite_effect = {
+	add_offsite_building = { type = industrial_complex level = 35 }
+	add_offsite_building = { type = dockyard level = 50 }
+	add_offsite_building = { type = synthetic_refinery level = 15 }
+	set_temp_variable = {
+		max_iteration = 3
+	}
+	while_loop_effect = {
+		limit = {
+			check_variable = {
+				var = max_iteration
+				value = 0
+				compare = greater_than
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_coastal = yes
+				is_core_of = ROOT
+				hom_has_facility_building = no
+			}
+			construct_building_in_random_province = {
+				naval_facility = 1
+			}
+		}
+		subtract_from_temp_variable = {
+			max_iteration = 1
+		}
+	}
+}
+
+# For naval treaty removal if possible
+hom_remove_naval_treaty_effect = {
+	if = {
+		limit = {
+			OR = {
+				has_idea = MTG_naval_treaty_adherent
+				has_idea = MTG_naval_treaty_cheating
+				has_idea = MTG_naval_treaty_adherent_reduced
+			}
+		}
+		remove_ideas = MTG_naval_treaty_adherent
+		remove_ideas = MTG_naval_treaty_cheating
+		remove_ideas = MTG_naval_treaty_adherent_reduced
+	}
+}
+
+# War economy at start if high WS
+hom_set_war_economy_effect = {
+	if = {
+		limit = {
+			has_war_support > 0.5
+			OR = {
+				has_idea = isolation
+				has_idea = civilian_economy
+				has_idea = low_economic_mobilisation
+				has_idea = partial_economic_mobilisation
+			}
+		}
+		add_ideas = war_economy
+	}
+}
+
+# Max CP
+hom_set_max_command_power_effect = {
+	add_command_power = 999
+}
+
+# Convoys
+hom_add_convoys_effect = {
+	add_equipment_to_stockpile = {
+		type = convoy
+		amount = 1000
+		producer = ROOT
+	}
+}
+
+# Nuclear for prototype
+hom_add_nuclear_start_effect = {
+	set_technology = {
+		atomic_research = 1
+		popup = no
+	}
+	complete_special_project = sp:sp_nuclear_reactor
+	complete_special_project = sp:sp_nuclear_bomb # give 1 nuclear bomb
+	
+	add_nuclear_bombs = 4
+}
+
+# === Technology unlocks ===
+
+# Air techs up to ~1940
+hom_unlock_air_techs_1940_effect = {
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		# BBA airframes + key modules
+		set_technology = {
+			iw_small_airframe = 1
+			basic_small_airframe = 1
+			improved_small_airframe = 1
+			iw_medium_airframe = 1
+			basic_medium_airframe = 1
+			improved_medium_airframe = 1
+			iw_large_airframe = 1
+			basic_large_airframe = 1
+			engines_1 = 1
+			engines_2 = 1
+			air_torpedoe_1 = 1
+			air_torpedoe_2 = 1
+			popup = no
+		}
+	}
+	else = {
+		# Vanilla planes
+		set_technology = {
+			early_fighter = 1
+			fighter1 = 1
+			fighter2 = 1
+			CAS1 = 1
+			CAS2 = 1
+			naval_bomber1 = 1
+			naval_bomber2 = 1
+			tactical_bomber1 = 1
+			tactical_bomber2 = 1
+			strategic_bomber1 = 1
+			early_bomber = 1
+			popup = no
+		}
+	}
+	# Common radar
+	complete_special_project = sp:sp_air_radar
+	set_technology = {
+		radio_detection = 1
+		centimetric_radar = 1
+		popup = no
+	}
+}
+
+# Armored techs up to ~1941
+hom_unlock_armored_techs_1941_effect = {
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		# NSB chassis
+		set_technology = {
+			gwtank_chassis = 1
+			basic_light_tank_chassis = 1
+			improved_light_tank_chassis = 1
+			advanced_light_tank_chassis = 1
+			basic_medium_tank_chassis = 1
+			improved_medium_tank_chassis = 1
+			basic_heavy_tank_chassis = 1
+			improved_heavy_tank_chassis = 1
+			popup = no
+		}
+	}
+	else = {
+		# Vanilla tanks
+		set_technology = {
+			gwtank = 1
+			basic_light_tank = 1
+			improved_light_tank = 1
+			advanced_light_tank = 1
+			basic_medium_tank = 1
+			improved_medium_tank = 1
+			basic_heavy_tank = 1
+			improved_heavy_tank = 1
+			popup = no
+		}
+	}
+	# Artillery common
+	set_technology = {
+		interwar_artillery = 1
+		artillery1 = 1
+		artillery2 = 1
+		artillery3 = 1
+		popup = no
+	}
+	# Radios
+	set_technology = {
+		radio = 1
+		improved_radio = 1
+		popup = no
+	}
+}
+
+# Massmob infantry
+hom_unlock_infantry_1939_effect = {
+	set_technology = {
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
+		popup = no
+	}
+}
+
+# Naval techs
+hom_unlock_naval_techs_effect = {
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		# MTG ship hulls
+		set_technology = {
+			early_ship_hull_light = 1
+			basic_ship_hull_light = 1
+			improved_ship_hull_light = 1
+			early_ship_hull_cruiser = 1
+			basic_ship_hull_cruiser = 1
+			early_ship_hull_heavy = 1
+			basic_ship_hull_heavy = 1
+			basic_ship_hull_carrier = 1
+			early_ship_hull_submarine = 1
+			basic_ship_hull_submarine = 1
+			basic_battery = 1
+			basic_torpedo = 1
+			basic_light_shell = 1
+			improved_light_battery = 1
+			improved_ship_torpedo_launcher = 1
+			fire_control_methods_1 = 1
+			fire_control_methods_2 = 1
+			popup = no
+		}
+	}
+	else = {
+		# Vanilla ships
+		set_technology = {
+			early_destroyer = 1
+			basic_destroyer = 1
+			improved_destroyer = 1
+			early_light_cruiser = 1
+			basic_light_cruiser = 1
+			early_heavy_cruiser = 1
+			basic_heavy_cruiser = 1
+			early_battleship = 1
+			basic_battleship = 1
+			early_carrier = 1
+			basic_carrier = 1
+			early_submarine = 1
+			basic_submarine = 1
+			basic_fire_control_system = 1
+			improved_fire_control_system = 1
+			popup = no
+		}
+	}
+	if = {
+		limit = {
+			has_dlc = "By Blood Alone"
+		}
+		set_technology = {
+			air_torpedoe_1 = 1
+			air_torpedoe_2 = 1
+			popup = no
+		}
+	}
+}
+
+# Prototype broad unlocks
+hom_unlock_prototype_techs_effect = {
+	set_technology = {
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		electronic_mechanical_engineering = 1
+		mechanical_computing = 1
+		radio = 1
+		improved_radio = 1
+		advanced_radio = 1
+		cavity_magnatron = 1
+		computing_machine = 1
+		improved_computing_machine = 1
+		popup = no
+	}
+	# Call specific ones
+	hom_unlock_air_techs_1940_effect = yes
+	hom_unlock_armored_techs_1941_effect = yes
+	hom_unlock_naval_techs_effect = yes
+}
