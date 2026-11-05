@@ -8,3 +8,35 @@
 
     RULE_OPTION_HEARTS_OF_MOD_FALL_OF_MOSCOW_ENABLED_DESC:0 "The Fall of Moscow event can occur."
     RULE_OPTION_HEARTS_OF_MOD_FALL_OF_MOSCOW_DISABLED_DESC:0 "The Fall of Moscow event will never occur."
+
+    # CUSTOM DIFFICULTIES
+    # Base Options
+    RULE_OPTION_HOM_RANDOM_ENABLED:0 "Random (enabled)"
+    
+    # Option Names
+    RULE_OPTION_HOM_ARMORED:0 "Armored"
+    RULE_OPTION_HOM_ECONOMIC:0 "Economic"
+    RULE_OPTION_HOM_MASSMOB:0 "Massmob"
+    RULE_OPTION_HOM_PROTOTYPE:0 "Prototype"
+    RULE_OPTION_HOM_NAVAL:0 "Naval"
+    RULE_OPTION_HOM_AIR:0 "Air Force"
+
+    # Option Descriptions
+    RULE_OPTION_HOM_BONUS_AI_DISABLED_DESC:0 "No bonuses granted. AI uses vanilla templates and default behavior."
+    RULE_OPTION_HOM_BONUS_AI_RANDOM_ENABLED_DESC:0 "Randomly selects one of the bonus and AI behavior options at the start of the game."
+    
+    RULE_OPTION_HOM_BONUS_AI_ARMORED_DESC:0 "Research, factory, PP, and XP bonuses focused on armor. AI prioritizes tank production and adapts templates accordingly."
+    RULE_OPTION_HOM_BONUS_AI_ECONOMIC_DESC:0 "Bonuses focused on industry (civil/military factories, PP). AI prioritizes construction, standard infantry, and defensive templates."
+    RULE_OPTION_HOM_BONUS_AI_MASSMOB_DESC:0 "Bonuses focused on quantity (manpower, military factories). AI prioritizes mass infantry (Mass Assault) and low-cost templates."
+    RULE_OPTION_HOM_BONUS_AI_PROTOTYPE_DESC:0 "Bonuses focused on advanced research and XP. AI prioritizes elite units, prototypes, and new technologies."
+    RULE_OPTION_HOM_BONUS_AI_NAVAL_DESC:0 "Bonuses focused on dockyards and navy. AI prioritizes fleets, convoys, and coastal defense templates."
+    RULE_OPTION_HOM_BONUS_AI_AIR_DESC:0 "Bonuses focused on aircraft factories and air force. AI prioritizes planes and paratrooper templates."
+
+    # Rule Names
+    RULE_HOM_GER_BONUS_AI:0 "@GER Germany - Bonuses & AI"
+    RULE_HOM_SOV_BONUS_AI:0 "@SOV Soviet Union - Bonuses & AI"
+    RULE_HOM_ENG_BONUS_AI:0 "@ENG United Kingdom - Bonuses & AI"
+    RULE_HOM_FRA_BONUS_AI:0 "@FRA France - Bonuses & AI"
+    RULE_HOM_ITA_BONUS_AI:0 "@ITA Italy - Bonuses & AI"
+    RULE_HOM_JAP_BONUS_AI:0 "@JAP Japan - Bonuses & AI"
+    RULE_HOM_USA_BONUS_AI:0 "@USA USA - Bonuses & AI"

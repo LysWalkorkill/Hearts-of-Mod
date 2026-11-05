@@ -14,3 +14,102 @@ hearts_of_mod_fall_of_moscow = {
 		allow_achievements = yes
 	}
 }
+
+# CUSTOM DIFFICULTY
+# --- GERMANY ---
+hom_ger_bonus_ai = {
+	name = "RULE_HOM_GER_BONUS_AI"
+	group = "RULE_GROUP_HEARTS_OF_MOD"
+	option = { name = RANDOM_ENABLED text = "RULE_OPTION_HOM_RANDOM_ENABLED" desc = "RULE_OPTION_HOM_BONUS_AI_RANDOM_ENABLED_DESC" allow_achievements = no }
+	option = { name = ARMORED text = "RULE_OPTION_HOM_ARMORED" desc = "RULE_OPTION_HOM_BONUS_AI_ARMORED_DESC" allow_achievements = no }
+	option = { name = ECONOMIC text = "RULE_OPTION_HOM_ECONOMIC" desc = "RULE_OPTION_HOM_BONUS_AI_ECONOMIC_DESC" allow_achievements = no }
+	option = { name = MASSMOB text = "RULE_OPTION_HOM_MASSMOB" desc = "RULE_OPTION_HOM_BONUS_AI_MASSMOB_DESC" allow_achievements = no }
+	option = { name = PROTOTYPE text = "RULE_OPTION_HOM_PROTOTYPE" desc = "RULE_OPTION_HOM_BONUS_AI_PROTOTYPE_DESC" allow_achievements = no }
+	option = { name = NAVAL text = "RULE_OPTION_HOM_NAVAL" desc = "RULE_OPTION_HOM_BONUS_AI_NAVAL_DESC" allow_achievements = no }
+	option = { name = AIR text = "RULE_OPTION_HOM_AIR" desc = "RULE_OPTION_HOM_BONUS_AI_AIR_DESC" allow_achievements = no }
+	default = { name = DISABLED text = "RULE_OPTION_DISABLED" desc = "RULE_OPTION_HOM_BONUS_AI_DISABLED_DESC" allow_achievements = yes }
+}
+
+# --- SOVIET UNION ---
+hom_sov_bonus_ai = {
+	name = "RULE_HOM_SOV_BONUS_AI"
+	group = "RULE_GROUP_HEARTS_OF_MOD"
+	option = { name = RANDOM_ENABLED text = "RULE_OPTION_HOM_RANDOM_ENABLED" desc = "RULE_OPTION_HOM_BONUS_AI_RANDOM_ENABLED_DESC" allow_achievements = no }
+	option = { name = ARMORED text = "RULE_OPTION_HOM_ARMORED" desc = "RULE_OPTION_HOM_BONUS_AI_ARMORED_DESC" allow_achievements = no }
+	option = { name = ECONOMIC text = "RULE_OPTION_HOM_ECONOMIC" desc = "RULE_OPTION_HOM_BONUS_AI_ECONOMIC_DESC" allow_achievements = no }
+	option = { name = MASSMOB text = "RULE_OPTION_HOM_MASSMOB" desc = "RULE_OPTION_HOM_BONUS_AI_MASSMOB_DESC" allow_achievements = no }
+	option = { name = PROTOTYPE text = "RULE_OPTION_HOM_PROTOTYPE" desc = "RULE_OPTION_HOM_BONUS_AI_PROTOTYPE_DESC" allow_achievements = no }
+	option = { name = NAVAL text = "RULE_OPTION_HOM_NAVAL" desc = "RULE_OPTION_HOM_BONUS_AI_NAVAL_DESC" allow_achievements = no }
+	option = { name = AIR text = "RULE_OPTION_HOM_AIR" desc = "RULE_OPTION_HOM_BONUS_AI_AIR_DESC" allow_achievements = no }
+	default = { name = DISABLED text = "RULE_OPTION_DISABLED" desc = "RULE_OPTION_HOM_BONUS_AI_DISABLED_DESC" allow_achievements = yes }
+}
+
+# --- UNITED KINGDOM ---
+hom_eng_bonus_ai = {
+	name = "RULE_HOM_ENG_BONUS_AI"
+	group = "RULE_GROUP_HEARTS_OF_MOD"
+	option = { name = RANDOM_ENABLED text = "RULE_OPTION_HOM_RANDOM_ENABLED" desc = "RULE_OPTION_HOM_BONUS_AI_RANDOM_ENABLED_DESC" allow_achievements = no }
+	option = { name = ARMORED text = "RULE_OPTION_HOM_ARMORED" desc = "RULE_OPTION_HOM_BONUS_AI_ARMORED_DESC" allow_achievements = no }
+	option = { name = ECONOMIC text = "RULE_OPTION_HOM_ECONOMIC" desc = "RULE_OPTION_HOM_BONUS_AI_ECONOMIC_DESC" allow_achievements = no }
+	option = { name = MASSMOB text = "RULE_OPTION_HOM_MASSMOB" desc = "RULE_OPTION_HOM_BONUS_AI_MASSMOB_DESC" allow_achievements = no }
+	option = { name = PROTOTYPE text = "RULE_OPTION_HOM_PROTOTYPE" desc = "RULE_OPTION_HOM_BONUS_AI_PROTOTYPE_DESC" allow_achievements = no }
+	option = { name = NAVAL text = "RULE_OPTION_HOM_NAVAL" desc = "RULE_OPTION_HOM_BONUS_AI_NAVAL_DESC" allow_achievements = no }
+	option = { name = AIR text = "RULE_OPTION_HOM_AIR" desc = "RULE_OPTION_HOM_BONUS_AI_AIR_DESC" allow_achievements = no }
+	default = { name = DISABLED text = "RULE_OPTION_DISABLED" desc = "RULE_OPTION_HOM_BONUS_AI_DISABLED_DESC" allow_achievements = yes }
+}
+
+# --- FRANCE ---
+hom_fra_bonus_ai = {
+	name = "RULE_HOM_FRA_BONUS_AI"
+	group = "RULE_GROUP_HEARTS_OF_MOD"
+	option = { name = RANDOM_ENABLED text = "RULE_OPTION_HOM_RANDOM_ENABLED" desc = "RULE_OPTION_HOM_BONUS_AI_RANDOM_ENABLED_DESC" allow_achievements = no }
+	option = { name = ARMORED text = "RULE_OPTION_HOM_ARMORED" desc = "RULE_OPTION_HOM_BONUS_AI_ARMORED_DESC" allow_achievements = no }
+	option = { name = ECONOMIC text = "RULE_OPTION_HOM_ECONOMIC" desc = "RULE_OPTION_HOM_BONUS_AI_ECONOMIC_DESC" allow_achievements = no }
+	option = { name = MASSMOB text = "RULE_OPTION_HOM_MASSMOB" desc = "RULE_OPTION_HOM_BONUS_AI_MASSMOB_DESC" allow_achievements = no }
+	option = { name = PROTOTYPE text = "RULE_OPTION_HOM_PROTOTYPE" desc = "RULE_OPTION_HOM_BONUS_AI_PROTOTYPE_DESC" allow_achievements = no }
+	option = { name = NAVAL text = "RULE_OPTION_HOM_NAVAL" desc = "RULE_OPTION_HOM_BONUS_AI_NAVAL_DESC" allow_achievements = no }
+	option = { name = AIR text = "RULE_OPTION_HOM_AIR" desc = "RULE_OPTION_HOM_BONUS_AI_AIR_DESC" allow_achievements = no }
+	default = { name = DISABLED text = "RULE_OPTION_DISABLED" desc = "RULE_OPTION_HOM_BONUS_AI_DISABLED_DESC" allow_achievements = yes }
+}
+
+# --- ITALY ---
+hom_ita_bonus_ai = {
+	name = "RULE_HOM_ITA_BONUS_AI"
+	group = "RULE_GROUP_HEARTS_OF_MOD"
+	option = { name = RANDOM_ENABLED text = "RULE_OPTION_HOM_RANDOM_ENABLED" desc = "RULE_OPTION_HOM_BONUS_AI_RANDOM_ENABLED_DESC" allow_achievements = no }
+	option = { name = ARMORED text = "RULE_OPTION_HOM_ARMORED" desc = "RULE_OPTION_HOM_BONUS_AI_ARMORED_DESC" allow_achievements = no }
+	option = { name = ECONOMIC text = "RULE_OPTION_HOM_ECONOMIC" desc = "RULE_OPTION_HOM_BONUS_AI_ECONOMIC_DESC" allow_achievements = no }
+	option = { name = MASSMOB text = "RULE_OPTION_HOM_MASSMOB" desc = "RULE_OPTION_HOM_BONUS_AI_MASSMOB_DESC" allow_achievements = no }
+	option = { name = PROTOTYPE text = "RULE_OPTION_HOM_PROTOTYPE" desc = "RULE_OPTION_HOM_BONUS_AI_PROTOTYPE_DESC" allow_achievements = no }
+	option = { name = NAVAL text = "RULE_OPTION_HOM_NAVAL" desc = "RULE_OPTION_HOM_BONUS_AI_NAVAL_DESC" allow_achievements = no }
+	option = { name = AIR text = "RULE_OPTION_HOM_AIR" desc = "RULE_OPTION_HOM_BONUS_AI_AIR_DESC" allow_achievements = no }
+	default = { name = DISABLED text = "RULE_OPTION_DISABLED" desc = "RULE_OPTION_HOM_BONUS_AI_DISABLED_DESC" allow_achievements = yes }
+}
+
+# --- JAPAN ---
+hom_jap_bonus_ai = {
+	name = "RULE_HOM_JAP_BONUS_AI"
+	group = "RULE_GROUP_HEARTS_OF_MOD"
+	option = { name = RANDOM_ENABLED text = "RULE_OPTION_HOM_RANDOM_ENABLED" desc = "RULE_OPTION_HOM_BONUS_AI_RANDOM_ENABLED_DESC" allow_achievements = no }
+	option = { name = ARMORED text = "RULE_OPTION_HOM_ARMORED" desc = "RULE_OPTION_HOM_BONUS_AI_ARMORED_DESC" allow_achievements = no }
+	option = { name = ECONOMIC text = "RULE_OPTION_HOM_ECONOMIC" desc = "RULE_OPTION_HOM_BONUS_AI_ECONOMIC_DESC" allow_achievements = no }
+	option = { name = MASSMOB text = "RULE_OPTION_HOM_MASSMOB" desc = "RULE_OPTION_HOM_BONUS_AI_MASSMOB_DESC" allow_achievements = no }
+	option = { name = PROTOTYPE text = "RULE_OPTION_HOM_PROTOTYPE" desc = "RULE_OPTION_HOM_BONUS_AI_PROTOTYPE_DESC" allow_achievements = no }
+	option = { name = NAVAL text = "RULE_OPTION_HOM_NAVAL" desc = "RULE_OPTION_HOM_BONUS_AI_NAVAL_DESC" allow_achievements = no }
+	option = { name = AIR text = "RULE_OPTION_HOM_AIR" desc = "RULE_OPTION_HOM_BONUS_AI_AIR_DESC" allow_achievements = no }
+	default = { name = DISABLED text = "RULE_OPTION_DISABLED" desc = "RULE_OPTION_HOM_BONUS_AI_DISABLED_DESC" allow_achievements = yes }
+}
+
+# --- USA ---
+hom_usa_bonus_ai = {
+	name = "RULE_HOM_USA_BONUS_AI"
+	group = "RULE_GROUP_HEARTS_OF_MOD"
+	option = { name = RANDOM_ENABLED text = "RULE_OPTION_HOM_RANDOM_ENABLED" desc = "RULE_OPTION_HOM_BONUS_AI_RANDOM_ENABLED_DESC" allow_achievements = no }
+	option = { name = ARMORED text = "RULE_OPTION_HOM_ARMORED" desc = "RULE_OPTION_HOM_BONUS_AI_ARMORED_DESC" allow_achievements = no }
+	option = { name = ECONOMIC text = "RULE_OPTION_HOM_ECONOMIC" desc = "RULE_OPTION_HOM_BONUS_AI_ECONOMIC_DESC" allow_achievements = no }
+	option = { name = MASSMOB text = "RULE_OPTION_HOM_MASSMOB" desc = "RULE_OPTION_HOM_BONUS_AI_MASSMOB_DESC" allow_achievements = no }
+	option = { name = PROTOTYPE text = "RULE_OPTION_HOM_PROTOTYPE" desc = "RULE_OPTION_HOM_BONUS_AI_PROTOTYPE_DESC" allow_achievements = no }
+	option = { name = NAVAL text = "RULE_OPTION_HOM_NAVAL" desc = "RULE_OPTION_HOM_BONUS_AI_NAVAL_DESC" allow_achievements = no }
+	option = { name = AIR text = "RULE_OPTION_HOM_AIR" desc = "RULE_OPTION_HOM_BONUS_AI_AIR_DESC" allow_achievements = no }
+	default = { name = DISABLED text = "RULE_OPTION_DISABLED" desc = "RULE_OPTION_HOM_BONUS_AI_DISABLED_DESC" allow_achievements = yes }
+}

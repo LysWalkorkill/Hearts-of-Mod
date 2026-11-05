@@ -43,3 +43,11 @@
     VIC_construction_speed_2: "Vitesse de construction 2" #NT!
     VIC_construction_speed_2_desc: "Le gouvernement de Vichy a su accélérer les chantiers, ce qui lui a permis d'améliorer les infrastructures et de soutenir l'effort de guerre." #NT!
     ## VICHY END 
+
+
+    hom_bonus_ia_blindee:0 "Bonus & IA - Blindée"
+    hom_bonus_ia_economique:0 "Bonus & IA - Économique"
+    hom_bonus_ia_massmob:0 "Bonus & IA - Massmob"
+    hom_bonus_ia_prototype:0 "Bonus & IA - Prototype"
+    hom_bonus_ia_naval:0 "Bonus & IA - Naval"
+    hom_bonus_ia_armee_de_lair:0 "Bonus & IA - Armée de l'air"
