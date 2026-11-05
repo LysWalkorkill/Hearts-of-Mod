@@ -14,12 +14,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {war_hero urban_assault_specialist trait_reckless infantry_leader}
-			skill=3
-			attack_skill=3
+			traits = {urban_assault_specialist trait_reckless}
+			skill=2
+			attack_skill=2
 			defense_skill=2
-			planning_skill=4
-			logistics_skill=4
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -38,10 +38,10 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {winter_specialist logistics_wizard winter_expert brilliant_strategist}
+			traits = {winter_specialist  winter_expert}
 			skill=2
-			attack_skill=3
-			defense_skill=4
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
@@ -62,12 +62,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {organizer hill_fighter trickster trait_engineer}
+			traits = {hill_fighter trait_engineer}
 			skill=2
-			attack_skill=3
-			defense_skill=5
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
-			logistics_skill=3
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -110,7 +110,7 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {ranger urban_assault_specialist adaptable}
+			traits = {ranger adaptable}
 			skill=1
 			attack_skill=1
 			defense_skill=1
@@ -134,11 +134,11 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {brilliant_strategist trait_reckless harsh_leader infantry_leader infantry_expert media_personality}
-			skill=3
-			attack_skill=3
-			defense_skill=1
-			planning_skill=3
+			traits = {brilliant_strategist harsh_leader}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
 		}

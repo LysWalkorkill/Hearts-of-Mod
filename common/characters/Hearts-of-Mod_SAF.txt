@@ -14,12 +14,12 @@ characters = {
 		}
         corps_commander={
 		
-			traits = {trait_engineer organizer infantry_leader infantry_officer}
+			traits = {trait_engineer organizer}
 			skill=3
-			attack_skill=3
+			attack_skill=2
 			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
         }
         }
@@ -38,12 +38,12 @@ characters = {
 		}
         corps_commander={
 		
-			traits = {armor_officer desert_fox panzer_leader panzer_expert brilliant_strategist}
-			skill=3
-			attack_skill=4
+			traits = {panzer_leader brilliant_strategist}
+			skill=2
+			attack_skill=2
 			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
         }
         }
@@ -62,12 +62,12 @@ characters = {
 		}
         corps_commander={
 		
-			traits = {trait_mountaineer brilliant_strategist trait_reckless trickster organizer}
-			skill=3
-			attack_skill=3
-			defense_skill=4
+			traits = {trickster organizer}
+			skill=2
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
-			logistics_skill=4
+			logistics_skill=2
 			legacy_id=0
         }
         }
@@ -86,11 +86,11 @@ characters = {
 		}
         corps_commander={
 		
-			traits = {commando camouflage_expert guerilla_fighter trait_reckless}
-			skill=3
+			traits = {camouflage_expert trait_reckless}
+			skill=2
 			attack_skill=2
-			defense_skill=4
-			planning_skill=4
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
         }
@@ -110,12 +110,12 @@ characters = {
 		}
         corps_commander={
 		
-			traits = {brilliant_strategist politically_connected desert_fox hill_fighter adaptable}
-			skill=4
+			traits = {brilliant_strategist adaptable}
+			skill=2
 			attack_skill=2
-			defense_skill=3
+			defense_skill=2
 			planning_skill=2
-			logistics_skill=4
+			logistics_skill=2
 			legacy_id=0
         }
         }
@@ -136,10 +136,10 @@ characters = {
 		
 			traits = {superior_tactician ironside bold battleship_adherent green_water_expert spotter}
 			skill=3
-			attack_skill=3
-			defense_skill=6
-			planning_skill=5
-			logistics_skill=5
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
 			legacy_id=0
         }
         }
@@ -158,12 +158,12 @@ characters = {
 		}
         corps_commander={
 		
-			traits = {organizer hill_fighter trickster trait_engineer brilliant_strategist}
+			traits = {organizer hill_fighter}
 			skill=2
-			attack_skill=3
-			defense_skill=3
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
-			logistics_skill=4
+			logistics_skill=2
 			legacy_id=0
         }
         }
@@ -182,12 +182,12 @@ characters = {
 		}
         corps_commander={
 		
-			traits = {trait_reckless trait_mountaineer trickster guerilla_fighter expert_improviser commando}
-			skill=3
-			attack_skill=5
+			traits = { trait_mountaineer guerilla_fighter }
+			skill=2
+			attack_skill=2
 			defense_skill=2
-			planning_skill=4
-			logistics_skill=4
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
         }
         }
@@ -206,12 +206,12 @@ characters = {
 		}
         corps_commander={
 		
-			traits = {war_hero trait_cautious cavalry_officer cavalry_leader cavalry_expert desert_fox}
+			traits = {cavalry_leader desert_fox}
 			skill=2
-			attack_skill=3
-			defense_skill=5
-			planning_skill=5
-			logistics_skill=4
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
         }
         }

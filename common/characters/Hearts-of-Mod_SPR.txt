@@ -14,11 +14,11 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {trait_engineer organizer hill_fighter}
+			traits = {trait_engineer hill_fighter}
 			skill=2
-			attack_skill=3
+			attack_skill=2
 			defense_skill=2
-			planning_skill=3
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
 		}
@@ -62,12 +62,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits={ panzer_leader brilliant_strategist panzer_leader panzer_expert media_personality}
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=4
+			traits={ panzer_leader brilliant_strategist}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -86,12 +86,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {naval_invader trait_amphibious invader_ii urban_assault_specialist harsh_leader}
-			skill=3
-			attack_skill=3
+			traits = {naval_invader harsh_leader}
+			skill=2
+			attack_skill=2
 			defense_skill=2
 			planning_skill=2
-			logistics_skill=5
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -110,12 +110,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {organizer hill_fighter trickster trait_engineer media_personality} 
-			skill=3
-			attack_skill=4
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=3
+			traits = {hill_fighter trickster} 
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -134,12 +134,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {war_hero trait_cautious cavalry_officer cavalry_leader cavalry_expert desert_fox}
+			traits = {cavalry_leader desert_fox}
 			skill=3
 			attack_skill=2
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -158,12 +158,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {war_hero media_personality urban_assault_specialist ambusher commando infantry_leader}
-			skill=3
+			traits = {urban_assault_specialist ambusher}
+			skill=2
 			attack_skill=2
-			defense_skill=3
-			planning_skill=5
-			logistics_skill=5
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}

@@ -62,9 +62,9 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {infantry_officer infantry_leader war_hero}
+			traits = {infantry_leader war_hero}
 			skill=2
-			attack_skill=3
+			attack_skill=2
 			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
@@ -86,11 +86,11 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {commando camouflage_expert guerilla_fighter trait_reckless}
+			traits = {commando camouflage_expert}
 			skill=2
-			attack_skill=1
-			defense_skill=5
-			planning_skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
 		}
@@ -110,12 +110,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {politically_connected brilliant_strategist panzer_leader panzer_expert armor_officer organizer}
+			traits = {brilliant_strategist panzer_leader }
 			skill=2
-			attack_skill=3
+			attack_skill=2
 			defense_skill=2
-			planning_skill=4
-			logistics_skill=3
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -134,12 +134,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {urban_assault_specialist old_guard harsh_leader trait_engineer}
+			traits = {urban_assault_specialist trait_engineer}
 			skill=2
 			attack_skill=2
 			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -158,12 +158,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {hill_fighter harsh_leader organizer brilliant_strategist armor_officer}
-			skill=3
-			attack_skill=4
-			defense_skill=4
-			planning_skill=5
-			logistics_skill=3
+			traits = {hill_fighter harsh_leader}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -184,10 +184,10 @@ characters = {
 		
 			traits = {trait_engineer scavenger}
 			skill=1
-			attack_skill=3
+			attack_skill=2
 			defense_skill=2
-			planning_skill=1
-			logistics_skill=3
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -208,10 +208,10 @@ characters = {
 		
 			traits = {cavalry_leader ranger}
 			skill=2
-			attack_skill=4
-			defense_skill=3
-			planning_skill=1
-			logistics_skill=4
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -234,8 +234,8 @@ characters = {
 			skill=1
 			attack_skill=2
 			defense_skill=3
-			planning_skill=4
-			logistics_skill=4
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
