@@ -14,7 +14,7 @@ characters = {
 		}
 		corps_commander={
 			
-			traits = { trait_engineer organizer trait_brave}
+			traits = { trait_engineer organizer brave}
 			skill=2
 			attack_skill=2
 			defense_skill=2
