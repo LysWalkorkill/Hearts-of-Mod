@@ -14,11 +14,11 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {harsh_leader media_personality brilliant_strategist infantry_leader}
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=3
+			traits = {harsh_leader brilliant_strategist}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
 		}
@@ -38,12 +38,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {organizer war_hero trickster}
+			traits = {organizer trickster}
 			skill=2
-			attack_skill=3
+			attack_skill=2
 			defense_skill=2
 			planning_skill=2
-			logistics_skill=3
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -62,12 +62,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {trait_cautious brilliant_strategist organizer}
+			traits = {trait_cautious organizer}
 			skill=2
 			attack_skill=2
-			defense_skill=4
-			planning_skill=5
-			logistics_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -86,12 +86,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {urban_assault_specialist guerilla_fighter harsh_leader trait_reckless}
+			traits = {urban_assault_specialist guerilla_fighter}
 			skill=2
-			attack_skill=3
-			defense_skill=3
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
-			logistics_skill=1
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -134,11 +134,11 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {winter_specialist winter_expert brilliant_strategist infantry_leader infantry_expert}
-			skill=3
-			attack_skill=3
+			traits = {winter_specialist winter_expert}
+			skill=2
+			attack_skill=2
 			defense_skill=2
-			planning_skill=4
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
 		}
@@ -158,10 +158,10 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {panzer_expert panzer_leader armor_officer trait_reckless organizer}
-			skill=3
-			attack_skill=4
-			defense_skill=4
+			traits = {panzer_leader organizer}
+			skill=2
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
@@ -182,7 +182,7 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {ranger hill_fighter adaptable}
+			traits = {hill_fighter adaptable}
 			skill=1
 			attack_skill=1
 			defense_skill=1

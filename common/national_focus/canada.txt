@@ -559,7 +559,7 @@ focus_tree = {
 		}
 
 		available = {
-			#threat > 0.2
+			threat > 0.2
 		}
 		
 		bypass = {
@@ -2434,7 +2434,7 @@ focus_tree = {
 				ahead_reduction = 2
 				bonus = 1.0
 				uses = 1
-				category = armor
+				category = cat_light_armor
 			}
 
 		}

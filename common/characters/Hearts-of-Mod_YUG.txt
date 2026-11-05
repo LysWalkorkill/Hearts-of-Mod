@@ -14,12 +14,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {brilliant_strategist trickster harsh_leader trait_mountaineer expert_improviser} 
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+			traits = {trait_mountaineer expert_improviser} 
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -38,12 +38,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {trait_cautious guerilla_fighter trait_engineer scavenger brilliant_strategist}
-			skill=3
+			traits = {scavenger brilliant_strategist}
+			skill=2
 			attack_skill=2
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -62,12 +62,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {career_officer trait_reckless panzer_leader panzer_expert armor_officer organizer}
+			traits = {panzer_leader organizer}
 			skill=3
-			attack_skill=5
+			attack_skill=2
 			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -86,12 +86,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {brilliant_strategist hill_fighter trait_mountaineer trait_engineer adaptable}
-			skill=4
-			attack_skill=3
-			defense_skill=3
-			planning_skill=4
-			logistics_skill=4
+			traits = {trait_engineer adaptable}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -110,12 +110,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {infantry_officer infantry_leader hill_fighter harsh_leader brilliant_strategist}
+			traits = {harsh_leader brilliant_strategist}
 			skill=3
-			attack_skill=3
-			defense_skill=4
-			planning_skill=5
-			logistics_skill=6
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -134,12 +134,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {commando camouflage_expert guerilla_fighter trait_reckless organizer}
+			traits = {camouflage_expert guerilla_fighter}
 			skill=3
 			attack_skill=2
-			defense_skill=7
-			planning_skill=3
-			logistics_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -161,9 +161,9 @@ characters = {
 			traits = {seawolf spotter bold torpedo_expert green_water_expert}
 			skill=4
 			attack_skill=4
-			defense_skill=4
-			planning_skill=5
-			logistics_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=5
 			legacy_id=0
 		}
 	}

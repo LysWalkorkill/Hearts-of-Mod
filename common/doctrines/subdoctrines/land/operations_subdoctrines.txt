@@ -32,7 +32,7 @@ mission_type_tactics = {
         always = yes
     }
     # EFFECTS
-    command_power_gain = 0.2
+    command_power_gain = 0.02
     category_all_infantry = {
         max_organisation = 15
     }
@@ -92,7 +92,20 @@ last_stand = {
     xp_type = army
 
     available = {
-        always = yes
+        if = {
+            limit = {
+                NOT = {
+                    original_tag = INS
+                }
+            }
+            #has_defensive_war = yes
+        }
+        else = {
+            OR = {
+                #has_defensive_war = yes
+                has_country_flag = INS_revolution_has_started
+            }
+        }
     }
     # EFFECTS
     conscription = 0.05
@@ -166,7 +179,7 @@ infiltration_tactics = {
 
     # EFFECTS
     enable_tactic = tactic_infantry_charge
-    max_planning = 0.1 
+    max_planning = 0.05 
 
     ai_will_do = { }
 
@@ -188,7 +201,7 @@ infiltration_tactics = {
         self_sustaining_infiltration_units = {
         #3
             supply_consumption_factor = -0.10
-            command_power_gain = 0.1
+            command_power_gain = 0.015
             category_tanks = {
                 max_organisation = 2
             }
@@ -395,13 +408,6 @@ deep_battle = {
                 }
             }
             mot_recon = {
-                battalion_mult = {
-                    category = category_light_infantry
-                    soft_attack = 0.05
-                    defense = 0.05
-                }
-            }
-            armored_car_recon = {
                 battalion_mult = {
                     category = category_light_infantry
                     soft_attack = 0.05

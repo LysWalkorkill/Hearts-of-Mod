@@ -1797,7 +1797,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_infantry_tanks
-				bonus = 1.0
+				bonus = 2.0
 				uses = 1
 				category = armor
 			}
@@ -2002,12 +2002,13 @@
 				name = FRA_light_medium_armor
 				bonus = 1.0
 				uses = 1
-				category = armor
+				category = cat_light_armor
+				category = cat_medium_armor
 			}
 			add_tech_bonus = {
 				name = FRA_infantry_tanks
-				bonus = 1.0
-				uses = 2
+				bonus = 2.0
+				uses = 1
 				category = artillery
 			}
 		}

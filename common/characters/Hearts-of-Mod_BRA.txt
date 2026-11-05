@@ -17,9 +17,9 @@ characters = {
 			traits = {trait_engineer organizer}
 			skill=2
 			attack_skill=2
-			defense_skill=1
-			planning_skill=5
-			logistics_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 		}
@@ -38,12 +38,12 @@ characters = {
             }
             corps_commander={
 		
-			traits = {harsh_leader brilliant_strategist hill_fighter infantry_leader}
+			traits = {brilliant_strategist hill_fighter}
 			skill=2
 			attack_skill=2
-			defense_skill=1
+			defense_skill=2
 			planning_skill=2
-			logistics_skill=3
+			logistics_skill=2
 			legacy_id=0
 		}
 		}
@@ -86,12 +86,12 @@ characters = {
             }
             corps_commander={
 		
-			traits = {ranger jungle_rat adaptable}
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=2
+			traits = {jungle_rat adaptable}
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=0
 		}
 		}
@@ -112,10 +112,10 @@ characters = {
 		
 			traits = {trickster infantry_officer}
 			skill=2
-			attack_skill=4
+			attack_skill=2
 			defense_skill=2
-			planning_skill=3
-			logistics_skill=4
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 		}
@@ -134,12 +134,12 @@ characters = {
             }
             corps_commander={
 		
-			traits = {media_personality brilliant_strategist panzer_leader armor_officer trait_reckless}
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=4
+			traits = { panzer_leader trait_reckless}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 		}
@@ -158,12 +158,12 @@ characters = {
             }
             corps_commander={
 		
-			traits = {old_guard infantry_officer infantry_leader infantry_expert}
+			traits = {old_guard infantry_leader}
 			skill=2
-			attack_skill=5
-			defense_skill=3
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
-			logistics_skill=1
+			logistics_skill=2
 			legacy_id=0
 		}
 		}
