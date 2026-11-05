@@ -38,12 +38,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {brilliant_strategist adaptable}
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits = {organizer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -64,7 +64,7 @@ characters = {
 		
 			traits = {infantry_officer infantry_leader war_hero}
 			skill=2
-			attack_skill=3
+			attack_skill=2
 			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
@@ -134,12 +134,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {urban_assault_specialist old_guard harsh_leader trait_engineer}
+			traits = {urban_assault_specialist  harsh_leader }
 			skill=2
 			attack_skill=2
 			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}

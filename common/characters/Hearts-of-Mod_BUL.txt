@@ -206,11 +206,11 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {commando camouflage_expert}
-			skill=1
-			attack_skill=1
-			defense_skill=4
-			planning_skill=3
+			traits = {commando cavalry_leader}
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=3
 			legacy_id=0
 		}

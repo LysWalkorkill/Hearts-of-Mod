@@ -14,12 +14,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {desert_fox cavalry_officer cavalry_leader brilliant_strategist}
+			traits = {desert_fox cavalry_officer cavalry_leader}
 			skill=2
-			attack_skill=3
+			attack_skill=2
 			defense_skill=2
 			planning_skill=2
-			logistics_skill=5
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -134,10 +134,10 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {media_personality brilliant_strategist trickster trait_reckless trait_engineer}
+			traits = {media_personality trickster}
 			skill=2
-			attack_skill=3
-			defense_skill=3
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=0

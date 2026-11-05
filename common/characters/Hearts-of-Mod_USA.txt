@@ -39,9 +39,9 @@ characters = {
 		corps_commander={
 		
 			traits = {infantry_officer infantry_leader hill_fighter}
-			skill=1
+			skill=2
 			attack_skill=2
-			defense_skill=3
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
@@ -91,7 +91,7 @@ characters = {
 			attack_skill=2
 			defense_skill=2
 			planning_skill=2
-			logistics_skill=2
+			logistics_skill=4
 			legacy_id=0
 		}
 	}
@@ -158,7 +158,7 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {media_personality trait_reckless panzer_leader panzer_expert armor_officer organizer}
+			traits = {media_personality trait_reckless panzer_leader organizer}
 			skill=2
 			attack_skill=2
 			defense_skill=2
@@ -255,11 +255,11 @@ characters = {
 		navy_leader={
 		
 			traits = {big_guns_expert loading_drill_master screening_master spotter}
-			skill=4
+			skill=2
 			attack_skill=3
-			defense_skill=5
-			planning_skill=4
-			logistics_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
 			legacy_id=0
 		}
 	}

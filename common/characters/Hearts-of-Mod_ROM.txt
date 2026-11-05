@@ -38,11 +38,11 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {media_personality panzer_leader armor_officer trait_reckless organizer}
+			traits = {winter_expert infantry_officer}
 			skill=2
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
 		}
@@ -182,12 +182,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {guerilla_fighter trait_cautious brilliant_strategist commando camouflage_expert}
-			skill=3
-			attack_skill=4
-			defense_skill=5
+			traits = {ranger}
+			skill=2
+			attack_skill=3
+			defense_skill=1
 			planning_skill=3
-			logistics_skill=5
+			logistics_skill=1
 			legacy_id=0
 		}
 	}

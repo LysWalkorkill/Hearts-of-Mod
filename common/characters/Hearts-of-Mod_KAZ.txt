@@ -14,12 +14,12 @@ characters = {
 		}
 		corps_commander={
 			
-			traits = {brilliant_strategist trait_engineer organizer }
-			skill=3
-			attack_skill=3
+			traits = { trait_engineer organizer trait_brave}
+			skill=2
+			attack_skill=2
 			defense_skill=2
-			planning_skill=4
-			logistics_skill=3
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -62,12 +62,12 @@ characters = {
 		}
 		corps_commander={
 			
-			traits = {panzer_expert panzer_leader armor_officer trait_reckless organizer guerilla_fighter}
-			skill=3
-			attack_skill=4
+			traits = { panzer_leader armor_officer trait_reckless }
+			skill=2
+			attack_skill=3
 			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
+			planning_skill=3
+			logistics_skill=1
 			legacy_id=0
 		}
 	}
@@ -86,12 +86,12 @@ characters = {
 		}
 		corps_commander={
 			
-			traits = {urban_assault_specialist commando camouflage_expert}
+			traits = {urban_assault_specialist commando}
 			skill=2
 			attack_skill=2
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -134,12 +134,12 @@ characters = {
 		}
 		corps_commander={
 			
-			traits = {winter_specialist winter_expert harsh_leader brilliant_strategist}
+			traits = {winter_specialist winter_expert  }
 			skill=3
 			attack_skill=2
-			defense_skill=3
-			planning_skill=5
-			logistics_skill=6
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
