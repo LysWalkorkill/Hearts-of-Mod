@@ -1304,7 +1304,11 @@ on_actions = {
 				limit = {
 					FRA = { has_capitulated = yes }
 					POL = { has_capitulated = yes }
+                    NOT = {
+                        has_global_flag = remove_grind
+                    }
 				}
+                set_global_flag = remove_grind
 				every_country = {
                     every_army_leader = {
                         remove_unit_leader_trait = no_grind
