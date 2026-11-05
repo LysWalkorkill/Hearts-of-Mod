@@ -319,11 +319,11 @@ characters = {
 		}
 		
 		corps_commander = {
-			traits = { brilliant_strategist career_officer panzer_leader trickster commando organizer desert_fox urban_assault_specialist }
-			skill = 8
-			attack_skill = 6
+			traits = { brilliant_strategist infantry_leader commando organizer desert_fox }
+			skill = 6
+			attack_skill = 5
 			defense_skill = 4
-			planning_skill = 7
+			planning_skill = 5
 			logistics_skill = 6
 			legacy_id = 0
 		}
@@ -374,10 +374,10 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { inflexible_strategist career_officer organizer cavalry_leader trait_engineer infantry_leader commando }
-			skill = 8
+			traits = { inflexible_strategist cavalry_leader trait_engineer commando }
+			skill = 6
 			attack_skill = 6
-			defense_skill = 6
+			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 4
 			legacy_id = 0
@@ -414,15 +414,14 @@ characters = {
 			}
 		}
 		
-		corps_commander = {
-			traits = { infantry_officer career_officer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = 0
-			visible = { has_government = fascism }
+		corps_commander={
+			traits={ trait_engineer panzer_leader}
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
 		}
 	}
 
@@ -741,15 +740,14 @@ characters = {
 			}
 		}
 		
-		corps_commander = {
-			traits = { harsh_leader } #Resistance stuff if anything
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = 0
-			visible = { has_government = fascism }
+		corps_commander={
+			traits={ cavalry_leader commando }
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
 		}
 	}
 
@@ -762,14 +760,14 @@ characters = {
 			}
 		}
 		
-		corps_commander = {
-			traits = { trait_mountaineer } # Infantry, Mountaneers, Armor
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = 0
+		corps_commander={
+			traits={ inflexible_strategist organizer }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=0
 		}
 	}
 
@@ -782,14 +780,14 @@ characters = {
 			}
 		}
 		
-		corps_commander = {
-			traits = { infantry_officer } # Infantry
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = 0
+		corps_commander={
+			traits={ infantry_leader brilliant_strategist }
+			skill=4
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
 		}
 	}
 
@@ -802,15 +800,14 @@ characters = {
 			}
 		}
 		
-		corps_commander = {
-			traits = { old_guard trait_engineer fortress_buster trait_reckless } # Infantry
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = 0
-			visible = { has_government = fascism }
+		corps_commander={
+			traits={ fortress_buster naval_invader }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
 		}
 	}
 

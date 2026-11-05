@@ -405,22 +405,14 @@ characters = {
 		#	id = -1
 		#}
 
-		corps_commander = {
-			traits = { politically_connected trickster infantry_leader }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-			legacy_id = -1
-			visible = {
-				NOT = {
-					OR = {
-						has_government = communism
-						has_government = democratic
-					}
-				}
-			}
+		corps_commander={
+			traits={ trait_engineer panzer_leader}
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
 		}
 
 	}
@@ -750,7 +742,7 @@ characters = {
 
 		corps_commander = {
 			traits = { brilliant_strategist politically_connected trickster trait_engineer infantry_leader organizer trickster }
-			skill = 8
+			skill = 6
 			attack_skill = 4
 			defense_skill = 4
 			planning_skill = 4
@@ -910,8 +902,8 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { career_officer infantry_officer trickster infantry_leader organizer }
-			skill = 8
+			traits = { brilliant_strategist organizer fortress_buster}
+			skill = 6
 			attack_skill = 4
 			defense_skill = 4
 			planning_skill = 2
@@ -980,8 +972,8 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { brilliant_strategist infantry_officer infantry_leader organizer naval_invader commando  trickster trait_engineer }
-			skill = 8
+			traits = { inflexible_strategist infantry_leader organizer trait_engineer }
+			skill = 6
 			attack_skill = 4
 			defense_skill = 2
 			planning_skill = 4
@@ -1730,8 +1722,8 @@ characters = {
 		}
 		
 		corps_commander = {
-			traits = { career_officer infantry_officer commando trait_engineer infantry_leader naval_invader skilled_staffer }
-			skill = 8
+			traits = { trait_engineer infantry_leader naval_invader }
+			skill = 6
 			attack_skill = 4
 			defense_skill = 1
 			planning_skill = 3

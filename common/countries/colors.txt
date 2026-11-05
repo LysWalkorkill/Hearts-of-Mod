@@ -1241,8 +1241,8 @@ VAN = {
 
 # MOD #
 KAZ = {
-	color = rgb { 0 171 194 }
-	color_ui = rgb { 0 171 194 }
+	color = rgb { 150 -20 0 }
+	color_ui = rgb { 150 -20 0 }
 }
 FFL = {
 	color = rgb { 31 42 223 } 
