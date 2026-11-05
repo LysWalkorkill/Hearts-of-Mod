@@ -171,12 +171,12 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { brilliant_strategist  winter_specialist panzer_leader trickster trait_engineer  cavalry_leader organizer }
-			skill = 8
+			traits = { winter_specialist ranger panzer_leader trickster organizer }
+			skill = 6
 			attack_skill = 6
-			defense_skill = 8
-			planning_skill = 8
-			logistics_skill = 8
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = 0
 			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
 		}
@@ -832,12 +832,12 @@ characters = {
 			traits = { army_chief_offensive_2}
 		}
 		corps_commander = {
-			traits = {  panzer_leader trickster trait_engineer tank_pre_grind cavalry_leader  organizer ranger commando urban_assault_specialist}
-			skill = 8
+			traits = { panzer_leader trait_engineer cavalry_leader commando winter_specialist}
+			skill = 6
 			attack_skill = 6
-			defense_skill = 8
-			planning_skill = 8
-			logistics_skill = 8
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = 0
 			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
 		}
@@ -1006,12 +1006,12 @@ characters = {
 			traits = { army_CombinedArms_2}
 		}
 		corps_commander = {
-			traits = { brilliant_strategist  winter_specialist panzer_leader trickster trait_engineer  cavalry_leader organizer }
-			skill = 8
+			traits = { winter_specialist trickster trait_engineer organizer commando }
+			skill = 6
 			attack_skill = 6
-			defense_skill = 8
-			planning_skill = 8
-			logistics_skill = 8
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = 0
 			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
 		}
@@ -1145,12 +1145,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  panzer_leader infantry_leader trickster trait_engineer tank_pre_grind cavalry_leader organizer ranger }
-			skill = 8
+			traits = { panzer_leader trait_engineer cavalry_leader ranger }
+			skill = 6
 			attack_skill = 6
-			defense_skill = 8
-			planning_skill = 8
-			logistics_skill = 8
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = 0
 			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
 		}

@@ -1127,3 +1127,234 @@ political_actions = {
 		}
 	}
 }
+
+military_actions_category = {
+	HUN_filmer_entrainement_soldats_hongrois = {
+		icon = GFX_decision_generic_military
+		allowed = {
+			original_tag = HUN
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		available = {
+		}
+		
+		cancel_trigger = {
+		}
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 0
+		
+		custom_cost_text = decision_cost_ArmXP_100
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = army_experience
+				value = 100
+				compare = greater_than_or_equals
+			}
+		}
+		
+		visible = {
+			NOT = {
+				has_country_flag = HUN_filmer_entrainement_soldats_hongrois
+			}
+		}
+		
+		days_remove = 15
+		
+		complete_effect = {
+			hidden_effect = {
+				# COST
+				army_experience = -100
+			}
+		}
+		
+		remove_effect = {
+			# EFFECT
+			hidden_effect = {
+				set_country_flag = HUN_filmer_entrainement_soldats_hongrois
+			}
+			
+			country_event = {
+				id = Hearts-of-Mod_HUN_militaire.1
+				days = 0
+			}
+			effect_tooltip = {
+				add_political_power = 150
+			}
+		}
+	}
+	
+	HUN_fusion_entrainement_militaire_science = {
+		icon = GFX_decision_generic_research
+		allowed = {
+			original_tag = HUN
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		available = {
+		}
+		
+		cancel_trigger = {
+		}
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 0
+		
+		custom_cost_text = decision_cost_ArmXP_150
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = army_experience
+				value = 150
+				compare = greater_than_or_equals
+			}
+		}
+		
+		visible = {
+			has_country_flag = HUN_filmer_entrainement_soldats_hongrois
+			NOT = {
+				has_country_flag = HUN_fusion_entrainement_militaire_science
+			}
+		}
+		
+		days_remove = 15
+		
+		complete_effect = {
+			hidden_effect = {
+				# COST
+				army_experience = -150
+			}
+		}
+		
+		remove_effect = {
+			# EFFECT
+			hidden_effect = {
+				set_country_flag = HUN_fusion_entrainement_militaire_science
+			}
+			
+			country_event = {
+				id = Hearts-of-Mod_HUN_militaire.2
+				days = 0
+			}
+			effect_tooltip = {
+				add_tech_bonus = {
+					name = Hearts-of-Mod_HUN_militaire.2.title
+					bonus = 0.03
+					uses = 4
+					category = infantry_tech
+					category = support_tech
+				}
+			}
+		}
+	}
+	
+	HUN_fusion_genie_militaire_genie_civile = {
+		icon = GFX_decision_generic_electricity
+		allowed = {
+			original_tag = HUN
+		}
+		
+		fire_only_once = yes
+		fixed_random_seed = no
+		
+		available = {
+			43 = {
+				is_owned_and_controlled_by = ROOT
+				free_building_slots = {
+					building = industrial_infrastructure
+					size > 0
+					include_locked = yes
+				}
+			}
+		}
+		
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 43
+			}
+		}
+		
+		cancel_trigger = {
+			43 = {
+				OR = {
+					NOT = {
+						is_owned_and_controlled_by = ROOT
+					}
+					NOT = {
+						free_building_slots = {
+							building = industrial_infrastructure
+							size > 0
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 2
+		}
+		
+		cost = 0
+		
+		custom_cost_text = decision_cost_ArmXP_200
+		
+		custom_cost_trigger = {
+			check_variable = {
+				var = army_experience
+				value = 200
+				compare = greater_than_or_equals
+			}
+		}
+		
+		visible = {
+			has_country_flag = HUN_fusion_entrainement_militaire_science
+			NOT = {
+				has_country_flag = HUN_fusion_genie_militaire_genie_civile
+			}
+		}
+		
+		days_remove = 15
+		
+		complete_effect = {
+			hidden_effect = {
+				# COST
+				army_experience = -200
+			}
+		}
+		
+		remove_effect = {
+			# EFFECT
+			hidden_effect = {
+				set_country_flag = HUN_fusion_genie_militaire_genie_civile
+			}
+			
+			country_event = {
+				id = Hearts-of-Mod_HUN_militaire.3
+				days = 0
+			}
+			effect_tooltip = {
+				43 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
