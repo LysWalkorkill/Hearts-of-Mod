@@ -1,6 +1,6 @@
 	-- Speed in game
 	--	VANILLA GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.1, 0.0 }, -- game speeds for each level. Must be 5 entries with last one 0 for unbound
-	NDefines.NGame.GAME_SPEED_SECONDS = { 1000.0, 0.4, 0.15, 0.10, 0.0 }
+	NDefines.NGame.GAME_SPEED_SECONDS = { 2.0, 0.5, 0.15, 0.125, 0.10 }
 	NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 720
 	NDefines.NGame.LAG_DAYS_FOR_PAUSE = 30
 	NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 14 							    -- WAS 48 | drastically cuts down on save file sizes after WW2 starts and well into barbarossa
@@ -40,7 +40,7 @@
 	NDefines.NCountry.BASE_MAX_COMMAND_POWER = 120.0
 
 	-- 72 divisions par général
-	NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 24
+	NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 35
 	NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 35
 
     -- No XP for training

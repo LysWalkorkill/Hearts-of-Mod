@@ -56,3 +56,23 @@
     Hearts-of-Mod_HUN_gub.5.a:0 "C'est foutu pour lui bon vent ! "
     Hearts-of-Mod_HUN_gub.5.b:0 "Ses biens contre la liberté..."
 
+    # Militaire
+    HUN_filmer_entrainement_soldats_hongrois:0 "Filmer l'entraînement des soldats Hongrois"
+
+    Hearts-of-Mod_HUN_militaire.1.title:0 "Filmage de l'entraînement des soldats Hongrois"
+    Hearts-of-Mod_HUN_militaire.1.desc:0 "Malgré les restrictions imposées ces dernières années, l’armée hongroise semble aujourd’hui afficher une force renouvelée, suscitant à la fois fierté nationale et interrogations à l’étranger.\n\nSur le terrain, les soldats eux-mêmes témoignent de cette transformation. L’un d’eux, ayant requis l’anonymat, décrit une armée bien différente de celle qu’il a connue auparavant :\n« On sent que ça a changé. On est mieux préparés, mieux encadrés. Y’a une volonté claire de faire de nous une vraie force. On nous demande beaucoup, mais on est prêts. »\n\nLe gouvernement, pour sa part, insiste sur le caractère défensif de cette évolution, affirmant vouloir garantir la sécurité du pays sans enfreindre les engagements internationaux."
+    Hearts-of-Mod_HUN_militaire.1.a:0 "Nous sommes sur la bonne voie !"
+    
+    HUN_fusion_entrainement_militaire_science:0 "Fusionner l'entraînement militaire et la science"
+
+    Hearts-of-Mod_HUN_militaire.2.title:0 "Fusion de l'entraînement militaire et la science"
+    Hearts-of-Mod_HUN_militaire.2.desc:0 "Une évolution inattendue attire l’attention des observateurs : l’entraînement des troupes hongroises ne servirait pas uniquement des objectifs militaires, mais contribuerait également à des avancées scientifiques.\n\nSelon plusieurs sources, certaines méthodes d’entraînement récemment mises en place permettraient d’étudier les capacités physiques et mentales des soldats dans des conditions extrêmes. Endurance, résistance, coordination — autant de domaines qui feraient désormais l’objet d’observations systématiques.\n\n« Ce que nous apprenons ici dépasse le cadre militaire », confie un intervenant proche du projet. « Il s’agit de mieux comprendre les limites du corps humain et la manière de les repousser. »"
+    Hearts-of-Mod_HUN_militaire.2.a:0 "La science est une priorité !"
+    
+    HUN_fusion_genie_militaire_genie_civile:0 "Fusionner le génie militaire et génie civile"
+    
+    Hearts-of-Mod_HUN_militaire.3.title:0 "Fusion du génie militaire et génie civile"
+    Hearts-of-Mod_HUN_militaire.3.desc:0 "Les récentes évolutions au sein de l’armée hongroise continuent de produire des effets inattendus. Après avoir suscité l’intérêt du monde scientifique, l’entraînement et l’organisation militaire semblent désormais bénéficier directement au génie civil, notamment dans le domaine des installations électriques.\n\nSelon plusieurs sources, les méthodes développées pour la logistique militaire — rapidité d’exécution, coordination des équipes et gestion des ressources — sont aujourd’hui adaptées aux chantiers civils. Cette transposition permettrait d’accélérer la construction de bâtiments équipés de réseaux électriques modernes, un enjeu majeur pour l’industrialisation du pays.\n\nCette collaboration aurait déjà permis la mise en place plus rapide d’infrastructures électriques dans plusieurs zones, facilitant l’accès à l’énergie pour les industries comme pour les populations."
+    Hearts-of-Mod_HUN_militaire.3.a:0 "On pourra plus dire qu'on était pas au courant !"
+    
+    

@@ -799,7 +799,6 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
-	cannon_small_2 = 1
 }
 
 set_grand_doctrine = mass_assault

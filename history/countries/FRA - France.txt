@@ -127,8 +127,6 @@ set_technology = {
 	fuel_refining = 1
 	basic_train = 1
 	basic_fortification_tech = 1
-	cannon_lourd_1 = 1
-	cannon_small_2 = 1
 }
 
 set_grand_doctrine = grand_battleplan
