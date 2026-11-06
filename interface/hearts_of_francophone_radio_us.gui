@@ -1,6 +1,6 @@
 guiTypes = {
 	containerWindowType = {
-		name = "classic_faceplate"
+		name = "Hearts-of-Mod_US-Power_radio_faceplate"
 		position = { x=0 y=0 }
 		size = { width = 590 height = 46 }
 
@@ -14,7 +14,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "track_name"
 			position = { x = 72 y = 20 }
-			font = "hoi_20b"
+			font = "hoi_18b"
 			text = "Roger Pontare - Nar vindarna viskar mitt namn"
 			maxWidth = 450
 			maxHeight = 25
@@ -111,13 +111,13 @@ guiTypes = {
 	}
 
 	containerWindowType={
-		name = "US-Power_faceplate"
+		name = "Hearts-of-Mod_US-Power_radio_stations_entry"
 		size = { width = 162 height = 130 }
 		
 		checkBoxType = {
 			name = "select_station_button"
 			position = { x = 0 y = 0 }
-			quadTextureSprite = "GFX_US-Power_album_art"
+			quadTextureSprite = "GFX_Hearts-of-Mod_US-Power_radio_station_cover"
 			clicksound = decisions_ui_button
 		}
 	}

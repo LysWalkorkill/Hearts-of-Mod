@@ -1,4 +1,4 @@
-music_station = "US-Power_radio"
+music_station = "Hearts-of-Mod_US-Power_radio"
 
 music = {
     song = "Johnny-Comes-Marching-Home"

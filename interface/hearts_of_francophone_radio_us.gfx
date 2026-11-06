@@ -1,8 +1,8 @@
-spriteTypes = {
 
+spriteTypes = {
 	spriteType = {
-		name = "GFX_US-Power_album_art"
-		texturefile = "gfx//interface//topbar//musicplayer//US-Power_album_art.dds"
+		name = "GFX_Hearts-of-Mod_US-Power_radio_station_cover"
+		textureFile = "gfx/interface/topbar/musicplayer/US-Power_album_art.dds"
 		noOfFrames = 2
 	}
 }
