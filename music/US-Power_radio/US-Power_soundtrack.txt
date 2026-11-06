@@ -1,7 +1,0 @@
-
-music_station = "US-Power"
-
-music = {
-	song = "Pour-une-poignée-de-dollars"
-
-}

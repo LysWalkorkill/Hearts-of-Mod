@@ -111,7 +111,7 @@ guiTypes = {
 	}
 
 	containerWindowType={
-		name = "US-Power_entry"
+		name = "US-Power_faceplate"
 		size = { width = 162 height = 130 }
 		
 		checkBoxType = {
