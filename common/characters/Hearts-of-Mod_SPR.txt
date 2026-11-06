@@ -62,12 +62,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits={ panzer_leader brilliant_strategist panzer_leader panzer_expert media_personality}
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=4
+			traits={ panzer_leader media_personality urban_assault_specialist}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}

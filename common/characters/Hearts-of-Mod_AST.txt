@@ -85,7 +85,7 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={ fortress_buster naval_invader }
+			traits={ fortress_buster commando}
 			skill=4
 			attack_skill=4
 			defense_skill=2
@@ -160,7 +160,7 @@ characters = {
 			skill=2
 			attack_skill=3
 			defense_skill=1
-			planning_skill=4
+			planning_skill=2
 			logistics_skill=3
 			legacy_id=0
 		}
@@ -180,7 +180,7 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {cavalry_leader cavalry_expert trait_engineer media_personality}
+			traits = {cavalry_leader trait_engineer media_personality jungle_rat}
 			skill=2
 			attack_skill=2
 			defense_skill=1

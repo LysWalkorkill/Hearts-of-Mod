@@ -175,9 +175,9 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {harsh_leader bearer_of_artillery infantry_leader infantry_expert politically_connected}
+			traits = {infantry_leader politically_connected}
 			skill=2
-			attack_skill=5
+			attack_skill=1
 			defense_skill=3
 			planning_skill=2
 			logistics_skill=2
@@ -223,12 +223,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {war_hero media_personality urban_assault_specialist ambusher infantry_leader}
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=6
-			logistics_skill=7
+			traits = {war_hero media_personality urban_assault_specialist infantry_leader}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -247,12 +247,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {harsh_leader infantry_leader infantry_expert guerilla_fighter skilled_staffer}
-			skill=3
-			attack_skill=5
-			defense_skill=3
-			planning_skill=4
-			logistics_skill=3
+			traits = {harsh_leader infantry_leader}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -319,12 +319,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {organizer brilliant_strategist trait_engineer hill_fighter}
+			traits = {organizer hill_fighter}
 			skill=2
-			attack_skill=3
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=4
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}

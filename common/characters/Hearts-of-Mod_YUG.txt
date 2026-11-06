@@ -38,12 +38,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {trait_cautious guerilla_fighter trait_engineer scavenger brilliant_strategist}
-			skill=3
+			traits = {trait_cautious guerilla_fighter trait_engineer scavenger}
+			skill=2
 			attack_skill=2
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -110,12 +110,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {infantry_officer infantry_leader hill_fighter harsh_leader brilliant_strategist}
-			skill=3
-			attack_skill=3
-			defense_skill=4
-			planning_skill=5
-			logistics_skill=6
+			traits = { cavalry_leader hill_fighter infantry_expert }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=3
 			legacy_id=0
 		}
 	}

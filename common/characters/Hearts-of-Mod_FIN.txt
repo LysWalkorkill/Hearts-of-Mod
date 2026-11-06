@@ -23,30 +23,6 @@ characters = {
 			legacy_id=0
 		}
 	}
-    FIN_kimi_raikkonen = {
-		name = FIN_kimi_raikkonen
-		gender = male
-		portraits = {
-			civilian = {
-				large = GFX_portrait_FIN_kimi_raikkonen_large
-				small = GFX_idea_FIN_kimi_raikkonen_small
-			}
-			army = {
-				large = GFX_portrait_FIN_kimi_raikkonen_large
-				small = GFX_idea_FIN_kimi_raikkonen_small
-			}
-		}
-		corps_commander={
-		
-			traits = {winter_specialist logistics_wizard winter_expert brilliant_strategist}
-			skill=2
-			attack_skill=3
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=0
-		}
-	}
     FIN_liisa_sevsonn = {
 		name = FIN_liisa_sevsonn
 		gender = male
@@ -132,14 +108,14 @@ characters = {
 				small = GFX_idea_FIN_saint_nicolas_small
 			}
 		}
-		corps_commander={
+		field_marshal={
 		
-			traits = {brilliant_strategist trait_reckless harsh_leader infantry_leader infantry_expert media_personality}
-			skill=3
-			attack_skill=3
-			defense_skill=1
-			planning_skill=3
-			logistics_skill=2
+			traits = {old_guard winter_specialist brave }
+			skill=4
+			attack_skill=1
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=4
 			legacy_id=0
 		}
 	}

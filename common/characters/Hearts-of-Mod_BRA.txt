@@ -112,10 +112,10 @@ characters = {
 		
 			traits = {trickster infantry_officer}
 			skill=2
-			attack_skill=4
+			attack_skill=2
 			defense_skill=2
-			planning_skill=3
-			logistics_skill=4
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 		}
