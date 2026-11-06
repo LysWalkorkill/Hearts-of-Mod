@@ -2394,7 +2394,7 @@
 			275 = {
 				add_resource = {
 					type = steel
-					amount = 16
+					amount = 26
 				}
 			}
 		}
