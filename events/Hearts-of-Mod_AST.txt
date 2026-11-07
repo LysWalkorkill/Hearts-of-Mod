@@ -20,7 +20,7 @@ country_event = {
         add_tech_bonus = {
             name = Hearts-of-Mod_AST_etude_animaux.1.title
             bonus = 3
-            category = infantry_tech
+            category = infantry_weapons
         }
     }
 }
