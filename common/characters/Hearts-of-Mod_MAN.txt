@@ -14,12 +14,12 @@ characters = {
 		}
 		corps_commander={
 		
-			
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits = {trait_mountaineer expert_improviser} 
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -38,12 +38,12 @@ characters = {
 		}
 		corps_commander={
 		
-			
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits = {ranger trait_engineer}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -86,12 +86,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {trait_engineer organizer brilliant_strategist old_guard trait_reckless}
-			skill=4
-			attack_skill=5
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=4
+			traits = {brilliant_strategist old_guard}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -110,12 +110,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = { brilliant_strategist panzer_expert panzer_leader armor_officer hill_fighter organizer }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits = {hill_fighter organizer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -134,11 +134,11 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {trait_reckless infantry_leader infantry_expert media_personality}
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=3
+			traits = {trait_reckless infantry_leader}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
 		}
@@ -158,10 +158,10 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {urban_assault_specialist commando camouflage_expert}
+			traits = {urban_assault_specialist camouflage_expert}
 			skill=2
-			attack_skill=4
-			defense_skill=4
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
@@ -182,11 +182,11 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {urban_assault_specialist guerilla_fighter harsh_leader trait_reckless}
-			skill=3
-			attack_skill=3
-			defense_skill=5
-			planning_skill=3
+			traits = {urban_assault_specialist guerilla_fighter}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
 		}

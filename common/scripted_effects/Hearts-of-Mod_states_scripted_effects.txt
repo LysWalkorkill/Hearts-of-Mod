@@ -25,6 +25,7 @@ add_compliance_70_conditionnel_owner = {
 		if = {
 			limit = {
 				is_controlled_by = OWNER
+				has_resistance = yes
 			}
 			add_compliance = 70
 		}

@@ -1,0 +1,12 @@
+music_station = "Hearts-of-Mod_US-Power_radio"
+
+music = {
+    song = "Johnny-Comes-Marching-Home"
+    chance = {
+        base = 0
+        modifier = {
+            add = 1
+            has_war = no
+        }
+    }
+}

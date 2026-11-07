@@ -1,0 +1,298 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			# Set flags based on game rules for each major
+			GER = {
+				if = {
+					limit = { has_game_rule = { rule = hom_ger_bonus_ai option = ARMORED } }
+					set_country_flag = hom_bonus_ia_armored
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_ger_bonus_ai option = ECONOMIC } }
+					set_country_flag = hom_bonus_ia_economic
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_ger_bonus_ai option = MASSMOB } }
+					set_country_flag = hom_bonus_ia_massmob
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_ger_bonus_ai option = PROTOTYPE } }
+					set_country_flag = hom_bonus_ia_prototype
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_ger_bonus_ai option = NAVAL } }
+					set_country_flag = hom_bonus_ia_naval
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_ger_bonus_ai option = AIR } }
+					set_country_flag = hom_bonus_ia_air
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_ger_bonus_ai option = RANDOM_ENABLED } }
+					random_list = {
+						1 = { set_country_flag = hom_bonus_ia_armored }
+						1 = { set_country_flag = hom_bonus_ia_economic }
+						1 = { set_country_flag = hom_bonus_ia_massmob }
+						1 = { set_country_flag = hom_bonus_ia_prototype }
+						1 = { set_country_flag = hom_bonus_ia_naval }
+						1 = { set_country_flag = hom_bonus_ia_air }
+					}
+				}
+			}
+			
+			SOV = {
+				if = {
+					limit = { has_game_rule = { rule = hom_sov_bonus_ai option = ARMORED } }
+					set_country_flag = hom_bonus_ia_armored
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_sov_bonus_ai option = ECONOMIC } }
+					set_country_flag = hom_bonus_ia_economic
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_sov_bonus_ai option = MASSMOB } }
+					set_country_flag = hom_bonus_ia_massmob
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_sov_bonus_ai option = PROTOTYPE } }
+					set_country_flag = hom_bonus_ia_prototype
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_sov_bonus_ai option = NAVAL } }
+					set_country_flag = hom_bonus_ia_naval
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_sov_bonus_ai option = AIR } }
+					set_country_flag = hom_bonus_ia_air
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_sov_bonus_ai option = RANDOM_ENABLED } }
+					random_list = {
+						1 = { set_country_flag = hom_bonus_ia_armored }
+						1 = { set_country_flag = hom_bonus_ia_economic }
+						1 = { set_country_flag = hom_bonus_ia_massmob }
+						1 = { set_country_flag = hom_bonus_ia_prototype }
+						1 = { set_country_flag = hom_bonus_ia_naval }
+						1 = { set_country_flag = hom_bonus_ia_air }
+					}
+				}
+			}
+			
+			ENG = {
+				if = {
+					limit = { has_game_rule = { rule = hom_eng_bonus_ai option = ARMORED } }
+					set_country_flag = hom_bonus_ia_armored
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_eng_bonus_ai option = ECONOMIC } }
+					set_country_flag = hom_bonus_ia_economic
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_eng_bonus_ai option = MASSMOB } }
+					set_country_flag = hom_bonus_ia_massmob
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_eng_bonus_ai option = PROTOTYPE } }
+					set_country_flag = hom_bonus_ia_prototype
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_eng_bonus_ai option = NAVAL } }
+					set_country_flag = hom_bonus_ia_naval
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_eng_bonus_ai option = AIR } }
+					set_country_flag = hom_bonus_ia_air
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_eng_bonus_ai option = RANDOM_ENABLED } }
+					random_list = {
+						1 = { set_country_flag = hom_bonus_ia_armored }
+						1 = { set_country_flag = hom_bonus_ia_economic }
+						1 = { set_country_flag = hom_bonus_ia_massmob }
+						1 = { set_country_flag = hom_bonus_ia_prototype }
+						1 = { set_country_flag = hom_bonus_ia_naval }
+						1 = { set_country_flag = hom_bonus_ia_air }
+					}
+				}
+			}
+			
+			FRA = {
+				if = {
+					limit = { has_game_rule = { rule = hom_fra_bonus_ai option = ARMORED } }
+					set_country_flag = hom_bonus_ia_armored
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_fra_bonus_ai option = ECONOMIC } }
+					set_country_flag = hom_bonus_ia_economic
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_fra_bonus_ai option = MASSMOB } }
+					set_country_flag = hom_bonus_ia_massmob
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_fra_bonus_ai option = PROTOTYPE } }
+					set_country_flag = hom_bonus_ia_prototype
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_fra_bonus_ai option = NAVAL } }
+					set_country_flag = hom_bonus_ia_naval
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_fra_bonus_ai option = AIR } }
+					set_country_flag = hom_bonus_ia_air
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_fra_bonus_ai option = RANDOM_ENABLED } }
+					random_list = {
+						1 = { set_country_flag = hom_bonus_ia_armored }
+						1 = { set_country_flag = hom_bonus_ia_economic }
+						1 = { set_country_flag = hom_bonus_ia_massmob }
+						1 = { set_country_flag = hom_bonus_ia_prototype }
+						1 = { set_country_flag = hom_bonus_ia_naval }
+						1 = { set_country_flag = hom_bonus_ia_air }
+					}
+				}
+			}
+			
+			ITA = {
+				if = {
+					limit = { has_game_rule = { rule = hom_ita_bonus_ai option = ARMORED } }
+					set_country_flag = hom_bonus_ia_armored
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_ita_bonus_ai option = ECONOMIC } }
+					set_country_flag = hom_bonus_ia_economic
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_ita_bonus_ai option = MASSMOB } }
+					set_country_flag = hom_bonus_ia_massmob
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_ita_bonus_ai option = PROTOTYPE } }
+					set_country_flag = hom_bonus_ia_prototype
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_ita_bonus_ai option = NAVAL } }
+					set_country_flag = hom_bonus_ia_naval
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_ita_bonus_ai option = AIR } }
+					set_country_flag = hom_bonus_ia_air
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_ita_bonus_ai option = RANDOM_ENABLED } }
+					random_list = {
+						1 = { set_country_flag = hom_bonus_ia_armored }
+						1 = { set_country_flag = hom_bonus_ia_economic }
+						1 = { set_country_flag = hom_bonus_ia_massmob }
+						1 = { set_country_flag = hom_bonus_ia_prototype }
+						1 = { set_country_flag = hom_bonus_ia_naval }
+						1 = { set_country_flag = hom_bonus_ia_air }
+					}
+				}
+			}
+			
+			JAP = {
+				if = {
+					limit = { has_game_rule = { rule = hom_jap_bonus_ai option = ARMORED } }
+					set_country_flag = hom_bonus_ia_armored
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_jap_bonus_ai option = ECONOMIC } }
+					set_country_flag = hom_bonus_ia_economic
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_jap_bonus_ai option = MASSMOB } }
+					set_country_flag = hom_bonus_ia_massmob
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_jap_bonus_ai option = PROTOTYPE } }
+					set_country_flag = hom_bonus_ia_prototype
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_jap_bonus_ai option = NAVAL } }
+					set_country_flag = hom_bonus_ia_naval
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_jap_bonus_ai option = AIR } }
+					set_country_flag = hom_bonus_ia_air
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_jap_bonus_ai option = RANDOM_ENABLED } }
+					random_list = {
+						1 = { set_country_flag = hom_bonus_ia_armored }
+						1 = { set_country_flag = hom_bonus_ia_economic }
+						1 = { set_country_flag = hom_bonus_ia_massmob }
+						1 = { set_country_flag = hom_bonus_ia_prototype }
+						1 = { set_country_flag = hom_bonus_ia_naval }
+						1 = { set_country_flag = hom_bonus_ia_air }
+					}
+				}
+			}
+			
+			USA = {
+				if = {
+					limit = { has_game_rule = { rule = hom_usa_bonus_ai option = ARMORED } }
+					set_country_flag = hom_bonus_ia_armored
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_usa_bonus_ai option = ECONOMIC } }
+					set_country_flag = hom_bonus_ia_economic
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_usa_bonus_ai option = MASSMOB } }
+					set_country_flag = hom_bonus_ia_massmob
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_usa_bonus_ai option = PROTOTYPE } }
+					set_country_flag = hom_bonus_ia_prototype
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_usa_bonus_ai option = NAVAL } }
+					set_country_flag = hom_bonus_ia_naval
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_usa_bonus_ai option = AIR } }
+					set_country_flag = hom_bonus_ia_air
+				}
+				if = {
+					limit = { has_game_rule = { rule = hom_usa_bonus_ai option = RANDOM_ENABLED } }
+					random_list = {
+						1 = { set_country_flag = hom_bonus_ia_armored }
+						1 = { set_country_flag = hom_bonus_ia_economic }
+						1 = { set_country_flag = hom_bonus_ia_massmob }
+						1 = { set_country_flag = hom_bonus_ia_prototype }
+						1 = { set_country_flag = hom_bonus_ia_naval }
+						1 = { set_country_flag = hom_bonus_ia_air }
+					}
+				}
+			}
+			
+			# Apply ideas based on flags
+			every_possible_country = {
+				limit = { has_country_flag = hom_bonus_ia_air }
+				add_ideas = hom_bonus_ia_armee_de_lair
+			}
+			every_possible_country = {
+				limit = { has_country_flag = hom_bonus_ia_armored }
+				add_ideas = hom_bonus_ia_blindee
+			}
+			every_possible_country = {
+				limit = { has_country_flag = hom_bonus_ia_economic }
+				add_ideas = hom_bonus_ia_economique
+			}
+			every_possible_country = {
+				limit = { has_country_flag = hom_bonus_ia_massmob }
+				add_ideas = hom_bonus_ia_massmob
+			}
+			every_possible_country = {
+				limit = { has_country_flag = hom_bonus_ia_prototype }
+				add_ideas = hom_bonus_ia_prototype
+			}
+			every_possible_country = {
+				limit = { has_country_flag = hom_bonus_ia_naval }
+				add_ideas = hom_bonus_ia_naval
+			}
+		}
+	}
+}

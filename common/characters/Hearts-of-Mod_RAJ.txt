@@ -14,12 +14,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {ranger jungle_rat adaptable}
+			traits = {ranger adaptable}
 			skill=1
-			attack_skill=1
+			attack_skill=2
 			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -38,11 +38,11 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {trait_engineer organizer brilliant_strategist}
+			traits = {organizer brilliant_strategist}
 			skill=3
-			attack_skill=4
-			defense_skill=4
-			planning_skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
 		}
@@ -62,12 +62,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {commando camouflage_expert guerilla_fighter trait_reckless}
+			traits = {camouflage_expert guerilla_fighter}
 			skill=3
-			attack_skill=3
-			defense_skill=5
-			planning_skill=5
-			logistics_skill=4
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -113,8 +113,8 @@ characters = {
 			traits = {big_guns_expert ironside superior_tactician bold blue_water_expert}
 			skill=5
 			attack_skill=4
-			defense_skill=5
-			planning_skill=5
+			defense_skill=3
+			planning_skill=2
 			logistics_skill=4
 			legacy_id=0
 		}
@@ -134,12 +134,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {brilliant_strategist trait_engineer scavenger harsh_leader}
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+			traits = {brilliant_strategist scavenger}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -158,12 +158,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {organizer hill_fighter trickster trait_engineer brilliant_strategist}
-			skill=4
-			attack_skill=3
-			defense_skill=5
-			planning_skill=4
-			logistics_skill=4
+			traits = {hill_fighter trickster}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}

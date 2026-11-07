@@ -55,11 +55,11 @@ characters = {
 					has_character_flag = is_killed
 				}
 			}
-			traits={ panzer_leader brilliant_strategist panzer_leader panzer_expert hill_fighter}
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=3
+			traits={ panzer_leader hill_fighter}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
 		}
@@ -79,7 +79,7 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {politically_connected trait_cautious cavalry_officer cavalry_leader cavalry_expert}
+			traits = {trait_cautious cavalry_leader }
 			skill=2
 			attack_skill=2
 			defense_skill=2
@@ -104,11 +104,11 @@ characters = {
 		navy_leader={
 		
 			traits = {torpedo_expert loading_drill_master silent_hunter seawolf}
-			skill=4
+			skill=2
 			attack_skill=4
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
 			legacy_id=0
 		}
 	}
@@ -175,10 +175,10 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {harsh_leader bearer_of_artillery infantry_leader infantry_expert politically_connected}
+			traits = {harsh_leader bearer_of_artiller }
 			skill=2
-			attack_skill=5
-			defense_skill=3
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
@@ -199,11 +199,11 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {brilliant_strategist trait_engineer organizer}
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=4
+			traits = {brilliant_strategist trait_engineer}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
 		}
@@ -223,12 +223,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {war_hero media_personality urban_assault_specialist ambusher infantry_leader}
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=6
-			logistics_skill=7
+			traits = {urban_assault_specialist ambusher}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -247,12 +247,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {harsh_leader infantry_leader infantry_expert guerilla_fighter skilled_staffer}
-			skill=3
-			attack_skill=5
-			defense_skill=3
-			planning_skill=4
-			logistics_skill=3
+			traits = {guerilla_fighter skilled_staffer}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -271,12 +271,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {commando camouflage_expert brilliant_strategist}
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=4
-			logistics_skill=5
+			traits = {camouflage_expert brilliant_strategist}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -295,12 +295,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {winter_specialist trait_reckless winter_expert brilliant_strategist}
-			skill=3
+			traits = {winter_specialist brilliant_strategist}
+			skill=2
 			attack_skill=2
-			defense_skill=5
-			planning_skill=4
-			logistics_skill=5
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -319,12 +319,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {organizer brilliant_strategist trait_engineer hill_fighter}
+			traits = {trait_engineer hill_fighter}
 			skill=2
-			attack_skill=3
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=4
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}

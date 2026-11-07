@@ -8,3 +8,35 @@
 
     RULE_OPTION_HEARTS_OF_MOD_FALL_OF_MOSCOW_ENABLED_DESC:0 "莫斯科陷落事件可能发生。"
     RULE_OPTION_HEARTS_OF_MOD_FALL_OF_MOSCOW_DISABLED_DESC:0 "莫斯科陷落事件永远不会发生。"
+
+    # CUSTOM DIFFICULTIES
+    # Base Options
+    RULE_OPTION_HOM_RANDOM_ENABLED:0 "随机 (启用)"
+    
+    # Option Names
+    RULE_OPTION_HOM_ARMORED:0 "装甲"
+    RULE_OPTION_HOM_ECONOMIC:0 "经济"
+    RULE_OPTION_HOM_MASSMOB:0 "大规模突击"
+    RULE_OPTION_HOM_PROTOTYPE:0 "原型"
+    RULE_OPTION_HOM_NAVAL:0 "海军"
+    RULE_OPTION_HOM_AIR:0 "空军"
+
+    # Option Descriptions
+    RULE_OPTION_HOM_BONUS_AI_DISABLED_DESC:0 "无奖励。AI使用原版模板与默认行为。"
+    RULE_OPTION_HOM_BONUS_AI_RANDOM_ENABLED_DESC:0 "游戏开始时随机选择一种奖励与AI行为选项。"
+    
+    RULE_OPTION_HOM_BONUS_AI_ARMORED_DESC:0 "侧重于装甲的研究、工厂、政治点数与经验奖励。AI优先生产坦克并相应调整模板。"
+    RULE_OPTION_HOM_BONUS_AI_ECONOMIC_DESC:0 "侧重于工业（民用/军用工厂、政治点数）的奖励。AI优先建设、标准步兵与防御模板。"
+    RULE_OPTION_HOM_BONUS_AI_MASSMOB_DESC:0 "侧重于数量（人力、军用工厂）的奖励。AI优先大规模步兵（大规模突击）与低成本模板。"
+    RULE_OPTION_HOM_BONUS_AI_PROTOTYPE_DESC:0 "侧重于高级研究与经验的奖励。AI优先发展精锐部队、原型与新科技。"
+    RULE_OPTION_HOM_BONUS_AI_NAVAL_DESC:0 "侧重于造船厂与海军的奖励。AI优先发展舰队、运输船与海岸防御模板。"
+    RULE_OPTION_HOM_BONUS_AI_AIR_DESC:0 "侧重于飞机制造厂与空军的奖励。AI优先发展飞机与伞兵模板。"
+
+    # Rule Names
+    RULE_HOM_GER_BONUS_AI:0 "@GER 德国 - 奖励与AI"
+    RULE_HOM_SOV_BONUS_AI:0 "@SOV 苏联 - 奖励与AI"
+    RULE_HOM_ENG_BONUS_AI:0 "@ENG 英国 - 奖励与AI"
+    RULE_HOM_FRA_BONUS_AI:0 "@FRA 法国 - 奖励与AI"
+    RULE_HOM_ITA_BONUS_AI:0 "@ITA 意大利 - 奖励与AI"
+    RULE_HOM_JAP_BONUS_AI:0 "@JAP 日本 - 奖励与AI"
+    RULE_HOM_USA_BONUS_AI:0 "@USA 美国 - 奖励与AI"

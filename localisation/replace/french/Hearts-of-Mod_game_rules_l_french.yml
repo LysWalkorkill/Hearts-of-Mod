@@ -8,3 +8,35 @@
 
     RULE_OPTION_HEARTS_OF_MOD_FALL_OF_MOSCOW_ENABLED_DESC:0 "L'événement de la chute de Moscou peut se produire."
     RULE_OPTION_HEARTS_OF_MOD_FALL_OF_MOSCOW_DISABLED_DESC:0 "L'événement de la chute de Moscou ne se produira jamais."
+
+    # DIFFICULTES PERSONNALISES
+    # Options de base
+    RULE_OPTION_HOM_RANDOM_ENABLED:0 "Aléatoire (activé)"
+    
+    # Noms des options
+    RULE_OPTION_HOM_ARMORED:0 "Blindée"
+    RULE_OPTION_HOM_ECONOMIC:0 "Économique"
+    RULE_OPTION_HOM_MASSMOB:0 "Massmob"
+    RULE_OPTION_HOM_PROTOTYPE:0 "Prototype"
+    RULE_OPTION_HOM_NAVAL:0 "Naval"
+    RULE_OPTION_HOM_AIR:0 "Armée de l'air"
+
+    # Descriptions des options
+    RULE_OPTION_HOM_BONUS_AI_DISABLED_DESC:0 "Aucun bonus accordé. L'IA utilise les templates vanilla et son comportement par défaut."
+    RULE_OPTION_HOM_BONUS_AI_RANDOM_ENABLED_DESC:0 "Sélectionne aléatoirement l'une des options de bonus et de comportement d'IA au début de la partie."
+    
+    RULE_OPTION_HOM_BONUS_AI_ARMORED_DESC:0 "Bonus de recherche, d'usines, de PP et d'XP axés sur les blindés. L'IA privilégie la production de chars et adapte ses templates en conséquence."
+    RULE_OPTION_HOM_BONUS_AI_ECONOMIC_DESC:0 "Bonus axés sur l'industrie (usines civiles/militaires, PP). L'IA privilégie la construction, l'infanterie standard et les templates défensifs."
+    RULE_OPTION_HOM_BONUS_AI_MASSMOB_DESC:0 "Bonus axés sur la quantité (manpower, usines militaires). L'IA privilégie l'infanterie de masse (Mass Assault) et les templates à faible coût."
+    RULE_OPTION_HOM_BONUS_AI_PROTOTYPE_DESC:0 "Bonus axés sur la recherche avancée et l'XP. L'IA privilégie les unités d'élite, les prototypes et les nouvelles technologies."
+    RULE_OPTION_HOM_BONUS_AI_NAVAL_DESC:0 "Bonus axés sur les chantiers navals et la marine. L'IA privilégie les flottes, les convois et les templates de défense côtière."
+    RULE_OPTION_HOM_BONUS_AI_AIR_DESC:0 "Bonus axés sur les usines aéronautiques et l'armée de l'air. L'IA privilégie les avions et les templates de parachutistes."
+
+    # Noms des règles par pays
+    RULE_HOM_GER_BONUS_AI:0 "@GER Allemagne - Bonus & IA"
+    RULE_HOM_SOV_BONUS_AI:0 "@SOV URSS - Bonus & IA"
+    RULE_HOM_ENG_BONUS_AI:0 "@ENG Royaume-Uni - Bonus & IA"
+    RULE_HOM_FRA_BONUS_AI:0 "@FRA France - Bonus & IA"
+    RULE_HOM_ITA_BONUS_AI:0 "@ITA Italie - Bonus & IA"
+    RULE_HOM_JAP_BONUS_AI:0 "@JAP Japon - Bonus & IA"
+    RULE_HOM_USA_BONUS_AI:0 "@USA USA - Bonus & IA"

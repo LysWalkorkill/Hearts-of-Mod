@@ -14,12 +14,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {desert_fox cavalry_officer cavalry_leader brilliant_strategist}
+			traits = {desert_fox cavalry_leader}
 			skill=2
-			attack_skill=3
+			attack_skill=2
 			defense_skill=2
 			planning_skill=2
-			logistics_skill=5
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -38,11 +38,11 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {infantry_leader infantry_expert trait_cautious}
+			traits = {infantry_leader trait_cautious}
 			skill=2
 			attack_skill=2
-			defense_skill=3
-			planning_skill=3
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
 		}
@@ -86,12 +86,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {brilliant_strategist war_hero old_guard organizer}
-			skill=3
-			attack_skill=3
+			traits = {brilliant_strategist organizer}
+			skill=2
+			attack_skill=2
 			defense_skill=2
-			planning_skill=1
-			logistics_skill=1
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -110,7 +110,7 @@ characters = {
 		}
 		corps_commander={
 		
-            traits = {trait_mountaineer hill_fighter adaptable}
+            traits = {hill_fighter adaptable}
 			skill=1
 			attack_skill=1
 			defense_skill=1
@@ -134,10 +134,10 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {media_personality brilliant_strategist trickster trait_reckless trait_engineer}
+			traits = {trait_reckless trait_engineer}
 			skill=2
-			attack_skill=3
-			defense_skill=3
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
@@ -158,10 +158,10 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {bearer_of_artillery urban_assault_specialist commando camouflage_expert}
-			skill=3
-			attack_skill=5
-			defense_skill=3
+			traits = {commando camouflage_expert}
+			skill=2
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=0
@@ -182,12 +182,12 @@ characters = {
 		}
 		corps_commander={
 		
-			traits = {panzer_expert panzer_leader armor_officer trait_reckless organizer guerilla_fighter}
-			skill=3
-			attack_skill=4
-			defense_skill=5
-			planning_skill=3
-			logistics_skill=4
+			traits = {organizer guerilla_fighter}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}

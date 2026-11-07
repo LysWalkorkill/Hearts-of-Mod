@@ -10,6 +10,6 @@ tags={
 	"Gameplay"
 	"Events"
 }
-name="Hearts of Mod Francophone"
+name="Hearts of Francophone"
 supported_version="1.19.*"
-remote_file_id="3679790936"
+remote_file_id="3835344061"

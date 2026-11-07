@@ -6741,8 +6741,8 @@ faction_goal_control_caroline_islands = {
 			NOT = {
 				original_tag = JAP
 				is_in_faction_with = JAP
-				original_tag = FSM
-				is_in_faction_with = FSM
+			#	original_tag = FSM
+			#	is_in_faction_with = FSM
 			}
 		}
 		any_collection_element = {

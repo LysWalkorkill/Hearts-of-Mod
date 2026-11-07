@@ -1,0 +1,166 @@
+ideas = {
+	country = {
+		# Bonus & IA - Armée de l'Air
+		hom_bonus_ia_armee_de_lair = {
+			picture = generic_air_bonus
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				ai_focus_aviation_factor = 0.35
+			}
+			
+			research_bonus = {
+				air_equipment = 0.1  # continuous small, main is in on_add
+			}
+			
+			on_add = {
+				add_political_power = 500
+				air_experience = 999
+				hom_add_air_offsite_effect = yes
+				hom_add_air_resources_effect = yes
+				hom_unlock_air_techs_1940_effect = yes
+				# Research bonus 3x200%
+				add_tech_bonus = {
+					name = hom_bonus_ia_armee_de_lair
+					bonus = 2.0
+					uses = 3
+					category = air_equipment
+				}
+			}
+		}
+		
+		# Bonus & IA - Blindée
+		hom_bonus_ia_blindee = {
+			picture = man_five_year_plan_tank
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				ai_focus_military_equipment_factor = 0.15
+				ai_focus_military_advancements_factor = 0.15
+			}
+			
+			on_add = {
+				add_political_power = 500
+				army_experience = 999
+				hom_add_armored_offsite_effect = yes
+				hom_add_armored_resources_effect = yes
+				hom_unlock_armored_techs_1941_effect = yes
+				# Research bonus 3x200% armored
+				add_tech_bonus = {
+					name = hom_bonus_ia_blindee
+					bonus = 2.0
+					uses = 3
+					category = armor
+				}
+			}
+		}
+		
+		# Bonus & IA - Économique
+		hom_bonus_ia_economique = {
+			picture = generic_production_bonus
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				ai_license_acceptance = 30
+				stability_factor = 1
+				war_support_factor = 1
+			}
+			
+			on_add = {
+				add_political_power = 1000
+				hom_add_economic_offsite_effect = yes
+				hom_add_resources_on_capital_effect = yes
+				add_research_slot = 1
+				hom_add_convoys_effect = yes
+				hom_set_max_command_power_effect = yes
+				add_manpower = 200000
+				hom_set_war_economy_effect = yes
+			}
+		}
+		
+		# Bonus & IA - Massmob
+		hom_bonus_ia_massmob = {
+			picture = generic_infantry_bonus
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				ai_desired_divisions_factor = 0.50
+				ai_focus_aggressive_factor = 0.30
+			}
+			
+			on_add = {
+				add_political_power = 500
+				army_experience = 999
+				hom_add_massmob_offsite_effect = yes
+				hom_add_massmob_resources_effect = yes
+				add_research_slot = 1
+				add_manpower = 500000
+				hom_unlock_infantry_1939_effect = yes
+			}
+		}
+		
+		# Bonus & IA - Prototype
+		hom_bonus_ia_prototype = {
+			picture = generic_research_bonus
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			on_add = {
+				add_political_power = 500
+				army_experience = 999
+				navy_experience = 999
+				air_experience = 999
+				hom_add_prototype_offsite_effect = yes
+				hom_add_prototype_resources = yes
+				add_research_slot = 5
+				hom_unlock_prototype_techs_effect = yes
+				hom_add_nuclear_start_effect = yes
+			}
+		}
+		
+		# Bonus & IA - Naval
+		hom_bonus_ia_naval = {
+			picture = generic_navy_bonus
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				ai_focus_naval_factor = 0.35
+				ai_focus_naval_air_factor = 0.10
+			}
+			
+			on_add = {
+				add_political_power = 500
+				navy_experience = 999
+				hom_add_naval_offsite_effect = yes
+				hom_add_naval_resources_effect = yes
+				hom_unlock_naval_techs_effect = yes
+				# Research bonus 3x200%
+				add_tech_bonus = {
+					name = hom_bonus_ia_naval
+					bonus = 2.0
+					uses = 3
+					category = naval_equipment
+				}
+				hom_add_convoys_effect = yes
+				hom_remove_naval_treaty_effect = yes
+			}
+		}
+	}
+}

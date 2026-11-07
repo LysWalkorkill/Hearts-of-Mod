@@ -1,4 +1,18 @@
 ﻿l_english:
+  kaz_aya_shalkar: "Aya Shalkar"
+  kaz_khloe_sergiva: "Kloé Sergiva"
+  kaz_ruslana_korshunova: "Ruslana Korshunova"
+  kaz_turar_mynbayev: "Turar Mynbayev"
+  kaz_zlata_ivana: "Zlata Ivana"
+  KAZ_aruzhan_jazilbekova: "Aruzhan Jazilbekova"
+  KAZ_diana_saifullinai: "Diana Saifullinai"
+  KAZ_dmitry_balandin: "Dmitry Balandin"
+  KAZ_gennady_golovkin: "Gennady Golovkin"
+  KAZ_irina_aniri: "Irina Aniri"
+  KAZ_marina_devyatova: "Marina Devyatova"
+  KAZ_noursoultan_nazarbaiev: "Noursoultan Nazarbaïev"
+  KAZ_viktor_tsoi: "Viktor Tsoï"
+  KAZ_volodymyr_zelensky: "Volodymyr Zelensky"
   kaz_aya_shalkar:0 "Aya Shalkar"
   kaz_kloe_sergiva:0 "Kloé Sergiva"
   kaz_ruslana_korshunova:0 "Ruslana Korshunova"
@@ -6,7 +20,7 @@
   kaz_zlata_ivana:0 "Zlata Ivana"
   
   #texte
-  chaque_infra_sup_a_trois_tt:0 "Each Yinfrastructure level 3 or higher! allows the state to increase its urbanization level through this focus"
+  chaque_infra_sup_a_trois_tt:0 "Each §Yinfrastructure level 3 or higher§! allows the state to increase its urbanization level through this focus"
 
   #ideas
   SRR_kaz1:0 "Kazakh SSR"
