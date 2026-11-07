@@ -46,14 +46,14 @@ ideas = {
 				KAZ_ecole_kazak = {
 					picture = jap_duplicate_research
 					modifier = {
-						political_power_factor = -0.02
+						political_power_factor = -0.03
 						research_speed_factor = 0.05
 					}
 				}
 				KAZ_partager_notre_savoir_des_temps_difficile = {
 					picture = AUS_women_in_academia
 					modifier = {
-						winter_attrition = -0.1
+						winter_attrition = -0.15
 					}
 				}
 				KAZ_centre_de_commandement = {
@@ -77,6 +77,7 @@ ideas = {
 						production_factory_efficiency_gain_factor = 0.05
 						production_lack_of_resource_penalty_factor = -0.05
 						line_change_production_efficiency_factor = 0.025
+						production_speed_buildings_factor = -0.05
 					}
 				}
 				KAZ_agriculture2 = {
@@ -109,12 +110,12 @@ ideas = {
 					picture = eng_spirit_of_the_industrial_revolution
 					modifier = {
 						conscription_factor = 0.15
-						monthly_population = 0.2
+						monthly_population = 0.25
 						consumer_goods_factor = -0.1
 						production_factory_start_efficiency_factor = -0.025
 						production_factory_efficiency_gain_factor = 0.05
-						line_change_production_efficiency_factor = 0.025
-						local_resources_factor = 0.1
+						line_change_production_efficiency_factor = 0.075
+						local_resources_factor = 0.15
 						production_speed_buildings_factor = 0.05
 					}
 				}
@@ -168,7 +169,7 @@ ideas = {
 				KAZ_investissement_dans_nos_chemin_de_fer = {
 					picture = PRC_china_railway_construction_corporation
 					modifier = {
-					production_speed_rail_way_factor = 0.2
+					production_speed_rail_way_factor = 0.35
 					}
 				}
 #armée 
@@ -177,18 +178,18 @@ ideas = {
 					picture = generic_manpower_bonus
 					modifier = {
 					conscription = 0.01
-					mobilization_speed = 0.1
+					mobilization_speed = 0.15
 						
 					}
 				}
 				KAZ_entrainement_qualitatif = {
 					picture = tur_sub_zero_survival_training
 					modifier = {
-					terrain_penalty_reduction = 0.025
-					special_forces_cap = 0.05
+					terrain_penalty_reduction = 0.05
+					special_forces_cap = 0.025
 					pocket_penalty = -0.1
-					river_crossing_factor = -0.05
-					training_time_army_factor = 0.1
+					river_crossing_factor = -0.075
+					training_time_army_factor = 0.125
 						
 					}
 				}
@@ -196,7 +197,7 @@ ideas = {
 					picture = ETH_conservative_high_command
 					modifier = {
 					command_power_gain = 0.15
-					max_command_power = 30
+					max_command_power = 40
 						
 					}
 				}

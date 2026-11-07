@@ -1869,7 +1869,12 @@ technologies = {
 			leads_to_tech = armored_train
 			research_cost_coeff = 1
 		}
-
+		
+		path = {
+			leads_to_tech = railway_gun
+			research_cost_coeff = 1
+		}
+		
 		categories = {
 			train_tech
 		}
@@ -1990,11 +1995,6 @@ technologies = {
 
 		allow_branch = {
 			has_dlc = "No Step Back"
-		}
-
-		path = {
-			leads_to_tech = railway_gun
-			research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
