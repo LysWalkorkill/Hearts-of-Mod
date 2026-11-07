@@ -12,3 +12,4 @@ tags={
 }
 name="Hearts of Francophone"
 supported_version="1.19.*"
+remote_file_id="3835344061"
