@@ -7,6 +7,19 @@ on_actions = {
 			}
 		}
 	}
+	on_startup = {
+		# Si le kaz existe retire 100k de mp au russe pour les mettre chez le kaz (remise a niveaux car le russe lui pique 100k de mp en début de game)
+		effect = {
+			if = {
+		 limit = { 
+			country_exists = KAZ 
+			KAZ = {is_ai = no}
+					}
+			KAZ = {add_manpower = 100000}
+			SOV = {add_manpower = -100000}
+		}
+		}
+	}
 	#ROOT: New controller; FROM: Old controller; FROM.FROM: State
 	on_state_control_changed = {
 		# Chute de Moscou

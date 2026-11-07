@@ -344,6 +344,27 @@ characters = {
 			}
 		}
 	}
+	kaz_Ruslan_Madiev = {
+		name = kaz_Ruslan_Madiev
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Soviet_Generic_land_4
+			}
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_4_large
+				small = GFX_Portrait_Soviet_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = {  politically_connected cavalry_officer cavalry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
 	kaz_Alibi_Amanetev = {
 		name = kaz_Alibi_Amanetev
 		portraits = {
@@ -356,7 +377,7 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = {  politically_connected }
+			traits = {  politically_connected brave}
 			skill = 4
 			attack_skill = 3
 			defense_skill = 4
@@ -364,26 +385,7 @@ characters = {
 			logistics_skill = 4
 		}
 	}
-	kaz_Ruslan_Madiev = {
-		name = kaz_Ruslan_Madiev
-		portraits = {
-			civilian = {
-				small = GFX_Portrait_Soviet_Generic_land_4
-			}
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_4_large
-				small = GFX_Portrait_Soviet_Generic_land_4_small
-			}
-		}
-		field_marshal = {
-			traits = {  politically_connected armor_officer  }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
+	
 	kaz_Medet_Jeanev = {
 		name = kaz_Medet_Jeanev
 		portraits = {
