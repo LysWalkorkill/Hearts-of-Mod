@@ -5710,7 +5710,7 @@ JAP_kwantung_army_decisions = {
 		icon = GFX_decision_jap_conquer_china #GFX_decision_generic_ignite_civil_war
 		
 		activation = {
-			country_exists = MAN
+			country_exists = JAP
 		}
 		
 		available = {
@@ -5745,7 +5745,7 @@ JAP_kwantung_army_decisions = {
 					tot_economic_mobilisation
 				}
 			}
-			MAN = {
+			JAP = {
 				create_wargoal = {
 					target = CHI
 					type = annex_everything
@@ -5763,27 +5763,6 @@ JAP_kwantung_army_decisions = {
 				add_ideas = {
 					tot_economic_mobilisation
 				}
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = CHI
-						is_core_of = PRC
-					}
-					if = {
-						limit = {
-							MAN = {
-								NOT = {
-									has_war_with = ROOT
-								}
-							}
-						}
-						NOT = {
-							is_owned_by = ROOT
-						}
-					}
-				}
-				add_claim_by = MAN
 			}
 		}
 		
@@ -5816,9 +5795,9 @@ JAP_kwantung_army_decisions = {
 						state = 747
 					}
 				}
-				set_temp_variable = { dest_owner = MAN }
-				transfer_state_to_conditionnel_owner = yes
-				add_claim_by = MAN
+				set_temp_variable = { dest_owner = JAP }
+				add_compliance_70_conditionnel_owner = yes
+				add_claim_by = JAP
 			}
 			ROOT = {
 				declare_war_on = { target = CHI type = annex_everything }
@@ -5830,16 +5809,16 @@ JAP_kwantung_army_decisions = {
 					threat = 20
 					name = "Nanjing Massacre"
 				}
-			}
-			MAN = {
-				declare_war_on = { target = CHI type = annex_everything }
-				declare_war_on = { target = PRC type = annex_everything }
 				add_offsite_building = {
 					type = industrial_complex level = 16
 				}
 				add_offsite_building = {
 					type = arms_factory level = 11
 				}
+			}
+			MAN = {
+				declare_war_on = { target = CHI type = annex_everything }
+				declare_war_on = { target = PRC type = annex_everything }
 				add_ideas = {
 					tot_economic_mobilisation
 				}
@@ -5876,7 +5855,7 @@ JAP_kwantung_army_decisions = {
 		icon = GFX_decision_jap_conquer_china #GFX_decision_generic_ignite_civil_war
 		
 		activation = {
-			country_exists = MAN
+			country_exists = JAP
 		}
 		
 		available = {
@@ -5918,9 +5897,9 @@ JAP_kwantung_army_decisions = {
 						state = 613
 					}
 				}
-				set_temp_variable = { dest_owner = MAN }
-				transfer_state_to_conditionnel_owner = yes
-				add_claim_by = MAN
+				set_temp_variable = { dest_owner = JAP }
+				add_compliance_70_conditionnel_owner = yes
+				add_claim_by = JAP
 			}
 			news_event = { id = news.121 }
 		}
@@ -5933,7 +5912,7 @@ JAP_kwantung_army_decisions = {
 		icon = GFX_decision_jap_conquer_china #GFX_decision_generic_ignite_civil_war
 		
 		activation = {
-			country_exists = MAN
+			country_exists = JAP
 		}
 		
 		available = {
@@ -5963,17 +5942,53 @@ JAP_kwantung_army_decisions = {
 						}
 					}
 					OR = {
-						state = 1039
-						state = 608
 						state = 614
 						state = 1038
 						state = 597
 						state = 743
 					}
 				}
+				set_temp_variable = { dest_owner = JAP }
+				add_compliance_70_conditionnel_owner = yes
+				add_claim_by = JAP
+			}
+			every_state = {
+				limit = {
+					MAN = {
+						exists = yes
+					}
+					OWNER = {
+						NOT = {
+							has_war_with = ROOT
+						}
+					}
+					OR = {
+						state = 1039
+						state = 608
+					}
+				}
 				set_temp_variable = { dest_owner = MAN }
-				transfer_state_to_conditionnel_owner = yes
+				transfer_state_to_conditionnel_owner  = yes
 				add_claim_by = MAN
+			}
+			every_state = {
+				limit = {
+					MAN = {
+						exists = no
+					}
+					OWNER = {
+						NOT = {
+							has_war_with = ROOT
+						}
+					}
+					OR = {
+						state = 1039
+						state = 608
+					}
+				}
+				set_temp_variable = { dest_owner = JAP }
+				add_compliance_70_conditionnel_owner = yes
+				add_claim_by = JAP
 			}
 		}
 	}

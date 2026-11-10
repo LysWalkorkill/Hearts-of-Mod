@@ -705,26 +705,26 @@ on_actions = {
                 }
             }
             ## East Hebei Autonomous Government
-            EHA = {
-                transfer_state = 716
-                add_state_core = 716
-                transfer_state = 610
-                add_state_core = 610
-                transfer_state = 715
-                add_state_core = 715
-                transfer_state = 328
-                add_state_core = 328
-                transfer_state = 717
-                add_state_core = 717
-                transfer_state = 714
-                add_state_core = 714
-                transfer_state = 761
-                add_state_core = 761
-                transfer_state = 612
-                add_state_core = 612
-                transfer_state = 611
-                add_state_core = 611
-            }
+            #EHA = {
+            #    transfer_state = 716
+            #    add_state_core = 716
+            #    transfer_state = 610
+            #    add_state_core = 610
+            #    transfer_state = 715
+            #    add_state_core = 715
+            #    transfer_state = 328
+            #    add_state_core = 328
+            #    transfer_state = 717
+            #    add_state_core = 717
+            #    transfer_state = 714
+            #    add_state_core = 714
+            #    transfer_state = 761
+            #    add_state_core = 761
+            #    transfer_state = 612
+            #    add_state_core = 612
+            #    transfer_state = 611
+            #    add_state_core = 611
+            #}
             ## Manchukou
             MAN = {
                 # Ideas
@@ -735,6 +735,8 @@ on_actions = {
                 
                 transfer_state = 609
                 add_state_core = 609
+                transfer_state = 612
+                transfer_state = 611
                 add_state_core = 612
                 add_state_core = 611
                 

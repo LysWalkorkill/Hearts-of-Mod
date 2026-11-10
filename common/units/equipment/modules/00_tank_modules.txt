@@ -945,7 +945,6 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			tungsten = 1
 			steel = 1
 		}
 	}
@@ -974,8 +973,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			tungsten = 1
-			steel = 2
-			chromium = 1
+			steel = 1
 		}
 	}
 
@@ -1114,8 +1112,7 @@ equipment_modules = {
 			convert_cost_ic = 3
 		}
 		build_cost_resources = {
-			tungsten = 2
-			steel = 2
+			tungsten = 1
 		}
 	}
 
@@ -1140,9 +1137,8 @@ equipment_modules = {
 			convert_cost_ic = 5
 		}
 		build_cost_resources = {
-			tungsten = 2
-			chromium = 1
-			steel = 2
+			tungsten = 1
+			steel = 1
 		}
 	}
 	tank_high_velocity_cannon_3 = {
@@ -1168,8 +1164,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			tungsten = 2
-			chromium = 1
-			steel = 3
+			steel = 1
 		}
 	}
 
@@ -1195,8 +1190,6 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			tungsten = 1
-			chromium = 1
-			steel = 2
 		}
 	}
 
@@ -1221,9 +1214,8 @@ equipment_modules = {
 			convert_cost_ic = 7
 		}
 		build_cost_resources = {
-			tungsten = 2
-			chromium = 1
-			steel = 2
+			tungsten = 1
+			steel = 1
 		}
 	}
 
@@ -1248,9 +1240,8 @@ equipment_modules = {
 			convert_cost_ic = 8
 		}
 		build_cost_resources = {
-			tungsten = 3
-			chromium = 1
-			steel = 3
+			tungsten = 1
+			steel = 1
 		}
 	}
 
