@@ -1,0 +1,9 @@
+spriteTypes = {	
+
+	### categories
+	
+	spriteType = {
+		name = "GFX_non_available_factory_icon_pp"
+		texturefile = "gfx/interface/non_available_factory_icon_pp.dds"
+	}
+}
