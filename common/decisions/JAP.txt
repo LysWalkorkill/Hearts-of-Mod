@@ -5796,6 +5796,7 @@ JAP_kwantung_army_decisions = {
 					}
 				}
 				set_temp_variable = { dest_owner = JAP }
+				transfer_state_to_conditionnel_owner  = yes
 				add_compliance_70_conditionnel_owner = yes
 				add_claim_by = JAP
 			}
@@ -5898,6 +5899,7 @@ JAP_kwantung_army_decisions = {
 					}
 				}
 				set_temp_variable = { dest_owner = JAP }
+				transfer_state_to_conditionnel_owner  = yes
 				add_compliance_70_conditionnel_owner = yes
 				add_claim_by = JAP
 			}
@@ -5949,6 +5951,7 @@ JAP_kwantung_army_decisions = {
 					}
 				}
 				set_temp_variable = { dest_owner = JAP }
+				transfer_state_to_conditionnel_owner  = yes
 				add_compliance_70_conditionnel_owner = yes
 				add_claim_by = JAP
 			}
@@ -5987,6 +5990,7 @@ JAP_kwantung_army_decisions = {
 					}
 				}
 				set_temp_variable = { dest_owner = JAP }
+				transfer_state_to_conditionnel_owner  = yes
 				add_compliance_70_conditionnel_owner = yes
 				add_claim_by = JAP
 			}
