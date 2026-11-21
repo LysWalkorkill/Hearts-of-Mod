@@ -40,8 +40,8 @@
 	NDefines.NCountry.BASE_MAX_COMMAND_POWER = 120.0
 
 	-- 72 divisions par général
-	NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 35
-	NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 35
+	NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 72
+	NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 72
 
     -- No XP for training
 	NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0015 -- 0.0015
