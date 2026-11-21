@@ -16,7 +16,45 @@ on_actions = {
 			KAZ = {is_ai = no}
 					}
 			KAZ = {add_manpower = 100000}
-			SOV = {add_manpower = -100000}
+			SOV = {
+			add_manpower = -100000
+			add_victory_points = {
+					province = 11225
+					value = 2
+					}
+			add_victory_points = {
+					province = 1278
+					value = 5
+					}
+			add_victory_points = {
+					province = 9292
+					value = 5
+					}
+			add_victory_points = {
+					province = 1821
+					value = 5
+					}
+			add_victory_points = {
+					province = 7375
+					value = 4
+					}
+			add_victory_points = {
+					province = 9753
+					value = 2
+					}
+			add_victory_points = {
+					province = 9258
+					value = 2
+					}
+			add_victory_points = {
+					province = 7661
+					value = 5
+					}
+			add_victory_points = {
+					province = 10696
+					value = 2
+					}
+			}
 		}
 		}
 	}
