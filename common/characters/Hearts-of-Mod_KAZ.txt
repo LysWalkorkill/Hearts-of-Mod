@@ -357,10 +357,10 @@ characters = {
 		}
 		corps_commander = {
 			traits = {  politically_connected cavalry_officer cavalry_leader }
-			skill = 3
+			skill = 4
 			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
+			defense_skill = 3
+			planning_skill = 4
 			logistics_skill = 3
 		}
 	}

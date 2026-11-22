@@ -53,6 +53,8 @@
   KAZ_okmo_organization_trait_3:0 "Réduction de la surchauffe des mitrailleuses"
   KAZ_support_equipment_organization:0 "Fabricant des steppes"
   KAZ_support_equipment_organization_trait_1:0 "Réduction des coûts"
+  KAZ_project_secret_aeronautique:0 "Project secret sur l'aéronautique"
+  KAZ_helico_organization_trait_1:0 "Augmentation de l'import en armes lourde"
   
   #perso
   
@@ -221,6 +223,8 @@
   KAZ_demander_le_retour_des_terres_de_nos_ancetre_desc:0 "Depuis longtemps, nous souhaitons nous réunifier avec notre peuple, y compris au-delà de nos frontières actuelles."
   KAZ_abuser_de_leurs_confiance:0 "Abuser de leur confiance"
   KAZ_abuser_de_leurs_confiance_desc:0 "Grâce au rapatriement de notre population, nous pouvons enfin faire avancer nos véritables pions vers l'est."
+  KAZ_renforcer_nos_armement_dhelicoptere:0 "Renforcer nos armement d'hélicoptère"
+  KAZ_renforcer_nos_armement_dhelicoptere_desc:0 "Afin de mieux améliorer la capacité de combat de nos hélicoptère, nos ingénieurs ont réussi à augmenter la charge maximun de nos hélicoptère de combat"
   
   #event
   Hearts-of-Mod_KAZ.1.t: "[From.GetName] nous demande le retour de ses terres"
